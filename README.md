@@ -1,8 +1,8 @@
 # Quiniela IA · Estanco Nº5 Águilas (versión 2, sin Lovable)
 
 Web de pronósticos de La Quiniela. **No depende de Lovable, de Supabase ni de ningún servidor de pago.**
-Un generador (Node) lee los datos, calcula los pronósticos y escribe `site/quiniela.json`;
-la web estática `site/index.html` solo lo muestra. GitHub lo regenera solo cada 3 horas y lo publica gratis.
+Un generador (Node) lee los datos, calcula los pronósticos y escribe `docs/quiniela.json`;
+la web estática `docs/index.html` solo lo muestra. GitHub lo regenera solo cada 3 horas y lo publica gratis.
 
 ## Qué hace (y qué no)
 - **Datos reales:** partidos de la jornada (eduardolosilla.es) y, de futbolfantasy.com, resultados de esta temporada y de la anterior (1ª y 2ª), goles de cada jugador, lesionados y sancionados, titulares de prensa y **quién marcó en cada uno de los últimos 6 partidos** de cada equipo.
@@ -16,19 +16,18 @@ la web estática `site/index.html` solo lo muestra. GitHub lo regenera solo cada
 - Los partidos de **selecciones y fútbol femenino** no tienen datos: salen con probabilidades genéricas (o estimadas por la IA si hay clave).
 
 ## Publicarla gratis (una sola vez)
-1. Crea una cuenta en github.com y un repositorio nuevo (por ejemplo `quiniela-ia`).
-2. Sube todo el contenido de esta carpeta al repositorio (rama `main`).
-3. En el repositorio: **Settings → Pages → Source: GitHub Actions**.
-4. (Opcional, recomendado) Clave de IA gratis en https://aistudio.google.com → *Get API key*. En el repositorio: **Settings → Secrets and variables → Actions → New repository secret**, nombre `GEMINI_API_KEY`.
-5. Pestaña **Actions → Actualizar Quiniela IA → Run workflow**. Al terminar, la web queda en `https://TU-USUARIO.github.io/quiniela-ia/`. Ábrela en la tablet y añádela a la pantalla de inicio.
+1. Sube todo el contenido de esta carpeta a un repositorio **público** de GitHub (rama `main`).
+2. En el repositorio: **Settings → Pages → Build and deployment**. En *Source* deja **Deploy from a branch**, y en *Branch* elige **main** y la carpeta **/docs**. Pulsa **Save**.
+3. (Opcional, recomendado) Clave de IA gratis en https://aistudio.google.com → *Get API key*. En el repositorio: **Settings → Secrets and variables → Actions → New repository secret**, nombre `GEMINI_API_KEY`.
+4. Para que se actualice sola, en **Settings → Actions → General → Workflow permissions** marca **Read and write permissions** y guarda. Después, pestaña **Actions → Actualizar Quiniela IA → Run workflow**.
 
-Desde entonces se actualiza sola cada 3 horas. Si algún día falla una actualización, la web sigue mostrando la última buena.
+La web queda en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`. Se actualiza sola cada 3 horas; si una actualización falla, la web sigue mostrando la última buena.
 
 ## Probarla en tu ordenador
 ```
 npm ci
 npm test              # 18 pruebas del motor, nombres, lectura de datos y capa de IA
-npm run generate      # crea site/quiniela.json (usa GEMINI_API_KEY si la defines)
+npm run generate      # crea docs/quiniela.json (usa GEMINI_API_KEY si la defines)
 npm run serve         # http://localhost:8080
 npm run backtest      # mide el acierto con jornadas ya jugadas
 ```

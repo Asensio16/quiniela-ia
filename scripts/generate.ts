@@ -19,7 +19,7 @@ const result = await buildQuiniela(
 );
 mkdirSync(".cache", { recursive: true });
 writeFileSync(CACHE, JSON.stringify(cache));
-mkdirSync("site", { recursive: true });
-writeFileSync("site/quiniela.json", JSON.stringify(result, null, 2));
-console.log(`OK site/quiniela.json — ${result.jornada} — ${result.signs}`);
+mkdirSync("docs", { recursive: true });
+writeFileSync("docs/quiniela.json", JSON.stringify(result, null, 2));
+console.log(`OK docs/quiniela.json — ${result.jornada} — ${result.signs}`);
 console.log(`Notas: ${result.notes.join(" | ") || "—"}`);

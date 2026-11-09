@@ -4,20 +4,16 @@ on:
   schedule:
     - cron: "17 */3 * * *" # cada 3 horas
   workflow_dispatch: # botón "Run workflow" para actualizar a mano
-  push:
-    branches: [main]
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write # para guardar docs/quiniela.json en el repositorio
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: actualizar
+  cancel-in-progress: false
 
 jobs:
-  build:
+  actualizar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,16 +35,9 @@ jobs:
           # Opcionales: sin clave la web funciona igual, con textos automáticos
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Guardar y publicar
+        run: |
+          git config user.name "quiniela-ia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/quiniela.json
+          git diff --cached --quiet || (git commit -m "Actualizar pronóstico" && git push)
