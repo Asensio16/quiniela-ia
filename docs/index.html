@@ -7,6 +7,8 @@
 <meta name="description" content="Pronósticos de La Quiniela con modelo estadístico: rachas, goles, bajas y goleadores.">
 <meta name="theme-color" content="#0b1020">
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -102,6 +104,7 @@ button.gen:active{transform:scale(.99)}
 .seg.lv{margin:12px 0 0;max-width:none}
 html,body{overscroll-behavior-y:contain}
 #pull{position:fixed;top:0;left:0;right:0;text-align:center;padding:16px;background:var(--panel2);border-bottom:1px solid var(--green);color:var(--green);font-weight:700;transform:translateY(-70px);opacity:0;z-index:50;pointer-events:none;transition:transform .2s,opacity .2s}
+#install{margin-top:14px;padding:12px 22px;border-radius:999px;border:1px solid var(--green);background:transparent;color:var(--green);font-weight:700;font-size:15px;cursor:pointer}
 @media print{body{background:#fff;color:#000}.seg,.seghint,button.reload{display:none}}
 </style>
 </head>
@@ -111,6 +114,7 @@ html,body{overscroll-behavior-y:contain}
     <div class="pill"><span class="dot"></span>Estanco Nº5 · Águilas</div>
     <h1 class="display">QUINIELA <span>IA</span></h1>
     <div class="sub" id="sub">Cargando pronóstico…</div>
+    <button id="install" hidden>📲 Instalar app</button>
   </header>
   <div id="app"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
   <footer id="foot"></footer>
@@ -350,6 +354,14 @@ async function load(force) {
 })();
 load(false);
 setInterval(() => DATA && ($("#sub").textContent = `${DATA.jornada} · actualizado ${ago(DATA.generatedAt)}`), 60000);
+/* ───────── Botón "Instalar app" (solo aparece si el navegador lo permite y aún no está instalada) ───────── */
+(() => {
+  const btn = document.getElementById("install");
+  let ev = null;
+  addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); ev = e; btn.hidden = false; });
+  btn.addEventListener("click", async () => { if (!ev) return; ev.prompt(); await ev.userChoice.catch(() => {}); ev = null; btn.hidden = true; });
+  addEventListener("appinstalled", () => { btn.hidden = true; });
+})();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>
 </body>
