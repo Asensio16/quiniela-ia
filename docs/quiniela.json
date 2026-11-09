@@ -6,15 +6,27 @@
       "home": "VALLADOLID",
       "away": "CASTELLÓN",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 32,
+        "px": 27,
+        "p2": 41
+      },
+      "pick": "2",
+      "modelProbs": {
         "p1": 26,
         "px": 27,
         "p2": 47
       },
-      "pick": "2",
-      "advice": "fijo",
-      "confidence": 47,
+      "marketProbs": {
+        "p1": 33,
+        "px": 27,
+        "p2": 40
+      },
+      "alt": "1",
+      "advice": "doble",
+      "confidence": 41,
       "xgHome": 1.12,
       "xgAway": 1.56,
       "likelyScore": "1-1",
@@ -116,17 +128,18 @@
           "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "Se aplaza también el Castellón-Eibar por la muerte de Jesús de Miguel"
-        }
-      ],
-      "source": "modelo",
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 36,
+        "px": 23,
+        "p2": 41
+      },
+      "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.27,
-        "value": 1.5742238775567885
+        "value": 1.173913043478261
       }
     },
     {
@@ -134,24 +147,35 @@
       "home": "R.SOCIEDAD B",
       "away": "SPORTING",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 35,
+        "px": 28,
+        "p2": 37
+      },
+      "pick": "2",
+      "modelProbs": {
         "p1": 36,
         "px": 28,
         "p2": 36
       },
-      "pick": "2",
+      "marketProbs": {
+        "p1": 35,
+        "px": 28,
+        "p2": 37
+      },
       "alt": "1",
       "advice": "doble",
-      "confidence": 36,
-      "xgHome": 1.34,
-      "xgAway": 1.34,
+      "confidence": 37,
+      "xgHome": 1.32,
+      "xgAway": 1.32,
       "likelyScore": "1-1",
-      "over25": 50,
+      "over25": 49,
       "btts": 55,
       "formHome": [
+        "E",
         "G",
-        "P",
         "P",
         "P",
         "P"
@@ -163,21 +187,10 @@
         "G",
         "G"
       ],
-      "posHome": 19,
+      "posHome": 17,
       "posAway": 7,
       "reasoning": "Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Ekain Orobengoa (R. Sociedad B).",
       "scorers": [
-        {
-          "player": "Lander Astiazaran",
-          "team": "R. Sociedad B",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 36,
-          "tag": "racha",
-          "recent": 2,
-          "window": 6,
-          "note": "en racha: 2 goles en sus últimos 5 partidos"
-        },
         {
           "player": "Guille Rosas",
           "team": "Sporting",
@@ -213,28 +226,40 @@
         }
       ],
       "news": [],
-      "source": "modelo",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.28,
-        "value": 1.5379200615382758
-      }
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 34,
+        "px": 26,
+        "p2": 40
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 3,
       "home": "ALMERÍA",
       "away": "ANDORRA FC",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 56,
+        "px": 23,
+        "p2": 21
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 56,
         "px": 22,
         "p2": 22
       },
-      "pick": "1",
+      "marketProbs": {
+        "p1": 56,
+        "px": 23,
+        "p2": 21
+      },
       "advice": "fijo",
       "confidence": 56,
-      "xgHome": 2.15,
+      "xgHome": 2.16,
       "xgAway": 1.29,
       "likelyScore": "1-1",
       "over25": 67,
@@ -254,7 +279,7 @@
         "E"
       ],
       "posHome": 1,
-      "posAway": 18,
+      "posAway": 19,
       "reasoning": "Almería (1º) parte como favorito: se esperan 2.2 goles suyos por 1.3 del rival; viene de 3G-2E-0P en sus últimos 5. Baja: Nico Melamed (Almería).",
       "scorers": [
         {
@@ -302,37 +327,41 @@
           "reason": "Lesión: Fractura de maleolo tibial — Baja hasta diciembre"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "Una victoria de 'Primera' para un Almería que ya es primero"
-        },
-        {
-          "src": "Marca",
-          "title": "Pau López, una bendición para la portería del Andorra"
-        },
-        {
-          "src": "Marca",
-          "title": "La carta de las peñas del Andorra a Owono: \"Un accidente no define a una persona...\""
-        }
-      ],
-      "source": "modelo"
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 63,
+        "px": 19,
+        "p2": 18
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 4,
       "home": "MALLORCA",
       "away": "CÓRDOBA",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 56,
+        "px": 24,
+        "p2": 20
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 55,
         "px": 27,
         "p2": 18
       },
-      "pick": "1",
+      "marketProbs": {
+        "p1": 56,
+        "px": 23,
+        "p2": 21
+      },
       "advice": "fijo",
-      "confidence": 55,
-      "xgHome": 1.62,
+      "confidence": 56,
+      "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
       "over25": 45,
@@ -365,6 +394,17 @@
           "recent": 3,
           "window": 6,
           "note": "en racha: 3 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Diego Percan",
+          "team": "Córdoba",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 28,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -389,40 +429,39 @@
           "reason": "Lesión: Lesión en la musculatura isquiosural derecha con afectación tendinosa — Baja para la jornada 14"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "La mano de hierro en sus días clave libera al Córdoba"
-        },
-        {
-          "src": "Marca",
-          "title": "Fin a una era histórica: el Ceuta destituye a José Juan Romero tras caer goleado en Córdoba"
-        },
-        {
-          "src": "Marca",
-          "title": "El Córdoba se viene arriba: 3-0 al Ceuta y 10 de los últimos 12 puntos en juego"
-        }
-      ],
-      "source": "modelo",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.6825419720385149
-      }
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 59,
+        "px": 20,
+        "p2": 21
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 5,
       "home": "R.OVIEDO",
       "away": "GIRONA",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 37,
+        "px": 29,
+        "p2": 34
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 35,
         "px": 28,
         "p2": 37
       },
-      "pick": "2",
-      "alt": "1",
+      "marketProbs": {
+        "p1": 38,
+        "px": 29,
+        "p2": 33
+      },
+      "alt": "2",
       "advice": "doble",
       "confidence": 37,
       "xgHome": 1.31,
@@ -446,8 +485,31 @@
       ],
       "posHome": 9,
       "posAway": 8,
-      "reasoning": "Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
-      "scorers": [],
+      "reasoning": "Las casas de apuestas ven más probable el 1 (37%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
+      "scorers": [
+        {
+          "player": "Carlos Dominguez",
+          "team": "Real Oviedo",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 39,
+          "tag": "racha",
+          "recent": 4,
+          "window": 6,
+          "note": "en racha: 4 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Vladyslav Vanat",
+          "team": "Girona",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 54,
+          "tag": "racha",
+          "recent": 4,
+          "window": 6,
+          "note": "en racha: 4 goles en sus últimos 5 partidos"
+        }
+      ],
       "absences": [
         {
           "team": "Girona",
@@ -476,32 +538,44 @@
           "title": "Raúl González es oficialmente nuevo entrenador del Real Oviedo"
         }
       ],
-      "source": "modelo",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.28,
-        "value": 1.536335131008896
-      }
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 38,
+        "px": 31,
+        "p2": 31
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 6,
       "home": "TENERIFE",
       "away": "CEUTA",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 50,
+        "px": 27,
+        "p2": 23
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 54,
         "px": 25,
         "p2": 21
       },
-      "pick": "1",
+      "marketProbs": {
+        "p1": 49,
+        "px": 27,
+        "p2": 24
+      },
       "advice": "fijo",
-      "confidence": 54,
+      "confidence": 50,
       "xgHome": 1.78,
-      "xgAway": 1.03,
+      "xgAway": 1.04,
       "likelyScore": "1-1",
       "over25": 53,
-      "btts": 54,
+      "btts": 55,
       "formHome": [
         "E",
         "E",
@@ -521,26 +595,15 @@
       "reasoning": "Tenerife (14º) parte como favorito: se esperan 1.8 goles suyos por 1.0 del rival; viene de 0G-4E-1P en sus últimos 5. Baja: Adrián Lapeña (Ceuta).",
       "scorers": [
         {
-          "player": "Jordi Escobar",
-          "team": "Ceuta",
-          "goals": 2,
+          "player": "Enric Gallego",
+          "team": "Tenerife",
+          "goals": 4,
           "perGame": 0,
-          "chance": 45,
+          "chance": 64,
           "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
-        },
-        {
-          "player": "Carlos Hernández",
-          "team": "Ceuta",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 45,
-          "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -565,41 +628,50 @@
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "El síndrome de la taquilla vacía en el vestuario del Tenerife: \"Genera dolor pero Jesús cohesionará al grupo\""
-        },
-        {
-          "src": "Marca",
-          "title": "El Burgos destinará la taquilla del partido ante el Tenerife a la familia de Jesús de Miguel"
-        },
-        {
-          "src": "Marca",
-          "title": "Sergio Lobera regresa a Ceuta ante el reto de lograr la permanencia"
-        }
-      ],
-      "source": "modelo"
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 62,
+        "px": 20,
+        "p2": 18
+      },
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.27,
+        "value": 1.35
+      },
+      "valuePick": true
     },
     {
       "n": 7,
       "home": "GRANADA",
       "away": "LAS PALMAS",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 51,
+        "px": 26,
+        "p2": 23
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 37,
         "px": 30,
         "p2": 33
       },
-      "pick": "1",
-      "alt": "2",
-      "advice": "doble",
-      "confidence": 37,
-      "xgHome": 1.25,
-      "xgAway": 1.18,
+      "marketProbs": {
+        "p1": 54,
+        "px": 25,
+        "p2": 21
+      },
+      "advice": "fijo",
+      "confidence": 51,
+      "xgHome": 1.23,
+      "xgAway": 1.16,
       "likelyScore": "1-1",
-      "over25": 44,
+      "over25": 43,
       "btts": 50,
       "formHome": [
         "G",
@@ -609,36 +681,37 @@
         "G"
       ],
       "formAway": [
+        "E",
         "G",
         "G",
         "P",
-        "P",
-        "E"
+        "P"
       ],
       "posHome": 5,
       "posAway": 13,
-      "reasoning": "Partido muy igualado: se esperan 1.2-1.2 goles y hay pocas diferencias entre los dos equipos. Baja: Pau Casadesús (Granada).",
+      "reasoning": "Las casas de apuestas ven más favorito a Granada (51%) que nuestras estadísticas. Partido muy igualado: se esperan 1.2-1.2 goles y hay pocas diferencias entre los dos equipos. Baja: Pau Casadesús (Granada).",
       "scorers": [
         {
           "player": "Jorge Pascual",
           "team": "Granada",
-          "goals": 2,
+          "goals": 3,
           "perGame": 0,
-          "chance": 34,
+          "chance": 30,
           "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
-          "player": "José Arnáiz",
-          "team": "Granada",
+          "player": "Jesé Rodríguez",
+          "team": "Las Palmas",
           "goals": 2,
           "perGame": 0,
-          "chance": 0,
-          "out": "Lesión — Duda para la jornada 14",
+          "chance": 32,
+          "tag": "racha",
           "recent": 2,
-          "window": 3
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -663,44 +736,42 @@
           "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta noviembre"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "El Granada se la juega en los tribunales"
-        },
-        {
-          "src": "Marca",
-          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
-        },
-        {
-          "src": "Marca",
-          "title": "\"Gracias a nuestros hermanos de la UD Las Palmas, esta es la Canarias que yo quiero\""
-        }
-      ],
-      "source": "modelo",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.3,
-        "value": 1.4865059034460104
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 53,
+        "px": 24,
+        "p2": 23
       },
-      "valuePick": true
+      "publicSrc": "lae"
     },
     {
       "n": 8,
       "home": "EIBAR",
       "away": "CÁDIZ",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
+        "p1": 57,
+        "px": 24,
+        "p2": 19
+      },
+      "pick": "1",
+      "modelProbs": {
         "p1": 57,
         "px": 27,
         "p2": 16
       },
-      "pick": "1",
+      "marketProbs": {
+        "p1": 57,
+        "px": 24,
+        "p2": 19
+      },
       "advice": "fijo",
       "confidence": 57,
       "xgHome": 1.58,
-      "xgAway": 0.73,
+      "xgAway": 0.74,
       "likelyScore": "1-0",
       "over25": 41,
       "btts": 42,
@@ -721,7 +792,19 @@
       "posHome": 4,
       "posAway": 20,
       "reasoning": "Eibar (4º) parte como favorito: se esperan 1.6 goles suyos por 0.7 del rival; viene de 1G-2E-2P en sus últimos 5. Baja: Iuri Tabatadze (Cádiz).",
-      "scorers": [],
+      "scorers": [
+        {
+          "player": "Antonio Cordero",
+          "team": "Cádiz",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 31,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
+        }
+      ],
       "absences": [
         {
           "team": "Cádiz",
@@ -744,65 +827,63 @@
           "reason": "Lesión: Lesión en el músculo pectíneo — Duda para la jornada 14"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "Amaia Gorostiza deja el Eibar y Ulazia toma los mandos"
-        },
-        {
-          "src": "Marca",
-          "title": "Amaia Gorostiza, la presidenta que devolvió al Eibar a la tierra"
-        },
-        {
-          "src": "Marca",
-          "title": "Se aplaza también el Castellón-Eibar por la muerte de Jesús de Miguel"
-        }
-      ],
-      "source": "modelo",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.7051282146552957
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 60,
+        "px": 21,
+        "p2": 19
       },
-      "valuePick": true
+      "publicSrc": "lae"
     },
     {
       "n": 9,
       "home": "ELDENSE",
       "away": "SABADELL",
       "covered": true,
+      "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 33,
-        "px": 32,
-        "p2": 35
+        "p1": 39,
+        "px": 30,
+        "p2": 31
       },
-      "pick": "2",
-      "alt": "1",
+      "pick": "1",
+      "modelProbs": {
+        "p1": 33,
+        "px": 34,
+        "p2": 33
+      },
+      "marketProbs": {
+        "p1": 40,
+        "px": 29,
+        "p2": 31
+      },
+      "alt": "2",
       "advice": "doble",
-      "confidence": 35,
-      "xgHome": 1.04,
-      "xgAway": 1.06,
-      "likelyScore": "1-1",
-      "over25": 35,
-      "btts": 43,
+      "confidence": 39,
+      "xgHome": 0.95,
+      "xgAway": 0.93,
+      "likelyScore": "0-0",
+      "over25": 29,
+      "btts": 38,
       "formHome": [
+        "E",
         "P",
         "P",
-        "G",
         "G",
         "G"
       ],
       "formAway": [
+        "E",
         "P",
         "E",
         "P",
-        "G",
-        "E"
+        "G"
       ],
       "posHome": 15,
       "posAway": 12,
-      "reasoning": "Partido muy igualado: se esperan 1.0-1.1 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-0.9 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
       "scorers": [],
       "absences": [
         {
@@ -826,25 +907,18 @@
           "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta noviembre"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
-        },
-        {
-          "src": "Marca",
-          "title": "Se aplaza el partido entre Las Palmas y Eldense por alerta meteorológica"
-        },
-        {
-          "src": "Marca",
-          "title": "El Sabadell mostrará en su camiseta la campaña solidaria para la familia de Demi"
-        }
-      ],
-      "source": "modelo",
+      "news": [],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 39,
+        "px": 33,
+        "p2": 28
+      },
+      "publicSrc": "lae",
       "surprise": {
-        "sign": "X",
-        "prob": 0.32,
-        "value": 1.4298625464235686
+        "sign": "2",
+        "prob": 0.31,
+        "value": 1.107142857142857
       },
       "valuePick": true
     },
@@ -853,14 +927,15 @@
       "home": "BÉLGICA",
       "away": "ITALIA",
       "covered": false,
+      "priced": true,
       "probs": {
-        "p1": 44,
-        "px": 28,
-        "p2": 28
+        "p1": 42,
+        "px": 25,
+        "p2": 33
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 42,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -871,22 +946,40 @@
       "scorers": [],
       "absences": [],
       "news": [],
-      "reasoning": "Sin datos estadísticos (selecciones): probabilidades genéricas, juega con cautela.",
-      "source": "modelo"
+      "marketProbs": {
+        "p1": 42,
+        "px": 25,
+        "p2": 33
+      },
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (42%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 43,
+        "px": 28,
+        "p2": 29
+      },
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "2",
+        "prob": 0.33,
+        "value": 1.1379310344827587
+      },
+      "valuePick": true
     },
     {
       "n": 11,
       "home": "ALAVÉS (F)",
       "away": "EIBAR (F)",
       "covered": false,
+      "priced": true,
       "probs": {
-        "p1": 44,
-        "px": 28,
-        "p2": 28
+        "p1": 41,
+        "px": 29,
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 41,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -897,22 +990,34 @@
       "scorers": [],
       "absences": [],
       "news": [],
-      "reasoning": "Sin datos estadísticos (fútbol femenino): probabilidades genéricas, juega con cautela.",
-      "source": "modelo"
+      "marketProbs": {
+        "p1": 41,
+        "px": 29,
+        "p2": 30
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito ALAVÉS (F) (41%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 35,
+        "px": 30,
+        "p2": 35
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 12,
       "home": "R.SOCIEDAD (F)",
       "away": "ATH.CLUB (F)",
       "covered": false,
+      "priced": true,
       "probs": {
-        "p1": 44,
+        "p1": 42,
         "px": 28,
-        "p2": 28
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 42,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -923,22 +1028,34 @@
       "scorers": [],
       "absences": [],
       "news": [],
-      "reasoning": "Sin datos estadísticos (fútbol femenino): probabilidades genéricas, juega con cautela.",
-      "source": "modelo"
+      "marketProbs": {
+        "p1": 42,
+        "px": 28,
+        "p2": 30
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (42%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 38,
+        "px": 32,
+        "p2": 30
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 13,
       "home": "SEVILLA (F)",
       "away": "AT.MADRID (F)",
       "covered": false,
+      "priced": true,
       "probs": {
-        "p1": 44,
-        "px": 28,
-        "p2": 28
+        "p1": 22,
+        "px": 25,
+        "p2": 53
       },
-      "pick": "1",
+      "pick": "2",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 53,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -949,22 +1066,34 @@
       "scorers": [],
       "absences": [],
       "news": [],
-      "reasoning": "Sin datos estadísticos (fútbol femenino): probabilidades genéricas, juega con cautela.",
-      "source": "modelo"
+      "marketProbs": {
+        "p1": 22,
+        "px": 25,
+        "p2": 53
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (53%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 27,
+        "px": 24,
+        "p2": 49
+      },
+      "publicSrc": "lae"
     },
     {
       "n": 14,
       "home": "VALENCIA (F)",
       "away": "GRANADA (F)",
       "covered": false,
+      "priced": true,
       "probs": {
-        "p1": 44,
-        "px": 28,
-        "p2": 28
+        "p1": 22,
+        "px": 25,
+        "p2": 53
       },
-      "pick": "1",
+      "pick": "2",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 53,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -975,38 +1104,64 @@
       "scorers": [],
       "absences": [],
       "news": [],
-      "reasoning": "Sin datos estadísticos (fútbol femenino): probabilidades genéricas, juega con cautela.",
-      "source": "modelo"
+      "marketProbs": {
+        "p1": 22,
+        "px": 25,
+        "p2": 53
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (53%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 39,
+        "px": 29,
+        "p2": 32
+      },
+      "publicSrc": "lae"
     }
   ],
   "pleno15": {
     "home": "ESPAÑA",
     "away": "INGLATERRA",
-    "homeGoals": "1",
-    "awayGoals": "1",
+    "homeGoals": "M",
+    "awayGoals": "0",
     "covered": false,
-    "reasoning": "Sin datos estadísticos de este partido: marcador orientativo."
+    "priced": true,
+    "dist": {
+      "h": [
+        0.149,
+        0.283,
+        0.27,
+        0.298
+      ],
+      "a": [
+        0.388,
+        0.367,
+        0.174,
+        0.071
+      ]
+    },
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
   },
-  "signs": "2 2 1 1 2 1 1 1 2 1 1 1 1 1",
+  "signs": "2 2 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
     "signs": [
       "2",
       "2",
       "1",
       "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
       "2",
-      "1",
-      "1",
-      "1",
-      "2",
-      "1",
-      "1",
-      "1",
-      "1",
-      "1"
+      "2"
     ],
-    "expectedHits": 4.1,
-    "pAll": 0.076858,
+    "expectedHits": 6.6,
+    "pAll": 0.002027,
     "surprises": []
   },
   "ticketValue": {
@@ -1015,23 +1170,23 @@
       "2",
       "1",
       "1",
+      "1",
+      "X",
+      "1",
+      "1",
+      "2",
       "2",
       "1",
-      "X",
-      "X",
-      "X",
       "1",
-      "1",
-      "1",
-      "1",
-      "1"
+      "2",
+      "2"
     ],
-    "expectedHits": 3.7,
-    "pAll": 0.026989,
+    "expectedHits": 6.2,
+    "pAll": 0.000684,
     "surprises": [
-      7,
-      8,
-      9
+      6,
+      9,
+      10
     ]
   },
   "distribution": {
@@ -1039,22 +1194,40 @@
     "xs": 0,
     "twos": 4
   },
-  "expectedHits": 4.1,
-  "analysis": "El modelo tiene datos de 9 de los 14 partidos y reparte los signos en 10 unos, 0 equis y 4 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: ELDENSE-SABADELL (35%) y R.SOCIEDAD B-SPORTING (36%).",
-  "confidence": 46,
+  "expectedHits": 6.6,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y R.OVIEDO-GIRONA (37%).",
+  "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-09T17:19:46.864Z",
+  "generatedAt": "2026-11-09T19:38:38.124Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
       "laliga2": 13
     },
-    "results": 258
+    "results": 260
   },
   "aiUsed": null,
   "notes": [
-    "5 partido(s) sin datos estadísticos (selecciones, fútbol femenino…): probabilidades genéricas o estimación de la IA.",
+    "Las sorpresas 💎 usan el porcentaje real de apuestas de cada signo (dato oficial de Loterías).",
     "Sin clave de IA: textos automáticos del modelo."
   ],
-  "source": "SELAE (eduardolosilla.es) · futbolfantasy.com · modelo estadístico propio"
+  "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
+  "num": 21,
+  "closing": 1794657600000,
+  "escrutada": 20,
+  "market": {
+    "odds": 14,
+    "publicSrc": "lae"
+  },
+  "record": {
+    "entries": [],
+    "sim": {
+      "from": 1,
+      "to": 20,
+      "jornadas": 20,
+      "avg": 8.2,
+      "best": 12,
+      "worst": 6
+    }
+  }
 }

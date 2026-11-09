@@ -105,6 +105,31 @@ button.gen:active{transform:scale(.99)}
 html,body{overscroll-behavior-y:contain}
 #pull{position:fixed;top:0;left:0;right:0;text-align:center;padding:16px;background:var(--panel2);border-bottom:1px solid var(--green);color:var(--green);font-weight:700;transform:translateY(-70px);opacity:0;z-index:50;pointer-events:none;transition:transform .2s,opacity .2s}
 #install{margin-top:14px;padding:12px 22px;border-radius:999px;border:1px solid var(--green);background:transparent;color:var(--green);font-weight:700;font-size:15px;cursor:pointer}
+.pub{font-size:12px;color:var(--muted);margin:0 0 2px}
+.pub b{color:var(--text);font-weight:500}
+.tag.q{color:var(--blue);border-color:var(--blue)}
+button.slipbtn{display:block;width:100%;margin-top:12px;border:1px solid var(--line);border-radius:12px;min-height:48px;font:inherit;font-weight:700;color:var(--text);background:var(--panel2);cursor:pointer}
+.rec{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:10px}
+.rec div{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.rec b{font-size:26px;line-height:1.1;display:block}
+.rec small{color:var(--muted);font-size:12px}
+#slip{position:fixed;inset:0;z-index:80;background:#f7f4ea;color:#111;display:flex;flex-direction:column;padding:10px 14px;overflow:auto}
+#slip header{display:flex;align-items:center;justify-content:space-between;padding:0 0 6px;text-align:left}
+#slip h2{margin:0;font-size:clamp(20px,3.4vh,34px);color:#b3001b}
+#slip .x{border:2px solid #111;background:#fff;color:#111;border-radius:10px;font:inherit;font-weight:700;padding:8px 16px;min-height:44px;cursor:pointer}
+#slip .rows{flex:1;display:grid;grid-template-rows:repeat(15,minmax(0,1fr));gap:3px;min-height:420px}
+#slip .row{display:grid;grid-template-columns:2.2em minmax(0,1fr) auto;align-items:center;gap:8px;border-bottom:1px solid #d9d2bd;font-size:clamp(13px,min(2.7vh,4.1vw),26px)}
+#slip .row .n{font-weight:700;color:#b3001b;text-align:right}
+#slip .row .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
+#slip .bx{display:flex;gap:clamp(3px,.8vw,6px)}
+#slip .bx span{width:1.9em;height:1.5em;border:2px solid #b3001b;border-radius:5px;display:grid;place-items:center;color:#b3001b;font-weight:700;font-size:.85em;background:#fff}
+#slip .bx span.on{background:#111;border-color:#111;color:#fff}
+#slip .bx span.alt{border-style:dashed;background:#ffe9a8}
+#slip .bx i{font-style:normal;font-size:.7em;align-self:center;color:#555;margin:0 2px}
+#slip .ft{font-size:13px;color:#555;padding-top:6px}
+#lock{max-width:380px;margin:40px auto;text-align:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+#lock input{width:100%;font:inherit;font-size:28px;text-align:center;letter-spacing:.3em;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--panel2);color:var(--text);margin:14px 0 4px}
+#lock .bad{color:var(--red);font-size:14px;min-height:20px}
 @media print{body{background:#fff;color:#000}.seg,.seghint,button.reload{display:none}}
 </style>
 </head>
@@ -141,7 +166,7 @@ const ago = (iso) => {
   const hh = Math.round(m / 60);
   return hh < 36 ? `hace ${hh} h` : `hace ${Math.round(hh / 24)} días`;
 };
-const fmtPct = (x) => (x >= 0.1 ? x.toFixed(1) : x >= 0.001 ? x.toFixed(3) : x.toExponential(1)) + " %";
+const fmtPct = (x) => (x >= 1 ? x.toFixed(1).replace(".", ",") + " %" : x > 0 ? "1 entre " + Math.round(100 / x).toLocaleString("es-ES") : "—");
 const form = (arr) => h("span", { class: "fm" }, (arr || []).map((x) => h("span", { class: x, text: x })));
 const signOf = (m) => (MODE === "mix" && MIX ? MIX.signs[DATA.matches.indexOf(m)] : MODE === "value" && m.valuePick ? m.surprise.sign : m.pick);
 
@@ -153,6 +178,7 @@ try { LEVEL = localStorage.getItem("qia-level") || "normal"; } catch {}
 const rnd = () => { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] / 4294967296; };
 const randInt = (lo, hi) => lo + Math.floor(rnd() * (hi - lo + 1));
 const pk = (m, s) => m.probs[s === "1" ? "p1" : s === "X" ? "px" : "p2"] / 100;
+const val = (m, s) => { const k = s === "1" ? "p1" : s === "X" ? "px" : "p2"; return m.publicPct ? m.probs[k] / Math.max(2, m.publicPct[k]) : 1; };
 function weighted(items, w) { // elige 1 índice según pesos
   const t = w.reduce((a, b) => a + b, 0); let r = rnd() * t;
   for (let i = 0; i < items.length; i++) { r -= w[i]; if (r <= 0) return i; }
@@ -160,8 +186,14 @@ function weighted(items, w) { // elige 1 índice según pesos
 }
 function poisson(l, max = 6) { const p = [Math.exp(-l)]; for (let i = 1; i <= max; i++) p.push(p[i - 1] * l / i); return p; }
 function plenoCandidates(p) {
+  const c = {};
+  if (p.dist) { // distribución de goles (0,1,2,M) de cada equipo según las cuotas
+    const G = ["0", "1", "2", "M"];
+    for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) c[`${G[i]}-${G[j]}`] = p.dist.h[i] * p.dist.a[j];
+    return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  }
   let lh = p.covered ? p.xgHome : 1.4, la = p.covered ? p.xgAway : 1.1;
-  const ph = poisson(lh), pa = poisson(la), c = {};
+  const ph = poisson(lh), pa = poisson(la);
   for (let i = 0; i <= 6; i++) for (let j = 0; j <= 6; j++) {
     const k = `${Math.min(i, 3) === 3 ? "M" : i}-${Math.min(j, 3) === 3 ? "M" : j}`;
     c[k] = (c[k] || 0) + ph[i] * pa[j];
@@ -179,15 +211,15 @@ function buildCombo() {
     const w = pool.map((i) => { const m = ms[i]; return Math.max(...["1", "X", "2"].filter((x) => x !== m.pick).map((x) => pk(m, x))) ** 1.5; });
     const idx = weighted(pool, w), i = pool.splice(idx, 1)[0], m = ms[i];
     const alts = ["1", "X", "2"].filter((x) => x !== m.pick);
-    signs[i] = alts[weighted(alts, alts.map((x) => pk(m, x)))];
+    // entre los otros dos signos, pesa más el que tiene probabilidad real y juega poca gente
+    signs[i] = alts[weighted(alts, alts.map((x) => pk(m, x) * Math.min(2, Math.max(0.6, val(m, x)))))];
     flips.push(m.n);
   }
   const cand = plenoCandidates(DATA.pleno15);
   const top = LEVEL === "suave" ? cand.slice(0, 2) : LEVEL === "normal" ? cand.slice(0, 3) : cand;
   const [score] = top[weighted(top, top.map((x) => x[1]))];
   const [ph, pa] = score.split("-");
-  const cov = ms.filter((m) => m.covered);
-  const prob = (i) => pk(ms[i], signs[i]);
+  const cov = ms.filter((m) => m.priced);
   return {
     signs, flips, pleno: { h: ph, a: pa },
     expectedHits: +cov.reduce((t, m) => t + pk(m, signs[ms.indexOf(m)]), 0).toFixed(1),
@@ -213,7 +245,7 @@ function mixCard() {
     h("button", { class: "gen", onclick: "generate()", text: MIX ? "🎲 Otra combinación" : "🎲 Generar combinación" }),
   ];
   if (MIX) {
-    const cells = DATA.matches.map((m, i) => h("div", { class: `cell s${MIX.signs[i]}${MIX.flips.includes(m.n) ? " gem" : ""}${m.covered ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
+    const cells = DATA.matches.map((m, i) => h("div", { class: `cell s${MIX.signs[i]}${MIX.flips.includes(m.n) ? " gem" : ""}${m.priced ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
       h("i", { text: m.n }), h("b", { class: "display", text: MIX.signs[i] }), MIX.flips.includes(m.n) ? h("em", { text: "cambia" }) : null));
     cells.push(h("div", { class: "cell" }, h("i", { text: 15 }), h("b", { class: "display", style: "font-size:20px", text: `${MIX.pleno.h}-${MIX.pleno.a}` })));
     kids.push(h("div", { class: "cells", style: "margin-top:14px" }, cells),
@@ -221,16 +253,17 @@ function mixCard() {
         h("span", {}, "Combinación nº ", h("b", { text: COUNT })),
         h("span", {}, "Cambios respecto al seguro: ", h("b", { text: MIX.flips.length })),
         h("span", {}, "Aciertos esperados: ", h("b", { text: MIX.expectedHits })),
-        h("span", {}, "Prob. de acertar todos: ", h("b", { text: fmtPct(MIX.pAll) }))));
+        h("span", {}, "Prob. de acertar todos: ", h("b", { text: fmtPct(MIX.pAll) }))),
+      h("button", { class: "slipbtn", onclick: "showSlip('mix')", text: "🎫 Ver boleto en grande" }));
   }
   return h("div", { class: "ticket", id: "mixcard" }, kids);
 }
 
-function ticketCard(t, title, desc) {
+function ticketCard(t, title, desc, mode) {
   const cells = DATA.matches.map((m, i) => {
     const s = t.signs[i];
     const gem = t.surprises.includes(m.n);
-    return h("div", { class: `cell s${s}${gem ? " gem" : ""}${m.covered ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
+    return h("div", { class: `cell s${s}${gem ? " gem" : ""}${m.priced ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
       h("i", { text: m.n }), h("b", { class: "display", text: s }),
       m.advice === "doble" && m.alt && !gem ? h("em", { text: `o ${m.alt}` }) : gem ? h("em", { text: "💎" }) : null);
   });
@@ -240,8 +273,46 @@ function ticketCard(t, title, desc) {
     h("h2", { class: "display", text: title }), h("p", { class: "note", text: desc }),
     h("div", { class: "cells" }, cells),
     h("div", { class: "tstats" },
-      h("span", {}, "Aciertos esperados (partidos con datos): ", h("b", { text: t.expectedHits })),
-      h("span", {}, "Probabilidad de acertar todos: ", h("b", { text: fmtPct(t.pAll) }))));
+      h("span", {}, "Aciertos esperados: ", h("b", { text: t.expectedHits })),
+      h("span", {}, "Probabilidad de acertar todos: ", h("b", { text: fmtPct(t.pAll) }))),
+    h("button", { class: "slipbtn", onclick: `showSlip('${mode}')`, text: "🎫 Ver boleto en grande" }));
+}
+
+/* ───────── Boleto en grande (para enseñarlo en el mostrador y validarlo rápido) ───────── */
+function showSlip(mode) {
+  const d = DATA, ms = d.matches;
+  const signs = mode === "mix" && MIX ? MIX.signs : mode === "value" ? d.ticketValue.signs : d.ticketSafe.signs;
+  const pleno = mode === "mix" && MIX ? MIX.pleno : { h: d.pleno15.homeGoals, a: d.pleno15.awayGoals };
+  const title = mode === "mix" ? `Mi combinación nº ${COUNT}` : mode === "value" ? "Boleto con sorpresas" : "Boleto seguro";
+  const rows = ms.map((m, i) => h("div", { class: "row" },
+    h("span", { class: "n", text: m.n }), h("span", { class: "t", text: `${m.home} - ${m.away}` }),
+    h("span", { class: "bx" }, ["1", "X", "2"].map((s) => h("span", { class: s === signs[i] ? "on" : mode === "safe" && m.advice === "doble" && m.alt === s ? "alt" : "", text: s })))));
+  const g = (v) => ["0", "1", "2", "M"].map((s) => h("span", { class: s === v ? "on" : "", text: s }));
+  rows.push(h("div", { class: "row" }, h("span", { class: "n", text: 15 }), h("span", { class: "t", text: `${d.pleno15.home} - ${d.pleno15.away}` }),
+    h("span", { class: "bx" }, g(pleno.h), h("i", { text: "–" }), g(pleno.a))));
+  const el = h("div", { id: "slip", role: "dialog", "aria-label": title },
+    h("header", {}, h("h2", { text: `QUINIELA · ${d.jornada} · ${title}` }), h("button", { class: "x", onclick: "closeSlip()", text: "✕ Cerrar" })),
+    h("div", { class: "rows" }, rows),
+    h("div", { class: "ft", text: (mode === "safe" && d.columns > 1 ? `En amarillo, el segundo signo si se juegan dobles (${d.columns} columnas). ` : "") + "Signos: " + signs.join(" ") + ` · Pleno al 15: ${pleno.h}-${pleno.a}` }));
+  closeSlip(); document.body.append(el);
+}
+function closeSlip() { document.getElementById("slip")?.remove(); }
+addEventListener("keydown", (e) => { if (e.key === "Escape") closeSlip(); });
+
+/* ───────── Marcador de aciertos ───────── */
+function recordCard() {
+  const r = DATA.record || { entries: [] };
+  const kids = [h("h2", { class: "display", text: "📊 Marcador de aciertos" })];
+  if (r.entries.length) {
+    kids.push(h("p", { class: "note", text: "Aciertos del boleto seguro en las jornadas ya jugadas (el boleto se guarda antes del cierre de apuestas)." }));
+    kids.push(h("div", { class: "rec" }, r.entries.slice().reverse().map((e) => h("div", {},
+      h("small", { text: `Jornada ${e.j}` }), h("b", { class: "display", text: `${e.hitsSafe} de ${e.played}` }),
+      h("small", { text: `con sorpresas: ${e.hitsValue}` + (e.plenoHit ? " · ⭐ pleno al 15" : "") })))));
+    const n = r.entries.reduce((a, e) => a + e.played, 0), hits = r.entries.reduce((a, e) => a + e.hitsSafe, 0);
+    kids.push(h("p", { class: "note", text: `Total: ${hits} aciertos de ${n} partidos (${Math.round(100 * hits / n)} %).` }));
+  } else kids.push(h("p", { class: "note", text: `El marcador empieza a contar con la ${DATA.jornada.toLowerCase()}: cuando se juegue, aquí saldrán los aciertos.` }));
+  if (r.sim) kids.push(h("p", { class: "note", text: `Prueba con las jornadas ${r.sim.from}–${r.sim.to} de esta temporada (simulación, no boletos jugados): media de ${String(r.sim.avg).replace(".", ",")} aciertos de 14; la mejor jornada ${r.sim.best} y la peor ${r.sim.worst}.` }));
+  return h("div", { class: "sec" }, kids);
 }
 
 function matchCard(m) {
@@ -250,13 +321,22 @@ function matchCard(m) {
     [["1", m.probs.p1], ["X", m.probs.px], ["2", m.probs.p2]].map(([k, v]) => h("div", { class: `b${k}`, style: `width:${v}%`, text: v >= 9 ? `${k} ${v}%` : "" })));
   const showAlt = MODE === "safe" && m.advice === "doble" && m.alt;
   const det = [];
+  const p3 = (p) => `1 ${p.p1}% · X ${p.px}% · 2 ${p.p2}%`;
+  const pubName = m.publicSrc === "lae" ? "Juega la gente" : m.publicSrc === "quinielista" ? "Juegan los quinielistas" : "Juega la gente (estimado)";
+  if (m.marketProbs || m.modelProbs) det.push(h("div", { class: "grid2" },
+    m.marketProbs ? h("div", { class: "kv" }, h("span", { text: "Casas de apuestas" }), h("b", { text: p3(m.marketProbs) })) : null,
+    m.modelProbs ? h("div", { class: "kv" }, h("span", { text: "Nuestras estadísticas" }), h("b", { text: p3(m.modelProbs) })) : null));
+  if (m.surprise) {
+    const k = m.surprise.sign === "1" ? "p1" : m.surprise.sign === "X" ? "px" : "p2";
+    det.push(h("p", { class: "note" }, `💎 Sorpresa posible: el ${m.surprise.sign} tiene ${Math.round(m.surprise.prob * 100)}% de probabilidad real y ` +
+      (m.publicPct ? `lo juega el ${m.publicPct[k]}% de la gente${m.publicSrc === "estimado" ? " (estimación)" : ""}.` : "lo juega poca gente.")));
+  }
   if (m.covered) {
     det.push(h("div", { class: "grid2" },
       h("div", { class: "kv" }, h("span", { text: "Goles esperados" }), h("b", { text: `${m.xgHome} - ${m.xgAway}` })),
       h("div", { class: "kv" }, h("span", { text: "Marcador más probable" }), h("b", { text: m.likelyScore })),
       h("div", { class: "kv" }, h("span", { text: "Más de 2,5 goles" }), h("b", { text: `${m.over25}%` })),
       h("div", { class: "kv" }, h("span", { text: "Marcan los dos" }), h("b", { text: `${m.btts}%` }))));
-    if (m.surprise) det.push(h("p", { class: "note" }, `💎 Sorpresa posible: el ${m.surprise.sign} tiene ${Math.round(m.surprise.prob * 100)}% de probabilidad real y lo juega poca gente (estimación).`));
     if (m.scorers.length) det.push(h("ul", { class: "list" }, m.scorers.map((s) =>
       h("li", { class: s.out ? "out" : "" },
         s.tag === "racha" ? "🔥 " : s.tag === "sequia" ? "🧊 " : "⚽ ",
@@ -265,12 +345,12 @@ function matchCard(m) {
     if (m.news && m.news.length) det.push(h("ul", { class: "list" }, m.news.map((n) => h("li", { text: `📰 ${n.src}: ${n.title}` }))));
     if (m.absences.length) det.push(h("ul", { class: "list" }, m.absences.map((a) => h("li", { text: `🚑 ${a.player} (${a.team}) — ${a.reason}` }))));
   }
-  return h("div", { class: "match" + (m.covered ? "" : " nodata") },
+  return h("div", { class: "match" + (m.priced ? "" : " nodata") },
     h("div", { class: "mtop" },
       h("div", { class: "num mono", text: m.n }),
       h("div", { class: "teams" },
         h("div", { class: "tn" }, m.home, h("span", { class: "vs", text: "vs" }), m.away,
-          m.covered ? h("span", { class: "tag", text: m.league === "laliga" ? "1ª" : "2ª" }) : h("span", { class: "tag nd", text: "sin datos" }),
+          m.covered ? h("span", { class: "tag", text: m.league === "laliga" ? "1ª" : "2ª" }) : m.priced ? h("span", { class: "tag q", text: "cuotas" }) : h("span", { class: "tag nd", text: "sin datos" }),
           MODE === "value" && m.valuePick ? h("span", { class: "tag gem", text: "💎 sorpresa" }) : null,
           MODE === "mix" && MIX && MIX.flips.includes(m.n) ? h("span", { class: "tag gem", text: "cambia" }) : null),
         m.covered ? h("div", { class: "forms" },
@@ -279,6 +359,7 @@ function matchCard(m) {
         h("div", { class: `sign main v${sgn} display`, text: sgn }),
         showAlt ? h("div", { class: "sign alt display", title: "segundo signo", text: m.alt }) : null)),
     bar,
+    m.publicPct ? h("p", { class: "pub" }, `👥 ${pubName}: `, h("b", { text: p3(m.publicPct) })) : null,
     h("p", { class: "reason", text: m.reasoning }),
     det.length ? h("details", {}, h("summary", { text: "Ver más datos" }), det) : null);
 }
@@ -293,35 +374,58 @@ function render() {
     h("div", { class: "chip" }, h("b", { class: "display", text: `${d.confidence}%` }), h("small", { text: "Confianza media" })),
     h("div", { class: "chip" }, h("b", { class: "display", text: d.columns }), h("small", { text: d.columns === 1 ? "Columna" : "Columnas con dobles" }))));
   kids.push(mixCard());
-  kids.push(ticketCard(d.ticketSafe, "Boleto seguro", "El signo más probable de cada partido. Los dobles (segundo signo) solo en los partidos más abiertos."));
+  kids.push(ticketCard(d.ticketSafe, "Boleto seguro", "El signo más probable de cada partido. Los dobles (segundo signo) solo en los partidos más abiertos.", "safe"));
   kids.push(ticketCard(d.ticketValue, "Boleto con sorpresas 💎",
-    "Cambia 2-3 partidos por un signo menos jugado pero con probabilidad real. Es más difícil de acertar, pero si entra, el premio se reparte entre menos gente."));
+    "Cambia 2-3 partidos por un signo que juega poca gente pero con probabilidad real. Es más difícil de acertar, pero si entra, el premio se reparte entre menos acertantes.", "value"));
   kids.push(h("div", { class: "seg", role: "group", "aria-label": "Qué boleto ver en la lista" },
     h("button", { "aria-pressed": String(MODE === "safe"), onclick: "setMode('safe')", text: "Boleto seguro" }),
     h("button", { "aria-pressed": String(MODE === "value"), onclick: "setMode('value')", text: "Sorpresas 💎" }),
     h("button", { "aria-pressed": String(MODE === "mix"), onclick: "setMode('mix')", text: "Mi combinación 🎲" })));
-  kids.push(h("p", { class: "seghint", text: "Las barras muestran la probabilidad de 1, X y 2 según el modelo. Toca «Ver más datos» para goles esperados, goleadores y bajas." }));
+  kids.push(h("p", { class: "seghint", text: "Las barras muestran la probabilidad real de 1, X y 2 (cuotas de las casas de apuestas y estadísticas propias). Debajo, lo que está jugando la gente. Toca «Ver más datos» para goles esperados, goleadores y bajas." }));
   kids.push(...d.matches.map(matchCard));
   const p = d.pleno15;
   kids.push(h("div", { class: "sec pleno" }, h("h2", { class: "display", text: "⭐ Pleno al 15" }),
     h("div", { class: "note", text: `${p.home} vs ${p.away}` }),
     h("div", { class: "score display", text: `${p.homeGoals} - ${p.awayGoals}` }),
     h("p", { class: "note", text: p.reasoning })));
+  kids.push(recordCard());
   kids.push(h("div", { class: "sec" }, h("h2", { class: "display", text: "🧠 Análisis" }), h("p", { text: d.analysis }),
     ...d.notes.map((n) => h("p", { class: "note", text: "ℹ️ " + n }))));
   app.replaceChildren(...kids);
   $("#foot").replaceChildren(
-    h("div", {}, "Modelo estadístico propio: goles a favor y en contra, ventaja de campo, rachas, bajas y goleadores · "
+    h("div", {}, "Cuotas de las casas de apuestas + modelo estadístico propio (goles, ventaja de campo, rachas, bajas y goleadores) · "
       + (d.aiUsed ? `redacción con ${d.aiUsed}` : "redacción automática")),
     h("div", {}, `Fuentes: ${d.source}`),
-    h("div", {}, "En las pruebas con la temporada pasada y la actual, el modelo acierta ~50 % de los signos sueltos (siempre «1» da ~44 %). ",
-      "Aun así la Quiniela es un juego de azar: solo orientativo. Juega con responsabilidad."),
+    h("div", {}, "En las 20 jornadas anteriores de esta temporada, el signo más probable acertó ~59 % de los partidos. ",
+      "Aun así la Quiniela es un juego de azar: solo orientativo. Juega con responsabilidad. +18."),
     h("div", {}, "Estanco Nº5 · Calle Libertad 22 · Águilas"),
     h("button", { class: "reload", onclick: "load(true)", text: "↻ Actualizar" }));
 }
 function setMode(m) { if (m === "mix" && !MIX) { generate(); return; } MODE = m; try { localStorage.setItem("qia-mode", m); } catch {} render(); }
 
+/* ───────── PIN por aparato ─────────
+ * La primera vez que se abre en un aparato pide el PIN del estanco; después ese aparato queda autorizado.
+ * Es un freno para que no se use fuera del estanco, no una caja fuerte: la web es pública. */
+const PIN_HASH = "b1fa909ff1f297632790bac2377514f824251300b35612a716c2f819718fb695", PIN_SALT = "qia-estanco5:";
+const sha = async (t) => [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)))].map((b) => b.toString(16).padStart(2, "0")).join("");
+const allowed = () => { try { return localStorage.getItem("qia-ok") === PIN_HASH; } catch { return false; } };
+function lockScreen() {
+  $("#sub").textContent = "Aparato no autorizado";
+  const inp = h("input", { type: "password", inputmode: "numeric", autocomplete: "off", maxlength: "12", "aria-label": "PIN" });
+  const bad = h("div", { class: "bad", role: "alert" });
+  const go = async () => {
+    if ((await sha(PIN_SALT + inp.value.trim())) === PIN_HASH) { try { localStorage.setItem("qia-ok", PIN_HASH); } catch {} load(false); }
+    else { bad.textContent = "PIN incorrecto"; inp.value = ""; inp.focus(); }
+  };
+  inp.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+  const btn = h("button", { class: "gen", text: "Entrar" }); btn.addEventListener("click", go);
+  $("#app").replaceChildren(h("div", { id: "lock" }, h("h2", { class: "display", text: "🔒 Solo para el estanco" }),
+    h("p", { class: "note", text: "Escribe el PIN para usar la Quiniela IA en este aparato. Solo se pide una vez." }), inp, bad, btn));
+  $("#foot").replaceChildren(h("div", {}, "Estanco Nº5 · Calle Libertad 22 · Águilas"));
+}
+
 async function load(force) {
+  if (!allowed()) { DATA = null; lockScreen(); return; }
   try {
     const r = await fetch(`quiniela.json?t=${force ? Date.now() : Math.floor(Date.now() / 300000)}`, { cache: "no-store" });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);

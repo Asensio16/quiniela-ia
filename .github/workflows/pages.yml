@@ -39,5 +39,5 @@ jobs:
         run: |
           git config user.name "quiniela-ia-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/quiniela.json
+          git add docs/quiniela.json docs/history.json
           git diff --cached --quiet || (git commit -m "Actualizar pronóstico" && git push)

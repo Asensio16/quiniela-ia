@@ -1,3 +1,4 @@
+import { parseMarket, parseState, type Market } from "./market";
 import type { Absence, Fixture, League, PlayerStat, Result } from "./types";
 
 const UA = "Mozilla/5.0 (compatible; QuinielaIA/2.0)";
@@ -247,7 +248,10 @@ export async function fetchHeadlines(teams: string[]): Promise<Record<string, He
 const QUINIELA_HOME = "https://www.eduardolosilla.es/quiniela/";
 const QUINIELA_JORNADA = "https://www.eduardolosilla.es/quiniela/ayudas/escrutinio/jornada_";
 
-export type Jornada = { name: string; matches: Fixture[]; pleno15: { home: string; away: string } };
+export type Jornada = {
+  name: string; matches: Fixture[]; pleno15: { home: string; away: string };
+  num?: number; market?: Market | null; closing?: number; escrutada?: number;
+};
 type Page = Jornada & { state: { jornada: number; closing: number } | null };
 
 export function parseJornadaPage(html: string): Page {
@@ -267,7 +271,13 @@ export function parseJornadaPage(html: string): Page {
   const fj = html.match(/&q;fechaJornada&q;:(\d+)/);
   const state = j ? { jornada: Number(j[1]), closing: Number(fin?.[1] ?? fj?.[1] ?? 0) * 1000 } : null;
   const p15 = list.find((f) => f.n === 15);
+  const num = titleMatch ? Number(titleMatch[1]) : state?.jornada;
+  const gen = parseState(html)?.datosGeneralesQuiniela;
   return {
+    num,
+    market: num ? parseMarket(html, num) : null,
+    closing: state && state.jornada === num ? state.closing : 0,
+    escrutada: Number(gen?.ultimaJornadaEscrutada?.jornada) || 0,
     name: titleMatch ? `Jornada ${titleMatch[1]}` : "Jornada actual",
     matches: list.filter((f) => f.n <= 14),
     pleno15: p15 ? { home: p15.home, away: p15.away } : { home: "—", away: "—" },
@@ -287,10 +297,15 @@ export async function fetchJornada(): Promise<Jornada> {
   if (home.state && home.state.closing > 0 && home.state.closing < Date.now()) {
     try {
       const next = await fetchPage(`${QUINIELA_JORNADA}${home.state.jornada + 1}`);
-      if (Number(next.name.replace(/\D/g, "")) === home.state.jornada + 1) return next;
+      if (Number(next.name.replace(/\D/g, "")) === home.state.jornada + 1) return { ...next, closing: 0 };
     } catch {
       /* nos quedamos con la home */
     }
   }
   return home;
+}
+
+/** Página de escrutinio de una jornada concreta (para leer sus marcadores). */
+export async function fetchJornadaHtml(j: number): Promise<string> {
+  return fetchText(`${QUINIELA_JORNADA}${j}?_=${Date.now()}`);
 }

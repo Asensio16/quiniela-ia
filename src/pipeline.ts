@@ -7,6 +7,7 @@ import { computeForms, sameName, type PlayerForm } from "./form";
 import {
   chooseSigns, fitLeague, plenoScore, predictMatch, type LeagueModel, type MatchAdjust,
 } from "./engine";
+import { blend } from "./market";
 import { buildTeamIndex, norm, resolveTeam, type TeamIndex } from "./names";
 import type { Absence, League, MatchPrediction, PlayerStat, Probs, QuinielaResult, Result, Sign, Ticket } from "./types";
 
@@ -20,6 +21,11 @@ export type Inputs = {
 };
 
 const pct = (x: number) => Math.round(x * 100);
+
+/** Peso de las cuotas en la mezcla con el modelo propio. En el backtest de las jornadas 1-20 de la
+ *  temporada 2026-27 (141 partidos con las dos cosas) las cuotas solas dan logloss 0,935 y el modelo 0,981;
+ *  cuanto más peso a las cuotas, mejor. Se deja un 15 % al modelo para que cuenten las bajas de última hora. */
+export const MARKET_WEIGHT = 0.85;
 
 /** Redondea tres probabilidades a enteros que suman exactamente 100. */
 export function roundTo100(p: Probs): Probs {
@@ -106,14 +112,13 @@ export function publicShare(p: Probs): Probs {
 
 const key = (s: Sign) => (s === "1" ? "p1" : s === "X" ? "px" : "p2") as keyof Probs;
 
-export function findSurprise(probs: Probs, pick: Sign): { sign: Sign; prob: number; value: number } | undefined {
-  const pub = publicShare(probs);
+export function findSurprise(probs: Probs, pick: Sign, pub: Probs = publicShare(probs)): { sign: Sign; prob: number; value: number } | undefined {
   let best: { sign: Sign; prob: number; value: number } | undefined;
   for (const sg of ["1", "X", "2"] as Sign[]) {
     if (sg === pick) continue;
     const prob = probs[key(sg)];
     if (prob < 0.26) continue;
-    const value = prob / pub[key(sg)];
+    const value = prob / Math.max(0.02, pub[key(sg)]);
     if (value >= 1.1 && (!best || value > best.value)) best = { sign: sg, prob, value };
   }
   return best;
@@ -123,7 +128,7 @@ export function findSurprise(probs: Probs, pick: Sign): { sign: Sign; prob: numb
 export const surpriseScore = (s: { prob: number; value: number }) => Math.pow(s.prob, 1.5) * s.value;
 
 function ticketOf(preds: MatchPrediction[], signOf: (p: MatchPrediction) => Sign, surprises: number[]): Ticket {
-  const cov = preds.filter((p) => p.covered);
+  const cov = preds.filter((p) => p.priced);
   const prob = (p: MatchPrediction) => p.probs[key(signOf(p))] / 100;
   return {
     signs: preds.map(signOf),
@@ -143,6 +148,9 @@ function leagueOf(results: Result[]): Map<string, League> {
 
 export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput: { jornada: string; matches: AiMatchInput[]; pleno15: AiMatchInput } } {
   const { jornada, results, players, absences, headlines } = inp;
+  const market = jornada.market ?? null;
+  const publicOf = (n: number, p: Probs): { pub: Probs; src: "lae" | "quinielista" | "estimado" } =>
+    market?.lae[n] ? { pub: market.lae[n], src: "lae" } : market?.quinielista[n] ? { pub: market.quinielista[n], src: "quinielista" } : { pub: publicShare(p), src: "estimado" };
   const forms = inp.forms ?? new Map<string, PlayerForm[]>();
   const models: Record<League, LeagueModel | null> = {
     laliga: results.some((r) => r.league === "laliga") ? fitLeague(results.filter((r) => r.league === "laliga")) : null,
@@ -158,18 +166,26 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
     const lgA = ra.ok ? teamLeague.get(ra.team) : undefined;
     const covered = rh.ok && ra.ok && lgH === lgA && !!lgH && !!models[lgH];
 
+    const mk = n <= 14 ? market?.real[n] : undefined;
     if (!covered) {
       const why = !rh.ok ? rh.reason : !ra.ok ? ra.reason : "desconocido";
-      const prior: Probs = { p1: 0.44, px: 0.28, p2: 0.28 };
-      const r = roundTo100(prior);
+      const kind = why === "femenino" ? "fútbol femenino" : why === "seleccion" ? "selecciones" : "otra competición";
+      const base: Probs = mk ?? { p1: 0.44, px: 0.28, p2: 0.28 };
+      const r = roundTo100(base);
+      const s = mk ? chooseSigns(mk) : { pick: "1" as Sign, alt: undefined, advice: "fijo" as const };
+      const conf = r[key(s.pick)];
+      const favTxt = s.pick === "X" ? `lo más probable es el empate (${conf}%)` : `favorito ${s.pick === "1" ? homeRaw : awayRaw} (${conf}%)`;
       const pred: MatchPrediction = {
-        n, home: homeRaw, away: awayRaw, covered: false, probs: r, pick: "1", advice: "fijo",
-        confidence: r.p1, xgHome: 0, xgAway: 0, likelyScore: "—", over25: 0, btts: 0,
+        n, home: homeRaw, away: awayRaw, covered: false, priced: !!mk, probs: r, pick: s.pick, alt: s.alt, advice: s.advice,
+        confidence: conf, xgHome: 0, xgAway: 0, likelyScore: "—", over25: 0, btts: 0,
         formHome: [], formAway: [], scorers: [], absences: [], news: [],
-        reasoning: `Sin datos estadísticos (${why === "femenino" ? "fútbol femenino" : why === "seleccion" ? "selecciones" : "equipo no reconocido"}): probabilidades genéricas, juega con cautela.`,
-        source: "modelo",
+        marketProbs: mk ? r : undefined,
+        reasoning: mk
+          ? `Partido de ${kind}: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: ${favTxt}.`
+          : `Sin datos (${kind}) y todavía sin cuotas publicadas: probabilidades genéricas, juega con cautela.`,
+        source: mk ? "cuotas" : "modelo",
       };
-      return { pred, summary: `Sin datos estadísticos (${why}).` };
+      return { pred, summary: mk ? `Sin estadísticas propias (${why}). Cuotas: 1=${r.p1}% X=${r.px}% 2=${r.p2}%.` : `Sin datos estadísticos (${why}).` };
     }
 
     const lg = lgH!;
@@ -180,8 +196,10 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
       : {};
     const out = predictMatch(model, home, away, adj)!;
     const th = model.teams.get(home)!, ta = model.teams.get(away)!;
-    const signs = chooseSigns(out.probs);
-    const probs = roundTo100(out.probs);
+    const final = blend(out.probs, mk, MARKET_WEIGHT);
+    const signs = chooseSigns(final);
+    const probs = roundTo100(final);
+    const modelPick = chooseSigns(out.probs).pick;
 
     const matchAbs = absences
       .filter((a) => a.team === home || a.team === away)
@@ -216,21 +234,26 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
       }
     }
     const topScorer = scorers.filter((x) => !x.out).sort((a, b) => b.goals - a.goals)[0];
-    const reasoning = explain({
-      home, away, probs: out.probs, pick: signs.pick, xgHome: out.lh, xgAway: out.la,
+    let reasoning = explain({
+      home, away, probs: out.probs, pick: modelPick, xgHome: out.lh, xgAway: out.la,
       formHome: th.form, formAway: ta.form, posHome: th.pos, posAway: ta.pos,
       absences: matchAbs, topScorer,
     });
+    if (mk && modelPick !== signs.pick)
+      reasoning = `Las casas de apuestas ven más probable el ${signs.pick} (${probs[key(signs.pick)]}%) y pesan más que nuestras estadísticas. ${reasoning}`;
+    else if (mk && signs.pick !== "X" && probs[key(signs.pick)] - roundTo100(out.probs)[key(signs.pick)] >= 8)
+      reasoning = `Las casas de apuestas ven más favorito a ${signs.pick === "1" ? home : away} (${probs[key(signs.pick)]}%) que nuestras estadísticas. ${reasoning}`;
     const pred: MatchPrediction = {
-      n, home: homeRaw, away: awayRaw, covered: true, league: lg, probs, pick: signs.pick,
+      n, home: homeRaw, away: awayRaw, covered: true, priced: true, league: lg, probs, pick: signs.pick,
+      modelProbs: roundTo100(out.probs), marketProbs: mk ? roundTo100(mk) : undefined,
       alt: signs.alt, advice: signs.advice, confidence: probs[signs.pick === "1" ? "p1" : signs.pick === "X" ? "px" : "p2"],
       xgHome: +out.lh.toFixed(2), xgAway: +out.la.toFixed(2),
       likelyScore: `${out.likely.h}-${out.likely.a}`, over25: pct(out.over25), btts: pct(out.btts),
       formHome: th.form, formAway: ta.form, posHome: th.pos, posAway: ta.pos,
-      reasoning, scorers, absences: matchAbs, news: [...(headlines[home] ?? []), ...(headlines[away] ?? [])].slice(0, 3), source: "modelo",
+      reasoning, scorers, absences: matchAbs, news: [...(headlines[home] ?? []), ...(headlines[away] ?? [])].slice(0, 3), source: mk ? "modelo+cuotas" : "modelo",
     };
     const summary =
-      `Modelo: 1=${probs.p1}% X=${probs.px}% 2=${probs.p2}% · goles esperados ${pred.xgHome}-${pred.xgAway} · ` +
+      `Pronóstico: 1=${probs.p1}% X=${probs.px}% 2=${probs.p2}%${mk ? " (cuotas + modelo)" : ""} · goles esperados ${pred.xgHome}-${pred.xgAway} · ` +
       `${home} (${ord(th.pos)}, forma ${formStr(th.form)}) vs ${away} (${ord(ta.pos)}, forma ${formStr(ta.form)})` +
       (matchAbs.length ? ` · Bajas: ${matchAbs.map((a) => `${a.player} (${a.team})`).join(", ")}` : "") +
       (scorers.length ? ` · Goleadores: ${scorers.filter((s) => !s.out).slice(0, 4).map((s) => `${s.player} (${s.team}, ${s.goals} goles${s.tag === "racha" ? ", EN RACHA" : s.tag === "sequia" ? ", EN SEQUÍA" : ""})`).join(", ")}` : "");
@@ -242,24 +265,32 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
 
   // Dobles: como mucho los 4 partidos más abiertos (el resto, fijos)
   const open = built
-    .filter((b) => b.pred.covered && b.pred.alt)
-    .sort((a, b) => (b.pred.probs.p1 + b.pred.probs.px + b.pred.probs.p2 - b.pred.confidence) - 0)
+    .filter((b) => b.pred.priced && b.pred.alt)
     .sort((a, b) => a.pred.confidence - b.pred.confidence);
   const keep = new Set(open.slice(0, 4).map((b) => b.pred.n));
   for (const b of built) {
-    if (b.pred.covered && !keep.has(b.pred.n)) { b.pred.advice = "fijo"; b.pred.alt = undefined; }
-    else if (b.pred.covered && b.pred.advice === "triple") b.pred.advice = "doble";
+    if (!keep.has(b.pred.n)) { b.pred.advice = "fijo"; b.pred.alt = undefined; }
+    else if (b.pred.advice === "triple") b.pred.advice = "doble";
   }
 
   // Sorpresas: las 3 de mayor valor entre los partidos con datos
-  for (const b of built) if (b.pred.covered) b.pred.surprise = findSurprise(
-    { p1: b.pred.probs.p1 / 100, px: b.pred.probs.px / 100, p2: b.pred.probs.p2 / 100 }, b.pred.pick);
+  let publicSrc: "lae" | "quinielista" | "estimado" = "estimado";
+  for (const b of built) if (b.pred.priced) {
+    const pr = { p1: b.pred.probs.p1 / 100, px: b.pred.probs.px / 100, p2: b.pred.probs.p2 / 100 };
+    const { pub, src } = publicOf(b.pred.n, pr);
+    b.pred.publicPct = roundTo100(pub); b.pred.publicSrc = src;
+    if (src !== "estimado") publicSrc = src;
+    b.pred.surprise = findSurprise(pr, b.pred.pick, pub);
+  }
   const picks = built.filter((b) => b.pred.surprise).sort((a, b) => surpriseScore(b.pred.surprise!) - surpriseScore(a.pred.surprise!)).slice(0, 3);
   for (const b of picks) b.pred.valuePick = true;
 
-  const pleno = p15.grid
-    ? plenoScore(p15.grid.grid)
-    : { h: "1" as const, a: "1" as const };
+  const G = ["0", "1", "2", "M"] as const;
+  const mp = market?.pleno.real;
+  const top = (v: number[]) => G[v.indexOf(Math.max(...v))];
+  const pleno = mp
+    ? { h: top(mp.h), a: top(mp.a) }
+    : p15.grid ? plenoScore(p15.grid.grid) : { h: "1" as const, a: "1" as const };
 
   const aiInput = {
     jornada: jornada.name,
@@ -271,7 +302,8 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
   };
 
   const preds = built.map((b) => b.pred);
-  const covered = preds.filter((p) => p.covered);
+  const stats = preds.filter((p) => p.covered).length;
+  const covered = preds.filter((p) => p.priced);
   const ones = preds.filter((p) => p.pick === "1").length;
   const xs = preds.filter((p) => p.pick === "X").length;
   const twos = preds.filter((p) => p.pick === "2").length;
@@ -283,23 +315,31 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
   const safest = covered.slice().sort((a, b) => b.confidence - a.confidence).slice(0, 2);
   const openest = covered.slice().sort((a, b) => a.confidence - b.confidence).slice(0, 2);
   const analysis = covered.length
-    ? `El modelo tiene datos de ${covered.length} de los 14 partidos y reparte los signos en ${ones} unos, ${xs} equis y ${twos} doses. ` +
+    ? `Hay pronóstico real para ${covered.length} de los 14 partidos (${stats} con estadísticas propias${market ? `, ${Object.keys(market.real).length} con cuotas` : ""}) y se reparten los signos en ${ones} unos, ${xs} equis y ${twos} doses. ` +
       `Lo más claro: ${safest.map((p) => `${p.home}-${p.away} (${p.pick}, ${p.confidence}%)`).join(" y ")}. ` +
       `Lo más abierto: ${openest.map((p) => `${p.home}-${p.away} (${p.confidence}%)`).join(" y ")}.`
-    : "Esta jornada no hay partidos con datos estadísticos suficientes.";
+    : "Esta jornada no hay partidos con datos suficientes.";
 
   const notes: string[] = [];
   const nUncovered = 14 - covered.length;
-  if (nUncovered > 0) notes.push(`${nUncovered} partido(s) sin datos estadísticos (selecciones, fútbol femenino…): probabilidades genéricas o estimación de la IA.`);
+  if (nUncovered > 0) notes.push(`${nUncovered} partido(s) sin datos ni cuotas todavía: probabilidades genéricas o estimación de la IA.`);
+  if (!market || !Object.keys(market.real).length) notes.push("Aún no hay cuotas publicadas para esta jornada: el pronóstico usa solo el modelo propio.");
+  notes.push(publicSrc === "lae" ? "Las sorpresas 💎 usan el porcentaje real de apuestas de cada signo (dato oficial de Loterías)."
+    : publicSrc === "quinielista" ? "Las sorpresas 💎 usan lo que están jugando los quinielistas (el dato oficial de Loterías aún no ha salido)."
+    : "Las sorpresas 💎 usan una estimación de lo que juega la gente (aún no hay porcentajes publicados).");
 
   const result: QuinielaResult = {
     jornada: jornada.name,
     matches: preds,
     pleno15: {
       home: p15.pred.home, away: p15.pred.away, homeGoals: pleno.h, awayGoals: pleno.a, covered: p15.pred.covered,
-      reasoning: p15.pred.covered
-        ? `Marcador más probable según el modelo (${p15.pred.xgHome}-${p15.pred.xgAway} goles esperados).`
-        : "Sin datos estadísticos de este partido: marcador orientativo.",
+      priced: !!mp || p15.pred.covered,
+      dist: mp ? { h: mp.h.map((x) => +x.toFixed(3)), a: mp.a.map((x) => +x.toFixed(3)) } : undefined,
+      reasoning: mp
+        ? `Lo más probable según las cuotas: ${p15.pred.home} marca ${pleno.h === "M" ? "más de 2" : pleno.h} (${pct(Math.max(...mp.h))}%) ${/^h?i/i.test(p15.pred.away) ? "e" : "y"} ${p15.pred.away} marca ${pleno.a === "M" ? "más de 2" : pleno.a} (${pct(Math.max(...mp.a))}%).`
+        : p15.pred.covered
+          ? `Marcador más probable según el modelo (${p15.pred.xgHome}-${p15.pred.xgAway} goles esperados).`
+          : "Sin datos de este partido: marcador orientativo.",
     },
     signs: preds.map((p) => p.pick).join(" "),
     ticketSafe: ticketOf(preds, (p) => p.pick, []),
@@ -313,7 +353,11 @@ export function buildFromInputs(inp: Inputs): { result: QuinielaResult; aiInput:
     dataAsOf: { lastRound, results: results.filter((r) => r.round >= 1).length },
     aiUsed: null,
     notes,
-    source: "SELAE (eduardolosilla.es) · futbolfantasy.com · modelo estadístico propio",
+    source: "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
+    num: jornada.num,
+    closing: jornada.closing || undefined,
+    escrutada: jornada.escrutada || undefined,
+    market: { odds: market ? Object.keys(market.real).length : 0, publicSrc },
   };
   return { result, aiInput };
 }
@@ -333,7 +377,7 @@ export function applyAi(result: QuinielaResult, ai: Awaited<ReturnType<typeof as
   for (const m of result.matches) {
     if (out.reasons[m.n]) { m.reasoning = out.reasons[m.n]; if (m.covered) m.source = "modelo+ia"; }
     const g = out.guesses[m.n];
-    if (!m.covered && g) {
+    if (!m.priced && g) {
       const probs = roundTo100({ p1: g.p1 / 100, px: g.px / 100, p2: g.p2 / 100 });
       const s = chooseSigns({ p1: g.p1 / 100, px: g.px / 100, p2: g.p2 / 100 });
       m.probs = probs; m.pick = s.pick; m.alt = undefined; m.advice = "fijo";
@@ -342,7 +386,7 @@ export function applyAi(result: QuinielaResult, ai: Awaited<ReturnType<typeof as
       if (g.reasoning) m.reasoning = `Estimación de la IA (sin datos del modelo): ${g.reasoning}`;
     }
   }
-  if (!result.pleno15.covered && out.pleno) {
+  if (!result.pleno15.covered && !result.pleno15.priced && out.pleno) {
     if (out.pleno.homeGoals) result.pleno15.homeGoals = out.pleno.homeGoals as "0" | "1" | "2" | "M";
     if (out.pleno.awayGoals) result.pleno15.awayGoals = out.pleno.awayGoals as "0" | "1" | "2" | "M";
     if (out.pleno.reasoning) result.pleno15.reasoning = `Estimación de la IA: ${out.pleno.reasoning}`;

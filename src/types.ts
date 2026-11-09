@@ -40,6 +40,11 @@ export type MatchPrediction = {
   home: string;
   away: string;
   covered: boolean; // ¿hay datos estadísticos de los dos equipos?
+  priced: boolean; // ¿hay probabilidades de verdad (modelo o cuotas)? Si no, son genéricas
+  modelProbs?: Probs; // solo el modelo propio, en %
+  marketProbs?: Probs; // solo las cuotas de las casas de apuestas, en %
+  publicPct?: Probs; // % de apuestas que se lleva cada signo
+  publicSrc?: "lae" | "quinielista" | "estimado"; // de dónde sale publicPct
   league?: League;
   probs: Probs; // en %
   pick: Sign;
@@ -61,7 +66,7 @@ export type MatchPrediction = {
   absences: { team: string; player: string; reason: string }[];
   surprise?: { sign: Sign; prob: number; value: number }; // signo poco jugado con probabilidad real
   valuePick?: boolean; // el boleto con sorpresas usa este signo en vez del pick
-  source: "modelo" | "modelo+ia" | "ia";
+  source: "modelo" | "modelo+ia" | "ia" | "cuotas" | "modelo+cuotas";
 };
 
 export type Ticket = {
@@ -80,6 +85,8 @@ export type QuinielaResult = {
     homeGoals: "0" | "1" | "2" | "M";
     awayGoals: "0" | "1" | "2" | "M";
     covered: boolean;
+    priced?: boolean;
+    dist?: { h: number[]; a: number[] }; // prob. de 0,1,2,M goles de cada equipo según las cuotas
     reasoning: string;
   };
   signs: string; // boleto seguro, "1 X 2 ..."
@@ -95,4 +102,20 @@ export type QuinielaResult = {
   aiUsed: string | null;
   notes: string[];
   source: string;
+  num?: number; // número de jornada
+  closing?: number; // cierre de apuestas (ms)
+  escrutada?: number; // última jornada con escrutinio oficial
+  market?: { odds: number; publicSrc: "lae" | "quinielista" | "estimado" }; // nº de partidos con cuotas y origen del % apostado
+  record?: Record_;
+};
+
+/** Marcador de aciertos: jornadas ya jugadas y simulación previa. */
+export type RecordEntry = {
+  j: number; temporada?: number; savedAt: string;
+  safe: string[]; value: string[]; pleno: string;
+  results?: string[]; score15?: string; hitsSafe?: number; hitsValue?: number; plenoHit?: boolean; played?: number;
+};
+export type Record_ = {
+  entries: RecordEntry[];
+  sim?: { from: number; to: number; avg: number; best: number; worst: number; jornadas: number };
 };

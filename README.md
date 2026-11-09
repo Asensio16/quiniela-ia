@@ -15,6 +15,14 @@ la web estática `docs/index.html` solo lo muestra. GitHub lo regenera solo cada
 - **Honestidad:** `npm run backtest` predice cada jornada ya jugada usando solo lo anterior. Resultado actual (216 partidos): **51 % de signos acertados** (siempre «1» = 44 %), 72 % contando el segundo signo de los dobles. Sin la temporada anterior bajaba al 45 %. La Quiniela sigue siendo azar.
 - Los partidos de **selecciones y fútbol femenino** no tienen datos: salen con probabilidades genéricas (o estimadas por la IA si hay clave).
 
+## Novedades (noviembre 2026)
+
+- **Cuotas de las casas de apuestas** (publicadas por eduardolosilla.es): el pronóstico es 85 % cuotas + 15 % modelo propio (`MARKET_WEIGHT` en `src/pipeline.ts`). Medido con `npx tsx scripts/backtest-market.ts` sobre las jornadas 1-20 de la 2026-27: en los 141 partidos con las dos cosas, el modelo solo da logloss 0,981 (53,9 % de acierto) y las cuotas 0,935 (54,6 %); en los 139 partidos que el modelo no cubre (selecciones, femenino, Europa) las cuotas aciertan el 62,6 % (siempre «1»: 41,7 %).
+- **Porcentaje real apostado** (dato de Loterías): las sorpresas 💎 buscan signos con probabilidad real que juega poca gente.
+- **Marcador de aciertos**: `docs/history.json` guarda el boleto de cada jornada antes del cierre y, tras el escrutinio, sus aciertos.
+- **PIN por aparato**: el hash está en `docs/index.html` (`PIN_HASH`, SHA-256 de `PIN_SALT` + PIN). Es un freno, no una caja fuerte: la web y `quiniela.json` son públicos.
+- **Boleto en grande** para validar en el mostrador, y botón de instalar la app.
+
 ## Publicarla gratis (una sola vez)
 1. Sube todo el contenido de esta carpeta a un repositorio **público** de GitHub (rama `main`).
 2. En el repositorio: **Settings → Pages → Build and deployment**. En *Source* deja **Deploy from a branch**, y en *Branch* elige **main** y la carpeta **/docs**. Pulsa **Save**.
