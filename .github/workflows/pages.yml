@@ -1,0 +1,54 @@
+name: Actualizar Quiniela IA
+
+on:
+  schedule:
+    - cron: "17 */3 * * *" # cada 3 horas
+  workflow_dispatch: # botón "Run workflow" para actualizar a mano
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Caché de fichas de partido (los partidos terminados no cambian)
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fichas-${{ github.run_id }}
+          restore-keys: fichas-
+      - run: npm test
+      - name: Generar pronóstico
+        run: npm run generate
+        env:
+          # Opcionales: sin clave la web funciona igual, con textos automáticos
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

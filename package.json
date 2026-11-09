@@ -1,0 +1,22 @@
+{
+  "name": "quiniela-ia",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quiniela IA \u2014 Estanco N\u00ba5 \u00c1guilas. Web est\u00e1tica + generador de pron\u00f3sticos (sin Lovable, sin servidor).",
+  "scripts": {
+    "generate": "tsx scripts/generate.ts",
+    "serve": "tsx scripts/serve.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "backtest": "tsx scripts/backtest.ts",
+    "tune": "tsx scripts/backtest.ts --tune"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.6"
+  }
+}

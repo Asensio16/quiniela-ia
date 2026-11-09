@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiniela IA · Estanco Nº5 Águilas</title>
+<meta name="description" content="Pronósticos de La Quiniela con modelo estadístico: rachas, goles, bajas y goleadores.">
+<meta name="theme-color" content="#0b1020">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b1020; --panel:#121a33; --panel2:#18224a; --line:#26335f; --text:#eef2ff; --muted:#9aa6cf;
+  --green:#3dff8b; --yellow:#ffd23f; --blue:#4cc9ff; --red:#ff5d6c; --pink:#ff7ad9;
+  --r:16px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#16225a 0,var(--bg) 60%) fixed,var(--bg);color:var(--text);
+  font-family:"DM Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.45;padding:0 16px 48px}
+.wrap{max-width:980px;margin:0 auto}
+.display{font-family:"Bebas Neue",Impact,"Arial Narrow",sans-serif;letter-spacing:.04em}
+.mono{font-family:"DM Mono",ui-monospace,Menlo,monospace}
+header{text-align:center;padding:28px 0 8px}
+.pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:p 2s infinite}
+@keyframes p{50%{opacity:.35}}
+h1{margin:10px 0 0;font-size:clamp(52px,11vw,96px);line-height:.95;color:var(--green);text-shadow:0 0 28px rgba(61,255,139,.45)}
+h1 span{color:var(--yellow)}
+.sub{color:var(--muted);font-size:14px;margin-top:6px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0}
+.chip{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 16px;text-align:center;min-width:120px}
+.chip b{display:block;font-size:26px;line-height:1.05}
+.chip small{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+
+.seg{display:flex;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px;gap:4px;margin:18px auto 6px;max-width:560px}
+.seg button{flex:1;border:0;border-radius:10px;background:transparent;color:var(--muted);font:inherit;font-weight:700;padding:12px 10px;cursor:pointer;min-height:48px}
+.seg button[aria-pressed=true]{background:linear-gradient(90deg,var(--green),var(--blue));color:#04101f}
+.seghint{text-align:center;color:var(--muted);font-size:13px;margin:0 auto 14px;max-width:640px}
+
+.ticket{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:14px}
+.ticket h2,.sec h2{margin:0 0 10px;font-size:24px}
+.cells{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+@media(min-width:480px){.cells{grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}}
+@media(min-width:700px){.cells{grid-template-columns:repeat(15,minmax(0,1fr))}}
+.cell{aspect-ratio:1/1.15;border-radius:10px;border:1px solid var(--line);background:var(--panel2);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+.cell i{position:absolute;top:3px;left:5px;font-style:normal;font-size:10px;color:var(--muted)}
+.cell b{font-size:24px;line-height:1}
+.cell em{font-style:normal;font-size:11px;color:var(--muted)}
+.cell.s1 b{color:var(--green)} .cell.sX b{color:var(--yellow)} .cell.s2 b{color:var(--blue)}
+.cell.gem{border-color:var(--pink);box-shadow:0 0 0 1px var(--pink) inset,0 0 14px rgba(255,122,217,.35)}
+.cell.nodata{opacity:.6}
+.tstats{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;color:var(--muted);font-size:13px}
+.tstats b{color:var(--text)}
+
+.match{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 14px 12px;margin-bottom:12px}
+.mtop{display:flex;gap:12px;align-items:center}
+.num{width:32px;height:32px;border-radius:9px;background:var(--panel2);display:grid;place-items:center;color:var(--muted);font-size:13px;flex:none}
+.teams{flex:1;min-width:0}
+.tn{font-weight:700;font-size:16px;display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline}
+.tn .vs{color:var(--muted);font-weight:400;font-size:13px}
+.tag{font-size:10px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--muted)}
+.tag.gem{color:var(--pink);border-color:var(--pink)}
+.tag.nd{color:var(--yellow);border-color:var(--yellow)}
+.forms{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px;font-size:12px;color:var(--muted);align-items:center}
+.fm{display:inline-flex;gap:3px;vertical-align:middle}
+.fm span{width:15px;height:15px;border-radius:4px;font-size:9px;display:grid;place-items:center;color:#04101f;font-weight:700}
+.fm .G{background:var(--green)} .fm .E{background:var(--yellow)} .fm .P{background:var(--red)}
+.pick{display:flex;gap:6px;flex:none;align-items:center}
+.sign{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:26px;border:1px solid var(--line);background:var(--panel2)}
+.sign.main.v1{background:rgba(61,255,139,.16);border-color:var(--green);color:var(--green)}
+.sign.main.vX{background:rgba(255,210,63,.16);border-color:var(--yellow);color:var(--yellow)}
+.sign.main.v2{background:rgba(76,201,255,.16);border-color:var(--blue);color:var(--blue)}
+.sign.alt{width:34px;height:34px;font-size:19px;opacity:.75;border-style:dashed}
+.match.nodata .sign.main{opacity:.5;border-style:dashed}
+.bar{display:flex;height:26px;border-radius:9px;overflow:hidden;margin:12px 0 4px;font-size:12px;font-weight:700;color:#04101f}
+.bar div{display:grid;place-items:center;min-width:0;transition:width .5s}
+.bar .b1{background:var(--green)} .bar .bX{background:var(--yellow)} .bar .b2{background:var(--blue)}
+.reason{font-size:14px;color:#cfd7f7;margin:6px 0 0}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--muted);font-size:13px;padding:6px 0;min-height:36px}
+.grid2{display:grid;grid-template-columns:1fr;gap:6px 24px;font-size:13px}
+@media(min-width:700px){.grid2{grid-template-columns:1fr 1fr}}
+.kv{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding:3px 0}
+.kv span{color:var(--muted)}
+.list{margin:6px 0 0;padding:0;list-style:none;font-size:13px}
+.list li{padding:3px 0;color:#cfd7f7}
+.list .out{color:var(--red)}
+.sec{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.pleno{text-align:center}
+.pleno .score{font-size:64px;color:var(--yellow);line-height:1}
+.note{color:var(--muted);font-size:13px;margin:4px 0}
+.err{background:#3a1020;border:1px solid var(--red);padding:16px;border-radius:12px;margin:20px 0}
+footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center;line-height:1.6}
+.skel{height:84px;border-radius:16px;background:linear-gradient(90deg,var(--panel),var(--panel2),var(--panel));background-size:200% 100%;animation:sh 1.2s infinite;margin-bottom:12px}
+@keyframes sh{to{background-position:-200% 0}}
+button.reload{margin-top:10px;background:transparent;border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 16px;font:inherit;cursor:pointer;min-height:44px}
+button.gen{display:block;width:100%;margin-top:12px;border:0;border-radius:14px;min-height:56px;font:inherit;font-weight:700;font-size:18px;color:#04101f;cursor:pointer;background:linear-gradient(90deg,var(--green),var(--blue));box-shadow:0 0 26px rgba(61,255,139,.3)}
+button.gen:active{transform:scale(.99)}
+.seg.lv{margin:12px 0 0;max-width:none}
+@media print{body{background:#fff;color:#000}.seg,.seghint,button.reload{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="pill"><span class="dot"></span>Estanco Nº5 · Águilas</div>
+    <h1 class="display">QUINIELA <span>IA</span></h1>
+    <div class="sub" id="sub">Cargando pronóstico…</div>
+  </header>
+  <div id="app"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
+  <footer id="foot"></footer>
+</div>
+<script>
+"use strict";
+const $ = (s) => document.querySelector(s);
+const h = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const c of kids.flat()) if (c != null && c !== false) e.append(c.nodeType ? c : document.createTextNode(String(c)));
+  return e;
+};
+let DATA = null, MODE = "safe";
+try { MODE = localStorage.getItem("qia-mode") || "safe"; if (MODE === "mix") MODE = "safe"; } catch {}
+
+const ago = (iso) => {
+  const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (m < 2) return "hace un momento";
+  if (m < 90) return `hace ${m} min`;
+  const hh = Math.round(m / 60);
+  return hh < 36 ? `hace ${hh} h` : `hace ${Math.round(hh / 24)} días`;
+};
+const fmtPct = (x) => (x >= 0.1 ? x.toFixed(1) : x >= 0.001 ? x.toFixed(3) : x.toExponential(1)) + " %";
+const form = (arr) => h("span", { class: "fm" }, (arr || []).map((x) => h("span", { class: x, text: x })));
+const signOf = (m) => (MODE === "mix" && MIX ? MIX.signs[DATA.matches.indexOf(m)] : MODE === "value" && m.valuePick ? m.surprise.sign : m.pick);
+
+
+/* ───────── Combinación nueva (cada pulsación cambia algunos signos, nunca repite) ───────── */
+const LEVELS = { suave: [1, 2], normal: [2, 4], atrevido: [4, 6] };
+let LEVEL = "normal", MIX = null, SEEN = new Set(), COUNT = 0;
+try { LEVEL = localStorage.getItem("qia-level") || "normal"; } catch {}
+const rnd = () => { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] / 4294967296; };
+const randInt = (lo, hi) => lo + Math.floor(rnd() * (hi - lo + 1));
+const pk = (m, s) => m.probs[s === "1" ? "p1" : s === "X" ? "px" : "p2"] / 100;
+function weighted(items, w) { // elige 1 índice según pesos
+  const t = w.reduce((a, b) => a + b, 0); let r = rnd() * t;
+  for (let i = 0; i < items.length; i++) { r -= w[i]; if (r <= 0) return i; }
+  return items.length - 1;
+}
+function poisson(l, max = 6) { const p = [Math.exp(-l)]; for (let i = 1; i <= max; i++) p.push(p[i - 1] * l / i); return p; }
+function plenoCandidates(p) {
+  let lh = p.covered ? p.xgHome : 1.4, la = p.covered ? p.xgAway : 1.1;
+  const ph = poisson(lh), pa = poisson(la), c = {};
+  for (let i = 0; i <= 6; i++) for (let j = 0; j <= 6; j++) {
+    const k = `${Math.min(i, 3) === 3 ? "M" : i}-${Math.min(j, 3) === 3 ? "M" : j}`;
+    c[k] = (c[k] || 0) + ph[i] * pa[j];
+  }
+  return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, 5);
+}
+function buildCombo() {
+  const ms = DATA.matches;
+  const signs = ms.map((m) => m.pick);
+  const [lo, hi] = LEVELS[LEVEL];
+  const k = randInt(lo, hi);
+  const pool = ms.map((_, i) => i);
+  const flips = [];
+  for (let n = 0; n < k && pool.length; n++) {
+    const w = pool.map((i) => { const m = ms[i]; return Math.max(...["1", "X", "2"].filter((x) => x !== m.pick).map((x) => pk(m, x))) ** 1.5; });
+    const idx = weighted(pool, w), i = pool.splice(idx, 1)[0], m = ms[i];
+    const alts = ["1", "X", "2"].filter((x) => x !== m.pick);
+    signs[i] = alts[weighted(alts, alts.map((x) => pk(m, x)))];
+    flips.push(m.n);
+  }
+  const cand = plenoCandidates(DATA.pleno15);
+  const top = LEVEL === "suave" ? cand.slice(0, 2) : LEVEL === "normal" ? cand.slice(0, 3) : cand;
+  const [score] = top[weighted(top, top.map((x) => x[1]))];
+  const [ph, pa] = score.split("-");
+  const cov = ms.filter((m) => m.covered);
+  const prob = (i) => pk(ms[i], signs[i]);
+  return {
+    signs, flips, pleno: { h: ph, a: pa },
+    expectedHits: +cov.reduce((t, m) => t + pk(m, signs[ms.indexOf(m)]), 0).toFixed(1),
+    pAll: +(100 * cov.reduce((t, m) => t * pk(m, signs[ms.indexOf(m)]), 1)).toFixed(6),
+  };
+}
+function generate() {
+  let c, tries = 0;
+  do { c = buildCombo(); tries++; } while (SEEN.has(c.signs.join("") + c.pleno.h + c.pleno.a) && tries < 80);
+  SEEN.add(c.signs.join("") + c.pleno.h + c.pleno.a);
+  COUNT++; MIX = c; MODE = "mix"; render();
+  document.querySelector("#mixcard")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+function setLevel(l) { LEVEL = l; try { localStorage.setItem("qia-level", l); } catch {} render(); }
+
+function mixCard() {
+  const lv = (k, t) => h("button", { "aria-pressed": String(LEVEL === k), onclick: `setLevel('${k}')`, text: t });
+  const kids = [
+    h("h2", { class: "display", text: "🎲 Tu combinación" }),
+    h("p", { class: "note", text: "Parte del boleto seguro y cambia unos pocos partidos, más fácil en los más abiertos. Cada vez que pulsas sale una combinación distinta." }),
+    h("div", { class: "seg lv", role: "group", "aria-label": "Cuántos cambios" },
+      lv("suave", "Pocos cambios"), lv("normal", "Normal"), lv("atrevido", "Atrevida")),
+    h("button", { class: "gen", onclick: "generate()", text: MIX ? "🎲 Otra combinación" : "🎲 Generar combinación" }),
+  ];
+  if (MIX) {
+    const cells = DATA.matches.map((m, i) => h("div", { class: `cell s${MIX.signs[i]}${MIX.flips.includes(m.n) ? " gem" : ""}${m.covered ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
+      h("i", { text: m.n }), h("b", { class: "display", text: MIX.signs[i] }), MIX.flips.includes(m.n) ? h("em", { text: "cambia" }) : null));
+    cells.push(h("div", { class: "cell" }, h("i", { text: 15 }), h("b", { class: "display", style: "font-size:20px", text: `${MIX.pleno.h}-${MIX.pleno.a}` })));
+    kids.push(h("div", { class: "cells", style: "margin-top:14px" }, cells),
+      h("div", { class: "tstats" },
+        h("span", {}, "Combinación nº ", h("b", { text: COUNT })),
+        h("span", {}, "Cambios respecto al seguro: ", h("b", { text: MIX.flips.length })),
+        h("span", {}, "Aciertos esperados: ", h("b", { text: MIX.expectedHits })),
+        h("span", {}, "Prob. de acertar todos: ", h("b", { text: fmtPct(MIX.pAll) }))));
+  }
+  return h("div", { class: "ticket", id: "mixcard" }, kids);
+}
+
+function ticketCard(t, title, desc) {
+  const cells = DATA.matches.map((m, i) => {
+    const s = t.signs[i];
+    const gem = t.surprises.includes(m.n);
+    return h("div", { class: `cell s${s}${gem ? " gem" : ""}${m.covered ? "" : " nodata"}`, title: `${m.home} - ${m.away}` },
+      h("i", { text: m.n }), h("b", { class: "display", text: s }),
+      m.advice === "doble" && m.alt && !gem ? h("em", { text: `o ${m.alt}` }) : gem ? h("em", { text: "💎" }) : null);
+  });
+  const p = DATA.pleno15;
+  cells.push(h("div", { class: "cell", title: "Pleno al 15" }, h("i", { text: 15 }), h("b", { class: "display", style: "font-size:20px", text: `${p.homeGoals}-${p.awayGoals}` })));
+  return h("div", { class: "ticket" },
+    h("h2", { class: "display", text: title }), h("p", { class: "note", text: desc }),
+    h("div", { class: "cells" }, cells),
+    h("div", { class: "tstats" },
+      h("span", {}, "Aciertos esperados (partidos con datos): ", h("b", { text: t.expectedHits })),
+      h("span", {}, "Probabilidad de acertar todos: ", h("b", { text: fmtPct(t.pAll) }))));
+}
+
+function matchCard(m) {
+  const sgn = signOf(m);
+  const bar = h("div", { class: "bar", role: "img", "aria-label": `1: ${m.probs.p1}%, X: ${m.probs.px}%, 2: ${m.probs.p2}%` },
+    [["1", m.probs.p1], ["X", m.probs.px], ["2", m.probs.p2]].map(([k, v]) => h("div", { class: `b${k}`, style: `width:${v}%`, text: v >= 9 ? `${k} ${v}%` : "" })));
+  const showAlt = MODE === "safe" && m.advice === "doble" && m.alt;
+  const det = [];
+  if (m.covered) {
+    det.push(h("div", { class: "grid2" },
+      h("div", { class: "kv" }, h("span", { text: "Goles esperados" }), h("b", { text: `${m.xgHome} - ${m.xgAway}` })),
+      h("div", { class: "kv" }, h("span", { text: "Marcador más probable" }), h("b", { text: m.likelyScore })),
+      h("div", { class: "kv" }, h("span", { text: "Más de 2,5 goles" }), h("b", { text: `${m.over25}%` })),
+      h("div", { class: "kv" }, h("span", { text: "Marcan los dos" }), h("b", { text: `${m.btts}%` }))));
+    if (m.surprise) det.push(h("p", { class: "note" }, `💎 Sorpresa posible: el ${m.surprise.sign} tiene ${Math.round(m.surprise.prob * 100)}% de probabilidad real y lo juega poca gente (estimación).`));
+    if (m.scorers.length) det.push(h("ul", { class: "list" }, m.scorers.map((s) =>
+      h("li", { class: s.out ? "out" : "" },
+        s.tag === "racha" ? "🔥 " : s.tag === "sequia" ? "🧊 " : "⚽ ",
+        h("b", { text: s.player }), ` (${s.team})`,
+        s.out ? ` · no juega: ${s.out}` : ` · ${s.note || `${s.goals} goles esta temporada`} · marca ~${s.chance}%`))));
+    if (m.news && m.news.length) det.push(h("ul", { class: "list" }, m.news.map((n) => h("li", { text: `📰 ${n.src}: ${n.title}` }))));
+    if (m.absences.length) det.push(h("ul", { class: "list" }, m.absences.map((a) => h("li", { text: `🚑 ${a.player} (${a.team}) — ${a.reason}` }))));
+  }
+  return h("div", { class: "match" + (m.covered ? "" : " nodata") },
+    h("div", { class: "mtop" },
+      h("div", { class: "num mono", text: m.n }),
+      h("div", { class: "teams" },
+        h("div", { class: "tn" }, m.home, h("span", { class: "vs", text: "vs" }), m.away,
+          m.covered ? h("span", { class: "tag", text: m.league === "laliga" ? "1ª" : "2ª" }) : h("span", { class: "tag nd", text: "sin datos" }),
+          MODE === "value" && m.valuePick ? h("span", { class: "tag gem", text: "💎 sorpresa" }) : null,
+          MODE === "mix" && MIX && MIX.flips.includes(m.n) ? h("span", { class: "tag gem", text: "cambia" }) : null),
+        m.covered ? h("div", { class: "forms" },
+          h("span", {}, `${m.posHome}º `, form(m.formHome)), h("span", {}, `${m.posAway}º `, form(m.formAway))) : null),
+      h("div", { class: "pick" },
+        h("div", { class: `sign main v${sgn} display`, text: sgn }),
+        showAlt ? h("div", { class: "sign alt display", title: "segundo signo", text: m.alt }) : null)),
+    bar,
+    h("p", { class: "reason", text: m.reasoning }),
+    det.length ? h("details", {}, h("summary", { text: "Ver más datos" }), det) : null);
+}
+
+function render() {
+  const d = DATA, app = $("#app");
+  $("#sub").textContent = `${d.jornada} · actualizado ${ago(d.generatedAt)}`;
+  const kids = [];
+  kids.push(h("div", { class: "meta" },
+    h("div", { class: "chip" }, h("b", { class: "display", text: d.jornada.replace("Jornada ", "J") }), h("small", { text: "Jornada" })),
+    h("div", { class: "chip" }, h("b", { class: "display", text: `${d.distribution.ones}·${d.distribution.xs}·${d.distribution.twos}` }), h("small", { text: "1 · X · 2" })),
+    h("div", { class: "chip" }, h("b", { class: "display", text: `${d.confidence}%` }), h("small", { text: "Confianza media" })),
+    h("div", { class: "chip" }, h("b", { class: "display", text: d.columns }), h("small", { text: d.columns === 1 ? "Columna" : "Columnas con dobles" }))));
+  kids.push(mixCard());
+  kids.push(ticketCard(d.ticketSafe, "Boleto seguro", "El signo más probable de cada partido. Los dobles (segundo signo) solo en los partidos más abiertos."));
+  kids.push(ticketCard(d.ticketValue, "Boleto con sorpresas 💎",
+    "Cambia 2-3 partidos por un signo menos jugado pero con probabilidad real. Es más difícil de acertar, pero si entra, el premio se reparte entre menos gente."));
+  kids.push(h("div", { class: "seg", role: "group", "aria-label": "Qué boleto ver en la lista" },
+    h("button", { "aria-pressed": String(MODE === "safe"), onclick: "setMode('safe')", text: "Boleto seguro" }),
+    h("button", { "aria-pressed": String(MODE === "value"), onclick: "setMode('value')", text: "Sorpresas 💎" }),
+    h("button", { "aria-pressed": String(MODE === "mix"), onclick: "setMode('mix')", text: "Mi combinación 🎲" })));
+  kids.push(h("p", { class: "seghint", text: "Las barras muestran la probabilidad de 1, X y 2 según el modelo. Toca «Ver más datos» para goles esperados, goleadores y bajas." }));
+  kids.push(...d.matches.map(matchCard));
+  const p = d.pleno15;
+  kids.push(h("div", { class: "sec pleno" }, h("h2", { class: "display", text: "⭐ Pleno al 15" }),
+    h("div", { class: "note", text: `${p.home} vs ${p.away}` }),
+    h("div", { class: "score display", text: `${p.homeGoals} - ${p.awayGoals}` }),
+    h("p", { class: "note", text: p.reasoning })));
+  kids.push(h("div", { class: "sec" }, h("h2", { class: "display", text: "🧠 Análisis" }), h("p", { text: d.analysis }),
+    ...d.notes.map((n) => h("p", { class: "note", text: "ℹ️ " + n }))));
+  app.replaceChildren(...kids);
+  $("#foot").replaceChildren(
+    h("div", {}, "Modelo estadístico propio: goles a favor y en contra, ventaja de campo, rachas, bajas y goleadores · "
+      + (d.aiUsed ? `redacción con ${d.aiUsed}` : "redacción automática")),
+    h("div", {}, `Fuentes: ${d.source}`),
+    h("div", {}, "En las pruebas con la temporada pasada y la actual, el modelo acierta ~50 % de los signos sueltos (siempre «1» da ~44 %). ",
+      "Aun así la Quiniela es un juego de azar: solo orientativo. Juega con responsabilidad."),
+    h("div", {}, "Estanco Nº5 · Calle Libertad 22 · Águilas"),
+    h("button", { class: "reload", onclick: "load(true)", text: "↻ Actualizar" }));
+}
+function setMode(m) { if (m === "mix" && !MIX) { generate(); return; } MODE = m; try { localStorage.setItem("qia-mode", m); } catch {} render(); }
+
+async function load(force) {
+  try {
+    const r = await fetch(`quiniela.json?t=${force ? Date.now() : Math.floor(Date.now() / 300000)}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    DATA = await r.json();
+    render();
+  } catch (e) {
+    $("#app").replaceChildren(h("div", { class: "err" }, h("b", { text: "No se ha podido cargar el pronóstico. " }), `(${e.message}) Comprueba la conexión e inténtalo de nuevo.`,
+      h("div", {}, h("button", { class: "reload", onclick: "load(true)", text: "Reintentar" }))));
+    $("#sub").textContent = "Sin datos";
+  }
+}
+load(false);
+setInterval(() => DATA && ($("#sub").textContent = `${DATA.jornada} · actualizado ${ago(DATA.generatedAt)}`), 60000);
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>
