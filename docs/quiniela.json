@@ -116,7 +116,12 @@
           "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Se aplaza también el Castellón-Eibar por la muerte de Jesús de Miguel"
+        }
+      ],
       "source": "modelo",
       "surprise": {
         "sign": "X",
@@ -297,7 +302,20 @@
           "reason": "Lesión: Fractura de maleolo tibial — Baja hasta diciembre"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Una victoria de 'Primera' para un Almería que ya es primero"
+        },
+        {
+          "src": "Marca",
+          "title": "Pau López, una bendición para la portería del Andorra"
+        },
+        {
+          "src": "Marca",
+          "title": "La carta de las peñas del Andorra a Owono: \"Un accidente no define a una persona...\""
+        }
+      ],
       "source": "modelo"
     },
     {
@@ -347,17 +365,6 @@
           "recent": 3,
           "window": 6,
           "note": "en racha: 3 goles en sus últimos 5 partidos"
-        },
-        {
-          "player": "Diego Percan",
-          "team": "Córdoba",
-          "goals": 4,
-          "perGame": 0,
-          "chance": 27,
-          "tag": "racha",
-          "recent": 3,
-          "window": 6,
-          "note": "en racha: 3 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -382,7 +389,20 @@
           "reason": "Lesión: Lesión en la musculatura isquiosural derecha con afectación tendinosa — Baja para la jornada 14"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "La mano de hierro en sus días clave libera al Córdoba"
+        },
+        {
+          "src": "Marca",
+          "title": "Fin a una era histórica: el Ceuta destituye a José Juan Romero tras caer goleado en Córdoba"
+        },
+        {
+          "src": "Marca",
+          "title": "El Córdoba se viene arriba: 3-0 al Ceuta y 10 de los últimos 12 puntos en juego"
+        }
+      ],
       "source": "modelo",
       "surprise": {
         "sign": "X",
@@ -427,30 +447,7 @@
       "posHome": 9,
       "posAway": 8,
       "reasoning": "Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
-      "scorers": [
-        {
-          "player": "Carlos Dominguez",
-          "team": "Real Oviedo",
-          "goals": 4,
-          "perGame": 0,
-          "chance": 39,
-          "tag": "racha",
-          "recent": 4,
-          "window": 6,
-          "note": "en racha: 4 goles en sus últimos 5 partidos"
-        },
-        {
-          "player": "Vladyslav Vanat",
-          "team": "Girona",
-          "goals": 4,
-          "perGame": 0,
-          "chance": 54,
-          "tag": "racha",
-          "recent": 4,
-          "window": 6,
-          "note": "en racha: 4 goles en sus últimos 5 partidos"
-        }
-      ],
+      "scorers": [],
       "absences": [
         {
           "team": "Girona",
@@ -524,15 +521,26 @@
       "reasoning": "Tenerife (14º) parte como favorito: se esperan 1.8 goles suyos por 1.0 del rival; viene de 0G-4E-1P en sus últimos 5. Baja: Adrián Lapeña (Ceuta).",
       "scorers": [
         {
-          "player": "Enric Gallego",
-          "team": "Tenerife",
-          "goals": 4,
+          "player": "Jordi Escobar",
+          "team": "Ceuta",
+          "goals": 2,
           "perGame": 0,
-          "chance": 64,
+          "chance": 45,
           "tag": "racha",
-          "recent": 3,
-          "window": 6,
-          "note": "en racha: 3 goles en sus últimos 5 partidos"
+          "recent": 2,
+          "window": 3,
+          "note": "en racha: 2 goles en sus últimos 3 partidos"
+        },
+        {
+          "player": "Carlos Hernández",
+          "team": "Ceuta",
+          "goals": 2,
+          "perGame": 0,
+          "chance": 45,
+          "tag": "racha",
+          "recent": 2,
+          "window": 3,
+          "note": "en racha: 2 goles en sus últimos 3 partidos"
         }
       ],
       "absences": [
@@ -557,7 +565,20 @@
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El síndrome de la taquilla vacía en el vestuario del Tenerife: \"Genera dolor pero Jesús cohesionará al grupo\""
+        },
+        {
+          "src": "Marca",
+          "title": "El Burgos destinará la taquilla del partido ante el Tenerife a la familia de Jesús de Miguel"
+        },
+        {
+          "src": "Marca",
+          "title": "Sergio Lobera regresa a Ceuta ante el reto de lograr la permanencia"
+        }
+      ],
       "source": "modelo"
     },
     {
@@ -601,24 +622,23 @@
         {
           "player": "Jorge Pascual",
           "team": "Granada",
-          "goals": 3,
-          "perGame": 0,
-          "chance": 30,
-          "tag": "racha",
-          "recent": 3,
-          "window": 6,
-          "note": "en racha: 3 goles en sus últimos 5 partidos"
-        },
-        {
-          "player": "Jesé Rodríguez",
-          "team": "Las Palmas",
           "goals": 2,
           "perGame": 0,
-          "chance": 26,
+          "chance": 34,
           "tag": "racha",
           "recent": 2,
-          "window": 6,
-          "note": "en racha: 2 goles en sus últimos 5 partidos"
+          "window": 3,
+          "note": "en racha: 2 goles en sus últimos 3 partidos"
+        },
+        {
+          "player": "José Arnáiz",
+          "team": "Granada",
+          "goals": 2,
+          "perGame": 0,
+          "chance": 0,
+          "out": "Lesión — Duda para la jornada 14",
+          "recent": 2,
+          "window": 3
         }
       ],
       "absences": [
@@ -643,7 +663,20 @@
           "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta noviembre"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Granada se la juega en los tribunales"
+        },
+        {
+          "src": "Marca",
+          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
+        },
+        {
+          "src": "Marca",
+          "title": "\"Gracias a nuestros hermanos de la UD Las Palmas, esta es la Canarias que yo quiero\""
+        }
+      ],
       "source": "modelo",
       "surprise": {
         "sign": "X",
@@ -688,19 +721,7 @@
       "posHome": 4,
       "posAway": 20,
       "reasoning": "Eibar (4º) parte como favorito: se esperan 1.6 goles suyos por 0.7 del rival; viene de 1G-2E-2P en sus últimos 5. Baja: Iuri Tabatadze (Cádiz).",
-      "scorers": [
-        {
-          "player": "Antonio Cordero",
-          "team": "Cádiz",
-          "goals": 4,
-          "perGame": 0,
-          "chance": 31,
-          "tag": "racha",
-          "recent": 2,
-          "window": 6,
-          "note": "en racha: 2 goles en sus últimos 5 partidos"
-        }
-      ],
+      "scorers": [],
       "absences": [
         {
           "team": "Cádiz",
@@ -723,7 +744,20 @@
           "reason": "Lesión: Lesión en el músculo pectíneo — Duda para la jornada 14"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Amaia Gorostiza deja el Eibar y Ulazia toma los mandos"
+        },
+        {
+          "src": "Marca",
+          "title": "Amaia Gorostiza, la presidenta que devolvió al Eibar a la tierra"
+        },
+        {
+          "src": "Marca",
+          "title": "Se aplaza también el Castellón-Eibar por la muerte de Jesús de Miguel"
+        }
+      ],
       "source": "modelo",
       "surprise": {
         "sign": "X",
@@ -769,19 +803,7 @@
       "posHome": 15,
       "posAway": 12,
       "reasoning": "Partido muy igualado: se esperan 1.0-1.1 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
-      "scorers": [
-        {
-          "player": "Jorge Rastrojo",
-          "team": "Eldense",
-          "goals": 3,
-          "perGame": 0,
-          "chance": 33,
-          "tag": "racha",
-          "recent": 3,
-          "window": 6,
-          "note": "en racha: 3 goles en sus últimos 5 partidos"
-        }
-      ],
+      "scorers": [],
       "absences": [
         {
           "team": "Eldense",
@@ -804,7 +826,20 @@
           "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta noviembre"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
+        },
+        {
+          "src": "Marca",
+          "title": "Se aplaza el partido entre Las Palmas y Eldense por alerta meteorológica"
+        },
+        {
+          "src": "Marca",
+          "title": "El Sabadell mostrará en su camiseta la campaña solidaria para la familia de Demi"
+        }
+      ],
       "source": "modelo",
       "surprise": {
         "sign": "X",
@@ -1008,7 +1043,7 @@
   "analysis": "El modelo tiene datos de 9 de los 14 partidos y reparte los signos en 10 unos, 0 equis y 4 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: ELDENSE-SABADELL (35%) y R.SOCIEDAD B-SPORTING (36%).",
   "confidence": 46,
   "columns": 16,
-  "generatedAt": "2026-11-09T17:16:01.861Z",
+  "generatedAt": "2026-11-09T17:19:46.864Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
