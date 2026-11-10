@@ -46,7 +46,7 @@
         "P",
         "E"
       ],
-      "posHome": 11,
+      "posHome": 12,
       "posAway": 2,
       "reasoning": "Castellón (2º) parte como favorito: se esperan 1.6 goles suyos por 1.1 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Fabrizio Brignani (Castellón).",
       "scorers": [
@@ -140,7 +140,8 @@
         "sign": "X",
         "prob": 0.27,
         "value": 1.173913043478261
-      }
+      },
+      "valuePick": true
     },
     {
       "n": 2,
@@ -150,25 +151,25 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 35,
+        "p1": 36,
         "px": 28,
-        "p2": 37
+        "p2": 36
       },
-      "pick": "2",
+      "pick": "1",
       "modelProbs": {
         "p1": 36,
         "px": 28,
         "p2": 36
       },
       "marketProbs": {
-        "p1": 35,
+        "p1": 36,
         "px": 28,
-        "p2": 37
+        "p2": 36
       },
-      "alt": "1",
+      "alt": "2",
       "advice": "doble",
-      "confidence": 37,
-      "xgHome": 1.32,
+      "confidence": 36,
+      "xgHome": 1.33,
       "xgAway": 1.32,
       "likelyScore": "1-1",
       "over25": 49,
@@ -357,9 +358,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 56,
+        "p1": 55,
         "px": 24,
-        "p2": 20
+        "p2": 21
       },
       "pick": "1",
       "modelProbs": {
@@ -368,12 +369,12 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 56,
-        "px": 23,
+        "p1": 55,
+        "px": 24,
         "p2": 21
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 55,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -394,7 +395,7 @@
         "P"
       ],
       "posHome": 6,
-      "posAway": 10,
+      "posAway": 11,
       "reasoning": "Mallorca (6º) parte como favorito: se esperan 1.6 goles suyos por 0.8 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: Kevin Villodres (Córdoba).",
       "scorers": [
         {
@@ -558,12 +559,7 @@
           "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 14"
         }
       ],
-      "news": [
-        {
-          "src": "FutbolFantasy",
-          "title": "Raúl González es oficialmente nuevo entrenador del Real Oviedo"
-        }
-      ],
+      "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 38,
@@ -600,7 +596,7 @@
       "xgHome": 1.78,
       "xgAway": 1.04,
       "likelyScore": "1-1",
-      "over25": 53,
+      "over25": 54,
       "btts": 55,
       "formHome": [
         "E",
@@ -696,21 +692,21 @@
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 37,
+        "p1": 36,
         "px": 30,
-        "p2": 33
+        "p2": 34
       },
       "marketProbs": {
         "p1": 54,
-        "px": 25,
-        "p2": 21
+        "px": 26,
+        "p2": 20
       },
       "advice": "fijo",
       "confidence": 51,
-      "xgHome": 1.23,
-      "xgAway": 1.16,
+      "xgHome": 1.24,
+      "xgAway": 1.18,
       "likelyScore": "1-1",
-      "over25": 43,
+      "over25": 44,
       "btts": 50,
       "formHome": [
         "G",
@@ -720,46 +716,36 @@
         "G"
       ],
       "formAway": [
-        "E",
+        "G",
         "G",
         "G",
         "P",
         "P"
       ],
       "posHome": 5,
-      "posAway": 13,
+      "posAway": 10,
       "reasoning": "Las casas de apuestas ven más favorito a Granada (51%) que nuestras estadísticas. Partido muy igualado: se esperan 1.2-1.2 goles y hay pocas diferencias entre los dos equipos. Baja: Pau Casadesús (Granada).",
       "scorers": [
         {
           "player": "Jorge Pascual",
           "team": "Granada",
-          "goals": 2,
+          "goals": 3,
           "perGame": 0,
-          "chance": 33,
+          "chance": 30,
           "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
-        },
-        {
-          "player": "José Arnáiz",
-          "team": "Granada",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 0,
-          "out": "Lesión — Duda para la jornada 14",
-          "recent": 2,
-          "window": 3
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Jesé Rodríguez",
           "team": "Las Palmas",
           "goals": 2,
           "perGame": 0,
-          "chance": 32,
+          "chance": 26,
           "tag": "racha",
           "recent": 2,
-          "window": 5,
+          "window": 6,
           "note": "en racha: 2 goles en sus últimos 5 partidos"
         }
       ],
@@ -792,7 +778,7 @@
         },
         {
           "src": "Marca",
-          "title": "Las Palmas - Eldense en directo | Última hora de LALIGA Hypermotion en vivo hoy"
+          "title": "Las Palmas despierta a tiempo del letargo"
         },
         {
           "src": "Marca",
@@ -833,7 +819,7 @@
       "advice": "fijo",
       "confidence": 57,
       "xgHome": 1.58,
-      "xgAway": 0.74,
+      "xgAway": 0.73,
       "likelyScore": "1-0",
       "over25": 41,
       "btts": 42,
@@ -858,12 +844,12 @@
         {
           "player": "Antonio Cordero",
           "team": "Cádiz",
-          "goals": 2,
+          "goals": 4,
           "perGame": 0,
-          "chance": 25,
+          "chance": 31,
           "tag": "racha",
           "recent": 2,
-          "window": 5,
+          "window": 6,
           "note": "en racha: 2 goles en sus últimos 5 partidos"
         }
       ],
@@ -892,11 +878,11 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Amaia Gorostiza deja el Eibar y Ulazia toma los mandos"
+          "title": "Amaia Gorostiza, la presidenta que devolvió al Eibar a la tierra"
         },
         {
           "src": "Marca",
-          "title": "Amaia Gorostiza, la presidenta que devolvió al Eibar a la tierra"
+          "title": "Amaia Gorostiza deja el Eibar y Ulazia toma los mandos"
         },
         {
           "src": "Marca",
@@ -919,31 +905,31 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 39,
+        "p1": 37,
         "px": 30,
-        "p2": 31
+        "p2": 33
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 33,
-        "px": 34,
-        "p2": 33
+        "p1": 32,
+        "px": 33,
+        "p2": 35
       },
       "marketProbs": {
-        "p1": 40,
-        "px": 29,
-        "p2": 31
+        "p1": 38,
+        "px": 30,
+        "p2": 32
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 39,
+      "confidence": 37,
       "xgHome": 0.95,
-      "xgAway": 0.93,
+      "xgAway": 1.01,
       "likelyScore": "0-0",
-      "over25": 29,
-      "btts": 38,
+      "over25": 31,
+      "btts": 40,
       "formHome": [
-        "E",
+        "P",
         "P",
         "P",
         "G",
@@ -957,54 +943,9 @@
         "G"
       ],
       "posHome": 15,
-      "posAway": 12,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-0.9 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
-      "scorers": [
-        {
-          "player": "Jorge Rastrojo",
-          "team": "Eldense",
-          "goals": 3,
-          "perGame": 0,
-          "chance": 31,
-          "tag": "racha",
-          "recent": 3,
-          "window": 3,
-          "note": "en racha: 3 goles en sus últimos 3 partidos"
-        },
-        {
-          "player": "Aingeru Olabarrieta",
-          "team": "Eldense",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 22,
-          "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
-        },
-        {
-          "player": "Fidel Chaves",
-          "team": "Eldense",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 22,
-          "tag": "racha",
-          "recent": 2,
-          "window": 3,
-          "note": "en racha: 2 goles en sus últimos 3 partidos"
-        },
-        {
-          "player": "Ángel Baena",
-          "team": "Sabadell",
-          "goals": 2,
-          "perGame": 0,
-          "chance": 48,
-          "tag": "racha",
-          "recent": 2,
-          "window": 4,
-          "note": "en racha: 2 goles en sus últimos 4 partidos"
-        }
-      ],
+      "posAway": 13,
+      "reasoning": "Las casas de apuestas ven más probable el 1 (37%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
+      "scorers": [],
       "absences": [
         {
           "team": "Eldense",
@@ -1030,15 +971,15 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Las Palmas - Eldense en directo | Última hora de LALIGA Hypermotion en vivo hoy"
-        },
-        {
-          "src": "Marca",
           "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
         },
         {
           "src": "Marca",
           "title": "Se aplaza el partido entre Las Palmas y Eldense por alerta meteorológica"
+        },
+        {
+          "src": "Marca",
+          "title": "Sabadell 0-0 Real Sociedad B"
         }
       ],
       "source": "modelo+cuotas",
@@ -1050,8 +991,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.31,
-        "value": 1.107142857142857
+        "prob": 0.33,
+        "value": 1.1785714285714286
       },
       "valuePick": true
     },
@@ -1062,13 +1003,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 42,
-        "px": 25,
-        "p2": 33
+        "p1": 54,
+        "px": 26,
+        "p2": 20
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 42,
+      "confidence": 54,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1080,24 +1021,18 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 42,
-        "px": 25,
-        "p2": 33
+        "p1": 54,
+        "px": 26,
+        "p2": 20
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (42%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (54%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 43,
         "px": 28,
         "p2": 29
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "2",
-        "prob": 0.33,
-        "value": 1.1379310344827587
-      },
-      "valuePick": true
+      "publicSrc": "lae"
     },
     {
       "n": 11,
@@ -1261,25 +1196,25 @@
     "priced": true,
     "dist": {
       "h": [
-        0.149,
-        0.283,
+        0.15,
+        0.284,
         0.27,
-        0.298
+        0.296
       ],
       "a": [
-        0.388,
+        0.389,
         0.367,
-        0.174,
-        0.071
+        0.173,
+        0.07
       ]
     },
     "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
   },
-  "signs": "2 2 1 1 1 1 1 1 1 1 1 1 2 2",
+  "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
     "signs": [
       "2",
-      "2",
+      "1",
       "1",
       "1",
       "1",
@@ -1294,13 +1229,13 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002027,
+    "pAll": 0.002363,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
-      "2",
-      "2",
+      "X",
+      "1",
       "1",
       "1",
       "1",
@@ -1308,30 +1243,30 @@
       "1",
       "1",
       "2",
-      "2",
+      "1",
       "1",
       "1",
       "2",
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000684,
+    "pAll": 0.000749,
     "surprises": [
+      1,
       6,
-      9,
-      10
+      9
     ]
   },
   "distribution": {
-    "ones": 10,
+    "ones": 11,
     "xs": 0,
-    "twos": 4
+    "twos": 3
   },
   "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y R.OVIEDO-GIRONA (37%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: R.SOCIEDAD B-SPORTING (36%) y R.OVIEDO-GIRONA (37%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-09T19:40:42.538Z",
+  "generatedAt": "2026-11-10T01:29:32.132Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
