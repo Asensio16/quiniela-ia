@@ -128,20 +128,19 @@
           "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Castellón pierde a tres jugadores en la nueva ventana FIFA"
+        }
+      ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 36,
-        "px": 23,
-        "p2": 41
+        "p1": 33,
+        "px": 25,
+        "p2": 42
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.173913043478261
-      },
-      "valuePick": true
+      "publicSrc": "lae"
     },
     {
       "n": 2,
@@ -151,9 +150,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 36,
-        "px": 28,
-        "p2": 36
+        "p1": 37,
+        "px": 29,
+        "p2": 34
       },
       "pick": "1",
       "modelProbs": {
@@ -162,13 +161,13 @@
         "p2": 36
       },
       "marketProbs": {
-        "p1": 36,
-        "px": 28,
-        "p2": 36
+        "p1": 37,
+        "px": 29,
+        "p2": 34
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 36,
+      "confidence": 37,
       "xgHome": 1.33,
       "xgAway": 1.32,
       "likelyScore": "1-1",
@@ -229,9 +228,9 @@
       "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 34,
-        "px": 26,
-        "p2": 40
+        "p1": 31,
+        "px": 27,
+        "p2": 42
       },
       "publicSrc": "lae"
     },
@@ -344,9 +343,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 63,
-        "px": 19,
-        "p2": 18
+        "p1": 70,
+        "px": 15,
+        "p2": 15
       },
       "publicSrc": "lae"
     },
@@ -459,9 +458,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 59,
-        "px": 20,
-        "p2": 21
+        "p1": 64,
+        "px": 19,
+        "p2": 17
       },
       "publicSrc": "lae"
     },
@@ -473,9 +472,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 37,
+        "p1": 38,
         "px": 29,
-        "p2": 34
+        "p2": 33
       },
       "pick": "1",
       "modelProbs": {
@@ -490,7 +489,7 @@
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 37,
+      "confidence": 38,
       "xgHome": 1.31,
       "xgAway": 1.34,
       "likelyScore": "1-1",
@@ -512,7 +511,7 @@
       ],
       "posHome": 9,
       "posAway": 8,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (37%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (38%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
       "scorers": [
         {
           "player": "Carlos Dominguez",
@@ -562,11 +561,17 @@
       "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 38,
-        "px": 31,
-        "p2": 31
+        "p1": 41,
+        "px": 32,
+        "p2": 27
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "2",
+        "prob": 0.33,
+        "value": 1.222222222222222
+      },
+      "valuePick": true
     },
     {
       "n": 6,
@@ -587,9 +592,9 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 49,
+        "p1": 50,
         "px": 27,
-        "p2": 24
+        "p2": 23
       },
       "advice": "fijo",
       "confidence": 50,
@@ -653,11 +658,11 @@
       "news": [
         {
           "src": "Marca",
-          "title": "El síndrome de la taquilla vacía en el vestuario del Tenerife: \"Genera dolor pero Jesús cohesionará al grupo\""
+          "title": "Lobera no podrá contar con Sevikyan para su estreno en Tenerife"
         },
         {
           "src": "Marca",
-          "title": "El Burgos destinará la taquilla del partido ante el Tenerife a la familia de Jesús de Miguel"
+          "title": "El síndrome de la taquilla vacía en el vestuario del Tenerife: \"Genera dolor pero Jesús cohesionará al grupo\""
         },
         {
           "src": "Marca",
@@ -666,15 +671,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 62,
-        "px": 20,
-        "p2": 18
+        "p1": 66,
+        "px": 19,
+        "p2": 15
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.27,
-        "value": 1.35
+        "value": 1.4210526315789473
       },
       "valuePick": true
     },
@@ -782,14 +787,14 @@
         },
         {
           "src": "Marca",
-          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
+          "title": "Las Palmas deja atrás los problemas tras tres victorias consecutivas"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 24,
-        "p2": 23
+        "p1": 52,
+        "px": 26,
+        "p2": 22
       },
       "publicSrc": "lae"
     },
@@ -891,9 +896,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 60,
-        "px": 21,
-        "p2": 19
+        "p1": 64,
+        "px": 20,
+        "p2": 16
       },
       "publicSrc": "lae"
     },
@@ -985,14 +990,14 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 39,
-        "px": 33,
-        "p2": 28
+        "px": 34,
+        "p2": 27
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.33,
-        "value": 1.1785714285714286
+        "value": 1.222222222222222
       },
       "valuePick": true
     },
@@ -1003,13 +1008,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 54,
-        "px": 26,
-        "p2": 20
+        "p1": 44,
+        "px": 27,
+        "p2": 29
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 54,
+      "confidence": 44,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1021,16 +1026,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 54,
-        "px": 26,
-        "p2": 20
+        "p1": 44,
+        "px": 27,
+        "p2": 29
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (54%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 43,
+        "p1": 41,
         "px": 28,
-        "p2": 29
+        "p2": 31
       },
       "publicSrc": "lae"
     },
@@ -1067,8 +1072,8 @@
       "source": "cuotas",
       "publicPct": {
         "p1": 35,
-        "px": 30,
-        "p2": 35
+        "px": 32,
+        "p2": 33
       },
       "publicSrc": "lae"
     },
@@ -1105,8 +1110,8 @@
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
-        "px": 32,
-        "p2": 30
+        "px": 33,
+        "p2": 29
       },
       "publicSrc": "lae"
     },
@@ -1142,9 +1147,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (53%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 27,
-        "px": 24,
-        "p2": 49
+        "p1": 22,
+        "px": 21,
+        "p2": 57
       },
       "publicSrc": "lae"
     },
@@ -1180,9 +1185,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (53%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 39,
-        "px": 29,
-        "p2": 32
+        "p1": 38,
+        "px": 27,
+        "p2": 35
       },
       "publicSrc": "lae"
     }
@@ -1229,16 +1234,16 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002363,
+    "pAll": 0.002032,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
-      "X",
+      "2",
       "1",
       "1",
       "1",
-      "1",
+      "2",
       "X",
       "1",
       "1",
@@ -1250,9 +1255,9 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000749,
+    "pAll": 0.00085,
     "surprises": [
-      1,
+      5,
       6,
       9
     ]
@@ -1263,10 +1268,10 @@
     "twos": 3
   },
   "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: R.SOCIEDAD B-SPORTING (36%) y R.OVIEDO-GIRONA (37%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y ALMERÍA-ANDORRA FC (1, 56%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y ELDENSE-SABADELL (37%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-10T01:29:32.132Z",
+  "generatedAt": "2026-11-10T11:05:36.246Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
