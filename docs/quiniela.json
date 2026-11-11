@@ -252,9 +252,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 56,
+        "p1": 57,
         "px": 23,
-        "p2": 21
+        "p2": 20
       },
       "pick": "1",
       "modelProbs": {
@@ -263,12 +263,12 @@
         "p2": 22
       },
       "marketProbs": {
-        "p1": 56,
+        "p1": 57,
         "px": 23,
-        "p2": 21
+        "p2": 20
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 57,
       "xgHome": 2.16,
       "xgAway": 1.29,
       "likelyScore": "1-1",
@@ -345,6 +345,10 @@
         {
           "src": "Marca",
           "title": "Una victoria de 'Primera' para un Almería que ya es primero"
+        },
+        {
+          "src": "Marca",
+          "title": "El Andorra recupera los entrenamientos tras la tragedia, todavía sin Owono"
         }
       ],
       "source": "modelo+cuotas",
@@ -363,9 +367,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 55,
+        "p1": 53,
         "px": 24,
-        "p2": 21
+        "p2": 23
       },
       "pick": "1",
       "modelProbs": {
@@ -374,12 +378,12 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 55,
+        "p1": 52,
         "px": 24,
-        "p2": 21
+        "p2": 24
       },
       "advice": "fijo",
-      "confidence": 55,
+      "confidence": 53,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -451,15 +455,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "La prueba del algodón para el Córdoba"
+        },
+        {
+          "src": "Marca",
           "title": "La mano de hierro en sus días clave libera al Córdoba"
         },
         {
           "src": "Marca",
           "title": "Fin a una era histórica: el Ceuta destituye a José Juan Romero tras caer goleado en Córdoba"
-        },
-        {
-          "src": "Marca",
-          "title": "El Córdoba se viene arriba: 3-0 al Ceuta y 10 de los últimos 12 puntos en juego"
         }
       ],
       "source": "modelo+cuotas",
@@ -680,7 +684,7 @@
         },
         {
           "src": "Marca",
-          "title": "Sergio Lobera regresa a Ceuta ante el reto de lograr la permanencia"
+          "title": "Lobera se reunió con la plantilla antes de su primer entrenamiento en Ceuta"
         }
       ],
       "source": "modelo+cuotas",
@@ -705,8 +709,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 51,
-        "px": 26,
+        "p1": 50,
+        "px": 27,
         "p2": 23
       },
       "pick": "1",
@@ -716,12 +720,12 @@
         "p2": 34
       },
       "marketProbs": {
-        "p1": 53,
+        "p1": 52,
         "px": 26,
-        "p2": 21
+        "p2": 22
       },
       "advice": "fijo",
-      "confidence": 51,
+      "confidence": 50,
       "xgHome": 1.24,
       "xgAway": 1.18,
       "likelyScore": "1-1",
@@ -743,7 +747,7 @@
       ],
       "posHome": 5,
       "posAway": 10,
-      "reasoning": "Las casas de apuestas ven más favorito a Granada (51%) que nuestras estadísticas. Partido muy igualado: se esperan 1.2-1.2 goles y hay pocas diferencias entre los dos equipos. Baja: Pau Casadesús (Granada).",
+      "reasoning": "Las casas de apuestas ven más favorito a Granada (50%) que nuestras estadísticas. Partido muy igualado: se esperan 1.2-1.2 goles y hay pocas diferencias entre los dos equipos. Baja: Pau Casadesús (Granada).",
       "scorers": [
         {
           "player": "Jorge Pascual",
@@ -821,8 +825,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 57,
-        "px": 24,
-        "p2": 19
+        "px": 25,
+        "p2": 18
       },
       "pick": "1",
       "modelProbs": {
@@ -905,7 +909,7 @@
         },
         {
           "src": "Marca",
-          "title": "El Cádiz pierde a Javi Castro"
+          "title": "El Cádiz prepara nuevos fichajes para el mercado de enero"
         }
       ],
       "source": "modelo+cuotas",
@@ -935,9 +939,9 @@
         "p2": 35
       },
       "marketProbs": {
-        "p1": 39,
+        "p1": 40,
         "px": 30,
-        "p2": 31
+        "p2": 30
       },
       "alt": "2",
       "advice": "doble",
@@ -998,7 +1002,7 @@
         },
         {
           "src": "Marca",
-          "title": "Sabadell 0-0 Real Sociedad B"
+          "title": "El Sabadell, el rey de las 'gafas'"
         }
       ],
       "source": "modelo+cuotas",
@@ -1022,13 +1026,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 43,
+        "p1": 44,
         "px": 27,
-        "p2": 30
+        "p2": 29
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 43,
+      "confidence": 44,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1040,11 +1044,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 43,
+        "p1": 44,
         "px": 27,
-        "p2": 30
+        "p2": 29
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (43%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 42,
@@ -1220,19 +1224,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.152,
-        0.286,
+        0.148,
+        0.283,
         0.27,
-        0.292
+        0.299
       ],
       "a": [
-        0.384,
+        0.389,
         0.367,
-        0.176,
-        0.072
+        0.173,
+        0.07
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (29%) e INGLATERRA marca 0 (38%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1253,7 +1257,7 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002116,
+    "pAll": 0.002082,
     "surprises": []
   },
   "ticketValue": {
@@ -1274,7 +1278,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000765,
+    "pAll": 0.000753,
     "surprises": [
       5,
       6,
@@ -1287,10 +1291,10 @@
     "twos": 3
   },
   "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y EIBAR-CÁDIZ (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-11T10:50:46.285Z",
+  "generatedAt": "2026-11-11T19:33:48.985Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
