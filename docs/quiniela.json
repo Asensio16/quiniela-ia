@@ -220,9 +220,9 @@
           "reason": "Lesión: Sobrecarga muscular — Duda para la jornada 14"
         },
         {
-          "team": "R. Sociedad B",
-          "player": "Dani Díaz",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
+          "team": "Sporting",
+          "player": "Pablo García",
+          "reason": "Lesión: Lesión en el bíceps femoral — Baja hasta principios de diciembre"
         }
       ],
       "news": [],
@@ -710,8 +710,8 @@
         "p2": 34
       },
       "marketProbs": {
-        "p1": 54,
-        "px": 25,
+        "p1": 53,
+        "px": 26,
         "p2": 21
       },
       "advice": "fijo",
@@ -1092,13 +1092,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 48,
+        "p1": 49,
         "px": 26,
-        "p2": 26
+        "p2": 25
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 48,
+      "confidence": 49,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1110,11 +1110,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 48,
+        "p1": 49,
         "px": 26,
-        "p2": 26
+        "p2": 25
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (48%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (49%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
@@ -1130,13 +1130,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 19,
-        "px": 22,
-        "p2": 59
+        "p1": 18,
+        "px": 25,
+        "p2": 57
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 59,
+      "confidence": 57,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1148,11 +1148,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 19,
-        "px": 22,
-        "p2": 59
+        "p1": 18,
+        "px": 25,
+        "p2": 57
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (59%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (57%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 22,
@@ -1168,13 +1168,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 31,
-        "px": 28,
-        "p2": 41
+        "p1": 22,
+        "px": 25,
+        "p2": 53
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 41,
+      "confidence": 53,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1186,11 +1186,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 31,
-        "px": 28,
-        "p2": 41
+        "p1": 22,
+        "px": 25,
+        "p2": 53
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (41%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (53%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
@@ -1210,9 +1210,9 @@
     "dist": {
       "h": [
         0.15,
-        0.285,
+        0.284,
         0.27,
-        0.295
+        0.296
       ],
       "a": [
         0.388,
@@ -1241,8 +1241,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.6,
-    "pAll": 0.002164,
+    "expectedHits": 6.7,
+    "pAll": 0.002758,
     "surprises": []
   },
   "ticketValue": {
@@ -1262,8 +1262,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.2,
-    "pAll": 0.000762,
+    "expectedHits": 6.3,
+    "pAll": 0.000971,
     "surprises": [
       5,
       6,
@@ -1275,11 +1275,11 @@
     "xs": 0,
     "twos": 3
   },
-  "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y EIBAR-CÁDIZ (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y R.OVIEDO-GIRONA (39%).",
-  "confidence": 47,
+  "expectedHits": 6.7,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y SEVILLA (F)-AT.MADRID (F) (2, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y R.OVIEDO-GIRONA (39%).",
+  "confidence": 48,
   "columns": 16,
-  "generatedAt": "2026-11-10T19:41:09.402Z",
+  "generatedAt": "2026-11-11T01:14:19.855Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
