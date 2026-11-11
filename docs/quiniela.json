@@ -136,11 +136,16 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 33,
-        "px": 25,
-        "p2": 42
+        "p1": 32,
+        "px": 24,
+        "p2": 44
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.27,
+        "value": 1.1250000000000002
+      }
     },
     {
       "n": 2,
@@ -150,9 +155,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 37,
+        "p1": 38,
         "px": 29,
-        "p2": 34
+        "p2": 33
       },
       "pick": "1",
       "modelProbs": {
@@ -161,13 +166,13 @@
         "p2": 36
       },
       "marketProbs": {
-        "p1": 37,
+        "p1": 38,
         "px": 29,
-        "p2": 34
+        "p2": 33
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 37,
+      "confidence": 38,
       "xgHome": 1.33,
       "xgAway": 1.32,
       "likelyScore": "1-1",
@@ -228,11 +233,16 @@
       "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 31,
-        "px": 27,
-        "p2": 42
+        "p1": 30,
+        "px": 26,
+        "p2": 44
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.29,
+        "value": 1.1153846153846152
+      }
     },
     {
       "n": 3,
@@ -335,17 +345,13 @@
         {
           "src": "Marca",
           "title": "Una victoria de 'Primera' para un Almería que ya es primero"
-        },
-        {
-          "src": "Marca",
-          "title": "Pau López, una bendición para la portería del Andorra"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 70,
-        "px": 15,
-        "p2": 15
+        "p1": 74,
+        "px": 13,
+        "p2": 13
       },
       "publicSrc": "lae"
     },
@@ -458,9 +464,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 64,
-        "px": 19,
-        "p2": 17
+        "p1": 67,
+        "px": 18,
+        "p2": 15
       },
       "publicSrc": "lae"
     },
@@ -679,15 +685,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 66,
-        "px": 19,
-        "p2": 15
+        "p1": 70,
+        "px": 17,
+        "p2": 13
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.27,
-        "value": 1.4210526315789473
+        "value": 1.588235294117647
       },
       "valuePick": true
     },
@@ -791,18 +797,18 @@
         },
         {
           "src": "Marca",
-          "title": "Las Palmas deja atrás los problemas con tres victorias consecutivas"
+          "title": "Jesé y Jefté, el buen rollo también marca goles en Las Palmas"
         },
         {
           "src": "Marca",
-          "title": "Las Palmas despierta a tiempo del letargo"
+          "title": "Las Palmas deja atrás los problemas con tres victorias consecutivas"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 52,
+        "p1": 54,
         "px": 26,
-        "p2": 22
+        "p2": 20
       },
       "publicSrc": "lae"
     },
@@ -904,9 +910,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 64,
-        "px": 20,
-        "p2": 16
+        "p1": 67,
+        "px": 18,
+        "p2": 15
       },
       "publicSrc": "lae"
     },
@@ -918,8 +924,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 39,
-        "px": 30,
+        "p1": 38,
+        "px": 31,
         "p2": 31
       },
       "pick": "1",
@@ -929,13 +935,13 @@
         "p2": 35
       },
       "marketProbs": {
-        "p1": 40,
-        "px": 29,
+        "p1": 39,
+        "px": 30,
         "p2": 31
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 39,
+      "confidence": 38,
       "xgHome": 0.95,
       "xgAway": 1.01,
       "likelyScore": "0-0",
@@ -957,7 +963,7 @@
       ],
       "posHome": 15,
       "posAway": 13,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (38%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
       "scorers": [],
       "absences": [
         {
@@ -1016,13 +1022,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 44,
+        "p1": 43,
         "px": 27,
-        "p2": 29
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 43,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1034,15 +1040,15 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 44,
+        "p1": 43,
         "px": 27,
-        "p2": 29
+        "p2": 30
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 41,
-        "px": 28,
+        "p1": 42,
+        "px": 27,
         "p2": 31
       },
       "publicSrc": "lae"
@@ -1092,13 +1098,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 49,
+        "p1": 48,
         "px": 26,
-        "p2": 25
+        "p2": 26
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 49,
+      "confidence": 48,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1110,11 +1116,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 49,
+        "p1": 48,
         "px": 26,
-        "p2": 25
+        "p2": 26
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (49%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (48%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
@@ -1130,13 +1136,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 18,
-        "px": 25,
-        "p2": 57
+        "p1": 19,
+        "px": 22,
+        "p2": 59
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 57,
+      "confidence": 59,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1148,16 +1154,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 18,
-        "px": 25,
-        "p2": 57
+        "p1": 19,
+        "px": 22,
+        "p2": 59
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (57%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (59%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 22,
-        "px": 21,
-        "p2": 57
+        "p1": 19,
+        "px": 19,
+        "p2": 62
       },
       "publicSrc": "lae"
     },
@@ -1168,13 +1174,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 22,
-        "px": 25,
-        "p2": 53
+        "p1": 31,
+        "px": 28,
+        "p2": 41
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 53,
+      "confidence": 41,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1186,18 +1192,23 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 22,
-        "px": 25,
-        "p2": 53
+        "p1": 31,
+        "px": 28,
+        "p2": 41
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (53%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (41%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 38,
-        "px": 27,
-        "p2": 35
+        "p1": 39,
+        "px": 25,
+        "p2": 36
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.28,
+        "value": 1.12
+      }
     }
   ],
   "pleno15": {
@@ -1209,19 +1220,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.15,
-        0.284,
+        0.152,
+        0.286,
         0.27,
-        0.296
+        0.292
       ],
       "a": [
-        0.388,
+        0.384,
         0.367,
-        0.174,
-        0.071
+        0.176,
+        0.072
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (29%) e INGLATERRA marca 0 (38%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1241,8 +1252,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.7,
-    "pAll": 0.002758,
+    "expectedHits": 6.6,
+    "pAll": 0.002116,
     "surprises": []
   },
   "ticketValue": {
@@ -1262,8 +1273,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.3,
-    "pAll": 0.000971,
+    "expectedHits": 6.2,
+    "pAll": 0.000765,
     "surprises": [
       5,
       6,
@@ -1275,11 +1286,11 @@
     "xs": 0,
     "twos": 3
   },
-  "expectedHits": 6.7,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: EIBAR-CÁDIZ (1, 57%) y SEVILLA (F)-AT.MADRID (F) (2, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (37%) y R.OVIEDO-GIRONA (39%).",
-  "confidence": 48,
+  "expectedHits": 6.6,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y EIBAR-CÁDIZ (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
+  "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-11T01:14:19.855Z",
+  "generatedAt": "2026-11-11T10:50:46.285Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
