@@ -115,20 +115,24 @@
         {
           "team": "Castellón",
           "player": "Fran Castillo",
-          "reason": "Lesión: Lesión en el bíceps femoral — Baja hasta noviembre"
-        },
-        {
-          "team": "Castellón",
-          "player": "Ousmane Camara",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
+          "reason": "Lesión: Lesión en el bíceps femoral — Baja para la jornada 14"
         },
         {
           "team": "Castellón",
           "player": "Jérémy Mellot",
           "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
+        },
+        {
+          "team": "Castellón",
+          "player": "Rodrigo Rêgo",
+          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
         }
       ],
       "news": [
+        {
+          "src": "Marca",
+          "title": "Dani Martín da el Trofeo Ciudad de Valladolid al Pucela en la tanda de penaltis"
+        },
         {
           "src": "Marca",
           "title": "El Castellón pierde a tres jugadores en la nueva ventana FIFA"
@@ -227,7 +231,7 @@
         {
           "team": "Sporting",
           "player": "Pablo García",
-          "reason": "Lesión: Lesión en el bíceps femoral — Baja hasta principios de diciembre"
+          "reason": "Lesión: Lesión en el bíceps femoral — Baja hasta enero"
         }
       ],
       "news": [],
@@ -329,7 +333,7 @@
         {
           "team": "Almería",
           "player": "Daijiro Chirino",
-          "reason": "Lesión: Molestias en el tobillo — Duda para la jornada 14"
+          "reason": "Lesión: Contusión en el tobillo — Duda para la jornada 14"
         },
         {
           "team": "Andorra",
@@ -367,9 +371,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 53,
+        "p1": 52,
         "px": 24,
-        "p2": 23
+        "p2": 24
       },
       "pick": "1",
       "modelProbs": {
@@ -378,12 +382,12 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 52,
+        "p1": 51,
         "px": 24,
-        "p2": 24
+        "p2": 25
       },
       "advice": "fijo",
-      "confidence": 53,
+      "confidence": 52,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -434,7 +438,7 @@
         {
           "team": "Córdoba",
           "player": "Kevin Villodres",
-          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja para la jornada 14"
+          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja hasta noviembre"
         },
         {
           "team": "Córdoba",
@@ -443,13 +447,13 @@
         },
         {
           "team": "Córdoba",
-          "player": "Jacobo Martí",
-          "reason": "Lesión: Lesión del ligamento cruzado anterior, menisco y ligamento colateral interno de la rodilla — Baja para la jornada 14"
+          "player": "Adilson",
+          "reason": "Lesión: Rotura parcial de ligamento cruzado anterior — Baja hasta enero"
         },
         {
           "team": "Córdoba",
-          "player": "Adilson",
-          "reason": "Lesión: Rotura parcial de ligamento cruzado anterior — Duda para la jornada 14"
+          "player": "Yussi Diarra",
+          "reason": "Lesión: Lesión en la musculatura isquiosural derecha con afectación tendinosa — Baja hasta diciembre"
         }
       ],
       "news": [
@@ -659,11 +663,6 @@
         },
         {
           "team": "Ceuta",
-          "player": "Kenneth Mamah",
-          "reason": "Lesión: Lesión inguinal — Duda para la jornada 14"
-        },
-        {
-          "team": "Ceuta",
           "player": "Kialy Abdoul Kone",
           "reason": "Lesión: Molestias en la rodilla — Duda para la jornada 14"
         },
@@ -671,6 +670,11 @@
           "team": "Ceuta",
           "player": "Daniel Mas Soria",
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
+        },
+        {
+          "team": "Ceuta",
+          "player": "Kenneth Mamah",
+          "reason": "Lesión: Lesión inguinal — Disponible para la jornada 14"
         }
       ],
       "news": [
@@ -973,7 +977,7 @@
         {
           "team": "Eldense",
           "player": "Guillermo Macho",
-          "reason": "Lesión: Lesión indeterminada — Baja para la jornada 13"
+          "reason": "Lesión: Lesión indeterminada — Baja para la jornada 14"
         },
         {
           "team": "Sabadell",
@@ -1257,7 +1261,7 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002082,
+    "pAll": 0.002043,
     "surprises": []
   },
   "ticketValue": {
@@ -1278,7 +1282,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000753,
+    "pAll": 0.000738,
     "surprises": [
       5,
       6,
@@ -1294,7 +1298,7 @@
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-11T19:33:48.985Z",
+  "generatedAt": "2026-11-12T02:15:00.695Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
