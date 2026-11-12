@@ -9,9 +9,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 32,
+        "p1": 30,
         "px": 27,
-        "p2": 41
+        "p2": 43
       },
       "pick": "2",
       "modelProbs": {
@@ -20,13 +20,12 @@
         "p2": 47
       },
       "marketProbs": {
-        "p1": 33,
+        "p1": 31,
         "px": 27,
-        "p2": 40
+        "p2": 42
       },
-      "alt": "1",
-      "advice": "doble",
-      "confidence": 41,
+      "advice": "fijo",
+      "confidence": 43,
       "xgHome": 1.12,
       "xgAway": 1.56,
       "likelyScore": "1-1",
@@ -246,8 +245,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 57,
-        "px": 23,
+        "p1": 58,
+        "px": 22,
         "p2": 20
       },
       "pick": "1",
@@ -257,12 +256,12 @@
         "p2": 22
       },
       "marketProbs": {
-        "p1": 57,
+        "p1": 58,
         "px": 23,
-        "p2": 20
+        "p2": 19
       },
       "advice": "fijo",
-      "confidence": 57,
+      "confidence": 58,
       "xgHome": 2.16,
       "xgAway": 1.29,
       "likelyScore": "1-1",
@@ -334,11 +333,11 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Miguel de la Fuente dispara al Almería y apunta a su mejor temporada"
+          "title": "El Almería de García Pimienta firma el mejor arranque de su historia en Segunda"
         },
         {
           "src": "Marca",
-          "title": "Una victoria de 'Primera' para un Almería que ya es primero"
+          "title": "Miguel de la Fuente dispara al Almería y apunta a su mejor temporada"
         },
         {
           "src": "Marca",
@@ -361,9 +360,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 52,
+        "p1": 51,
         "px": 25,
-        "p2": 23
+        "p2": 24
       },
       "pick": "1",
       "modelProbs": {
@@ -372,12 +371,12 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 52,
-        "px": 24,
-        "p2": 24
+        "p1": 50,
+        "px": 25,
+        "p2": 25
       },
       "advice": "fijo",
-      "confidence": 52,
+      "confidence": 51,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -454,10 +453,6 @@
         {
           "src": "Marca",
           "title": "La mano de hierro en sus días clave libera al Córdoba"
-        },
-        {
-          "src": "Marca",
-          "title": "Fin a una era histórica: el Ceuta destituye a José Juan Romero tras caer goleado en Córdoba"
         }
       ],
       "source": "modelo+cuotas",
@@ -670,15 +665,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Lobera, listo para su reencuentro en Tenerife: \"Me esperarán con ganas, pero con las mismas voy yo\""
+        },
+        {
+          "src": "Marca",
           "title": "El Tenerife vuelve al trabajo con Jesús de Miguel siempre presente"
         },
         {
           "src": "Marca",
           "title": "Lobera no podrá contar con Sevikyan para su estreno en Tenerife"
-        },
-        {
-          "src": "Marca",
-          "title": "Lobera se reunió con la plantilla antes de su primer entrenamiento en Ceuta"
         }
       ],
       "source": "modelo+cuotas",
@@ -714,9 +709,9 @@
         "p2": 34
       },
       "marketProbs": {
-        "p1": 52,
+        "p1": 53,
         "px": 26,
-        "p2": 22
+        "p2": 21
       },
       "advice": "fijo",
       "confidence": 50,
@@ -791,15 +786,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "La doble realidad del Granada"
+        },
+        {
+          "src": "Marca",
           "title": "El Granada se la juega en los tribunales"
         },
         {
           "src": "Marca",
-          "title": "Jesé y Jefté, el buen rollo también marca goles en Las Palmas"
-        },
-        {
-          "src": "Marca",
-          "title": "Las Palmas deja atrás los problemas con tres victorias consecutivas"
+          "title": "La sonrisa canaria de Iván Jaime: \"En Las Palmas he vuelto a disfrutar del fútbol\""
         }
       ],
       "source": "modelo+cuotas",
@@ -818,8 +813,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 57,
-        "px": 25,
+        "p1": 58,
+        "px": 24,
         "p2": 18
       },
       "pick": "1",
@@ -829,12 +824,12 @@
         "p2": 16
       },
       "marketProbs": {
-        "p1": 57,
+        "p1": 58,
         "px": 24,
-        "p2": 19
+        "p2": 18
       },
       "advice": "fijo",
-      "confidence": 57,
+      "confidence": 58,
       "xgHome": 1.58,
       "xgAway": 0.73,
       "likelyScore": "1-0",
@@ -988,10 +983,6 @@
       "news": [
         {
           "src": "Marca",
-          "title": "El Las Palmas-Eldense ya tiene nuevo horario: se jugará este lunes"
-        },
-        {
-          "src": "Marca",
           "title": "El Sabadell, el rey de las 'gafas'"
         },
         {
@@ -1020,13 +1011,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 43,
+        "p1": 44,
         "px": 27,
-        "p2": 30
+        "p2": 29
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 43,
+      "confidence": 44,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1038,11 +1029,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 43,
+        "p1": 44,
         "px": 27,
-        "p2": 30
+        "p2": 29
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (43%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 41,
@@ -1063,7 +1054,8 @@
         "p2": 30
       },
       "pick": "1",
-      "advice": "fijo",
+      "alt": "2",
+      "advice": "doble",
       "confidence": 41,
       "xgHome": 0,
       "xgAway": 0,
@@ -1213,19 +1205,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.151,
-        0.286,
+        0.148,
+        0.283,
         0.27,
-        0.293
+        0.299
       ],
       "a": [
-        0.387,
+        0.39,
         0.367,
-        0.174,
-        0.071
+        0.173,
+        0.07
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (29%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1245,8 +1237,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.5,
-    "pAll": 0.001996,
+    "expectedHits": 6.6,
+    "pAll": 0.002176,
     "surprises": []
   },
   "ticketValue": {
@@ -1267,7 +1259,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000722,
+    "pAll": 0.000786,
     "surprises": [
       5,
       6,
@@ -1279,11 +1271,11 @@
     "xs": 0,
     "twos": 3
   },
-  "expectedHits": 6.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
+  "expectedHits": 6.6,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-12T10:59:23.363Z",
+  "generatedAt": "2026-11-12T19:52:17.853Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
