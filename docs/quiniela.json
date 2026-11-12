@@ -140,16 +140,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 32,
-        "px": 24,
-        "p2": 44
+        "p1": 30,
+        "px": 25,
+        "p2": 45
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.1250000000000002
-      }
+      "publicSrc": "lae"
     },
     {
       "n": 2,
@@ -237,16 +232,11 @@
       "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 30,
-        "px": 26,
-        "p2": 44
+        "p1": 28,
+        "px": 27,
+        "p2": 45
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.29,
-        "value": 1.1153846153846152
-      }
+      "publicSrc": "lae"
     },
     {
       "n": 3,
@@ -357,9 +347,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 74,
-        "px": 13,
-        "p2": 13
+        "p1": 78,
+        "px": 11,
+        "p2": 11
       },
       "publicSrc": "lae"
     },
@@ -372,8 +362,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 52,
-        "px": 24,
-        "p2": 24
+        "px": 25,
+        "p2": 23
       },
       "pick": "1",
       "modelProbs": {
@@ -382,9 +372,9 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 51,
+        "p1": 52,
         "px": 24,
-        "p2": 25
+        "p2": 24
       },
       "advice": "fijo",
       "confidence": 52,
@@ -472,9 +462,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 67,
-        "px": 18,
-        "p2": 15
+        "p1": 70,
+        "px": 17,
+        "p2": 13
       },
       "publicSrc": "lae"
     },
@@ -583,15 +573,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 41,
+        "p1": 42,
         "px": 32,
-        "p2": 27
+        "p2": 26
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.32,
-        "value": 1.1851851851851851
+        "value": 1.2307692307692308
       },
       "valuePick": true
     },
@@ -614,9 +604,9 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 49,
+        "p1": 50,
         "px": 27,
-        "p2": 24
+        "p2": 23
       },
       "advice": "fijo",
       "confidence": 50,
@@ -693,15 +683,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 70,
-        "px": 17,
-        "p2": 13
+        "p1": 73,
+        "px": 16,
+        "p2": 11
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.27,
-        "value": 1.588235294117647
+        "value": 1.6875
       },
       "valuePick": true
     },
@@ -918,9 +908,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 67,
-        "px": 18,
-        "p2": 15
+        "p1": 70,
+        "px": 17,
+        "p2": 13
       },
       "publicSrc": "lae"
     },
@@ -1002,24 +992,24 @@
         },
         {
           "src": "Marca",
-          "title": "Se aplaza el partido entre Las Palmas y Eldense por alerta meteorológica"
+          "title": "El Sabadell, el rey de las 'gafas'"
         },
         {
           "src": "Marca",
-          "title": "El Sabadell, el rey de las 'gafas'"
+          "title": "Sabadell 0-0 Real Sociedad B"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 39,
-        "px": 34,
-        "p2": 27
+        "px": 35,
+        "p2": 26
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.31,
-        "value": 1.1481481481481481
+        "value": 1.1923076923076923
       },
       "valuePick": true
     },
@@ -1030,13 +1020,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 44,
+        "p1": 43,
         "px": 27,
-        "p2": 29
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 44,
+      "confidence": 43,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1048,15 +1038,15 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 44,
+        "p1": 43,
         "px": 27,
-        "p2": 29
+        "p2": 30
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 42,
-        "px": 27,
+        "p1": 41,
+        "px": 28,
         "p2": 31
       },
       "publicSrc": "lae"
@@ -1094,8 +1084,8 @@
       "source": "cuotas",
       "publicPct": {
         "p1": 35,
-        "px": 32,
-        "p2": 33
+        "px": 33,
+        "p2": 32
       },
       "publicSrc": "lae"
     },
@@ -1131,8 +1121,8 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (48%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 38,
-        "px": 33,
+        "p1": 37,
+        "px": 34,
         "p2": 29
       },
       "publicSrc": "lae"
@@ -1169,9 +1159,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (59%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 19,
-        "px": 19,
-        "p2": 62
+        "p1": 16,
+        "px": 18,
+        "p2": 66
       },
       "publicSrc": "lae"
     },
@@ -1207,16 +1197,11 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (41%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 39,
-        "px": 25,
+        "p1": 38,
+        "px": 26,
         "p2": 36
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.28,
-        "value": 1.12
-      }
+      "publicSrc": "lae"
     }
   ],
   "pleno15": {
@@ -1228,19 +1213,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.148,
-        0.283,
+        0.151,
+        0.286,
         0.27,
-        0.299
+        0.293
       ],
       "a": [
-        0.389,
+        0.387,
         0.367,
-        0.173,
-        0.07
+        0.174,
+        0.071
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (29%) e INGLATERRA marca 0 (39%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1260,8 +1245,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.6,
-    "pAll": 0.002043,
+    "expectedHits": 6.5,
+    "pAll": 0.001996,
     "surprises": []
   },
   "ticketValue": {
@@ -1282,7 +1267,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000738,
+    "pAll": 0.000722,
     "surprises": [
       5,
       6,
@@ -1294,11 +1279,11 @@
     "xs": 0,
     "twos": 3
   },
-  "expectedHits": 6.6,
+  "expectedHits": 6.5,
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 57%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-12T02:15:00.695Z",
+  "generatedAt": "2026-11-12T10:59:23.363Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
