@@ -9,9 +9,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 30,
+        "p1": 31,
         "px": 27,
-        "p2": 43
+        "p2": 42
       },
       "pick": "2",
       "modelProbs": {
@@ -25,7 +25,7 @@
         "p2": 42
       },
       "advice": "fijo",
-      "confidence": 43,
+      "confidence": 42,
       "xgHome": 1.12,
       "xgAway": 1.56,
       "likelyScore": "1-1",
@@ -118,13 +118,13 @@
         },
         {
           "team": "Castellón",
-          "player": "Jérémy Mellot",
-          "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
+          "player": "Rodrigo Rêgo",
+          "reason": "Lesión: Lesión indeterminada — Baja para la jornada 14"
         },
         {
           "team": "Castellón",
-          "player": "Rodrigo Rêgo",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
+          "player": "Jérémy Mellot",
+          "reason": "Lesión: Molestias sin determinar — Duda para la jornada 14"
         }
       ],
       "news": [
@@ -320,14 +320,14 @@
           "reason": "Lesión: Artritis inflamatoria de alto grado en el tobillo derecho — Baja para la jornada 14"
         },
         {
-          "team": "Almería",
-          "player": "Daijiro Chirino",
-          "reason": "Lesión: Contusión en el tobillo — Duda para la jornada 14"
-        },
-        {
           "team": "Andorra",
           "player": "Gael Alonso",
           "reason": "Lesión: Fractura de maleolo tibial — Baja hasta diciembre"
+        },
+        {
+          "team": "Andorra",
+          "player": "Théo Le Normand",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 14"
         }
       ],
       "news": [
@@ -360,9 +360,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 51,
+        "p1": 50,
         "px": 25,
-        "p2": 24
+        "p2": 25
       },
       "pick": "1",
       "modelProbs": {
@@ -372,11 +372,11 @@
       },
       "marketProbs": {
         "p1": 50,
-        "px": 25,
-        "p2": 25
+        "px": 24,
+        "p2": 26
       },
       "advice": "fijo",
-      "confidence": 51,
+      "confidence": 50,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -427,7 +427,7 @@
         {
           "team": "Córdoba",
           "player": "Kevin Villodres",
-          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja hasta noviembre"
+          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja para la jornada 14"
         },
         {
           "team": "Córdoba",
@@ -472,8 +472,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 39,
-        "px": 29,
-        "p2": 32
+        "px": 28,
+        "p2": 33
       },
       "pick": "1",
       "modelProbs": {
@@ -483,8 +483,8 @@
       },
       "marketProbs": {
         "p1": 40,
-        "px": 29,
-        "p2": 31
+        "px": 28,
+        "p2": 32
       },
       "alt": "2",
       "advice": "doble",
@@ -518,7 +518,7 @@
           "goals": 4,
           "perGame": 0,
           "chance": 0,
-          "out": "Lesión — Duda para la jornada 14",
+          "out": "Lesión — Disponible para la jornada 14",
           "recent": 4,
           "window": 6
         },
@@ -551,9 +551,9 @@
           "reason": "Lesión: Lesión en el cuádriceps — Baja para la jornada 14"
         },
         {
-          "team": "Real Oviedo",
-          "player": "Christopher Ramos",
-          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 14"
+          "team": "Girona",
+          "player": "Mauro Furtado",
+          "reason": "Lesión: Contusión en la rodilla — Duda para la jornada 14"
         }
       ],
       "news": [
@@ -575,8 +575,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.32,
-        "value": 1.2307692307692308
+        "prob": 0.33,
+        "value": 1.2692307692307692
       },
       "valuePick": true
     },
@@ -765,22 +765,22 @@
         {
           "team": "Granada",
           "player": "Pau Casadesús",
-          "reason": "Lesión: Lesión muscular — Duda para la jornada 14"
+          "reason": "Lesión: Lesión muscular — Baja para la jornada 14"
         },
         {
           "team": "Granada",
           "player": "José Arnáiz",
-          "reason": "Lesión: Lesión muscular — Duda para la jornada 14"
+          "reason": "Lesión: Lesión muscular — Baja para la jornada 14"
         },
         {
           "team": "Granada",
           "player": "Baïla Diallo",
-          "reason": "Lesión: Lesión en el cuádriceps — Duda para la jornada 14"
+          "reason": "Lesión: Lesión en el cuádriceps — Baja para la jornada 14"
         },
         {
           "team": "Las Palmas",
           "player": "Enrique Clemente",
-          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta noviembre"
+          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta finales de noviembre"
         }
       ],
       "news": [
@@ -878,13 +878,13 @@
         },
         {
           "team": "Cádiz",
-          "player": "Jandro Orellana",
-          "reason": "Lesión: Lesión en el aductor — Duda para la jornada 14"
+          "player": "José Andújar",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 14"
         },
         {
           "team": "Cádiz",
-          "player": "Vladyslav Kopotun",
-          "reason": "Lesión: Lesión en el músculo pectíneo — Disponible para la jornada 14"
+          "player": "Jandro Orellana",
+          "reason": "Lesión: Lesión en el aductor — Duda para la jornada 14"
         }
       ],
       "news": [
@@ -917,8 +917,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 38,
-        "px": 31,
+        "p1": 39,
+        "px": 30,
         "p2": 31
       },
       "pick": "1",
@@ -934,7 +934,7 @@
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 38,
+      "confidence": 39,
       "xgHome": 0.95,
       "xgAway": 1.01,
       "likelyScore": "0-0",
@@ -956,7 +956,7 @@
       ],
       "posHome": 15,
       "posAway": 13,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (38%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
       "scorers": [],
       "absences": [
         {
@@ -1012,8 +1012,8 @@
       "priced": true,
       "probs": {
         "p1": 44,
-        "px": 27,
-        "p2": 29
+        "px": 26,
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
@@ -1030,8 +1030,8 @@
       "news": [],
       "marketProbs": {
         "p1": 44,
-        "px": 27,
-        "p2": 29
+        "px": 26,
+        "p2": 30
       },
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
       "source": "cuotas",
@@ -1199,25 +1199,25 @@
   "pleno15": {
     "home": "ESPAÑA",
     "away": "INGLATERRA",
-    "homeGoals": "M",
+    "homeGoals": "1",
     "awayGoals": "0",
     "covered": false,
     "priced": true,
     "dist": {
       "h": [
-        0.148,
-        0.283,
+        0.154,
+        0.288,
         0.27,
-        0.299
+        0.288
       ],
       "a": [
-        0.39,
+        0.387,
         0.367,
-        0.173,
-        0.07
+        0.174,
+        0.071
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (29%) e INGLATERRA marca 0 (39%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1238,7 +1238,7 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002176,
+    "pAll": 0.002138,
     "surprises": []
   },
   "ticketValue": {
@@ -1259,7 +1259,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000786,
+    "pAll": 0.000777,
     "surprises": [
       5,
       6,
@@ -1272,10 +1272,10 @@
     "twos": 3
   },
   "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y ELDENSE-SABADELL (38%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y R.OVIEDO-GIRONA (39%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-12T19:52:17.853Z",
+  "generatedAt": "2026-11-13T01:48:48.419Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
