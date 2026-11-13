@@ -20,8 +20,8 @@
         "p2": 47
       },
       "marketProbs": {
-        "p1": 31,
-        "px": 27,
+        "p1": 32,
+        "px": 26,
         "p2": 42
       },
       "advice": "fijo",
@@ -346,9 +346,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 78,
+        "p1": 80,
         "px": 11,
-        "p2": 11
+        "p2": 9
       },
       "publicSrc": "lae"
     },
@@ -372,8 +372,8 @@
       },
       "marketProbs": {
         "p1": 50,
-        "px": 24,
-        "p2": 26
+        "px": 25,
+        "p2": 25
       },
       "advice": "fijo",
       "confidence": 50,
@@ -449,17 +449,13 @@
         {
           "src": "Marca",
           "title": "La prueba del algodón para el Córdoba"
-        },
-        {
-          "src": "Marca",
-          "title": "La mano de hierro en sus días clave libera al Córdoba"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 70,
+        "p1": 71,
         "px": 17,
-        "p2": 13
+        "p2": 12
       },
       "publicSrc": "lae"
     },
@@ -568,15 +564,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 42,
+        "p1": 43,
         "px": 32,
-        "p2": 26
+        "p2": 25
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.33,
-        "value": 1.2692307692307692
+        "value": 1.32
       },
       "valuePick": true
     },
@@ -678,15 +674,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 73,
-        "px": 16,
-        "p2": 11
+        "p1": 75,
+        "px": 15,
+        "p2": 10
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.27,
-        "value": 1.6875
+        "value": 1.8000000000000003
       },
       "valuePick": true
     },
@@ -800,8 +796,8 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 54,
-        "px": 26,
-        "p2": 20
+        "px": 27,
+        "p2": 19
       },
       "publicSrc": "lae"
     },
@@ -894,18 +890,18 @@
         },
         {
           "src": "Marca",
-          "title": "Amaia Gorostiza deja el Eibar y Ulazia toma los mandos"
+          "title": "El Cádiz prepara nuevos fichajes para el mercado de enero"
         },
         {
           "src": "Marca",
-          "title": "El Cádiz prepara nuevos fichajes para el mercado de enero"
+          "title": "El Cádiz pierde a Javi Castro"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 70,
-        "px": 17,
-        "p2": 13
+        "p1": 72,
+        "px": 16,
+        "p2": 12
       },
       "publicSrc": "lae"
     },
@@ -993,14 +989,14 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 39,
-        "px": 35,
-        "p2": 26
+        "px": 36,
+        "p2": 25
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.31,
-        "value": 1.1923076923076923
+        "value": 1.24
       },
       "valuePick": true
     },
@@ -1049,14 +1045,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 41,
-        "px": 29,
-        "p2": 30
+        "p1": 39,
+        "px": 30,
+        "p2": 31
       },
       "pick": "1",
       "alt": "2",
       "advice": "doble",
-      "confidence": 41,
+      "confidence": 39,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1068,16 +1064,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 41,
-        "px": 29,
-        "p2": 30
+        "p1": 39,
+        "px": 30,
+        "p2": 31
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito ALAVÉS (F) (41%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito ALAVÉS (F) (39%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 35,
-        "px": 33,
-        "p2": 32
+        "px": 34,
+        "p2": 31
       },
       "publicSrc": "lae"
     },
@@ -1113,9 +1109,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (48%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 37,
+        "p1": 38,
         "px": 34,
-        "p2": 29
+        "p2": 28
       },
       "publicSrc": "lae"
     },
@@ -1151,9 +1147,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (59%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 16,
-        "px": 18,
-        "p2": 66
+        "p1": 14,
+        "px": 17,
+        "p2": 69
       },
       "publicSrc": "lae"
     },
@@ -1205,19 +1201,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.154,
-        0.288,
-        0.27,
-        0.288
+        0.171,
+        0.302,
+        0.267,
+        0.26
       ],
       "a": [
-        0.387,
-        0.367,
-        0.174,
-        0.071
+        0.374,
+        0.368,
+        0.181,
+        0.077
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (29%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (30%) e INGLATERRA marca 0 (37%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1238,7 +1234,7 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002138,
+    "pAll": 0.002034,
     "surprises": []
   },
   "ticketValue": {
@@ -1259,7 +1255,7 @@
       "2"
     ],
     "expectedHits": 6.2,
-    "pAll": 0.000777,
+    "pAll": 0.000739,
     "surprises": [
       5,
       6,
@@ -1275,7 +1271,7 @@
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 59%) y ALMERÍA-ANDORRA FC (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y R.OVIEDO-GIRONA (39%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-13T01:48:48.419Z",
+  "generatedAt": "2026-11-13T10:53:57.792Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
