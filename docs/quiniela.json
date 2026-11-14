@@ -21,13 +21,13 @@
       },
       "marketProbs": {
         "p1": 32,
-        "px": 27,
-        "p2": 41
+        "px": 26,
+        "p2": 42
       },
       "advice": "fijo",
       "confidence": 42,
       "xgHome": 1.12,
-      "xgAway": 1.56,
+      "xgAway": 1.55,
       "likelyScore": "1-1",
       "over25": 50,
       "btts": 54,
@@ -119,7 +119,7 @@
         {
           "team": "Castellón",
           "player": "Rodrigo Rêgo",
-          "reason": "Lesión: Lesión indeterminada — Baja para la jornada 14"
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja para la jornada 14"
         },
         {
           "team": "Castellón",
@@ -245,9 +245,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 58,
-        "px": 22,
-        "p2": 20
+        "p1": 56,
+        "px": 23,
+        "p2": 21
       },
       "pick": "1",
       "modelProbs": {
@@ -256,15 +256,15 @@
         "p2": 22
       },
       "marketProbs": {
-        "p1": 58,
-        "px": 22,
-        "p2": 20
+        "p1": 56,
+        "px": 23,
+        "p2": 21
       },
       "advice": "fijo",
-      "confidence": 58,
+      "confidence": 56,
       "xgHome": 2.16,
       "xgAway": 1.29,
-      "likelyScore": "2-1",
+      "likelyScore": "1-1",
       "over25": 67,
       "btts": 65,
       "formHome": [
@@ -326,8 +326,8 @@
         },
         {
           "team": "Andorra",
-          "player": "Théo Le Normand",
-          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 14"
+          "player": "Martí Vilà",
+          "reason": "Lesión: Molestias sin determinar — Baja para la jornada 14"
         }
       ],
       "news": [
@@ -416,7 +416,7 @@
           "team": "Córdoba",
           "goals": 4,
           "perGame": 0,
-          "chance": 28,
+          "chance": 27,
           "tag": "racha",
           "recent": 3,
           "window": 6,
@@ -427,7 +427,7 @@
         {
           "team": "Córdoba",
           "player": "Kevin Villodres",
-          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja para la jornada 14"
+          "reason": "Lesión: Lesión muscular de grado II en la musculatura isquiosural izquierda — Baja hasta noviembre"
         },
         {
           "team": "Córdoba",
@@ -467,8 +467,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 38,
-        "px": 29,
+        "p1": 39,
+        "px": 28,
         "p2": 33
       },
       "pick": "1",
@@ -478,13 +478,13 @@
         "p2": 37
       },
       "marketProbs": {
-        "p1": 39,
-        "px": 29,
+        "p1": 40,
+        "px": 28,
         "p2": 32
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 38,
+      "confidence": 39,
       "xgHome": 1.31,
       "xgAway": 1.34,
       "likelyScore": "1-1",
@@ -506,7 +506,7 @@
       ],
       "posHome": 9,
       "posAway": 8,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (38%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.3-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Javier Boñar (Girona).",
       "scorers": [
         {
           "player": "Carlos Dominguez",
@@ -580,9 +580,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 51,
+        "p1": 52,
         "px": 26,
-        "p2": 23
+        "p2": 22
       },
       "pick": "1",
       "modelProbs": {
@@ -592,16 +592,16 @@
       },
       "marketProbs": {
         "p1": 51,
-        "px": 26,
-        "p2": 23
+        "px": 27,
+        "p2": 22
       },
       "advice": "fijo",
-      "confidence": 51,
+      "confidence": 52,
       "xgHome": 1.79,
-      "xgAway": 1.04,
+      "xgAway": 1.03,
       "likelyScore": "1-1",
       "over25": 54,
-      "btts": 55,
+      "btts": 54,
       "formHome": [
         "E",
         "E",
@@ -657,15 +657,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Máxima sanción para Owono: 12 partidos tras su expulsión ante el Tenerife"
+        },
+        {
+          "src": "Marca",
           "title": "Lobera, listo para su reencuentro en Tenerife: \"Me esperarán con ganas, pero con las mismas voy yo\""
         },
         {
           "src": "Marca",
           "title": "El Tenerife vuelve al trabajo con Jesús de Miguel siempre presente"
-        },
-        {
-          "src": "Marca",
-          "title": "Lobera no podrá contar con Sevikyan para su estreno en Tenerife"
         }
       ],
       "source": "modelo+cuotas",
@@ -710,7 +710,7 @@
       "xgHome": 1.24,
       "xgAway": 1.18,
       "likelyScore": "1-1",
-      "over25": 44,
+      "over25": 43,
       "btts": 50,
       "formHome": [
         "G",
@@ -928,7 +928,7 @@
       "advice": "doble",
       "confidence": 39,
       "xgHome": 0.95,
-      "xgAway": 1.01,
+      "xgAway": 1,
       "likelyScore": "0-0",
       "over25": 31,
       "btts": 40,
@@ -946,7 +946,7 @@
         "P",
         "G"
       ],
-      "posHome": 15,
+      "posHome": 16,
       "posAway": 13,
       "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
       "scorers": [],
@@ -1004,8 +1004,8 @@
       "priced": true,
       "probs": {
         "p1": 45,
-        "px": 26,
-        "p2": 29
+        "px": 25,
+        "p2": 30
       },
       "pick": "1",
       "advice": "fijo",
@@ -1022,8 +1022,8 @@
       "news": [],
       "marketProbs": {
         "p1": 45,
-        "px": 26,
-        "p2": 29
+        "px": 25,
+        "p2": 30
       },
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (45%).",
       "source": "cuotas",
@@ -1191,25 +1191,25 @@
   "pleno15": {
     "home": "ESPAÑA",
     "away": "INGLATERRA",
-    "homeGoals": "M",
+    "homeGoals": "1",
     "awayGoals": "0",
     "covered": false,
     "priced": true,
     "dist": {
       "h": [
-        0.145,
-        0.28,
-        0.27,
-        0.304
+        0.176,
+        0.306,
+        0.266,
+        0.253
       ],
       "a": [
-        0.392,
-        0.367,
-        0.172,
-        0.069
+        0.37,
+        0.368,
+        0.183,
+        0.079
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca más de 2 (30%) e INGLATERRA marca 0 (39%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (31%) e INGLATERRA marca 0 (37%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1230,7 +1230,7 @@
       "2"
     ],
     "expectedHits": 6.6,
-    "pAll": 0.002402,
+    "pAll": 0.002426,
     "surprises": []
   },
   "ticketValue": {
@@ -1250,8 +1250,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.3,
-    "pAll": 0.000845,
+    "expectedHits": 6.2,
+    "pAll": 0.000816,
     "surprises": [
       5,
       6,
@@ -1264,10 +1264,10 @@
     "twos": 3
   },
   "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 61%) y ALMERÍA-ANDORRA FC (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y R.OVIEDO-GIRONA (38%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 61%) y EIBAR-CÁDIZ (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y R.OVIEDO-GIRONA (39%).",
   "confidence": 47,
   "columns": 16,
-  "generatedAt": "2026-11-13T19:37:37.967Z",
+  "generatedAt": "2026-11-14T01:26:04.775Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
