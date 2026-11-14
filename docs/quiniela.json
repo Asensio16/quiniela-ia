@@ -10,8 +10,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 31,
-        "px": 27,
-        "p2": 42
+        "px": 26,
+        "p2": 43
       },
       "pick": "2",
       "modelProbs": {
@@ -20,12 +20,12 @@
         "p2": 47
       },
       "marketProbs": {
-        "p1": 32,
-        "px": 26,
+        "p1": 31,
+        "px": 27,
         "p2": 42
       },
       "advice": "fijo",
-      "confidence": 42,
+      "confidence": 43,
       "xgHome": 1.12,
       "xgAway": 1.55,
       "likelyScore": "1-1",
@@ -139,11 +139,16 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 30,
+        "p1": 28,
         "px": 25,
-        "p2": 45
+        "p2": 47
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "1",
+        "prob": 0.31,
+        "value": 1.107142857142857
+      }
     },
     {
       "n": 2,
@@ -153,9 +158,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 38,
-        "px": 29,
-        "p2": 33
+        "p1": 42,
+        "px": 28,
+        "p2": 30
       },
       "pick": "1",
       "modelProbs": {
@@ -164,13 +169,13 @@
         "p2": 36
       },
       "marketProbs": {
-        "p1": 38,
-        "px": 29,
-        "p2": 33
+        "p1": 43,
+        "px": 28,
+        "p2": 29
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 38,
+      "confidence": 42,
       "xgHome": 1.33,
       "xgAway": 1.32,
       "likelyScore": "1-1",
@@ -231,9 +236,9 @@
       "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 28,
+        "p1": 26,
         "px": 27,
-        "p2": 45
+        "p2": 47
       },
       "publicSrc": "lae"
     },
@@ -245,9 +250,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 56,
-        "px": 23,
-        "p2": 21
+        "p1": 54,
+        "px": 24,
+        "p2": 22
       },
       "pick": "1",
       "modelProbs": {
@@ -256,12 +261,12 @@
         "p2": 22
       },
       "marketProbs": {
-        "p1": 56,
-        "px": 23,
-        "p2": 21
+        "p1": 53,
+        "px": 24,
+        "p2": 23
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 54,
       "xgHome": 2.16,
       "xgAway": 1.29,
       "likelyScore": "1-1",
@@ -346,9 +351,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 80,
-        "px": 11,
-        "p2": 9
+        "p1": 84,
+        "px": 9,
+        "p2": 7
       },
       "publicSrc": "lae"
     },
@@ -360,9 +365,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 50,
-        "px": 25,
-        "p2": 25
+        "p1": 53,
+        "px": 24,
+        "p2": 23
       },
       "pick": "1",
       "modelProbs": {
@@ -371,12 +376,12 @@
         "p2": 18
       },
       "marketProbs": {
-        "p1": 49,
-        "px": 25,
-        "p2": 26
+        "p1": 52,
+        "px": 24,
+        "p2": 24
       },
       "advice": "fijo",
-      "confidence": 50,
+      "confidence": 53,
       "xgHome": 1.63,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -453,9 +458,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 71,
-        "px": 17,
-        "p2": 12
+        "p1": 74,
+        "px": 16,
+        "p2": 10
       },
       "publicSrc": "lae"
     },
@@ -468,8 +473,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 39,
-        "px": 28,
-        "p2": 33
+        "px": 29,
+        "p2": 32
       },
       "pick": "1",
       "modelProbs": {
@@ -560,15 +565,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 43,
+        "p1": 44,
         "px": 32,
-        "p2": 25
+        "p2": 24
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.33,
-        "value": 1.32
+        "prob": 0.32,
+        "value": 1.3333333333333335
       },
       "valuePick": true
     },
@@ -591,8 +596,8 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 51,
-        "px": 27,
+        "p1": 52,
+        "px": 26,
         "p2": 22
       },
       "advice": "fijo",
@@ -670,15 +675,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 75,
-        "px": 15,
-        "p2": 10
+        "p1": 78,
+        "px": 13,
+        "p2": 9
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.7333333333333334
+        "value": 2
       },
       "valuePick": true
     },
@@ -701,9 +706,9 @@
         "p2": 34
       },
       "marketProbs": {
-        "p1": 53,
+        "p1": 52,
         "px": 26,
-        "p2": 21
+        "p2": 22
       },
       "advice": "fijo",
       "confidence": 50,
@@ -791,9 +796,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 54,
+        "p1": 55,
         "px": 27,
-        "p2": 19
+        "p2": 18
       },
       "publicSrc": "lae"
     },
@@ -895,9 +900,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 72,
-        "px": 16,
-        "p2": 12
+        "p1": 75,
+        "px": 15,
+        "p2": 10
       },
       "publicSrc": "lae"
     },
@@ -909,8 +914,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 39,
-        "px": 30,
+        "p1": 38,
+        "px": 31,
         "p2": 31
       },
       "pick": "1",
@@ -926,7 +931,7 @@
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 39,
+      "confidence": 38,
       "xgHome": 0.95,
       "xgAway": 1,
       "likelyScore": "0-0",
@@ -948,7 +953,7 @@
       ],
       "posHome": 16,
       "posAway": 13,
-      "reasoning": "Las casas de apuestas ven más probable el 1 (39%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
+      "reasoning": "Las casas de apuestas ven más probable el 1 (38%) y pesan más que nuestras estadísticas. Partido muy igualado: se esperan 1.0-1.0 goles y hay pocas diferencias entre los dos equipos. Baja: Guillermo Macho (Eldense).",
       "scorers": [],
       "absences": [
         {
@@ -985,14 +990,14 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 39,
-        "px": 36,
-        "p2": 25
+        "px": 37,
+        "p2": 24
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.31,
-        "value": 1.24
+        "value": 1.2916666666666667
       },
       "valuePick": true
     },
@@ -1003,13 +1008,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 45,
+        "p1": 44,
         "px": 25,
-        "p2": 30
+        "p2": 31
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 45,
+      "confidence": 44,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1021,16 +1026,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 45,
+        "p1": 44,
         "px": 25,
-        "p2": 30
+        "p2": 31
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (45%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BÉLGICA (44%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 41,
+        "p1": 40,
         "px": 28,
-        "p2": 31
+        "p2": 32
       },
       "publicSrc": "lae"
     },
@@ -1079,13 +1084,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 49,
+        "p1": 51,
         "px": 26,
-        "p2": 25
+        "p2": 23
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 49,
+      "confidence": 51,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1097,16 +1102,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 49,
+        "p1": 51,
         "px": 26,
-        "p2": 25
+        "p2": 23
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (49%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (51%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 38,
+        "p1": 39,
         "px": 34,
-        "p2": 28
+        "p2": 27
       },
       "publicSrc": "lae"
     },
@@ -1142,9 +1147,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (61%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 14,
-        "px": 17,
-        "p2": 69
+        "p1": 12,
+        "px": 15,
+        "p2": 73
       },
       "publicSrc": "lae"
     },
@@ -1155,14 +1160,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 32,
-        "px": 28,
-        "p2": 40
+        "p1": 34,
+        "px": 29,
+        "p2": 37
       },
       "pick": "2",
       "alt": "1",
       "advice": "doble",
-      "confidence": 40,
+      "confidence": 37,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1174,42 +1179,47 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 32,
-        "px": 28,
-        "p2": 40
+        "p1": 34,
+        "px": 29,
+        "p2": 37
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (40%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito GRANADA (F) (37%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
-        "px": 26,
-        "p2": 36
+        "px": 25,
+        "p2": 37
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.29,
+        "value": 1.16
+      }
     }
   ],
   "pleno15": {
     "home": "ESPAÑA",
     "away": "INGLATERRA",
     "homeGoals": "1",
-    "awayGoals": "0",
+    "awayGoals": "1",
     "covered": false,
     "priced": true,
     "dist": {
       "h": [
-        0.176,
-        0.306,
-        0.266,
-        0.253
+        0.179,
+        0.308,
+        0.265,
+        0.248
       ],
       "a": [
-        0.37,
+        0.364,
         0.368,
-        0.183,
-        0.079
+        0.186,
+        0.082
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (31%) e INGLATERRA marca 0 (37%)."
+    "reasoning": "Lo más probable según las cuotas: ESPAÑA marca 1 (31%) e INGLATERRA marca 1 (37%)."
   },
   "signs": "2 1 1 1 1 1 1 1 1 1 1 1 2 2",
   "ticketSafe": {
@@ -1229,8 +1239,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.6,
-    "pAll": 0.002426,
+    "expectedHits": 6.7,
+    "pAll": 0.002574,
     "surprises": []
   },
   "ticketValue": {
@@ -1250,8 +1260,8 @@
       "2",
       "2"
     ],
-    "expectedHits": 6.2,
-    "pAll": 0.000816,
+    "expectedHits": 6.3,
+    "pAll": 0.000862,
     "surprises": [
       5,
       6,
@@ -1263,11 +1273,11 @@
     "xs": 0,
     "twos": 3
   },
-  "expectedHits": 6.6,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 61%) y EIBAR-CÁDIZ (1, 58%). Lo más abierto: R.SOCIEDAD B-SPORTING (38%) y R.OVIEDO-GIRONA (39%).",
-  "confidence": 47,
+  "expectedHits": 6.7,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (9 con estadísticas propias, 14 con cuotas) y se reparten los signos en 11 unos, 0 equis y 3 doses. Lo más claro: SEVILLA (F)-AT.MADRID (F) (2, 61%) y EIBAR-CÁDIZ (1, 58%). Lo más abierto: VALENCIA (F)-GRANADA (F) (37%) y ELDENSE-SABADELL (38%).",
+  "confidence": 48,
   "columns": 16,
-  "generatedAt": "2026-11-14T01:26:04.775Z",
+  "generatedAt": "2026-11-14T10:17:41.772Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
