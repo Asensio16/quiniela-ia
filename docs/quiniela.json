@@ -33,9 +33,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (50%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 53,
+        "p1": 56,
         "px": 27,
-        "p2": 20
+        "p2": 17
       },
       "publicSrc": "quinielista"
     },
@@ -72,15 +72,15 @@
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito UCRANIA (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 76,
-        "px": 14,
-        "p2": 10
+        "p1": 61,
+        "px": 28,
+        "p2": 11
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.29,
-        "value": 3.0334728033472804
+        "value": 2.6268115942028984
       },
       "valuePick": true
     },
@@ -117,8 +117,8 @@
       "source": "cuotas",
       "publicPct": {
         "p1": 5,
-        "px": 18,
-        "p2": 77
+        "px": 9,
+        "p2": 86
       },
       "publicSrc": "quinielista"
     },
@@ -154,16 +154,11 @@
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (49%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 62,
-        "px": 25,
-        "p2": 13
+        "p1": 53,
+        "px": 33,
+        "p2": 14
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.29,
-        "value": 1.1798209926769732
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 5,
@@ -198,16 +193,11 @@
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 45,
+        "p1": 39,
         "px": 29,
-        "p2": 26
+        "p2": 32
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "2",
-        "prob": 0.31,
-        "value": 1.2123582323034807
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 6,
@@ -241,17 +231,11 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito REP.IRLANDA (45%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 84,
-        "px": 11,
-        "p2": 5
+        "p1": 63,
+        "px": 28,
+        "p2": 9
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.3,
-        "value": 2.7447392497712717
-      },
-      "valuePick": true
+      "publicSrc": "quinielista"
     },
     {
       "n": 7,
@@ -285,9 +269,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (72%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 78,
-        "px": 11,
-        "p2": 11
+        "p1": 89,
+        "px": 7,
+        "p2": 4
       },
       "publicSrc": "quinielista"
     },
@@ -323,9 +307,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito MAN.CITY (F) (73%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 5,
-        "px": 7,
-        "p2": 88
+        "p1": 4,
+        "px": 6,
+        "p2": 90
       },
       "publicSrc": "quinielista"
     },
@@ -361,9 +345,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito CHELSEA (F) (74%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 31,
-        "px": 35,
-        "p2": 34
+        "p1": 51,
+        "px": 27,
+        "p2": 22
       },
       "publicSrc": "quinielista"
     },
@@ -399,9 +383,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito JUVENTUS (F) (67%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 86,
-        "px": 9,
-        "p2": 5
+        "p1": 93,
+        "px": 5,
+        "p2": 2
       },
       "publicSrc": "quinielista"
     },
@@ -437,9 +421,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito B.MUNICH (F) (74%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 4,
-        "px": 12,
-        "p2": 84
+        "p1": 2,
+        "px": 7,
+        "p2": 91
       },
       "publicSrc": "quinielista"
     },
@@ -476,9 +460,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito OL. LYONNES (F) (39%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 49,
-        "px": 21,
-        "p2": 30
+        "p1": 40,
+        "px": 25,
+        "p2": 35
       },
       "publicSrc": "quinielista"
     },
@@ -514,9 +498,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BARCELONA (F) (83%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 88,
-        "px": 6,
-        "p2": 6
+        "p1": 94,
+        "px": 4,
+        "p2": 2
       },
       "publicSrc": "quinielista"
     },
@@ -553,15 +537,15 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BENFICA (F) (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 46,
+        "p1": 47,
         "px": 33,
-        "p2": 21
+        "p2": 20
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.33,
-        "value": 1.5988372093023258
+        "value": 1.6949152542372883
       },
       "valuePick": true
     }
@@ -575,16 +559,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.261,
+        0.259,
         0.35,
-        0.236,
-        0.153
+        0.237,
+        0.155
       ],
       "a": [
-        0.269,
-        0.353,
-        0.232,
-        0.146
+        0.27,
+        0.354,
+        0.231,
+        0.145
       ]
     },
     "reasoning": "Lo más probable según las cuotas: DINAMARCA marca 1 (35%) y NORUEGA marca 1 (35%)."
@@ -618,7 +602,7 @@
       "2",
       "1",
       "1",
-      "X",
+      "1",
       "1",
       "2",
       "1",
@@ -628,11 +612,10 @@
       "1",
       "2"
     ],
-    "expectedHits": 7.8,
-    "pAll": 0.01265,
+    "expectedHits": 8,
+    "pAll": 0.018974,
     "surprises": [
       2,
-      6,
       14
     ]
   },
@@ -645,13 +628,13 @@
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (0 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: BARCELONA (F)-SERVETTE (F) (1, 83%) y CHELSEA (F)-PSG (F) (1, 74%). Lo más abierto: ARSENAL (F)-OL. LYONNES (F) (39%) y UCRANIA-GEORGIA (43%).",
   "confidence": 59,
   "columns": 16,
-  "generatedAt": "2026-11-15T16:19:04.072Z",
+  "generatedAt": "2026-11-15T22:46:52.848Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
       "laliga2": 14
     },
-    "results": 268
+    "results": 270
   },
   "aiUsed": null,
   "notes": [
@@ -661,13 +644,72 @@
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
   "num": 22,
   "closing": 1794941100000,
-  "escrutada": 20,
+  "escrutada": 21,
   "market": {
     "odds": 14,
     "publicSrc": "quinielista"
   },
   "record": {
-    "entries": [],
+    "entries": [
+      {
+        "j": 21,
+        "savedAt": "2026-11-14T10:17:41.772Z",
+        "safe": [
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "2"
+        ],
+        "value": [
+          "2",
+          "1",
+          "1",
+          "1",
+          "2",
+          "X",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "2",
+          "2"
+        ],
+        "pleno": "1-1",
+        "results": [
+          "2",
+          "X",
+          "1",
+          "X",
+          "2",
+          "1",
+          "1",
+          "X",
+          "1",
+          "1",
+          "1",
+          "2",
+          "2",
+          "X"
+        ],
+        "played": 14,
+        "hitsSafe": 8,
+        "hitsValue": 7,
+        "score15": "2-M",
+        "plenoHit": false
+      }
+    ],
     "sim": {
       "from": 1,
       "to": 20,
