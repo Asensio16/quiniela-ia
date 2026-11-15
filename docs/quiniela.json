@@ -8,13 +8,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 53,
+        "p1": 51,
         "px": 26,
-        "p2": 21
+        "p2": 23
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 53,
+      "confidence": 51,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -26,23 +26,18 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 53,
+        "p1": 51,
         "px": 26,
-        "p2": 21
+        "p2": 23
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (53%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (51%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 67,
-        "px": 15,
-        "p2": 18
+        "p1": 56,
+        "px": 28,
+        "p2": 16
       },
-      "publicSrc": "estimado",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.26,
-        "value": 1.6897127469168431
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 2,
@@ -77,15 +72,15 @@
       "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito UCRANIA (43%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 18,
-        "p2": 29
+        "p1": 84,
+        "px": 11,
+        "p2": 5
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
-        "sign": "X",
-        "prob": 0.28,
-        "value": 1.5618764050886411
+        "sign": "2",
+        "prob": 0.29,
+        "value": 6.016597510373444
       },
       "valuePick": true
     },
@@ -96,13 +91,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 12,
-        "px": 19,
-        "p2": 69
+        "p1": 13,
+        "px": 20,
+        "p2": 67
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 69,
+      "confidence": 67,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -114,18 +109,18 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 12,
-        "px": 19,
-        "p2": 69
+        "p1": 13,
+        "px": 20,
+        "p2": 67
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito PORTUGAL (69%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito PORTUGAL (67%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 9,
-        "px": 9,
-        "p2": 82
+        "p1": 14,
+        "px": 27,
+        "p2": 59
       },
-      "publicSrc": "estimado"
+      "publicSrc": "quinielista"
     },
     {
       "n": 4,
@@ -134,13 +129,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 48,
+        "p1": 49,
         "px": 29,
-        "p2": 23
+        "p2": 22
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 48,
+      "confidence": 49,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -152,24 +147,23 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 48,
+        "p1": 49,
         "px": 29,
-        "p2": 23
+        "p2": 22
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (48%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (49%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 61,
-        "px": 18,
-        "p2": 21
+        "p1": 54,
+        "px": 24,
+        "p2": 22
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.29,
-        "value": 1.5676362121637641
-      },
-      "valuePick": true
+        "value": 1.2033195020746885
+      }
     },
     {
       "n": 5,
@@ -178,14 +172,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 43,
-        "px": 26,
+        "p1": 42,
+        "px": 27,
         "p2": 31
       },
       "pick": "1",
       "alt": "2",
       "advice": "doble",
-      "confidence": 43,
+      "confidence": 42,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -197,23 +191,24 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 43,
-        "px": 26,
+        "p1": 42,
+        "px": 27,
         "p2": 31
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (43%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (42%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 16,
-        "p2": 31
+        "p1": 49,
+        "px": 15,
+        "p2": 36
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
-        "prob": 0.26,
-        "value": 1.6192304707233889
-      }
+        "prob": 0.27,
+        "value": 1.8672199170124482
+      },
+      "valuePick": true
     },
     {
       "n": 6,
@@ -222,14 +217,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 48,
-        "px": 29,
-        "p2": 23
+        "p1": 46,
+        "px": 30,
+        "p2": 24
       },
       "pick": "1",
       "alt": "X",
       "advice": "doble",
-      "confidence": 48,
+      "confidence": 46,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -241,22 +236,22 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 48,
-        "px": 29,
-        "p2": 23
+        "p1": 46,
+        "px": 30,
+        "p2": 24
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito REP.IRLANDA (48%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito REP.IRLANDA (46%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 61,
-        "px": 18,
-        "p2": 21
+        "p1": 76,
+        "px": 23,
+        "p2": 1
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
-        "prob": 0.29,
-        "value": 1.5676362121637641
+        "prob": 0.3,
+        "value": 1.3106159895150722
       },
       "valuePick": true
     },
@@ -495,7 +490,7 @@
         0.268,
         0.353,
         0.232,
-        0.146
+        0.147
       ]
     },
     "reasoning": "Lo más probable según las cuotas: DINAMARCA marca 1 (35%) y NORUEGA marca 1 (35%)."
@@ -519,16 +514,16 @@
       "1"
     ],
     "expectedHits": 3,
-    "pAll": 1.557917,
+    "pAll": 1.390966,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
       "1",
-      "X",
       "2",
-      "X",
+      "2",
       "1",
+      "X",
       "X",
       "1",
       "1",
@@ -540,10 +535,10 @@
       "1"
     ],
     "expectedHits": 2.5,
-    "pAll": 0.370295,
+    "pAll": 0.3933,
     "surprises": [
       2,
-      4,
+      5,
       6
     ]
   },
@@ -553,10 +548,10 @@
     "twos": 1
   },
   "expectedHits": 3,
-  "analysis": "Hay pronóstico real para 6 de los 14 partidos (0 con estadísticas propias, 6 con cuotas) y se reparten los signos en 13 unos, 0 equis y 1 doses. Lo más claro: GALES-PORTUGAL (2, 69%) y BOSNIA HERZEGOVINA-RUMANÍA (1, 53%). Lo más abierto: UCRANIA-GEORGIA (43%) y POLONIA-SUECIA (43%).",
-  "confidence": 51,
+  "analysis": "Hay pronóstico real para 6 de los 14 partidos (0 con estadísticas propias, 6 con cuotas) y se reparten los signos en 13 unos, 0 equis y 1 doses. Lo más claro: GALES-PORTUGAL (2, 67%) y BOSNIA HERZEGOVINA-RUMANÍA (1, 51%). Lo más abierto: POLONIA-SUECIA (42%) y UCRANIA-GEORGIA (43%).",
+  "confidence": 50,
   "columns": 8,
-  "generatedAt": "2026-11-14T22:19:57.594Z",
+  "generatedAt": "2026-11-15T06:22:04.417Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
@@ -567,15 +562,16 @@
   "aiUsed": null,
   "notes": [
     "8 partido(s) sin datos ni cuotas todavía: probabilidades genéricas o estimación de la IA.",
-    "Las sorpresas 💎 usan una estimación de lo que juega la gente (aún no hay porcentajes publicados).",
+    "Las sorpresas 💎 usan lo que están jugando los quinielistas (el dato oficial de Loterías aún no ha salido).",
     "Sin clave de IA: textos automáticos del modelo."
   ],
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
   "num": 22,
+  "closing": 1794941100000,
   "escrutada": 20,
   "market": {
     "odds": 6,
-    "publicSrc": "estimado"
+    "publicSrc": "quinielista"
   },
   "record": {
     "entries": [],
