@@ -8,13 +8,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 51,
+        "p1": 50,
         "px": 26,
-        "p2": 23
+        "p2": 24
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 51,
+      "confidence": 50,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -26,11 +26,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 51,
+        "p1": 50,
         "px": 26,
-        "p2": 23
+        "p2": 24
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (51%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (50%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 51,
@@ -46,14 +46,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 43,
+        "p1": 44,
         "px": 29,
-        "p2": 28
+        "p2": 27
       },
       "pick": "1",
       "alt": "X",
       "advice": "doble",
-      "confidence": 43,
+      "confidence": 44,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -65,11 +65,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 43,
+        "p1": 44,
         "px": 29,
-        "p2": 28
+        "p2": 27
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito UCRANIA (43%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito UCRANIA (44%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 55,
@@ -79,8 +79,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.28,
-        "value": 1.5555555555555558
+        "prob": 0.27,
+        "value": 1.5000000000000002
       },
       "valuePick": true
     },
@@ -129,13 +129,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 49,
+        "p1": 48,
         "px": 29,
-        "p2": 22
+        "p2": 23
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 49,
+      "confidence": 48,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -147,11 +147,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 49,
+        "p1": 48,
         "px": 29,
-        "p2": 22
+        "p2": 23
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (49%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (48%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 50,
@@ -167,14 +167,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 41,
-        "px": 27,
+        "p1": 42,
+        "px": 26,
         "p2": 32
       },
       "pick": "1",
       "alt": "2",
       "advice": "doble",
-      "confidence": 41,
+      "confidence": 42,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -186,23 +186,18 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 41,
-        "px": 27,
+        "p1": 42,
+        "px": 26,
         "p2": 32
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (41%).",
+      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (42%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 33,
         "px": 24,
         "p2": 43
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.1250000000000002
-      }
+      "publicSrc": "lae"
     },
     {
       "n": 6,
@@ -570,16 +565,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.253,
-        0.348,
-        0.239,
-        0.16
+        0.249,
+        0.346,
+        0.241,
+        0.164
       ],
       "a": [
-        0.276,
-        0.355,
-        0.229,
-        0.14
+        0.28,
+        0.356,
+        0.227,
+        0.137
       ]
     },
     "reasoning": "Lo más probable según las cuotas: DINAMARCA marca 1 (35%) y NORUEGA marca 1 (36%)."
@@ -603,7 +598,7 @@
       "1"
     ],
     "expectedHits": 8.2,
-    "pAll": 0.035654,
+    "pAll": 0.035893,
     "surprises": []
   },
   "ticketValue": {
@@ -624,7 +619,7 @@
       "2"
     ],
     "expectedHits": 7.8,
-    "pAll": 0.011878,
+    "pAll": 0.011269,
     "surprises": [
       2,
       6,
@@ -637,16 +632,16 @@
     "twos": 4
   },
   "expectedHits": 8.2,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (0 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: BARCELONA (F)-SERVETTE (F) (1, 83%) y CHELSEA (F)-PSG (F) (1, 74%). Lo más abierto: ARSENAL (F)-OL. LYONNES (F) (39%) y POLONIA-SUECIA (41%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (0 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: BARCELONA (F)-SERVETTE (F) (1, 83%) y CHELSEA (F)-PSG (F) (1, 74%). Lo más abierto: ARSENAL (F)-OL. LYONNES (F) (39%) y POLONIA-SUECIA (42%).",
   "confidence": 59,
   "columns": 16,
-  "generatedAt": "2026-11-16T19:33:34.021Z",
+  "generatedAt": "2026-11-17T03:48:53.799Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
       "laliga2": 14
     },
-    "results": 270
+    "results": 271
   },
   "aiUsed": null,
   "notes": [
