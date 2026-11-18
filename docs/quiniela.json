@@ -1,109 +1,1235 @@
 {
-  "jornada": "Jornada 22",
+  "jornada": "Jornada 23",
   "matches": [
     {
       "n": 1,
-      "home": "BOSNIA HERZEGOVINA",
-      "away": "RUMANÍA",
-      "covered": false,
+      "home": "ALAVÉS",
+      "away": "DEPORTIVO",
+      "covered": true,
       "priced": true,
+      "league": "laliga",
       "probs": {
-        "p1": 44,
-        "px": 27,
-        "p2": 29
+        "p1": 43,
+        "px": 29,
+        "p2": 28
       },
       "pick": "1",
-      "alt": "2",
-      "advice": "doble",
-      "confidence": 44,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
+      "modelProbs": {
+        "p1": 40,
+        "px": 30,
+        "p2": 30
+      },
       "marketProbs": {
-        "p1": 44,
-        "px": 27,
-        "p2": 29
+        "p1": 43,
+        "px": 29,
+        "p2": 28
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOSNIA HERZEGOVINA (44%).",
-      "source": "cuotas",
+      "alt": "X",
+      "advice": "doble",
+      "confidence": 43,
+      "xgHome": 1.28,
+      "xgAway": 1.08,
+      "likelyScore": "1-1",
+      "over25": 42,
+      "btts": 49,
+      "formHome": [
+        "E",
+        "P",
+        "E",
+        "P",
+        "P"
+      ],
+      "formAway": [
+        "E",
+        "G",
+        "P",
+        "E",
+        "P"
+      ],
+      "posHome": 12,
+      "posAway": 9,
+      "reasoning": "Alavés (12º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 0G-2E-3P en sus últimos 5. Baja: Mikel Rodriguez (Alavés).",
+      "scorers": [
+        {
+          "player": "Lucas Boyé",
+          "team": "Alavés",
+          "goals": 5,
+          "perGame": 0.45,
+          "chance": 35,
+          "recent": 1,
+          "window": 6
+        },
+        {
+          "player": "Mariano Díaz",
+          "team": "Alavés",
+          "goals": 4,
+          "perGame": 0.33,
+          "chance": 29,
+          "recent": 1,
+          "window": 6
+        },
+        {
+          "player": "Pierre-Emerick Aubameyang",
+          "team": "Deportivo",
+          "goals": 5,
+          "perGame": 0.56,
+          "chance": 30,
+          "tag": "sequia",
+          "recent": 0,
+          "window": 6,
+          "note": "sin marcar en sus últimos 6 partidos (lleva 5 en la temporada): puede romper la racha"
+        },
+        {
+          "player": "Bil Nsongo",
+          "team": "Deportivo",
+          "goals": 2,
+          "perGame": 0.17,
+          "chance": 13,
+          "recent": 2,
+          "window": 6
+        }
+      ],
+      "absences": [
+        {
+          "team": "Alavés",
+          "player": "Mikel Rodriguez",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta abril"
+        },
+        {
+          "team": "Deportivo",
+          "player": "Zakaria Eddahchouri",
+          "reason": "Lesión: Fractura de muñeca — Disponible para la jornada 13"
+        },
+        {
+          "team": "Deportivo",
+          "player": "Bright Ede",
+          "reason": "Lesión: Lesión en el bíceps femoral — Disponible para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Máster Periodismo Deportivo MARCA"
+        },
+        {
+          "src": "Marca",
+          "title": "Máster Periodismo Deportivo MARCA"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "FútbolFantasy ya es el quinto medio deportivo digital más leído de España"
+        }
+      ],
+      "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 25,
-        "p2": 22
+        "p1": 45,
+        "px": 40,
+        "p2": 15
       },
-      "publicSrc": "lae",
+      "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
-        "prob": 0.29,
-        "value": 1.3181818181818181
+        "prob": 0.28,
+        "value": 1.9217570350034319
       },
       "valuePick": true
     },
     {
       "n": 2,
-      "home": "UCRANIA",
-      "away": "GEORGIA",
-      "covered": false,
+      "home": "RAYO",
+      "away": "VALENCIA",
+      "covered": true,
       "priced": true,
+      "league": "laliga",
       "probs": {
-        "p1": 45,
-        "px": 29,
-        "p2": 26
+        "p1": 48,
+        "px": 28,
+        "p2": 24
       },
       "pick": "1",
-      "advice": "fijo",
-      "confidence": 45,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
+      "modelProbs": {
+        "p1": 46,
+        "px": 31,
+        "p2": 23
+      },
       "marketProbs": {
-        "p1": 45,
-        "px": 29,
-        "p2": 26
+        "p1": 49,
+        "px": 27,
+        "p2": 24
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito UCRANIA (45%).",
-      "source": "cuotas",
+      "advice": "fijo",
+      "confidence": 48,
+      "xgHome": 1.3,
+      "xgAway": 0.84,
+      "likelyScore": "1-0",
+      "over25": 36,
+      "btts": 42,
+      "formHome": [
+        "P",
+        "G",
+        "P",
+        "E",
+        "E"
+      ],
+      "formAway": [
+        "P",
+        "G",
+        "P",
+        "E",
+        "E"
+      ],
+      "posHome": 13,
+      "posAway": 19,
+      "reasoning": "Rayo (13º) parte como favorito: se esperan 1.3 goles suyos por 0.8 del rival; viene de 1G-2E-2P en sus últimos 5. Baja: Luiz Felipe (Rayo).",
+      "scorers": [
+        {
+          "player": "Sergio Camello",
+          "team": "Rayo",
+          "goals": 7,
+          "perGame": 0.58,
+          "chance": 45,
+          "recent": 0,
+          "window": 6
+        },
+        {
+          "player": "Álvaro García",
+          "team": "Rayo",
+          "goals": 3,
+          "perGame": 0.27,
+          "chance": 0,
+          "out": "Lesión — Baja hasta principios de diciembre",
+          "recent": 1,
+          "window": 6
+        },
+        {
+          "player": "Jorge de Frutos",
+          "team": "Rayo",
+          "goals": 2,
+          "perGame": 0,
+          "chance": 45,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Umar Sadiq",
+          "team": "Valencia",
+          "goals": 2,
+          "perGame": 0.4,
+          "chance": 19
+        }
+      ],
+      "absences": [
+        {
+          "team": "Rayo",
+          "player": "Luiz Felipe",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta agosto"
+        },
+        {
+          "team": "Rayo",
+          "player": "Augusto Batalla",
+          "reason": "Lesión: Fractura de tibia — Baja hasta enero"
+        },
+        {
+          "team": "Rayo",
+          "player": "Álvaro García",
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta principios de diciembre"
+        },
+        {
+          "team": "Rayo",
+          "player": "Marash Kumbulla",
+          "reason": "Lesión: Molestias sin determinar — Duda para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Corey Woolfolk coge las riendas del Valencia"
+        },
+        {
+          "src": "Marca",
+          "title": "El Valencia inicia la 'mudanza' al Nou Mestalla"
+        },
+        {
+          "src": "Marca",
+          "title": "La ‘maldición’ del Elche en la provincia de Valencia"
+        }
+      ],
+      "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 59,
-        "px": 25,
-        "p2": 16
+        "p1": 41,
+        "px": 32,
+        "p2": 27
       },
-      "publicSrc": "lae",
+      "publicSrc": "quinielista"
+    },
+    {
+      "n": 3,
+      "home": "R.MADRID",
+      "away": "CELTA",
+      "covered": true,
+      "priced": true,
+      "league": "laliga",
+      "probs": {
+        "p1": 78,
+        "px": 15,
+        "p2": 7
+      },
+      "pick": "1",
+      "modelProbs": {
+        "p1": 70,
+        "px": 20,
+        "p2": 10
+      },
+      "marketProbs": {
+        "p1": 79,
+        "px": 14,
+        "p2": 7
+      },
+      "advice": "fijo",
+      "confidence": 78,
+      "xgHome": 2.1,
+      "xgAway": 0.67,
+      "likelyScore": "2-0",
+      "over25": 52,
+      "btts": 44,
+      "formHome": [
+        "G",
+        "G",
+        "G",
+        "G",
+        "G"
+      ],
+      "formAway": [
+        "E",
+        "P",
+        "E",
+        "G",
+        "E"
+      ],
+      "posHome": 2,
+      "posAway": 11,
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (78%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
+      "scorers": [
+        {
+          "player": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "goals": 13,
+          "perGame": 1.08,
+          "chance": 59
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "Real Madrid",
+          "goals": 4,
+          "perGame": 0.33,
+          "chance": 24
+        },
+        {
+          "player": "Ferran Jutglà",
+          "team": "Celta",
+          "goals": 2,
+          "perGame": 0.18,
+          "chance": 13
+        },
+        {
+          "player": "Pablo Durán",
+          "team": "Celta",
+          "goals": 2,
+          "perGame": 0.22,
+          "chance": 13
+        }
+      ],
+      "absences": [
+        {
+          "team": "Celta",
+          "player": "Borja Iglesias",
+          "reason": "Lesión: Lesión en el sóleo — Baja hasta finales de noviembre"
+        },
+        {
+          "team": "Celta",
+          "player": "Miguel Román",
+          "reason": "Lesión: Sometido a artroscopia en la rodilla — Baja confirmada para la jornada 13"
+        },
+        {
+          "team": "Celta",
+          "player": "Carl Starfelt",
+          "reason": "Lesión: Lesión en el semimembranoso — Baja hasta mediados de noviembre"
+        },
+        {
+          "team": "Celta",
+          "player": "Álvaro Núñez",
+          "reason": "Lesión: Rotura fibrilar en el aductor — Baja hasta mediados de noviembre"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Celta comienza su Tourmalet"
+        },
+        {
+          "src": "Marca",
+          "title": "Albacete 1-0 Celta Fortuna"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Las pruebas a Bernardo Silva descartan lesión y estará contra el Celta"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 89,
+        "px": 4,
+        "p2": 7
+      },
+      "publicSrc": "quinielista"
+    },
+    {
+      "n": 4,
+      "home": "BARCELONA",
+      "away": "VILLARREAL",
+      "covered": true,
+      "priced": true,
+      "league": "laliga",
+      "probs": {
+        "p1": 77,
+        "px": 14,
+        "p2": 9
+      },
+      "pick": "1",
+      "modelProbs": {
+        "p1": 71,
+        "px": 17,
+        "p2": 12
+      },
+      "marketProbs": {
+        "p1": 78,
+        "px": 13,
+        "p2": 9
+      },
+      "advice": "fijo",
+      "confidence": 77,
+      "xgHome": 2.76,
+      "xgAway": 1.11,
+      "likelyScore": "2-1",
+      "over25": 74,
+      "btts": 63,
+      "formHome": [
+        "G",
+        "G",
+        "P",
+        "G",
+        "G"
+      ],
+      "formAway": [
+        "G",
+        "P",
+        "G",
+        "E",
+        "P"
+      ],
+      "posHome": 1,
+      "posAway": 8,
+      "reasoning": "Barcelona (1º) parte como favorito: se esperan 2.8 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Xavi Espart (Barcelona).",
+      "scorers": [
+        {
+          "player": "Raphinha",
+          "team": "Barcelona",
+          "goals": 15,
+          "perGame": 1.36,
+          "chance": 58
+        },
+        {
+          "player": "Lamine Yamal",
+          "team": "Barcelona",
+          "goals": 10,
+          "perGame": 0.83,
+          "chance": 44
+        },
+        {
+          "player": "Georges Mikautadze",
+          "team": "Villarreal",
+          "goals": 3,
+          "perGame": 0.25,
+          "chance": 18
+        },
+        {
+          "player": "Pape Gueye",
+          "team": "Villarreal",
+          "goals": 3,
+          "perGame": 0.27,
+          "chance": 18
+        }
+      ],
+      "absences": [
+        {
+          "team": "Barcelona",
+          "player": "Xavi Espart",
+          "reason": "Lesión: Lesión de tobillo — Baja hasta mediados de diciembre"
+        },
+        {
+          "team": "Barcelona",
+          "player": "Rodri Hernández",
+          "reason": "Lesión: Lesión en el bíceps femoral — Baja hasta principios de diciembre"
+        },
+        {
+          "team": "Barcelona",
+          "player": "Pau Cubarsí",
+          "reason": "Lesión: Sobrecarga en el psoas — Duda para la jornada 13"
+        },
+        {
+          "team": "Barcelona",
+          "player": "Jules Koundé",
+          "reason": "Lesión: Esguince de tobillo — Duda para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Marcos Senna ya tiene su sitio entre las leyendas del Villarreal"
+        },
+        {
+          "src": "Marca",
+          "title": "Tani Oluwaseyi se postula como solución al gol en el Villarreal"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 86,
+        "px": 6,
+        "p2": 8
+      },
+      "publicSrc": "quinielista"
+    },
+    {
+      "n": 5,
+      "home": "RACING S.",
+      "away": "R.SOCIEDAD",
+      "covered": true,
+      "priced": true,
+      "league": "laliga",
+      "probs": {
+        "p1": 31,
+        "px": 24,
+        "p2": 45
+      },
+      "pick": "2",
+      "modelProbs": {
+        "p1": 37,
+        "px": 22,
+        "p2": 41
+      },
+      "marketProbs": {
+        "p1": 30,
+        "px": 24,
+        "p2": 46
+      },
+      "alt": "1",
+      "advice": "doble",
+      "confidence": 45,
+      "xgHome": 1.9,
+      "xgAway": 1.99,
+      "likelyScore": "1-1",
+      "over25": 75,
+      "btts": 74,
+      "formHome": [
+        "G",
+        "P",
+        "G",
+        "P",
+        "E"
+      ],
+      "formAway": [
+        "G",
+        "P",
+        "G",
+        "G",
+        "G"
+      ],
+      "posHome": 10,
+      "posAway": 5,
+      "reasoning": "Partido muy igualado: se esperan 1.9-2.0 goles y hay pocas diferencias entre los dos equipos. Baja: Álvaro Mantilla (Racing).",
+      "scorers": [
+        {
+          "player": "Yassir Zabiri",
+          "team": "Racing",
+          "goals": 9,
+          "perGame": 0.75,
+          "chance": 63
+        },
+        {
+          "player": "Pablo García",
+          "team": "Racing",
+          "goals": 2,
+          "perGame": 0.18,
+          "chance": 20
+        },
+        {
+          "player": "Luka Sucic",
+          "team": "Real Sociedad",
+          "goals": 4,
+          "perGame": 0.36,
+          "chance": 32
+        },
+        {
+          "player": "Orri Steinn Óskarsson",
+          "team": "Real Sociedad",
+          "goals": 4,
+          "perGame": 0.4,
+          "chance": 32
+        }
+      ],
+      "absences": [
+        {
+          "team": "Racing",
+          "player": "Álvaro Mantilla",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta junio"
+        },
+        {
+          "team": "Racing",
+          "player": "Andrés Martín",
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta finales de noviembre"
+        },
+        {
+          "team": "Real Sociedad",
+          "player": "Ander Barrenetxea",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta mayo"
+        },
+        {
+          "team": "Real Sociedad",
+          "player": "Mamadou Sarr",
+          "reason": "Lesión: Lesión en el sóleo — Duda para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "La Real ya mira al Racing aún sin Sucic, ni Sarr, además de los internacionales, y tampoco la sensación Dani Díaz"
+        },
+        {
+          "src": "Marca",
+          "title": "Real Sociedad B 2-2 Sporting"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 16,
+        "px": 27,
+        "p2": 57
+      },
+      "publicSrc": "quinielista",
       "surprise": {
-        "sign": "2",
-        "prob": 0.26,
-        "value": 1.625
+        "sign": "1",
+        "prob": 0.31,
+        "value": 1.9030079803560467
       },
       "valuePick": true
     },
     {
-      "n": 3,
-      "home": "GALES",
-      "away": "PORTUGAL",
+      "n": 6,
+      "home": "OSASUNA",
+      "away": "MÁLAGA",
+      "covered": true,
+      "priced": true,
+      "league": "laliga",
+      "probs": {
+        "p1": 54,
+        "px": 26,
+        "p2": 20
+      },
+      "pick": "1",
+      "modelProbs": {
+        "p1": 55,
+        "px": 26,
+        "p2": 19
+      },
+      "marketProbs": {
+        "p1": 54,
+        "px": 26,
+        "p2": 20
+      },
+      "advice": "fijo",
+      "confidence": 54,
+      "xgHome": 1.65,
+      "xgAway": 0.86,
+      "likelyScore": "1-1",
+      "over25": 46,
+      "btts": 48,
+      "formHome": [
+        "E",
+        "P",
+        "P",
+        "G",
+        "P"
+      ],
+      "formAway": [
+        "P",
+        "P",
+        "E",
+        "P",
+        "E"
+      ],
+      "posHome": 16,
+      "posAway": 20,
+      "reasoning": "Osasuna (16º) parte como favorito: se esperan 1.6 goles suyos por 0.9 del rival; viene de 1G-1E-3P en sus últimos 5. Baja: Julen Lobete (Málaga).",
+      "scorers": [
+        {
+          "player": "Ante Budimir",
+          "team": "Osasuna",
+          "goals": 8,
+          "perGame": 0.67,
+          "chance": 67
+        },
+        {
+          "player": "Adrián Niño",
+          "team": "Málaga",
+          "goals": 5,
+          "perGame": 0.63,
+          "chance": 38
+        },
+        {
+          "player": "Carlos Dotor",
+          "team": "Málaga",
+          "goals": 2,
+          "perGame": 0.18,
+          "chance": 17
+        }
+      ],
+      "absences": [
+        {
+          "team": "Málaga",
+          "player": "Julen Lobete",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta abril"
+        },
+        {
+          "team": "Málaga",
+          "player": "Rafa Garrido",
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta febrero-marzo"
+        },
+        {
+          "team": "Málaga",
+          "player": "Juan Cruz",
+          "reason": "Lesión: Molestias en el bíceps femoral — Duda para la jornada 13"
+        },
+        {
+          "team": "Málaga",
+          "player": "Carlos Puga",
+          "reason": "Lesión: Molestias sin determinar — Disponible para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Málaga recupera a cuatro de una tacada"
+        },
+        {
+          "src": "Marca",
+          "title": "Mínimo, tres fichajes como punto de partida al cambio del Málaga"
+        },
+        {
+          "src": "Marca",
+          "title": "Aimar mira al duelo con el Málaga"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 67,
+        "px": 19,
+        "p2": 14
+      },
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.26,
+        "value": 1.3785790031813363
+      }
+    },
+    {
+      "n": 7,
+      "home": "GETAFE",
+      "away": "AT.MADRID",
+      "covered": true,
+      "priced": true,
+      "league": "laliga",
+      "probs": {
+        "p1": 19,
+        "px": 26,
+        "p2": 55
+      },
+      "pick": "2",
+      "modelProbs": {
+        "p1": 27,
+        "px": 34,
+        "p2": 39
+      },
+      "marketProbs": {
+        "p1": 17,
+        "px": 25,
+        "p2": 58
+      },
+      "advice": "fijo",
+      "confidence": 55,
+      "xgHome": 0.81,
+      "xgAway": 1.03,
+      "likelyScore": "0-0",
+      "over25": 28,
+      "btts": 37,
+      "formHome": [
+        "P",
+        "G",
+        "P",
+        "E",
+        "P"
+      ],
+      "formAway": [
+        "P",
+        "G",
+        "G",
+        "G",
+        "G"
+      ],
+      "posHome": 15,
+      "posAway": 3,
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (55%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.0 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "scorers": [
+        {
+          "player": "Martín Satriano",
+          "team": "Getafe",
+          "goals": 3,
+          "perGame": 0.25,
+          "chance": 26
+        },
+        {
+          "player": "Enes Ünal",
+          "team": "Getafe",
+          "goals": 2,
+          "perGame": 0.18,
+          "chance": 18
+        },
+        {
+          "player": "Álex Baena",
+          "team": "Atlético",
+          "goals": 5,
+          "perGame": 0.42,
+          "chance": 20
+        },
+        {
+          "player": "Álex Grimaldo",
+          "team": "Atlético",
+          "goals": 4,
+          "perGame": 0.36,
+          "chance": 0,
+          "out": "Lesión — Disponible para la jornada 13"
+        }
+      ],
+      "absences": [
+        {
+          "team": "Atlético",
+          "player": "Ademola Lookman",
+          "reason": "Lesión: Esguince de rodilla — Baja hasta principios de diciembre"
+        },
+        {
+          "team": "Atlético",
+          "player": "Marc Pubill",
+          "reason": "Lesión: Esguince de tobillo — Duda para la jornada 13"
+        },
+        {
+          "team": "Atlético",
+          "player": "Cristian Romero",
+          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 13"
+        },
+        {
+          "team": "Atlético",
+          "player": "Álex Grimaldo",
+          "reason": "Lesión: Gripe — Disponible para la jornada 13"
+        }
+      ],
+      "news": [
+        {
+          "src": "FutbolFantasy",
+          "title": "Actualizada posible alineación de Getafe"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Marca da por descartado a Cuti Romero contra el Getafe"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Actualizada posible alineación de Atlético"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 0,
+        "px": 10,
+        "p2": 90
+      },
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.26,
+        "value": 2.6
+      },
+      "valuePick": true
+    },
+    {
+      "n": 8,
+      "home": "TENERIFE",
+      "away": "MALLORCA",
+      "covered": true,
+      "priced": true,
+      "league": "laliga2",
+      "probs": {
+        "p1": 30,
+        "px": 29,
+        "p2": 41
+      },
+      "pick": "2",
+      "modelProbs": {
+        "p1": 32,
+        "px": 31,
+        "p2": 37
+      },
+      "marketProbs": {
+        "p1": 30,
+        "px": 29,
+        "p2": 41
+      },
+      "alt": "1",
+      "advice": "doble",
+      "confidence": 41,
+      "xgHome": 1.08,
+      "xgAway": 1.19,
+      "likelyScore": "1-1",
+      "over25": 40,
+      "btts": 47,
+      "formHome": [
+        "G",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "formAway": [
+        "E",
+        "G",
+        "E",
+        "E",
+        "G"
+      ],
+      "posHome": 13,
+      "posAway": 7,
+      "reasoning": "Mallorca (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: Manuel Morlanes (Mallorca).",
+      "scorers": [
+        {
+          "player": "Enric Gallego",
+          "team": "Tenerife",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 46,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Adrián Fuentes",
+          "team": "Mallorca",
+          "goals": 3,
+          "perGame": 0,
+          "chance": 44,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
+        }
+      ],
+      "absences": [
+        {
+          "team": "Mallorca",
+          "player": "Manuel Morlanes",
+          "reason": "Lesión: Lesión en los ligamentos del tobillo izquierdo — Baja para la jornada 15"
+        },
+        {
+          "team": "Mallorca",
+          "player": "Antoniu Roca",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta febrero"
+        },
+        {
+          "team": "Mallorca",
+          "player": "Jan Salas",
+          "reason": "Lesión: Lesión en el recto femoral — Baja hasta principios de diciembre"
+        },
+        {
+          "team": "Mallorca",
+          "player": "David López",
+          "reason": "Lesión: Molestias musculares — Duda para la jornada 15"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El precioso gesto del Ceuta que en Tenerife nunca olvidarán"
+        },
+        {
+          "src": "Marca",
+          "title": "El Mallorca destituye a Pablo Ortells"
+        },
+        {
+          "src": "Marca",
+          "title": "El Mallorca tira de épica en Son Moix para sacar un empate en la noche de Ghailan"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 26,
+        "px": 43,
+        "p2": 31
+      },
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "1",
+        "prob": 0.3,
+        "value": 1.1411182959300115
+      }
+    },
+    {
+      "n": 9,
+      "home": "SPORTING",
+      "away": "LAS PALMAS",
+      "covered": true,
+      "priced": true,
+      "league": "laliga2",
+      "probs": {
+        "p1": 47,
+        "px": 27,
+        "p2": 26
+      },
+      "pick": "1",
+      "modelProbs": {
+        "p1": 38,
+        "px": 30,
+        "p2": 32
+      },
+      "marketProbs": {
+        "p1": 48,
+        "px": 27,
+        "p2": 25
+      },
+      "alt": "X",
+      "advice": "doble",
+      "confidence": 47,
+      "xgHome": 1.27,
+      "xgAway": 1.14,
+      "likelyScore": "1-1",
+      "over25": 43,
+      "btts": 50,
+      "formHome": [
+        "E",
+        "P",
+        "G",
+        "P",
+        "G"
+      ],
+      "formAway": [
+        "P",
+        "G",
+        "G",
+        "G",
+        "P"
+      ],
+      "posHome": 8,
+      "posAway": 11,
+      "reasoning": "Las casas de apuestas ven más favorito a Sporting (47%) que nuestras estadísticas. Sporting (8º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 2G-1E-2P en sus últimos 5. Baja: Enrique Clemente (Las Palmas).",
+      "scorers": [
+        {
+          "player": "Guille Rosas",
+          "team": "Sporting",
+          "goals": 3,
+          "perGame": 0,
+          "chance": 39,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Jesé Rodríguez",
+          "team": "Las Palmas",
+          "goals": 2,
+          "perGame": 0,
+          "chance": 25,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
+        }
+      ],
+      "absences": [
+        {
+          "team": "Las Palmas",
+          "player": "Enrique Clemente",
+          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta finales de noviembre"
+        },
+        {
+          "team": "Las Palmas",
+          "player": "Sandro Ramírez",
+          "reason": "Lesión: Microrrotura en el gemelo — Baja hasta finales de noviembre"
+        },
+        {
+          "team": "Las Palmas",
+          "player": "Edward Cedeño",
+          "reason": "Lesión: Rotura del tendón del recto femoral derecho — Duda para la jornada 15"
+        },
+        {
+          "team": "Las Palmas",
+          "player": "Iñaki González",
+          "reason": "Lesión: Microrrotura en el psoas — Disponible para la jornada 15"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "El Sporting está muy pendiente de la sanción a Álex Corredera"
+        },
+        {
+          "src": "Marca",
+          "title": "Real Sociedad B 2-2 Sporting"
+        },
+        {
+          "src": "Marca",
+          "title": "Opoku firma el debut liguero más fugaz de la historia de Las Palmas"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 54,
+        "px": 24,
+        "p2": 22
+      },
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "2",
+        "prob": 0.26,
+        "value": 1.2138188608776843
+      }
+    },
+    {
+      "n": 10,
+      "home": "GIRONA",
+      "away": "EIBAR",
+      "covered": true,
+      "priced": true,
+      "league": "laliga2",
+      "probs": {
+        "p1": 51,
+        "px": 26,
+        "p2": 23
+      },
+      "pick": "1",
+      "modelProbs": {
+        "p1": 46,
+        "px": 30,
+        "p2": 24
+      },
+      "marketProbs": {
+        "p1": 52,
+        "px": 25,
+        "p2": 23
+      },
+      "advice": "fijo",
+      "confidence": 51,
+      "xgHome": 1.36,
+      "xgAway": 0.93,
+      "likelyScore": "1-1",
+      "over25": 40,
+      "btts": 46,
+      "formHome": [
+        "G",
+        "P",
+        "P",
+        "G",
+        "G"
+      ],
+      "formAway": [
+        "E",
+        "E",
+        "P",
+        "E",
+        "P"
+      ],
+      "posHome": 4,
+      "posAway": 5,
+      "reasoning": "Girona (4º) parte como favorito: se esperan 1.4 goles suyos por 0.9 del rival; viene de 3G-0E-2P en sus últimos 5. Baja: Juan Bernat (Eibar).",
+      "scorers": [
+        {
+          "player": "Vladyslav Vanat",
+          "team": "Girona",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 54,
+          "tag": "racha",
+          "recent": 4,
+          "window": 6,
+          "note": "en racha: 4 goles en sus últimos 5 partidos"
+        }
+      ],
+      "absences": [
+        {
+          "team": "Eibar",
+          "player": "Juan Bernat",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja para la jornada 15"
+        },
+        {
+          "team": "Eibar",
+          "player": "Elijah Gift",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja para la jornada 15"
+        },
+        {
+          "team": "Eibar",
+          "player": "Imanol García",
+          "reason": "Lesión: Rotura fibrilar en el sóleo — Duda para la jornada 15"
+        },
+        {
+          "team": "Girona",
+          "player": "Javier Boñar",
+          "reason": "Lesión: Lesión de tobillo — Baja hasta diciembre"
+        }
+      ],
+      "news": [
+        {
+          "src": "Marca",
+          "title": "Jon Ander Ulazia, presidente del Eibar a todos los efectos"
+        }
+      ],
+      "source": "modelo+cuotas",
+      "publicPct": {
+        "p1": 73,
+        "px": 21,
+        "p2": 6
+      },
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.26,
+        "value": 1.2298959318826868
+      }
+    },
+    {
+      "n": 11,
+      "home": "EIBAR (F)",
+      "away": "AT.MADRID (F)",
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 13,
-        "px": 19,
-        "p2": 68
+        "p1": 14,
+        "px": 22,
+        "p2": 64
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 68,
+      "confidence": 64,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -115,29 +1241,105 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 13,
-        "px": 19,
-        "p2": 68
+        "p1": 14,
+        "px": 22,
+        "p2": 64
       },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito PORTUGAL (68%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (64%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 18,
-        "px": 16,
-        "p2": 66
+        "p1": 3,
+        "px": 9,
+        "p2": 88
       },
-      "publicSrc": "lae"
+      "publicSrc": "quinielista"
     },
     {
-      "n": 4,
-      "home": "HUNGRÍA",
-      "away": "IRLANDA N.",
+      "n": 12,
+      "home": "GRANADA (F)",
+      "away": "R.MADRID (F)",
+      "covered": false,
+      "priced": true,
+      "probs": {
+        "p1": 9,
+        "px": 16,
+        "p2": 75
+      },
+      "pick": "2",
+      "advice": "fijo",
+      "confidence": 75,
+      "xgHome": 0,
+      "xgAway": 0,
+      "likelyScore": "—",
+      "over25": 0,
+      "btts": 0,
+      "formHome": [],
+      "formAway": [],
+      "scorers": [],
+      "absences": [],
+      "news": [],
+      "marketProbs": {
+        "p1": 9,
+        "px": 16,
+        "p2": 75
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (75%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 3,
+        "px": 6,
+        "p2": 91
+      },
+      "publicSrc": "quinielista"
+    },
+    {
+      "n": 13,
+      "home": "R.SOCIEDAD (F)",
+      "away": "SEVILLA (F)",
+      "covered": false,
+      "priced": true,
+      "probs": {
+        "p1": 59,
+        "px": 23,
+        "p2": 18
+      },
+      "pick": "1",
+      "advice": "fijo",
+      "confidence": 59,
+      "xgHome": 0,
+      "xgAway": 0,
+      "likelyScore": "—",
+      "over25": 0,
+      "btts": 0,
+      "formHome": [],
+      "formAway": [],
+      "scorers": [],
+      "absences": [],
+      "news": [],
+      "marketProbs": {
+        "p1": 59,
+        "px": 23,
+        "p2": 18
+      },
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (59%).",
+      "source": "cuotas",
+      "publicPct": {
+        "p1": 58,
+        "px": 28,
+        "p2": 14
+      },
+      "publicSrc": "quinielista"
+    },
+    {
+      "n": 14,
+      "home": "TENERIFE (F)",
+      "away": "MADRID CFF (F)",
       "covered": false,
       "priced": true,
       "probs": {
         "p1": 50,
-        "px": 28,
-        "p2": 22
+        "px": 26,
+        "p2": 24
       },
       "pick": "1",
       "advice": "fijo",
@@ -154,446 +1356,52 @@
       "news": [],
       "marketProbs": {
         "p1": 50,
-        "px": 28,
-        "p2": 22
-      },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito HUNGRÍA (50%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 52,
-        "px": 27,
-        "p2": 21
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 5,
-      "home": "POLONIA",
-      "away": "SUECIA",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 44,
-        "px": 25,
-        "p2": 31
-      },
-      "pick": "1",
-      "alt": "2",
-      "advice": "doble",
-      "confidence": 44,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 44,
-        "px": 25,
-        "p2": 31
-      },
-      "reasoning": "Partido de selecciones: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito POLONIA (44%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 33,
-        "px": 27,
-        "p2": 40
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 6,
-      "home": "REP.IRLANDA",
-      "away": "KOSOVO",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 47,
-        "px": 29,
+        "px": 26,
         "p2": 24
       },
-      "pick": "1",
-      "advice": "fijo",
-      "confidence": 47,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 47,
-        "px": 29,
-        "p2": 24
-      },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito REP.IRLANDA (47%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (50%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 60,
-        "px": 24,
-        "p2": 16
+        "p1": 56,
+        "px": 27,
+        "p2": 17
       },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.29,
-        "value": 1.2083333333333333
-      }
-    },
-    {
-      "n": 7,
-      "home": "R.MADRID (F)",
-      "away": "INTER (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 72,
-        "px": 18,
-        "p2": 10
-      },
-      "pick": "1",
-      "advice": "fijo",
-      "confidence": 72,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 72,
-        "px": 18,
-        "p2": 10
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (72%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 72,
-        "px": 15,
-        "p2": 13
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 8,
-      "home": "BK HACKEN (F)",
-      "away": "MAN.CITY (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 10,
-        "px": 17,
-        "p2": 73
-      },
-      "pick": "2",
-      "advice": "fijo",
-      "confidence": 73,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 10,
-        "px": 17,
-        "p2": 73
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito MAN.CITY (F) (73%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 15,
-        "px": 14,
-        "p2": 71
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 9,
-      "home": "CHELSEA (F)",
-      "away": "PSG (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 74,
-        "px": 17,
-        "p2": 9
-      },
-      "pick": "1",
-      "advice": "fijo",
-      "confidence": 74,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 74,
-        "px": 17,
-        "p2": 9
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito CHELSEA (F) (74%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 54,
-        "px": 23,
-        "p2": 23
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 10,
-      "home": "JUVENTUS (F)",
-      "away": "LEUVEN (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 67,
-        "px": 20,
-        "p2": 13
-      },
-      "pick": "1",
-      "advice": "fijo",
-      "confidence": 67,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 67,
-        "px": 20,
-        "p2": 13
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito JUVENTUS (F) (67%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 76,
-        "px": 14,
-        "p2": 10
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 11,
-      "home": "AUSTRIA WIEN (F)",
-      "away": "B.MUNICH (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 11,
-        "px": 15,
-        "p2": 74
-      },
-      "pick": "2",
-      "advice": "fijo",
-      "confidence": 74,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 11,
-        "px": 15,
-        "p2": 74
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito B.MUNICH (F) (74%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 14,
-        "px": 13,
-        "p2": 73
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 12,
-      "home": "ARSENAL (F)",
-      "away": "OL. LYONNES (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 38,
-        "px": 23,
-        "p2": 39
-      },
-      "pick": "2",
-      "alt": "1",
-      "advice": "doble",
-      "confidence": 39,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 38,
-        "px": 23,
-        "p2": 39
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito OL. LYONNES (F) (39%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 42,
-        "px": 25,
-        "p2": 33
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 13,
-      "home": "BARCELONA (F)",
-      "away": "SERVETTE (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 83,
-        "px": 16,
-        "p2": 1
-      },
-      "pick": "1",
-      "advice": "fijo",
-      "confidence": 83,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 83,
-        "px": 16,
-        "p2": 1
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BARCELONA (F) (83%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 81,
-        "px": 10,
-        "p2": 9
-      },
-      "publicSrc": "lae"
-    },
-    {
-      "n": 14,
-      "home": "BENFICA (F)",
-      "away": "ROMA (F)",
-      "covered": false,
-      "priced": true,
-      "probs": {
-        "p1": 43,
-        "px": 24,
-        "p2": 33
-      },
-      "pick": "1",
-      "alt": "2",
-      "advice": "doble",
-      "confidence": 43,
-      "xgHome": 0,
-      "xgAway": 0,
-      "likelyScore": "—",
-      "over25": 0,
-      "btts": 0,
-      "formHome": [],
-      "formAway": [],
-      "scorers": [],
-      "absences": [],
-      "news": [],
-      "marketProbs": {
-        "p1": 43,
-        "px": 24,
-        "p2": 33
-      },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BENFICA (F) (43%).",
-      "source": "cuotas",
-      "publicPct": {
-        "p1": 46,
-        "px": 29,
-        "p2": 25
-      },
-      "publicSrc": "lae",
-      "surprise": {
-        "sign": "2",
-        "prob": 0.33,
-        "value": 1.32
-      },
-      "valuePick": true
+      "publicSrc": "quinielista"
     }
   ],
   "pleno15": {
-    "home": "DINAMARCA",
-    "away": "NORUEGA",
+    "home": "SEVILLA",
+    "away": "BETIS",
     "homeGoals": "1",
     "awayGoals": "1",
-    "covered": false,
+    "covered": true,
     "priced": true,
     "dist": {
       "h": [
-        0.266,
-        0.352,
-        0.233,
-        0.149
+        0.295,
+        0.36,
+        0.22,
+        0.125
       ],
       "a": [
-        0.247,
-        0.345,
-        0.242,
-        0.166
+        0.231,
+        0.339,
+        0.248,
+        0.183
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: DINAMARCA marca 1 (35%) y NORUEGA marca 1 (35%)."
+    "reasoning": "Lo más probable según las cuotas: SEVILLA marca 1 (36%) y BETIS marca 1 (34%)."
   },
-  "signs": "1 1 2 1 1 1 1 2 1 1 2 2 1 1",
+  "signs": "1 1 1 1 2 1 2 2 1 1 2 2 1 1",
   "ticketSafe": {
     "signs": [
       "1",
       "1",
+      "1",
+      "1",
       "2",
       "1",
-      "1",
-      "1",
-      "1",
+      "2",
       "2",
       "1",
       "1",
@@ -602,45 +1410,45 @@
       "1",
       "1"
     ],
-    "expectedHits": 8.2,
-    "pAll": 0.037368,
+    "expectedHits": 7.9,
+    "pAll": 0.023056,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
       "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "X",
+      "2",
+      "1",
+      "1",
       "2",
       "2",
       "1",
-      "1",
-      "1",
-      "1",
-      "2",
-      "1",
-      "1",
-      "2",
-      "2",
-      "1",
-      "2"
+      "1"
     ],
-    "expectedHits": 7.8,
-    "pAll": 0.010921,
+    "expectedHits": 7.3,
+    "pAll": 0.004889,
     "surprises": [
       1,
-      2,
-      14
+      5,
+      7
     ]
   },
   "distribution": {
-    "ones": 10,
+    "ones": 9,
     "xs": 0,
-    "twos": 4
+    "twos": 5
   },
-  "expectedHits": 8.2,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (0 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: BARCELONA (F)-SERVETTE (F) (1, 83%) y CHELSEA (F)-PSG (F) (1, 74%). Lo más abierto: ARSENAL (F)-OL. LYONNES (F) (39%) y BENFICA (F)-ROMA (F) (43%).",
-  "confidence": 59,
+  "expectedHits": 7.9,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 78%) y BARCELONA-VILLARREAL (1, 77%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
+  "confidence": 56,
   "columns": 16,
-  "generatedAt": "2026-11-17T15:55:59.861Z",
+  "generatedAt": "2026-11-18T00:56:45.375Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
@@ -650,16 +1458,16 @@
   },
   "aiUsed": null,
   "notes": [
-    "Las sorpresas 💎 usan el porcentaje real de apuestas de cada signo (dato oficial de Loterías).",
+    "Las sorpresas 💎 usan lo que están jugando los quinielistas (el dato oficial de Loterías aún no ha salido).",
     "Sin clave de IA: textos automáticos del modelo."
   ],
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
-  "num": 22,
-  "closing": 1794941100000,
+  "num": 23,
+  "closing": 1795262400000,
   "escrutada": 21,
   "market": {
     "odds": 14,
-    "publicSrc": "lae"
+    "publicSrc": "quinielista"
   },
   "record": {
     "entries": [
