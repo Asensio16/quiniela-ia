@@ -122,15 +122,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 45,
-        "px": 40,
-        "p2": 15
+        "p1": 42,
+        "px": 39,
+        "p2": 19
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 1.9217570350034319
+        "value": 1.450777202072539
       },
       "valuePick": true
     },
@@ -217,7 +217,9 @@
           "team": "Valencia",
           "goals": 2,
           "perGame": 0.4,
-          "chance": 19
+          "chance": 19,
+          "recent": 1,
+          "window": 6
         }
       ],
       "absences": [
@@ -258,8 +260,8 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 41,
-        "px": 32,
+        "p1": 39,
+        "px": 34,
         "p2": 27
       },
       "publicSrc": "quinielista"
@@ -273,8 +275,8 @@
       "league": "laliga",
       "probs": {
         "p1": 78,
-        "px": 15,
-        "p2": 7
+        "px": 14,
+        "p2": 8
       },
       "pick": "1",
       "modelProbs": {
@@ -317,28 +319,49 @@
           "team": "Real Madrid",
           "goals": 13,
           "perGame": 1.08,
-          "chance": 59
+          "chance": 64,
+          "tag": "racha",
+          "recent": 6,
+          "window": 6,
+          "note": "en racha: 6 goles en sus últimos 5 partidos"
         },
         {
           "player": "Jude Bellingham",
           "team": "Real Madrid",
           "goals": 4,
           "perGame": 0.33,
-          "chance": 24
+          "chance": 24,
+          "recent": 1,
+          "window": 6
+        },
+        {
+          "player": "Yan Diomande",
+          "team": "Real Madrid",
+          "goals": 3,
+          "perGame": 0,
+          "chance": 40,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Ferran Jutglà",
           "team": "Celta",
           "goals": 2,
           "perGame": 0.18,
-          "chance": 13
+          "chance": 13,
+          "recent": 1,
+          "window": 6
         },
         {
           "player": "Pablo Durán",
           "team": "Celta",
           "goals": 2,
           "perGame": 0.22,
-          "chance": 13
+          "chance": 13,
+          "recent": 0,
+          "window": 6
         }
       ],
       "absences": [
@@ -366,22 +389,22 @@
       "news": [
         {
           "src": "Marca",
-          "title": "El Celta comienza su Tourmalet"
+          "title": "Besiktas - Real Madrid dónde ver"
         },
         {
           "src": "Marca",
-          "title": "Albacete 1-0 Celta Fortuna"
+          "title": "Real Madrid - Inter dónde ver"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Las pruebas a Bernardo Silva descartan lesión y estará contra el Celta"
+          "src": "Marca",
+          "title": "Besiktas - Real Madrid dónde ver"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 89,
-        "px": 4,
-        "p2": 7
+        "p1": 92,
+        "px": 5,
+        "p2": 3
       },
       "publicSrc": "quinielista"
     },
@@ -393,8 +416,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 77,
-        "px": 14,
+        "p1": 78,
+        "px": 13,
         "p2": 9
       },
       "pick": "1",
@@ -404,12 +427,12 @@
         "p2": 12
       },
       "marketProbs": {
-        "p1": 78,
+        "p1": 79,
         "px": 13,
-        "p2": 9
+        "p2": 8
       },
       "advice": "fijo",
-      "confidence": 77,
+      "confidence": 78,
       "xgHome": 2.76,
       "xgAway": 1.11,
       "likelyScore": "2-1",
@@ -438,28 +461,53 @@
           "team": "Barcelona",
           "goals": 15,
           "perGame": 1.36,
-          "chance": 58
+          "chance": 63,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Lamine Yamal",
           "team": "Barcelona",
           "goals": 10,
           "perGame": 0.83,
-          "chance": 44
+          "chance": 48,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Fermín López",
+          "team": "Barcelona",
+          "goals": 7,
+          "perGame": 0,
+          "chance": 38,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Georges Mikautadze",
           "team": "Villarreal",
           "goals": 3,
           "perGame": 0.25,
-          "chance": 18
+          "chance": 18,
+          "recent": 1,
+          "window": 3
         },
         {
           "player": "Pape Gueye",
           "team": "Villarreal",
           "goals": 3,
           "perGame": 0.27,
-          "chance": 18
+          "chance": 18,
+          "tag": "sequia",
+          "recent": 0,
+          "window": 3,
+          "note": "sin marcar en sus últimos 3 partidos (lleva 3 en la temporada): puede romper la racha"
         }
       ],
       "absences": [
@@ -492,12 +540,16 @@
         {
           "src": "Marca",
           "title": "Tani Oluwaseyi se postula como solución al gol en el Villarreal"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "De Jong y Dani Olmo aprovechan el día de descanso para seguir trabajando y apuntan al Villarreal"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 86,
-        "px": 6,
+        "p1": 84,
+        "px": 8,
         "p2": 8
       },
       "publicSrc": "quinielista"
@@ -556,7 +608,9 @@
           "team": "Racing",
           "goals": 9,
           "perGame": 0.75,
-          "chance": 63
+          "chance": 63,
+          "recent": 1,
+          "window": 3
         },
         {
           "player": "Pablo García",
@@ -570,14 +624,18 @@
           "team": "Real Sociedad",
           "goals": 4,
           "perGame": 0.36,
-          "chance": 32
+          "chance": 32,
+          "recent": 1,
+          "window": 3
         },
         {
           "player": "Orri Steinn Óskarsson",
           "team": "Real Sociedad",
           "goals": 4,
           "perGame": 0.4,
-          "chance": 32
+          "chance": 32,
+          "recent": 1,
+          "window": 3
         }
       ],
       "absences": [
@@ -608,21 +666,25 @@
           "title": "La Real ya mira al Racing aún sin Sucic, ni Sarr, además de los internacionales, y tampoco la sensación Dani Díaz"
         },
         {
-          "src": "Marca",
-          "title": "Real Sociedad B 2-2 Sporting"
+          "src": "FutbolFantasy",
+          "title": "Belocian regresa al grupo y Andrés Martín trabaja al margen en el Racing"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Guliashvili apenas aparece con Georgia y regresa al Racing sin protagonismo"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 16,
-        "px": 27,
-        "p2": 57
+        "p1": 21,
+        "px": 26,
+        "p2": 53
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.31,
-        "value": 1.9030079803560467
+        "value": 1.4733840304182508
       },
       "valuePick": true
     },
@@ -645,9 +707,9 @@
         "p2": 19
       },
       "marketProbs": {
-        "p1": 54,
+        "p1": 53,
         "px": 26,
-        "p2": 20
+        "p2": 21
       },
       "advice": "fijo",
       "confidence": 54,
@@ -734,15 +796,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 67,
-        "px": 19,
+        "p1": 64,
+        "px": 22,
         "p2": 14
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.3785790031813363
+        "value": 1.1764705882352944
       }
     },
     {
@@ -753,15 +815,15 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 19,
+        "p1": 18,
         "px": 26,
-        "p2": 55
+        "p2": 56
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 27,
-        "px": 34,
-        "p2": 39
+        "p1": 26,
+        "px": 33,
+        "p2": 41
       },
       "marketProbs": {
         "p1": 17,
@@ -769,12 +831,12 @@
         "p2": 58
       },
       "advice": "fijo",
-      "confidence": 55,
+      "confidence": 56,
       "xgHome": 0.81,
-      "xgAway": 1.03,
+      "xgAway": 1.11,
       "likelyScore": "0-0",
-      "over25": 28,
-      "btts": 37,
+      "over25": 30,
+      "btts": 38,
       "formHome": [
         "P",
         "G",
@@ -791,14 +853,16 @@
       ],
       "posHome": 15,
       "posAway": 3,
-      "reasoning": "Las casas de apuestas ven más favorito a Atlético (55%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.0 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (56%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.1 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
       "scorers": [
         {
           "player": "Martín Satriano",
           "team": "Getafe",
           "goals": 3,
           "perGame": 0.25,
-          "chance": 26
+          "chance": 26,
+          "recent": 1,
+          "window": 3
         },
         {
           "player": "Enes Ünal",
@@ -812,15 +876,20 @@
           "team": "Atlético",
           "goals": 5,
           "perGame": 0.42,
-          "chance": 20
+          "chance": 21,
+          "tag": "sequia",
+          "recent": 0,
+          "window": 4,
+          "note": "sin marcar en sus últimos 4 partidos (lleva 5 en la temporada): puede romper la racha"
         },
         {
           "player": "Álex Grimaldo",
           "team": "Atlético",
           "goals": 4,
           "perGame": 0.36,
-          "chance": 0,
-          "out": "Lesión — Disponible para la jornada 13"
+          "chance": 18,
+          "recent": 2,
+          "window": 4
         }
       ],
       "absences": [
@@ -840,36 +909,36 @@
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 13"
         },
         {
-          "team": "Atlético",
-          "player": "Álex Grimaldo",
-          "reason": "Lesión: Gripe — Disponible para la jornada 13"
+          "team": "Getafe",
+          "player": "Zaid Romero",
+          "reason": "Lesión: Lesión en el cuádriceps — Disponible para la jornada 13"
         }
       ],
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Getafe"
+          "title": "Satriano araña escasos minutos con Uruguay y regresa descansado al Getafe"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Marca da por descartado a Cuti Romero contra el Getafe"
+          "title": "Sazonov pierde protagonismo con Georgia y regresa al Getafe sin minutos"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Atlético"
+          "src": "Marca",
+          "title": "Oblak, única novedad en el entrenamiento del Atlético"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 10,
-        "p2": 90
+        "p1": 8,
+        "px": 15,
+        "p2": 77
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 2.6
+        "value": 1.7071569271175313
       },
       "valuePick": true
     },
@@ -970,28 +1039,28 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Badajoz - Tenerife dónde ver"
+        },
+        {
+          "src": "Marca",
+          "title": "Badajoz - Tenerife dónde ver"
+        },
+        {
+          "src": "Marca",
           "title": "El precioso gesto del Ceuta que en Tenerife nunca olvidarán"
-        },
-        {
-          "src": "Marca",
-          "title": "El Mallorca destituye a Pablo Ortells"
-        },
-        {
-          "src": "Marca",
-          "title": "El Mallorca tira de épica en Son Moix para sacar un empate en la noche de Ghailan"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 26,
-        "px": 43,
-        "p2": 31
+        "p1": 25,
+        "px": 36,
+        "p2": 39
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.3,
-        "value": 1.1411182959300115
+        "value": 1.215066828675577
       }
     },
     {
@@ -1095,7 +1164,7 @@
         },
         {
           "src": "Marca",
-          "title": "Real Sociedad B 2-2 Sporting"
+          "title": "Las Palmas acudirá al mercado de invierno para mejorar defensa"
         },
         {
           "src": "Marca",
@@ -1104,15 +1173,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 54,
-        "px": 24,
-        "p2": 22
+        "p1": 52,
+        "px": 30,
+        "p2": 18
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.26,
-        "value": 1.2138188608776843
+        "value": 1.4254385964912282
       }
     },
     {
@@ -1205,16 +1274,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 73,
-        "px": 21,
-        "p2": 6
+        "p1": 61,
+        "px": 25,
+        "p2": 14
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.26,
-        "value": 1.2298959318826868
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 11,
@@ -1248,9 +1312,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (64%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 3,
-        "px": 9,
-        "p2": 88
+        "p1": 5,
+        "px": 12,
+        "p2": 83
       },
       "publicSrc": "quinielista"
     },
@@ -1286,9 +1350,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (75%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 3,
-        "px": 6,
-        "p2": 91
+        "p1": 1,
+        "px": 7,
+        "p2": 92
       },
       "publicSrc": "quinielista"
     },
@@ -1324,9 +1388,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (59%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 58,
-        "px": 28,
-        "p2": 14
+        "p1": 65,
+        "px": 23,
+        "p2": 12
       },
       "publicSrc": "quinielista"
     },
@@ -1362,11 +1426,16 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (50%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 56,
-        "px": 27,
-        "p2": 17
+        "p1": 60,
+        "px": 22,
+        "p2": 18
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.26,
+        "value": 1.1545293072824157
+      }
     }
   ],
   "pleno15": {
@@ -1378,16 +1447,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.295,
+        0.294,
         0.36,
         0.22,
-        0.125
+        0.126
       ],
       "a": [
-        0.231,
+        0.232,
         0.339,
         0.248,
-        0.183
+        0.182
       ]
     },
     "reasoning": "Lo más probable según las cuotas: SEVILLA marca 1 (36%) y BETIS marca 1 (34%)."
@@ -1411,7 +1480,7 @@
       "1"
     ],
     "expectedHits": 7.9,
-    "pAll": 0.023056,
+    "pAll": 0.02378,
     "surprises": []
   },
   "ticketValue": {
@@ -1432,7 +1501,7 @@
       "1"
     ],
     "expectedHits": 7.3,
-    "pAll": 0.004889,
+    "pAll": 0.004953,
     "surprises": [
       1,
       5,
@@ -1445,10 +1514,10 @@
     "twos": 5
   },
   "expectedHits": 7.9,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 78%) y BARCELONA-VILLARREAL (1, 77%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 78%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
   "confidence": 56,
   "columns": 16,
-  "generatedAt": "2026-11-18T00:56:45.375Z",
+  "generatedAt": "2026-11-18T11:34:30.011Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
