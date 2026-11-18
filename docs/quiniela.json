@@ -123,16 +123,15 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 42,
-        "px": 39,
-        "p2": 19
+        "px": 36,
+        "p2": 22
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 1.450777202072539
-      },
-      "valuePick": true
+        "value": 1.2802926383173299
+      }
     },
     {
       "n": 2,
@@ -260,9 +259,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 39,
-        "px": 34,
-        "p2": 27
+        "p1": 41,
+        "px": 33,
+        "p2": 26
       },
       "publicSrc": "quinielista"
     },
@@ -285,8 +284,8 @@
         "p2": 10
       },
       "marketProbs": {
-        "p1": 79,
-        "px": 14,
+        "p1": 80,
+        "px": 13,
         "p2": 7
       },
       "advice": "fijo",
@@ -388,23 +387,23 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Besiktas - Real Madrid dónde ver"
+          "src": "FutbolFantasy",
+          "title": "Oficial: Arda Güler renueva con el Real Madrid hasta 2032"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Rüdiger habla de Mourinho, Vinícius, Mbappé, Xabi Alonso y Arbeloa y analiza su futuro en el Real Madrid"
         },
         {
           "src": "Marca",
-          "title": "Real Madrid - Inter dónde ver"
-        },
-        {
-          "src": "Marca",
-          "title": "Besiktas - Real Madrid dónde ver"
+          "title": "El Celta comienza su Tourmalet"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 92,
+        "p1": 93,
         "px": 5,
-        "p2": 3
+        "p2": 2
       },
       "publicSrc": "quinielista"
     },
@@ -496,7 +495,7 @@
           "perGame": 0.25,
           "chance": 18,
           "recent": 1,
-          "window": 3
+          "window": 6
         },
         {
           "player": "Pape Gueye",
@@ -506,8 +505,8 @@
           "chance": 18,
           "tag": "sequia",
           "recent": 0,
-          "window": 3,
-          "note": "sin marcar en sus últimos 3 partidos (lleva 3 en la temporada): puede romper la racha"
+          "window": 6,
+          "note": "sin marcar en sus últimos 6 partidos (lleva 3 en la temporada): puede romper la racha"
         }
       ],
       "absences": [
@@ -548,9 +547,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 84,
-        "px": 8,
-        "p2": 8
+        "p1": 86,
+        "px": 9,
+        "p2": 5
       },
       "publicSrc": "quinielista"
     },
@@ -580,10 +579,10 @@
       "alt": "1",
       "advice": "doble",
       "confidence": 45,
-      "xgHome": 1.9,
+      "xgHome": 1.87,
       "xgAway": 1.99,
       "likelyScore": "1-1",
-      "over25": 75,
+      "over25": 74,
       "btts": 74,
       "formHome": [
         "G",
@@ -608,9 +607,11 @@
           "team": "Racing",
           "goals": 9,
           "perGame": 0.75,
-          "chance": 63,
-          "recent": 1,
-          "window": 3
+          "chance": 68,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Pablo García",
@@ -626,16 +627,18 @@
           "perGame": 0.36,
           "chance": 32,
           "recent": 1,
-          "window": 3
+          "window": 6
         },
         {
           "player": "Orri Steinn Óskarsson",
           "team": "Real Sociedad",
           "goals": 4,
           "perGame": 0.4,
-          "chance": 32,
-          "recent": 1,
-          "window": 3
+          "chance": 35,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -650,14 +653,14 @@
           "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta finales de noviembre"
         },
         {
-          "team": "Real Sociedad",
-          "player": "Ander Barrenetxea",
-          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta mayo"
+          "team": "Racing",
+          "player": "Maguette Gueye",
+          "reason": "Lesión: Lesión en los isquiotibiales — Duda para la jornada 13"
         },
         {
           "team": "Real Sociedad",
-          "player": "Mamadou Sarr",
-          "reason": "Lesión: Lesión en el sóleo — Duda para la jornada 13"
+          "player": "Ander Barrenetxea",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta mayo"
         }
       ],
       "news": [
@@ -667,24 +670,24 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Belocian regresa al grupo y Andrés Martín trabaja al margen en el Racing"
+          "title": "Unai Marrero habla de Remiro, su renovación, la competencia en la portería, el Racing y sus aspiraciones"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Guliashvili apenas aparece con Georgia y regresa al Racing sin protagonismo"
+          "title": "Belocian regresa al grupo y Andrés Martín trabaja al margen en el Racing"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 21,
-        "px": 26,
+        "p1": 20,
+        "px": 27,
         "p2": 53
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.31,
-        "value": 1.4733840304182508
+        "value": 1.582440020418581
       },
       "valuePick": true
     },
@@ -696,9 +699,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 54,
+        "p1": 53,
         "px": 26,
-        "p2": 20
+        "p2": 21
       },
       "pick": "1",
       "modelProbs": {
@@ -712,7 +715,7 @@
         "p2": 21
       },
       "advice": "fijo",
-      "confidence": 54,
+      "confidence": 53,
       "xgHome": 1.65,
       "xgAway": 0.86,
       "likelyScore": "1-1",
@@ -741,21 +744,31 @@
           "team": "Osasuna",
           "goals": 8,
           "perGame": 0.67,
-          "chance": 67
+          "chance": 72,
+          "tag": "racha",
+          "recent": 3,
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Adrián Niño",
           "team": "Málaga",
           "goals": 5,
           "perGame": 0.63,
-          "chance": 38
+          "chance": 42,
+          "tag": "racha",
+          "recent": 4,
+          "window": 6,
+          "note": "en racha: 4 goles en sus últimos 5 partidos"
         },
         {
           "player": "Carlos Dotor",
           "team": "Málaga",
           "goals": 2,
           "perGame": 0.18,
-          "chance": 17
+          "chance": 17,
+          "recent": 1,
+          "window": 6
         }
       ],
       "absences": [
@@ -788,23 +801,19 @@
         {
           "src": "Marca",
           "title": "Mínimo, tres fichajes como punto de partida al cambio del Málaga"
-        },
-        {
-          "src": "Marca",
-          "title": "Aimar mira al duelo con el Málaga"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 64,
-        "px": 22,
-        "p2": 14
+        "p1": 68,
+        "px": 21,
+        "p2": 11
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.1764705882352944
+        "value": 1.254826254826255
       }
     },
     {
@@ -815,9 +824,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 18,
+        "p1": 17,
         "px": 26,
-        "p2": 56
+        "p2": 57
       },
       "pick": "2",
       "modelProbs": {
@@ -826,12 +835,12 @@
         "p2": 41
       },
       "marketProbs": {
-        "p1": 17,
-        "px": 25,
-        "p2": 58
+        "p1": 16,
+        "px": 24,
+        "p2": 60
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 57,
       "xgHome": 0.81,
       "xgAway": 1.11,
       "likelyScore": "0-0",
@@ -853,7 +862,7 @@
       ],
       "posHome": 15,
       "posAway": 3,
-      "reasoning": "Las casas de apuestas ven más favorito a Atlético (56%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.1 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (57%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.1 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
       "scorers": [
         {
           "player": "Martín Satriano",
@@ -861,15 +870,17 @@
           "goals": 3,
           "perGame": 0.25,
           "chance": 26,
-          "recent": 1,
-          "window": 3
+          "recent": 2,
+          "window": 6
         },
         {
           "player": "Enes Ünal",
           "team": "Getafe",
           "goals": 2,
           "perGame": 0.18,
-          "chance": 18
+          "chance": 18,
+          "recent": 1,
+          "window": 6
         },
         {
           "player": "Álex Baena",
@@ -877,10 +888,8 @@
           "goals": 5,
           "perGame": 0.42,
           "chance": 21,
-          "tag": "sequia",
-          "recent": 0,
-          "window": 4,
-          "note": "sin marcar en sus últimos 4 partidos (lleva 5 en la temporada): puede romper la racha"
+          "recent": 1,
+          "window": 6
         },
         {
           "player": "Álex Grimaldo",
@@ -889,7 +898,18 @@
           "perGame": 0.36,
           "chance": 18,
           "recent": 2,
-          "window": 4
+          "window": 6
+        },
+        {
+          "player": "Giuliano Simeone",
+          "team": "Atlético",
+          "goals": 4,
+          "perGame": 0,
+          "chance": 25,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
@@ -921,24 +941,24 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Sazonov pierde protagonismo con Georgia y regresa al Getafe sin minutos"
+          "title": "El Atlético sigue a Yeremay (Nós Diario)"
         },
         {
-          "src": "Marca",
-          "title": "Oblak, única novedad en el entrenamiento del Atlético"
+          "src": "FutbolFantasy",
+          "title": "Baena eleva su jerarquía internacional antes de regresar al Atlético"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 8,
+        "p1": 6,
         "px": 15,
-        "p2": 77
+        "p2": 79
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.7071569271175313
+        "value": 1.736806947227789
       },
       "valuePick": true
     },
@@ -1039,28 +1059,28 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Badajoz - Tenerife dónde ver"
-        },
-        {
-          "src": "Marca",
-          "title": "Badajoz - Tenerife dónde ver"
+          "title": "Primera eliminatoria de la Copa del Rey en directo | Mallorca, Sabadell y Tenerife en liza"
         },
         {
           "src": "Marca",
           "title": "El precioso gesto del Ceuta que en Tenerife nunca olvidarán"
+        },
+        {
+          "src": "Marca",
+          "title": "Primera eliminatoria de la Copa del Rey en directo | Mallorca, Sabadell y Tenerife en liza"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 25,
-        "px": 36,
-        "p2": 39
+        "px": 34,
+        "p2": 41
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.3,
-        "value": 1.215066828675577
+        "value": 1.2024048096192383
       }
     },
     {
@@ -1071,9 +1091,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 47,
+        "p1": 46,
         "px": 27,
-        "p2": 26
+        "p2": 27
       },
       "pick": "1",
       "modelProbs": {
@@ -1082,13 +1102,13 @@
         "p2": 32
       },
       "marketProbs": {
-        "p1": 48,
+        "p1": 47,
         "px": 27,
-        "p2": 25
+        "p2": 26
       },
       "alt": "X",
       "advice": "doble",
-      "confidence": 47,
+      "confidence": 46,
       "xgHome": 1.27,
       "xgAway": 1.14,
       "likelyScore": "1-1",
@@ -1110,7 +1130,7 @@
       ],
       "posHome": 8,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Sporting (47%) que nuestras estadísticas. Sporting (8º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 2G-1E-2P en sus últimos 5. Baja: Enrique Clemente (Las Palmas).",
+      "reasoning": "Las casas de apuestas ven más favorito a Sporting (46%) que nuestras estadísticas. Sporting (8º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 2G-1E-2P en sus últimos 5. Baja: Enrique Clemente (Las Palmas).",
       "scorers": [
         {
           "player": "Guille Rosas",
@@ -1160,29 +1180,30 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Un muro inesperado en el camino del Sporting"
+        },
+        {
+          "src": "Marca",
           "title": "El Sporting está muy pendiente de la sanción a Álex Corredera"
         },
         {
           "src": "Marca",
           "title": "Las Palmas acudirá al mercado de invierno para mejorar defensa"
-        },
-        {
-          "src": "Marca",
-          "title": "Opoku firma el debut liguero más fugaz de la historia de Las Palmas"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 52,
+        "p1": 53,
         "px": 30,
-        "p2": 18
+        "p2": 17
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
-        "prob": 0.26,
-        "value": 1.4254385964912282
-      }
+        "prob": 0.27,
+        "value": 1.5743440233236154
+      },
+      "valuePick": true
     },
     {
       "n": 10,
@@ -1269,14 +1290,18 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Ulazia: \"No hay un honor más grande que ser presidente del Eibar\""
+        },
+        {
+          "src": "Marca",
           "title": "Jon Ander Ulazia, presidente del Eibar a todos los efectos"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 61,
-        "px": 25,
-        "p2": 14
+        "px": 27,
+        "p2": 12
       },
       "publicSrc": "quinielista"
     },
@@ -1287,13 +1312,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 14,
-        "px": 22,
-        "p2": 64
+        "p1": 11,
+        "px": 19,
+        "p2": 70
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 64,
+      "confidence": 70,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1305,11 +1330,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 14,
-        "px": 22,
-        "p2": 64
+        "p1": 11,
+        "px": 19,
+        "p2": 70
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (64%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (70%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 5,
@@ -1326,12 +1351,12 @@
       "priced": true,
       "probs": {
         "p1": 9,
-        "px": 16,
-        "p2": 75
+        "px": 15,
+        "p2": 76
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 75,
+      "confidence": 76,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1344,14 +1369,14 @@
       "news": [],
       "marketProbs": {
         "p1": 9,
-        "px": 16,
-        "p2": 75
+        "px": 15,
+        "p2": 76
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (75%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (76%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 1,
-        "px": 7,
+        "p1": 2,
+        "px": 6,
         "p2": 92
       },
       "publicSrc": "quinielista"
@@ -1363,13 +1388,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 59,
-        "px": 23,
-        "p2": 18
+        "p1": 57,
+        "px": 24,
+        "p2": 19
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 59,
+      "confidence": 57,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1381,16 +1406,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 59,
-        "px": 23,
-        "p2": 18
+        "p1": 57,
+        "px": 24,
+        "p2": 19
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (59%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (57%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 65,
+        "p1": 66,
         "px": 23,
-        "p2": 12
+        "p2": 11
       },
       "publicSrc": "quinielista"
     },
@@ -1401,13 +1426,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 50,
-        "px": 26,
-        "p2": 24
+        "p1": 53,
+        "px": 25,
+        "p2": 22
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 50,
+      "confidence": 53,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1419,23 +1444,18 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 50,
-        "px": 26,
-        "p2": 24
+        "p1": 53,
+        "px": 25,
+        "p2": 22
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (50%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (53%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 60,
-        "px": 22,
+        "p1": 55,
+        "px": 27,
         "p2": 18
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.26,
-        "value": 1.1545293072824157
-      }
+      "publicSrc": "quinielista"
     }
   ],
   "pleno15": {
@@ -1447,16 +1467,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.294,
-        0.36,
-        0.22,
-        0.126
+        0.287,
+        0.358,
+        0.224,
+        0.131
       ],
       "a": [
-        0.232,
-        0.339,
-        0.248,
-        0.182
+        0.24,
+        0.343,
+        0.244,
+        0.173
       ]
     },
     "reasoning": "Lo más probable según las cuotas: SEVILLA marca 1 (36%) y BETIS marca 1 (34%)."
@@ -1479,13 +1499,13 @@
       "1",
       "1"
     ],
-    "expectedHits": 7.9,
-    "pAll": 0.02378,
+    "expectedHits": 8,
+    "pAll": 0.02639,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
-      "2",
+      "1",
       "1",
       "1",
       "1",
@@ -1493,7 +1513,7 @@
       "1",
       "X",
       "2",
-      "1",
+      "2",
       "1",
       "2",
       "2",
@@ -1501,11 +1521,11 @@
       "1"
     ],
     "expectedHits": 7.3,
-    "pAll": 0.004953,
+    "pAll": 0.004867,
     "surprises": [
-      1,
       5,
-      7
+      7,
+      9
     ]
   },
   "distribution": {
@@ -1513,11 +1533,11 @@
     "xs": 0,
     "twos": 5
   },
-  "expectedHits": 7.9,
+  "expectedHits": 8,
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 78%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
-  "confidence": 56,
+  "confidence": 57,
   "columns": 16,
-  "generatedAt": "2026-11-18T11:34:30.011Z",
+  "generatedAt": "2026-11-18T20:27:17.601Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
