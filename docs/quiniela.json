@@ -15,9 +15,9 @@
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 40,
+        "p1": 41,
         "px": 30,
-        "p2": 30
+        "p2": 29
       },
       "marketProbs": {
         "p1": 43,
@@ -28,10 +28,10 @@
       "advice": "doble",
       "confidence": 43,
       "xgHome": 1.28,
-      "xgAway": 1.08,
+      "xgAway": 1.02,
       "likelyScore": "1-1",
-      "over25": 42,
-      "btts": 49,
+      "over25": 40,
+      "btts": 47,
       "formHome": [
         "E",
         "P",
@@ -48,7 +48,7 @@
       ],
       "posHome": 12,
       "posAway": 9,
-      "reasoning": "Alavés (12º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 0G-2E-3P en sus últimos 5. Baja: Mikel Rodriguez (Alavés).",
+      "reasoning": "Alavés (12º) parte como favorito: se esperan 1.3 goles suyos por 1.0 del rival; viene de 0G-2E-3P en sus últimos 5. Baja: Mikel Rodriguez (Alavés).",
       "scorers": [
         {
           "player": "Lucas Boyé",
@@ -73,11 +73,10 @@
           "team": "Deportivo",
           "goals": 5,
           "perGame": 0.56,
-          "chance": 30,
-          "tag": "sequia",
+          "chance": 0,
+          "out": "Lesión — Duda para la jornada 13",
           "recent": 0,
-          "window": 6,
-          "note": "sin marcar en sus últimos 6 partidos (lleva 5 en la temporada): puede romper la racha"
+          "window": 6
         },
         {
           "player": "Bil Nsongo",
@@ -97,27 +96,32 @@
         },
         {
           "team": "Deportivo",
+          "player": "Pierre-Emerick Aubameyang",
+          "reason": "Lesión: Molestias en el tobillo — Duda para la jornada 13"
+        },
+        {
+          "team": "Deportivo",
           "player": "Zakaria Eddahchouri",
-          "reason": "Lesión: Fractura de muñeca — Disponible para la jornada 13"
+          "reason": "Lesión: Fractura de muñeca — Duda para la jornada 13"
         },
         {
           "team": "Deportivo",
           "player": "Bright Ede",
-          "reason": "Lesión: Lesión en el bíceps femoral — Disponible para la jornada 13"
+          "reason": "Lesión: Lesión en el bíceps femoral — Duda para la jornada 13"
         }
       ],
       "news": [
+        {
+          "src": "Marca",
+          "title": "Luismi: “El Alavés es un rival directo, tenemos que ir a por los tres puntos”"
+        },
         {
           "src": "FutbolFantasy",
           "title": "Alineaciones probables y previa fantasy del Alavés - Deportivo"
         },
         {
           "src": "FutbolFantasy",
-          "title": "El Alavés se ejercita este miércoles todavía a la espera de tres internacionales"
-        },
-        {
-          "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
+          "title": "El Alavés recupera a Youssef y solo espera a Mariano Díaz y Abde Rebbach"
         }
       ],
       "source": "modelo+cuotas",
@@ -141,9 +145,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 48,
+        "p1": 49,
         "px": 28,
-        "p2": 24
+        "p2": 23
       },
       "pick": "1",
       "modelProbs": {
@@ -157,7 +161,7 @@
         "p2": 24
       },
       "advice": "fijo",
-      "confidence": 48,
+      "confidence": 49,
       "xgHome": 1.3,
       "xgAway": 0.84,
       "likelyScore": "1-0",
@@ -234,27 +238,27 @@
         },
         {
           "team": "Rayo",
-          "player": "Álvaro García",
-          "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta principios de diciembre"
+          "player": "Óscar Valentín",
+          "reason": "Lesión: Contusión en la rodilla — Baja confirmada para la jornada 13"
         },
         {
           "team": "Rayo",
-          "player": "Marash Kumbulla",
-          "reason": "Lesión: Molestias sin determinar — Duda para la jornada 13"
+          "player": "Álvaro García",
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja hasta principios de diciembre"
         }
       ],
       "news": [
         {
-          "src": "FutbolFantasy",
-          "title": "Posibles alineaciones y previa fantasy del Rayo - Valencia"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "El Rayo no recupera efectivos en la sesión del miércoles"
+          "src": "Marca",
+          "title": "El Rayo se reúne con las peñas para acordar el reembolso de los partidos en Butarque"
         },
         {
           "src": "Marca",
-          "title": "Valencia - Virtus dónde ver"
+          "title": "El Rayo se reúne con las peñas para acordar el reembolso de los partidos en Butarque"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Posibles alineaciones y previa fantasy del Rayo - Valencia"
         }
       ],
       "source": "modelo+cuotas",
@@ -273,8 +277,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 79,
-        "px": 14,
+        "p1": 80,
+        "px": 13,
         "p2": 7
       },
       "pick": "1",
@@ -284,12 +288,12 @@
         "p2": 10
       },
       "marketProbs": {
-        "p1": 81,
+        "p1": 82,
         "px": 12,
-        "p2": 7
+        "p2": 6
       },
       "advice": "fijo",
-      "confidence": 79,
+      "confidence": 80,
       "xgHome": 2.1,
       "xgAway": 0.67,
       "likelyScore": "2-0",
@@ -311,7 +315,7 @@
       ],
       "posHome": 2,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (79%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (80%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -381,18 +385,22 @@
         },
         {
           "team": "Celta",
-          "player": "Álvaro Núñez",
-          "reason": "Lesión: Rotura fibrilar en el aductor — Baja hasta mediados de noviembre"
+          "player": "Jones El-Abdellaoui",
+          "reason": "Lesión: Sometido a artroscopia en la rodilla — Disponible para la jornada 13"
         }
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "El Celta comienza su Tourmalet"
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Real Madrid - Celta"
         },
         {
-          "src": "Marca",
-          "title": "Albacete 1-0 Celta Fortuna"
+          "src": "FutbolFantasy",
+          "title": "Fede Valverde, el único internacional que falta por incorporarse al Real Madrid"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "El Real Madrid anuncia la renovación de Tchouaméni hasta 2032"
         }
       ],
       "source": "modelo+cuotas",
@@ -422,9 +430,9 @@
         "p2": 12
       },
       "marketProbs": {
-        "p1": 78,
+        "p1": 79,
         "px": 13,
-        "p2": 9
+        "p2": 8
       },
       "advice": "fijo",
       "confidence": 77,
@@ -534,11 +542,11 @@
         },
         {
           "src": "Marca",
-          "title": "Barcelona - Servette dónde ver"
+          "title": "Kuwait invita al Barcelona a jugar un amistoso en febrero"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Akhomach habla de su lesión, su regreso al grupo y el partido contra el Barcelona"
+          "src": "Marca",
+          "title": "Barcelona - Servette dónde ver"
         }
       ],
       "source": "modelo+cuotas",
@@ -662,11 +670,7 @@
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "Unai Marrero habla de Remiro, su renovación, la competencia en la portería, el Racing y sus aspiraciones"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "Agirrezabala habla de la Real Sociedad, los goles encajados y las remontadas"
+          "title": "Remiro rechaza la primera oferta de renovación de la Real Sociedad, pero las negociaciones siguen abiertas"
         }
       ],
       "source": "modelo+cuotas",
@@ -702,8 +706,8 @@
         "p2": 19
       },
       "marketProbs": {
-        "p1": 53,
-        "px": 26,
+        "p1": 52,
+        "px": 27,
         "p2": 21
       },
       "advice": "fijo",
@@ -776,16 +780,25 @@
         },
         {
           "team": "Málaga",
-          "player": "Juan Cruz",
-          "reason": "Lesión: Molestias en el bíceps femoral — Duda para la jornada 13"
+          "player": "Carlos Puga",
+          "reason": "Lesión: Molestias sin determinar — Disponible para la jornada 13"
         },
         {
           "team": "Málaga",
-          "player": "Carlos Puga",
-          "reason": "Lesión: Molestias sin determinar — Disponible para la jornada 13"
+          "player": "Juan Cruz",
+          "reason": "Lesión: Molestias en el bíceps femoral — Disponible para la jornada 13"
         }
       ],
-      "news": [],
+      "news": [
+        {
+          "src": "FutbolFantasy",
+          "title": "Osasuna descansa este jueves pendiente de la enfermería"
+        },
+        {
+          "src": "Marca",
+          "title": "Funes cumple un año en el Málaga buscando la alegría perdida"
+        }
+      ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 69,
@@ -920,7 +933,7 @@
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "El Atlético sigue a Yeremay (Nós Diario)"
+          "title": "El Getafe decide no renovar a Borja Mayoral y prepara su salida en enero o junio"
         },
         {
           "src": "FutbolFantasy",
@@ -960,9 +973,9 @@
         "p2": 37
       },
       "marketProbs": {
-        "p1": 29,
+        "p1": 28,
         "px": 29,
-        "p2": 42
+        "p2": 43
       },
       "alt": "X",
       "advice": "doble",
@@ -1049,6 +1062,10 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Manso entiende las críticas del Tenerife, pero respalda a Piqué y Nogués"
+        },
+        {
+          "src": "Marca",
           "title": "El precioso gesto del Ceuta que en Tenerife nunca olvidarán"
         }
       ],
@@ -1068,9 +1085,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 46,
-        "px": 27,
-        "p2": 27
+        "p1": 44,
+        "px": 28,
+        "p2": 28
       },
       "pick": "1",
       "modelProbs": {
@@ -1079,13 +1096,13 @@
         "p2": 32
       },
       "marketProbs": {
-        "p1": 47,
+        "p1": 45,
         "px": 27,
-        "p2": 26
+        "p2": 28
       },
-      "alt": "X",
+      "alt": "2",
       "advice": "doble",
-      "confidence": 46,
+      "confidence": 44,
       "xgHome": 1.27,
       "xgAway": 1.14,
       "likelyScore": "1-1",
@@ -1107,7 +1124,7 @@
       ],
       "posHome": 8,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Sporting (46%) que nuestras estadísticas. Sporting (8º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 2G-1E-2P en sus últimos 5. Baja: Enrique Clemente (Las Palmas).",
+      "reasoning": "Sporting (8º) parte como favorito: se esperan 1.3 goles suyos por 1.1 del rival; viene de 2G-1E-2P en sus últimos 5. Baja: Enrique Clemente (Las Palmas).",
       "scorers": [
         {
           "player": "Guille Rosas",
@@ -1165,8 +1182,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.27,
-        "value": 1.35
+        "prob": 0.28,
+        "value": 1.4000000000000001
       },
       "valuePick": true
     },
@@ -1278,12 +1295,12 @@
       "priced": true,
       "probs": {
         "p1": 12,
-        "px": 21,
-        "p2": 67
+        "px": 20,
+        "p2": 68
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 67,
+      "confidence": 68,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1296,10 +1313,10 @@
       "news": [],
       "marketProbs": {
         "p1": 12,
-        "px": 21,
-        "p2": 67
+        "px": 20,
+        "p2": 68
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (67%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (68%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 11,
@@ -1315,13 +1332,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 9,
-        "px": 15,
-        "p2": 76
+        "p1": 10,
+        "px": 16,
+        "p2": 74
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 76,
+      "confidence": 74,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1333,11 +1350,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 9,
-        "px": 15,
-        "p2": 76
+        "p1": 10,
+        "px": 16,
+        "p2": 74
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (76%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (74%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 9,
@@ -1353,13 +1370,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 61,
+        "p1": 62,
         "px": 22,
-        "p2": 17
+        "p2": 16
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 61,
+      "confidence": 62,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1371,11 +1388,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 61,
+        "p1": 62,
         "px": 22,
-        "p2": 17
+        "p2": 16
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (61%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (62%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 66,
@@ -1391,13 +1408,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 53,
+        "p1": 54,
         "px": 25,
-        "p2": 22
+        "p2": 21
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 53,
+      "confidence": 54,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1409,11 +1426,11 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 53,
+        "p1": 54,
         "px": 25,
-        "p2": 22
+        "p2": 21
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (53%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (54%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 42,
@@ -1432,13 +1449,13 @@
     "priced": true,
     "dist": {
       "h": [
-        0.289,
+        0.292,
         0.359,
-        0.223,
-        0.13
+        0.221,
+        0.127
       ],
       "a": [
-        0.24,
+        0.239,
         0.342,
         0.245,
         0.174
@@ -1465,7 +1482,7 @@
       "1"
     ],
     "expectedHits": 8,
-    "pAll": 0.028301,
+    "pAll": 0.028639,
     "surprises": []
   },
   "ticketValue": {
@@ -1485,8 +1502,8 @@
       "1",
       "1"
     ],
-    "expectedHits": 7.3,
-    "pAll": 0.005106,
+    "expectedHits": 7.4,
+    "pAll": 0.005602,
     "surprises": [
       5,
       7,
@@ -1499,10 +1516,10 @@
     "twos": 5
   },
   "expectedHits": 8,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 79%) y BARCELONA-VILLARREAL (1, 77%). Lo más abierto: TENERIFE-MALLORCA (42%) y ALAVÉS-DEPORTIVO (43%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 80%) y BARCELONA-VILLARREAL (1, 77%). Lo más abierto: TENERIFE-MALLORCA (42%) y ALAVÉS-DEPORTIVO (43%).",
   "confidence": 57,
   "columns": 16,
-  "generatedAt": "2026-11-19T11:32:16.637Z",
+  "generatedAt": "2026-11-19T20:30:33.063Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
