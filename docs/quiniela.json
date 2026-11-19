@@ -108,29 +108,29 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
-        },
-        {
-          "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
-        },
-        {
           "src": "FutbolFantasy",
-          "title": "FútbolFantasy ya es el quinto medio deportivo digital más leído de España"
+          "title": "El Alavés se ejercita este miércoles todavía a la espera de tres internacionales"
+        },
+        {
+          "src": "Marca",
+          "title": "El cantante Blessd es el nuevo dueño del Deportivo Pereira"
+        },
+        {
+          "src": "Marca",
+          "title": "Máster Periodismo Deportivo MARCA"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 42,
-        "px": 36,
-        "p2": 22
+        "p1": 40,
+        "px": 37,
+        "p2": 23
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 1.2802926383173299
+        "value": 1.2022327179046803
       }
     },
     {
@@ -245,23 +245,23 @@
       ],
       "news": [
         {
+          "src": "FutbolFantasy",
+          "title": "El Rayo no recupera efectivos en la sesión del miércoles"
+        },
+        {
           "src": "Marca",
           "title": "Corey Woolfolk coge las riendas del Valencia"
         },
         {
           "src": "Marca",
           "title": "El Valencia inicia la 'mudanza' al Nou Mestalla"
-        },
-        {
-          "src": "Marca",
-          "title": "La ‘maldición’ del Elche en la provincia de Valencia"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 41,
-        "px": 33,
-        "p2": 26
+        "p1": 43,
+        "px": 32,
+        "p2": 25
       },
       "publicSrc": "quinielista"
     },
@@ -273,9 +273,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 78,
+        "p1": 79,
         "px": 14,
-        "p2": 8
+        "p2": 7
       },
       "pick": "1",
       "modelProbs": {
@@ -289,7 +289,7 @@
         "p2": 7
       },
       "advice": "fijo",
-      "confidence": 78,
+      "confidence": 79,
       "xgHome": 2.1,
       "xgAway": 0.67,
       "likelyScore": "2-0",
@@ -311,7 +311,7 @@
       ],
       "posHome": 2,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (78%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (79%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -533,16 +533,16 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Marcos Senna ya tiene su sitio entre las leyendas del Villarreal"
-        },
-        {
-          "src": "Marca",
-          "title": "Tani Oluwaseyi se postula como solución al gol en el Villarreal"
+          "src": "FutbolFantasy",
+          "title": "Actualizada posible alineación de Barcelona"
         },
         {
           "src": "FutbolFantasy",
-          "title": "De Jong y Dani Olmo aprovechan el día de descanso para seguir trabajando y apuntan al Villarreal"
+          "title": "Akhomach habla de su lesión, su regreso al grupo y el partido contra el Barcelona"
+        },
+        {
+          "src": "Marca",
+          "title": "Marcos Senna ya tiene su sitio entre las leyendas del Villarreal"
         }
       ],
       "source": "modelo+cuotas",
@@ -679,15 +679,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 20,
-        "px": 27,
-        "p2": 53
+        "p1": 21,
+        "px": 28,
+        "p2": 51
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.31,
-        "value": 1.582440020418581
+        "value": 1.4636449480642115
       },
       "valuePick": true
     },
@@ -805,15 +805,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 68,
-        "px": 21,
-        "p2": 11
+        "p1": 71,
+        "px": 19,
+        "p2": 10
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.254826254826255
+        "value": 1.3742071881606766
       }
     },
     {
@@ -937,28 +937,24 @@
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "Satriano araña escasos minutos con Uruguay y regresa descansado al Getafe"
-        },
-        {
-          "src": "FutbolFantasy",
           "title": "El Atlético sigue a Yeremay (Nós Diario)"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Baena eleva su jerarquía internacional antes de regresar al Atlético"
+          "title": "Barrios y Hancko se reincorporan al Atlético, mientras Romero, Pubill, Grimaldo y Baena están al margen"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 6,
-        "px": 15,
-        "p2": 79
+        "p1": 5,
+        "px": 14,
+        "p2": 81
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
         "prob": 0.26,
-        "value": 1.736806947227789
+        "value": 1.878612716763006
       },
       "valuePick": true
     },
@@ -970,9 +966,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 30,
+        "p1": 29,
         "px": 29,
-        "p2": 41
+        "p2": 42
       },
       "pick": "2",
       "modelProbs": {
@@ -981,13 +977,13 @@
         "p2": 37
       },
       "marketProbs": {
-        "p1": 30,
+        "p1": 29,
         "px": 29,
-        "p2": 41
+        "p2": 42
       },
-      "alt": "1",
+      "alt": "X",
       "advice": "doble",
-      "confidence": 41,
+      "confidence": 42,
       "xgHome": 1.08,
       "xgAway": 1.19,
       "likelyScore": "1-1",
@@ -1009,14 +1005,14 @@
       ],
       "posHome": 13,
       "posAway": 7,
-      "reasoning": "Mallorca (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: Manuel Morlanes (Mallorca).",
+      "reasoning": "Mallorca (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: Antonio Sánchez (Mallorca).",
       "scorers": [
         {
           "player": "Enric Gallego",
           "team": "Tenerife",
-          "goals": 4,
+          "goals": 3,
           "perGame": 0,
-          "chance": 46,
+          "chance": 34,
           "tag": "racha",
           "recent": 3,
           "window": 6,
@@ -1027,14 +1023,30 @@
           "team": "Mallorca",
           "goals": 3,
           "perGame": 0,
-          "chance": 44,
+          "chance": 34,
           "tag": "racha",
           "recent": 3,
           "window": 6,
           "note": "en racha: 3 goles en sus últimos 5 partidos"
+        },
+        {
+          "player": "Sergi Darder",
+          "team": "Mallorca",
+          "goals": 2,
+          "perGame": 0,
+          "chance": 24,
+          "tag": "racha",
+          "recent": 2,
+          "window": 6,
+          "note": "en racha: 2 goles en sus últimos 5 partidos"
         }
       ],
       "absences": [
+        {
+          "team": "Mallorca",
+          "player": "Antonio Sánchez",
+          "reason": "Lesión: Lesión muscular — Baja hasta diciembre"
+        },
         {
           "team": "Mallorca",
           "player": "Manuel Morlanes",
@@ -1049,39 +1061,25 @@
           "team": "Mallorca",
           "player": "Jan Salas",
           "reason": "Lesión: Lesión en el recto femoral — Baja hasta principios de diciembre"
-        },
-        {
-          "team": "Mallorca",
-          "player": "David López",
-          "reason": "Lesión: Molestias musculares — Duda para la jornada 15"
         }
       ],
       "news": [
-        {
-          "src": "Marca",
-          "title": "Primera eliminatoria de la Copa del Rey en directo | Mallorca, Sabadell y Tenerife en liza"
-        },
         {
           "src": "Marca",
           "title": "El precioso gesto del Ceuta que en Tenerife nunca olvidarán"
         },
         {
           "src": "Marca",
-          "title": "Primera eliminatoria de la Copa del Rey en directo | Mallorca, Sabadell y Tenerife en liza"
+          "title": "El Mallorca destituye a Pablo Ortells"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 25,
-        "px": 34,
-        "p2": 41
+        "p1": 27,
+        "px": 35,
+        "p2": 38
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "1",
-        "prob": 0.3,
-        "value": 1.2024048096192383
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 9,
@@ -1135,31 +1133,19 @@
         {
           "player": "Guille Rosas",
           "team": "Sporting",
-          "goals": 3,
-          "perGame": 0,
-          "chance": 39,
-          "tag": "racha",
-          "recent": 2,
-          "window": 6,
-          "note": "en racha: 2 goles en sus últimos 5 partidos"
-        },
-        {
-          "player": "Jesé Rodríguez",
-          "team": "Las Palmas",
           "goals": 2,
           "perGame": 0,
-          "chance": 25,
-          "tag": "racha",
+          "chance": 0,
+          "out": "Lesión — Disponible para la jornada 15",
           "recent": 2,
-          "window": 6,
-          "note": "en racha: 2 goles en sus últimos 5 partidos"
+          "window": 6
         }
       ],
       "absences": [
         {
           "team": "Las Palmas",
           "player": "Enrique Clemente",
-          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta finales de noviembre"
+          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja para la jornada 15"
         },
         {
           "team": "Las Palmas",
@@ -1193,15 +1179,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 30,
-        "p2": 17
+        "p1": 52,
+        "px": 32,
+        "p2": 16
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.27,
-        "value": 1.5743440233236154
+        "value": 1.731879409878127
       },
       "valuePick": true
     },
@@ -1258,7 +1244,7 @@
           "team": "Girona",
           "goals": 4,
           "perGame": 0,
-          "chance": 54,
+          "chance": 47,
           "tag": "racha",
           "recent": 4,
           "window": 6,
@@ -1299,9 +1285,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 61,
+        "p1": 59,
         "px": 27,
-        "p2": 12
+        "p2": 14
       },
       "publicSrc": "quinielista"
     },
@@ -1337,9 +1323,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (70%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 5,
-        "px": 12,
-        "p2": 83
+        "p1": 6,
+        "px": 10,
+        "p2": 84
       },
       "publicSrc": "quinielista"
     },
@@ -1375,9 +1361,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (F) (76%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 2,
+        "p1": 3,
         "px": 6,
-        "p2": 92
+        "p2": 91
       },
       "publicSrc": "quinielista"
     },
@@ -1413,9 +1399,9 @@
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.SOCIEDAD (F) (57%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 66,
-        "px": 23,
-        "p2": 11
+        "p1": 64,
+        "px": 27,
+        "p2": 9
       },
       "publicSrc": "quinielista"
     },
@@ -1426,13 +1412,13 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 53,
+        "p1": 54,
         "px": 25,
-        "p2": 22
+        "p2": 21
       },
       "pick": "1",
       "advice": "fijo",
-      "confidence": 53,
+      "confidence": 54,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -1444,16 +1430,16 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 53,
+        "p1": 54,
         "px": 25,
-        "p2": 22
+        "p2": 21
       },
-      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (53%).",
+      "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito TENERIFE (F) (54%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 55,
-        "px": 27,
-        "p2": 18
+        "p1": 54,
+        "px": 31,
+        "p2": 15
       },
       "publicSrc": "quinielista"
     }
@@ -1467,16 +1453,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.287,
+        0.288,
         0.358,
-        0.224,
+        0.223,
         0.131
       ],
       "a": [
-        0.24,
-        0.343,
-        0.244,
-        0.173
+        0.239,
+        0.342,
+        0.245,
+        0.174
       ]
     },
     "reasoning": "Lo más probable según las cuotas: SEVILLA marca 1 (36%) y BETIS marca 1 (34%)."
@@ -1500,7 +1486,7 @@
       "1"
     ],
     "expectedHits": 8,
-    "pAll": 0.02639,
+    "pAll": 0.027897,
     "surprises": []
   },
   "ticketValue": {
@@ -1521,7 +1507,7 @@
       "1"
     ],
     "expectedHits": 7.3,
-    "pAll": 0.004867,
+    "pAll": 0.005145,
     "surprises": [
       5,
       7,
@@ -1534,10 +1520,10 @@
     "twos": 5
   },
   "expectedHits": 8,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 78%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 79%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (42%) y ALAVÉS-DEPORTIVO (43%).",
   "confidence": 57,
   "columns": 16,
-  "generatedAt": "2026-11-18T20:27:17.601Z",
+  "generatedAt": "2026-11-19T02:32:19.536Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
