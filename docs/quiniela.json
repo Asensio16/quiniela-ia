@@ -117,11 +117,11 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Alavés - Deportivo"
+          "title": "Tenaglia habla de Quique, su nueva posición, la competencia en el Alavés, los objetivos europeos y el vestuario"
         },
         {
           "src": "FutbolFantasy",
-          "title": "El Alavés recupera a Youssef y solo espera a Mariano Díaz y Abde Rebbach"
+          "title": "Alineaciones probables y previa fantasy del Alavés - Deportivo"
         }
       ],
       "source": "modelo+cuotas",
@@ -249,16 +249,16 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "El Rayo se reúne con las peñas para acordar el reembolso de los partidos en Butarque"
-        },
-        {
-          "src": "Marca",
-          "title": "El Rayo se reúne con las peñas para acordar el reembolso de los partidos en Butarque"
-        },
-        {
           "src": "FutbolFantasy",
           "title": "Posibles alineaciones y previa fantasy del Rayo - Valencia"
+        },
+        {
+          "src": "Marca",
+          "title": "La paradoja de Sato: el Valencia busca equipo para el mejor jugador joven de Asia"
+        },
+        {
+          "src": "Marca",
+          "title": "Corey Woolfolk coge las riendas del Valencia"
         }
       ],
       "source": "modelo+cuotas",
@@ -277,8 +277,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 80,
-        "px": 13,
+        "p1": 79,
+        "px": 14,
         "p2": 7
       },
       "pick": "1",
@@ -288,12 +288,12 @@
         "p2": 10
       },
       "marketProbs": {
-        "p1": 82,
-        "px": 12,
+        "p1": 81,
+        "px": 13,
         "p2": 6
       },
       "advice": "fijo",
-      "confidence": 80,
+      "confidence": 79,
       "xgHome": 2.1,
       "xgAway": 0.67,
       "likelyScore": "2-0",
@@ -315,7 +315,7 @@
       ],
       "posHome": 2,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (80%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (79%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Borja Iglesias (Celta).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -391,16 +391,16 @@
       ],
       "news": [
         {
+          "src": "Marca",
+          "title": "Olympiacos - Real Madrid donde ver"
+        },
+        {
+          "src": "Marca",
+          "title": "Olympiacos - Real Madrid donde ver"
+        },
+        {
           "src": "FutbolFantasy",
           "title": "Alineaciones probables y previa fantasy del Real Madrid - Celta"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "Fede Valverde, el único internacional que falta por incorporarse al Real Madrid"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "El Real Madrid anuncia la renovación de Tchouaméni hasta 2032"
         }
       ],
       "source": "modelo+cuotas",
@@ -419,8 +419,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 77,
-        "px": 14,
+        "p1": 78,
+        "px": 13,
         "p2": 9
       },
       "pick": "1",
@@ -435,7 +435,7 @@
         "p2": 8
       },
       "advice": "fijo",
-      "confidence": 77,
+      "confidence": 78,
       "xgHome": 2.75,
       "xgAway": 1.11,
       "likelyScore": "2-1",
@@ -538,15 +538,15 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Barcelona - Servette dónde ver"
-        },
-        {
-          "src": "Marca",
           "title": "Kuwait invita al Barcelona a jugar un amistoso en febrero"
         },
         {
+          "src": "FutbolFantasy",
+          "title": "Posibles alineaciones y previa fantasy del Barcelona - Villarreal"
+        },
+        {
           "src": "Marca",
-          "title": "Barcelona - Servette dónde ver"
+          "title": "Marcos Senna ya tiene su sitio entre las leyendas del Villarreal"
         }
       ],
       "source": "modelo+cuotas",
@@ -670,7 +670,15 @@
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "Remiro rechaza la primera oferta de renovación de la Real Sociedad, pero las negociaciones siguen abiertas"
+          "title": "Posibles alineaciones y previa fantasy del Racing - Real Sociedad"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Peio Canales, sobre Terzić, Valverde, Gerenabarrena, el Racing, la Sub-21, Europa y su renovación"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Posibles alineaciones y previa fantasy del Racing - Real Sociedad"
         }
       ],
       "source": "modelo+cuotas",
@@ -790,6 +798,10 @@
         }
       ],
       "news": [
+        {
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Osasuna - Málaga"
+        },
         {
           "src": "FutbolFantasy",
           "title": "Osasuna descansa este jueves pendiente de la enfermería"
@@ -933,11 +945,11 @@
       "news": [
         {
           "src": "FutbolFantasy",
-          "title": "El Getafe decide no renovar a Borja Mayoral y prepara su salida en enero o junio"
+          "title": "Alineaciones probables y previa fantasy del Getafe - Atlético"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Barrios y Hancko se reincorporan al Atlético, mientras Romero, Pubill, Grimaldo y Baena están al margen"
+          "title": "Alineaciones probables y previa fantasy del Getafe - Atlético"
         }
       ],
       "source": "modelo+cuotas",
@@ -1452,13 +1464,13 @@
         0.292,
         0.359,
         0.221,
-        0.127
+        0.128
       ],
       "a": [
-        0.239,
+        0.238,
         0.342,
         0.245,
-        0.174
+        0.175
       ]
     },
     "reasoning": "Lo más probable según las cuotas: SEVILLA marca 1 (36%) y BETIS marca 1 (34%)."
@@ -1482,7 +1494,7 @@
       "1"
     ],
     "expectedHits": 8,
-    "pAll": 0.028639,
+    "pAll": 0.028648,
     "surprises": []
   },
   "ticketValue": {
@@ -1503,7 +1515,7 @@
       "1"
     ],
     "expectedHits": 7.4,
-    "pAll": 0.005602,
+    "pAll": 0.005604,
     "surprises": [
       5,
       7,
@@ -1516,10 +1528,10 @@
     "twos": 5
   },
   "expectedHits": 8,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 80%) y BARCELONA-VILLARREAL (1, 77%). Lo más abierto: TENERIFE-MALLORCA (42%) y ALAVÉS-DEPORTIVO (43%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 79%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (42%) y ALAVÉS-DEPORTIVO (43%).",
   "confidence": 57,
   "columns": 16,
-  "generatedAt": "2026-11-19T20:30:33.063Z",
+  "generatedAt": "2026-11-20T02:17:41.266Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
@@ -1535,7 +1547,7 @@
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
   "num": 23,
   "closing": 1795262400000,
-  "escrutada": 21,
+  "escrutada": 22,
   "market": {
     "odds": 14,
     "publicSrc": "lae"
@@ -1597,6 +1609,64 @@
         "played": 14,
         "hitsSafe": 8,
         "hitsValue": 7,
+        "score15": "2-M",
+        "plenoHit": false
+      },
+      {
+        "j": 22,
+        "savedAt": "2026-11-17T15:55:59.862Z",
+        "safe": [
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "1"
+        ],
+        "value": [
+          "2",
+          "2",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "2"
+        ],
+        "pleno": "1-1",
+        "results": [
+          "1",
+          "1",
+          "2",
+          "X",
+          "X",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "2"
+        ],
+        "played": 14,
+        "hitsSafe": 11,
+        "hitsValue": 10,
         "score15": "2-M",
         "plenoHit": false
       }
