@@ -9,9 +9,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 43,
+        "p1": 41,
         "px": 29,
-        "p2": 28
+        "p2": 30
       },
       "pick": "1",
       "modelProbs": {
@@ -20,13 +20,13 @@
         "p2": 28
       },
       "marketProbs": {
-        "p1": 44,
+        "p1": 41,
         "px": 29,
-        "p2": 27
+        "p2": 30
       },
-      "alt": "X",
+      "alt": "2",
       "advice": "doble",
-      "confidence": 43,
+      "confidence": 41,
       "xgHome": 1.28,
       "xgAway": 0.98,
       "likelyScore": "1-1",
@@ -113,15 +113,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Alavés-Deportivo | Mendizorroza es la mejor solución: previa, análisis, pronóstico y predicción"
+        },
+        {
+          "src": "Marca",
           "title": "Luismi: “El Alavés es un rival directo, tenemos que ir a por los tres puntos”"
         },
         {
-          "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
-        },
-        {
-          "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Alavés - Deportivo"
         }
       ],
       "source": "modelo+cuotas",
@@ -133,9 +133,10 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.28,
-        "value": 1.2173913043478262
-      }
+        "prob": 0.3,
+        "value": 1.3043478260869563
+      },
+      "valuePick": true
     },
     {
       "n": 2,
@@ -145,8 +146,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 49,
-        "px": 28,
+        "p1": 50,
+        "px": 27,
         "p2": 23
       },
       "pick": "1",
@@ -161,7 +162,7 @@
         "p2": 23
       },
       "advice": "fijo",
-      "confidence": 49,
+      "confidence": 50,
       "xgHome": 1.3,
       "xgAway": 0.89,
       "likelyScore": "1-1",
@@ -249,16 +250,16 @@
       ],
       "news": [
         {
-          "src": "FutbolFantasy",
-          "title": "Aguirre habla de Otorbi, Elliott, Danjuma, Copete, Canós, Duro, Guerra, Sato, el lateral izquierdo y el Rayo"
-        },
-        {
           "src": "Marca",
           "title": "Javier Aguirre, sobre el desembarco de Pitchwise en el Valencia: \"¿Revolución? No he oído esa palabra\""
         },
         {
           "src": "Marca",
           "title": "La paradoja de Sato: el Valencia busca equipo para el mejor jugador joven de Asia"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "El Valencia, tras Tammy Abraham"
         }
       ],
       "source": "modelo+cuotas",
@@ -277,8 +278,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 80,
-        "px": 13,
+        "p1": 79,
+        "px": 14,
         "p2": 7
       },
       "pick": "1",
@@ -289,11 +290,11 @@
       },
       "marketProbs": {
         "p1": 81,
-        "px": 12,
-        "p2": 7
+        "px": 13,
+        "p2": 6
       },
       "advice": "fijo",
-      "confidence": 80,
+      "confidence": 79,
       "xgHome": 2.1,
       "xgAway": 0.67,
       "likelyScore": "2-0",
@@ -315,7 +316,7 @@
       ],
       "posHome": 2,
       "posAway": 11,
-      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (80%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Carl Starfelt (Celta).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (79%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.1 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Carl Starfelt (Celta).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -399,8 +400,8 @@
           "title": "Adrián Cordero arbitrará el Real Madrid-Celta y José María Sánchez, el Sevilla-Betis"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Giráldez, sobre Starfelt, Iglesias, Román, El Abdellaoui, Aspas, Swedberg, Antañón y el Real Madrid"
+          "src": "Marca",
+          "title": "Alineaciones probables del Real Madrid-Celta"
         }
       ],
       "source": "modelo+cuotas",
@@ -431,8 +432,8 @@
       },
       "marketProbs": {
         "p1": 79,
-        "px": 12,
-        "p2": 9
+        "px": 13,
+        "p2": 8
       },
       "advice": "fijo",
       "confidence": 78,
@@ -576,9 +577,9 @@
         "p2": 43
       },
       "marketProbs": {
-        "p1": 29,
+        "p1": 30,
         "px": 23,
-        "p2": 48
+        "p2": 47
       },
       "alt": "1",
       "advice": "doble",
@@ -802,10 +803,6 @@
           "title": "Osasuna “calienta el ambiente” de El Sadar jugando al curling"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Funes analiza la visita a Osasuna, las alternativas tácticas, las palabras de Chupe y la situación del Málaga"
-        },
-        {
           "src": "Marca",
           "title": "Funes cumple un año en el Málaga buscando la alegría perdida"
         }
@@ -821,8 +818,7 @@
         "sign": "X",
         "prob": 0.26,
         "value": 1.368421052631579
-      },
-      "valuePick": true
+      }
     },
     {
       "n": 7,
@@ -833,8 +829,8 @@
       "league": "laliga",
       "probs": {
         "p1": 17,
-        "px": 25,
-        "p2": 58
+        "px": 26,
+        "p2": 57
       },
       "pick": "2",
       "modelProbs": {
@@ -843,12 +839,12 @@
         "p2": 41
       },
       "marketProbs": {
-        "p1": 15,
+        "p1": 16,
         "px": 24,
-        "p2": 61
+        "p2": 60
       },
       "advice": "fijo",
-      "confidence": 58,
+      "confidence": 57,
       "xgHome": 0.81,
       "xgAway": 1.09,
       "likelyScore": "0-0",
@@ -870,7 +866,7 @@
       ],
       "posHome": 15,
       "posAway": 3,
-      "reasoning": "Las casas de apuestas ven más favorito a Atlético (58%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.1 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (57%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.1 goles suyos por 0.8 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
       "scorers": [
         {
           "player": "Martín Satriano",
@@ -949,7 +945,13 @@
         "px": 16,
         "p2": 76
       },
-      "publicSrc": "lae"
+      "publicSrc": "lae",
+      "surprise": {
+        "sign": "X",
+        "prob": 0.26,
+        "value": 1.625
+      },
+      "valuePick": true
     },
     {
       "n": 8,
@@ -998,7 +1000,7 @@
       ],
       "posHome": 13,
       "posAway": 7,
-      "reasoning": "Mallorca (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: Antonio Sánchez (Mallorca).",
+      "reasoning": "Mallorca (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-3E-0P en sus últimos 5. Baja: David López (Mallorca).",
       "scorers": [
         {
           "player": "Enric Gallego",
@@ -1037,6 +1039,11 @@
       "absences": [
         {
           "team": "Mallorca",
+          "player": "David López",
+          "reason": "Lesión: Molestias musculares — Baja para la jornada 15"
+        },
+        {
+          "team": "Mallorca",
           "player": "Antonio Sánchez",
           "reason": "Lesión: Lesión muscular — Baja hasta diciembre"
         },
@@ -1047,13 +1054,8 @@
         },
         {
           "team": "Mallorca",
-          "player": "Antoniu Roca",
-          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta febrero"
-        },
-        {
-          "team": "Mallorca",
-          "player": "Jan Salas",
-          "reason": "Lesión: Lesión en el recto femoral — Baja hasta principios de diciembre"
+          "player": "Daniel Luna",
+          "reason": "Lesión: Molestias sin determinar — Baja para la jornada 15"
         }
       ],
       "news": [
@@ -1090,13 +1092,13 @@
       },
       "marketProbs": {
         "p1": 45,
-        "px": 28,
-        "p2": 27
+        "px": 27,
+        "p2": 28
       },
       "alt": "2",
       "advice": "doble",
       "confidence": 44,
-      "xgHome": 1.28,
+      "xgHome": 1.27,
       "xgAway": 1.14,
       "likelyScore": "1-1",
       "over25": 43,
@@ -1138,18 +1140,18 @@
         },
         {
           "team": "Las Palmas",
+          "player": "Edward Cedeño",
+          "reason": "Lesión: Rotura del tendón del recto femoral derecho — Baja para la jornada 15"
+        },
+        {
+          "team": "Las Palmas",
           "player": "Sandro Ramírez",
           "reason": "Lesión: Microrrotura en el gemelo — Baja hasta finales de noviembre"
         },
         {
           "team": "Las Palmas",
-          "player": "Edward Cedeño",
-          "reason": "Lesión: Rotura del tendón del recto femoral derecho — Duda para la jornada 15"
-        },
-        {
-          "team": "Las Palmas",
-          "player": "Iñaki González",
-          "reason": "Lesión: Microrrotura en el psoas — Disponible para la jornada 15"
+          "player": "Ale García",
+          "reason": "Lesión: Molestias en los isquiotibiales — Baja para la jornada 15"
         }
       ],
       "news": [
@@ -1177,8 +1179,7 @@
         "sign": "2",
         "prob": 0.28,
         "value": 1.4000000000000001
-      },
-      "valuePick": true
+      }
     },
     {
       "n": 10,
@@ -1233,7 +1234,7 @@
           "team": "Girona",
           "goals": 4,
           "perGame": 0,
-          "chance": 47,
+          "chance": 46,
           "tag": "racha",
           "recent": 4,
           "window": 6,
@@ -1287,8 +1288,8 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 11,
-        "px": 21,
+        "p1": 12,
+        "px": 20,
         "p2": 68
       },
       "pick": "2",
@@ -1305,8 +1306,8 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 11,
-        "px": 21,
+        "p1": 12,
+        "px": 20,
         "p2": 68
       },
       "reasoning": "Partido de fútbol femenino: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito AT.MADRID (F) (68%).",
@@ -1442,10 +1443,10 @@
     "priced": true,
     "dist": {
       "h": [
-        0.297,
+        0.294,
         0.36,
-        0.219,
-        0.124
+        0.22,
+        0.126
       ],
       "a": [
         0.236,
@@ -1475,11 +1476,12 @@
       "1"
     ],
     "expectedHits": 8,
-    "pAll": 0.027969,
+    "pAll": 0.026409,
     "surprises": []
   },
   "ticketValue": {
     "signs": [
+      "2",
       "1",
       "1",
       "1",
@@ -1487,8 +1489,7 @@
       "1",
       "X",
       "2",
-      "2",
-      "2",
+      "1",
       "1",
       "2",
       "2",
@@ -1496,11 +1497,11 @@
       "1"
     ],
     "expectedHits": 7.4,
-    "pAll": 0.005573,
+    "pAll": 0.005626,
     "surprises": [
+      1,
       5,
-      6,
-      9
+      7
     ]
   },
   "distribution": {
@@ -1509,10 +1510,10 @@
     "twos": 5
   },
   "expectedHits": 8,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 80%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: TENERIFE-MALLORCA (41%) y ALAVÉS-DEPORTIVO (43%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (10 con estadísticas propias, 14 con cuotas) y se reparten los signos en 9 unos, 0 equis y 5 doses. Lo más claro: R.MADRID-CELTA (1, 79%) y BARCELONA-VILLARREAL (1, 78%). Lo más abierto: ALAVÉS-DEPORTIVO (41%) y TENERIFE-MALLORCA (41%).",
   "confidence": 57,
   "columns": 16,
-  "generatedAt": "2026-11-20T20:08:37.243Z",
+  "generatedAt": "2026-11-21T02:10:56.158Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 12,
