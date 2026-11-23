@@ -33,9 +33,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito ARSENAL (69%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 79,
-        "px": 18,
-        "p2": 3
+        "p1": 76,
+        "px": 17,
+        "p2": 7
       },
       "publicSrc": "quinielista"
     },
@@ -46,14 +46,14 @@
       "covered": false,
       "priced": true,
       "probs": {
-        "p1": 35,
+        "p1": 34,
         "px": 26,
-        "p2": 39
+        "p2": 40
       },
       "pick": "2",
       "alt": "1",
       "advice": "doble",
-      "confidence": 39,
+      "confidence": 40,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -65,22 +65,22 @@
       "absences": [],
       "news": [],
       "marketProbs": {
-        "p1": 35,
+        "p1": 34,
         "px": 26,
-        "p2": 39
+        "p2": 40
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito OPORTO (39%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito OPORTO (40%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 32,
-        "px": 26,
-        "p2": 42
+        "p1": 28,
+        "px": 28,
+        "p2": 44
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
-        "prob": 0.35,
-        "value": 1.1082963901203293
+        "prob": 0.34,
+        "value": 1.2309920347574221
       },
       "valuePick": true
     },
@@ -116,9 +116,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito MAN.CITY (76%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 85,
-        "px": 8,
-        "p2": 7
+        "p1": 90,
+        "px": 6,
+        "p2": 4
       },
       "publicSrc": "quinielista"
     },
@@ -154,8 +154,8 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito R.MADRID (81%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 95,
-        "px": 3,
+        "p1": 96,
+        "px": 2,
         "p2": 2
       },
       "publicSrc": "quinielista"
@@ -168,12 +168,12 @@
       "priced": true,
       "probs": {
         "p1": 9,
-        "px": 14,
-        "p2": 77
+        "px": 15,
+        "p2": 76
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 77,
+      "confidence": 76,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -186,15 +186,15 @@
       "news": [],
       "marketProbs": {
         "p1": 9,
-        "px": 14,
-        "p2": 77
+        "px": 15,
+        "p2": 76
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BETIS (77%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BETIS (76%).",
       "source": "cuotas",
       "publicPct": {
         "p1": 6,
-        "px": 14,
-        "p2": 80
+        "px": 12,
+        "p2": 82
       },
       "publicSrc": "quinielista"
     },
@@ -269,15 +269,15 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito VILLARREAL (44%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 21,
-        "px": 24,
+        "p1": 20,
+        "px": 25,
         "p2": 55
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "1",
         "prob": 0.31,
-        "value": 1.497584541062802
+        "value": 1.5617128463476069
       },
       "valuePick": true
     },
@@ -313,9 +313,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito LIVERPOOL (57%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 30,
-        "px": 18,
-        "p2": 52
+        "p1": 25,
+        "px": 19,
+        "p2": 56
       },
       "publicSrc": "quinielista"
     },
@@ -327,8 +327,8 @@
       "priced": true,
       "probs": {
         "p1": 67,
-        "px": 17,
-        "p2": 16
+        "px": 18,
+        "p2": 15
       },
       "pick": "1",
       "advice": "fijo",
@@ -345,15 +345,15 @@
       "news": [],
       "marketProbs": {
         "p1": 67,
-        "px": 17,
-        "p2": 16
+        "px": 18,
+        "p2": 15
       },
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito INTER (67%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 77,
-        "px": 16,
-        "p2": 7
+        "p1": 74,
+        "px": 18,
+        "p2": 8
       },
       "publicSrc": "quinielista"
     },
@@ -389,9 +389,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito PSG (72%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 86,
-        "px": 10,
-        "p2": 4
+        "p1": 92,
+        "px": 6,
+        "p2": 2
       },
       "publicSrc": "quinielista"
     },
@@ -429,8 +429,8 @@
       "source": "cuotas",
       "publicPct": {
         "p1": 38,
-        "px": 35,
-        "p2": 27
+        "px": 31,
+        "p2": 31
       },
       "publicSrc": "quinielista"
     },
@@ -467,15 +467,15 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito SPORTING PORT. (38%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 40,
-        "px": 27,
-        "p2": 33
+        "p1": 44,
+        "px": 25,
+        "p2": 31
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.36,
-        "value": 1.102941176470588
+        "value": 1.147227533460803
       },
       "valuePick": true
     },
@@ -487,12 +487,12 @@
       "priced": true,
       "probs": {
         "p1": 25,
-        "px": 26,
-        "p2": 49
+        "px": 27,
+        "p2": 48
       },
       "pick": "2",
       "advice": "fijo",
-      "confidence": 49,
+      "confidence": 48,
       "xgHome": 0,
       "xgAway": 0,
       "likelyScore": "—",
@@ -505,21 +505,21 @@
       "news": [],
       "marketProbs": {
         "p1": 25,
-        "px": 26,
-        "p2": 49
+        "px": 27,
+        "p2": 48
       },
-      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOURNEMOUTH (49%).",
+      "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito BOURNEMOUTH (48%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 24,
-        "px": 20,
-        "p2": 56
+        "p1": 25,
+        "px": 21,
+        "p2": 54
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "X",
-        "prob": 0.26,
-        "value": 1.2751348700343306
+        "prob": 0.27,
+        "value": 1.3075060532687652
       }
     },
     {
@@ -554,9 +554,9 @@
       "reasoning": "Partido de otra competición: no tenemos estadísticas propias, así que el pronóstico sale de las cuotas de las casas de apuestas: favorito CRYSTAL PALACE (46%).",
       "source": "cuotas",
       "publicPct": {
-        "p1": 41,
-        "px": 28,
-        "p2": 31
+        "p1": 46,
+        "px": 25,
+        "p2": 29
       },
       "publicSrc": "quinielista"
     }
@@ -570,19 +570,19 @@
     "priced": true,
     "dist": {
       "h": [
-        0.02,
-        0.078,
-        0.153,
-        0.749
+        0.023,
+        0.086,
+        0.162,
+        0.73
       ],
       "a": [
-        0.555,
-        0.327,
-        0.096,
-        0.022
+        0.55,
+        0.329,
+        0.098,
+        0.023
       ]
     },
-    "reasoning": "Lo más probable según las cuotas: AT.MADRID marca más de 2 (75%) y VIKING marca 0 (55%)."
+    "reasoning": "Lo más probable según las cuotas: AT.MADRID marca más de 2 (73%) y VIKING marca 0 (55%)."
   },
   "signs": "1 2 1 1 2 2 2 2 1 1 2 1 2 1",
   "ticketSafe": {
@@ -603,7 +603,7 @@
       "1"
     ],
     "expectedHits": 8.3,
-    "pAll": 0.039615,
+    "pAll": 0.039285,
     "surprises": []
   },
   "ticketValue": {
@@ -624,7 +624,7 @@
       "1"
     ],
     "expectedHits": 8.1,
-    "pAll": 0.02373,
+    "pAll": 0.022288,
     "surprises": [
       2,
       7,
@@ -638,15 +638,15 @@
   },
   "expectedHits": 8.3,
   "analysis": "Hay pronóstico real para 14 de los 14 partidos (0 con estadísticas propias, 14 con cuotas) y se reparten los signos en 7 unos, 0 equis y 7 doses. Lo más claro: R.MADRID-PSV (1, 81%) y SABAH-BARCELONA (2, 81%). Lo más abierto: SHAKHTAR DONETSK-FENERBAHCE (37%) y SPORTING PORT.-MAN.UNITED (38%).",
-  "confidence": 60,
+  "confidence": 59,
   "columns": 16,
-  "generatedAt": "2026-11-22T19:31:57.982Z",
+  "generatedAt": "2026-11-23T01:39:21.954Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
       "laliga2": 15
     },
-    "results": 285
+    "results": 290
   },
   "aiUsed": null,
   "notes": [
@@ -656,7 +656,7 @@
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
   "num": 24,
   "closing": 1795546800000,
-  "escrutada": 22,
+  "escrutada": 23,
   "market": {
     "odds": 14,
     "publicSrc": "quinielista"
@@ -778,6 +778,64 @@
         "hitsValue": 10,
         "score15": "2-M",
         "plenoHit": false
+      },
+      {
+        "j": 23,
+        "savedAt": "2026-11-21T10:56:48.818Z",
+        "safe": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "2",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "1"
+        ],
+        "value": [
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "2",
+          "2",
+          "1",
+          "2",
+          "2",
+          "1",
+          "1"
+        ],
+        "pleno": "1-1",
+        "results": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "X",
+          "2",
+          "1",
+          "2",
+          "2",
+          "1",
+          "2"
+        ],
+        "played": 14,
+        "hitsSafe": 9,
+        "hitsValue": 10,
+        "score15": "1-1",
+        "plenoHit": true
       }
     ],
     "sim": {
