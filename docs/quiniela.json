@@ -139,9 +139,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 0,
-        "p2": 50
+        "p1": 86,
+        "px": 10,
+        "p2": 4
       },
       "publicSrc": "quinielista"
     },
@@ -270,9 +270,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 50,
-        "p2": 50
+        "p1": 17,
+        "px": 28,
+        "p2": 55
       },
       "publicSrc": "quinielista"
     },
@@ -423,9 +423,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 0,
-        "p2": 50
+        "p1": 6,
+        "px": 8,
+        "p2": 86
       },
       "publicSrc": "quinielista"
     },
@@ -437,8 +437,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 81,
-        "px": 13,
+        "p1": 82,
+        "px": 12,
         "p2": 6
       },
       "pick": "1",
@@ -448,12 +448,12 @@
         "p2": 8
       },
       "marketProbs": {
-        "p1": 82,
-        "px": 12,
+        "p1": 83,
+        "px": 11,
         "p2": 6
       },
       "advice": "fijo",
-      "confidence": 81,
+      "confidence": 82,
       "xgHome": 2.49,
       "xgAway": 0.7,
       "likelyScore": "2-0",
@@ -543,24 +543,24 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Real Madrid - Zalgiris dónde ver"
+        },
+        {
+          "src": "Marca",
           "title": "Javier Tebas, sobre quién presiona más a los árbitros: \"Real Madrid Televisión, es un dato objetivo\""
         },
         {
           "src": "Marca",
           "title": "La Real tuvo más ocasiones que Barça, Real Madrid o Atlético, pero no ganó como ellos"
-        },
-        {
-          "src": "Marca",
-          "title": "LaLiga encarará su segunda cita de diciembre con exámenes para Real Madrid, Barça y Atlético"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 93,
-        "px": 5,
+        "p1": 95,
+        "px": 3,
         "p2": 2
       },
-      "publicSrc": "estimado"
+      "publicSrc": "quinielista"
     },
     {
       "n": 5,
@@ -570,9 +570,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 44,
+        "p1": 43,
         "px": 29,
-        "p2": 27
+        "p2": 28
       },
       "pick": "1",
       "modelProbs": {
@@ -581,13 +581,13 @@
         "p2": 27
       },
       "marketProbs": {
-        "p1": 44,
+        "p1": 43,
         "px": 29,
-        "p2": 27
+        "p2": 28
       },
       "alt": "X",
       "advice": "doble",
-      "confidence": 44,
+      "confidence": 43,
       "xgHome": 1.37,
       "xgAway": 1.01,
       "likelyScore": "1-1",
@@ -657,24 +657,29 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Pitchwise Holdings no estará en la Junta General del Valencia"
+        },
+        {
+          "src": "Marca",
           "title": "El CSD aprueba la venta accionarial del 42% del Valencia al fondo de inversión americano Pitchwise"
         },
         {
           "src": "Marca",
           "title": "Braulio enfría la expectativa del mercado del Valencia: \"A lo mejor algunas opciones son que te escojan ellos a ti\""
-        },
-        {
-          "src": "Marca",
-          "title": "Aguirre saca al Valencia de la pesadilla de dos meses y medio en descenso"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 50,
-        "p2": 50
+        "p1": 52,
+        "px": 30,
+        "p2": 18
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "2",
+        "prob": 0.28,
+        "value": 1.5963511972633981
+      }
     },
     {
       "n": 6,
@@ -815,9 +820,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 50,
-        "p2": 50
+        "p1": 2,
+        "px": 3,
+        "p2": 95
       },
       "publicSrc": "quinielista"
     },
@@ -952,17 +957,23 @@
           "title": "Celta Fortuna 1-1 Real Valladolid"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Posibles alineaciones y previa fantasy del Slavia Praga - Villarreal"
+          "src": "Marca",
+          "title": "Slavia de Praga - Villarreal dónde ver"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 50,
-        "p2": 0
+        "p1": 25,
+        "px": 36,
+        "p2": 39
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "1",
+        "prob": 0.35,
+        "value": 1.4011208967173738
+      },
+      "valuePick": true
     },
     {
       "n": 8,
@@ -1101,15 +1112,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 56,
-        "px": 16,
-        "p2": 28
+        "p1": 61,
+        "px": 26,
+        "p2": 13
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
-        "sign": "X",
-        "prob": 0.26,
-        "value": 1.6294907748569498
+        "sign": "2",
+        "prob": 0.29,
+        "value": 2.212051868802441
       },
       "valuePick": true
     },
@@ -1165,22 +1176,22 @@
         {
           "team": "Andorra",
           "player": "Théo Le Normand",
-          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja para la jornada 16"
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta febrero"
         },
         {
           "team": "Andorra",
           "player": "Álex Calvo",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 16"
-        },
-        {
-          "team": "Andorra",
-          "player": "Gael Alonso",
-          "reason": "Lesión: Fractura de maleolo tibial — Disponible para la jornada 16"
+          "reason": "Lesión: Molestias musculares — Duda para la jornada 16"
         },
         {
           "team": "Andorra",
           "player": "Martí Vilà",
-          "reason": "Lesión: Molestias sin determinar — Disponible para la jornada 16"
+          "reason": "Lesión: Molestias sin determinar — Duda para la jornada 16"
+        },
+        {
+          "team": "Las Palmas",
+          "player": "Enrique Clemente",
+          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja para la jornada 16"
         }
       ],
       "news": [
@@ -1199,15 +1210,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 56,
-        "px": 17,
-        "p2": 27
+        "p1": 80,
+        "px": 13,
+        "p2": 7
       },
-      "publicSrc": "estimado",
+      "publicSrc": "quinielista",
       "surprise": {
-        "sign": "X",
-        "prob": 0.27,
-        "value": 1.6003542114000098
+        "sign": "2",
+        "prob": 0.28,
+        "value": 3.9436619718309864
       },
       "valuePick": true
     },
@@ -1290,9 +1301,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 50,
-        "p2": 50
+        "p1": 35,
+        "px": 33,
+        "p2": 32
       },
       "publicSrc": "quinielista"
     },
@@ -1382,9 +1393,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 0,
-        "px": 50,
-        "p2": 50
+        "p1": 57,
+        "px": 29,
+        "p2": 14
       },
       "publicSrc": "quinielista"
     },
@@ -1396,9 +1407,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 60,
+        "p1": 59,
         "px": 23,
-        "p2": 17
+        "p2": 18
       },
       "pick": "1",
       "modelProbs": {
@@ -1407,12 +1418,12 @@
         "p2": 19
       },
       "marketProbs": {
-        "p1": 61,
-        "px": 22,
+        "p1": 60,
+        "px": 23,
         "p2": 17
       },
       "advice": "fijo",
-      "confidence": 60,
+      "confidence": 59,
       "xgHome": 1.81,
       "xgAway": 0.98,
       "likelyScore": "1-1",
@@ -1462,7 +1473,7 @@
         {
           "team": "Ceuta",
           "player": "Jordi Escobar",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 16"
+          "reason": "Lesión: Lesión de rodilla — Duda para la jornada 16"
         },
         {
           "team": "Ceuta",
@@ -1486,9 +1497,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 50,
-        "p2": 0
+        "p1": 90,
+        "px": 7,
+        "p2": 3
       },
       "publicSrc": "quinielista"
     },
@@ -1608,17 +1619,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 0,
-        "p2": 50
+        "p1": 40,
+        "px": 31,
+        "p2": 29
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "X",
-        "prob": 0.28,
-        "value": 14.000000000000002
-      },
-      "valuePick": true
+      "publicSrc": "quinielista"
     },
     {
       "n": 14,
@@ -1628,9 +1633,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 56,
+        "p1": 55,
         "px": 24,
-        "p2": 20
+        "p2": 21
       },
       "pick": "1",
       "modelProbs": {
@@ -1639,12 +1644,12 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 56,
-        "px": 24,
+        "p1": 55,
+        "px": 25,
         "p2": 20
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 55,
       "xgHome": 2,
       "xgAway": 1.19,
       "likelyScore": "1-1",
@@ -1666,7 +1671,7 @@
       ],
       "posHome": 1,
       "posAway": 10,
-      "reasoning": "Almería (1º) parte como favorito: se esperan 2.0 goles suyos por 1.2 del rival; viene de 3G-2E-0P en sus últimos 5. Baja: Jorge Pulido (Almería).",
+      "reasoning": "Almería (1º) parte como favorito: se esperan 2.0 goles suyos por 1.2 del rival; viene de 3G-2E-0P en sus últimos 5. Baja: Nico Melamed (Almería).",
       "scorers": [
         {
           "player": "Sergio Arribas",
@@ -1694,18 +1699,18 @@
       "absences": [
         {
           "team": "Almería",
-          "player": "Jorge Pulido",
-          "reason": "Lesión: Molestias en el tobillo — Baja para la jornada 15"
-        },
-        {
-          "team": "Almería",
           "player": "Nico Melamed",
-          "reason": "Lesión: Edema óseo en la rodilla — Baja para la jornada 15"
+          "reason": "Lesión: Edema óseo en la rodilla — Baja para la jornada 16"
         },
         {
           "team": "Almería",
           "player": "Rodrigo Ely",
-          "reason": "Lesión: Artritis inflamatoria de alto grado en el tobillo derecho — Baja para la jornada 15"
+          "reason": "Lesión: Artritis inflamatoria de alto grado en el tobillo derecho — Baja para la jornada 16"
+        },
+        {
+          "team": "Almería",
+          "player": "Jorge Pulido",
+          "reason": "Lesión: Molestias en el tobillo — Duda para la jornada 16"
         },
         {
           "team": "Sporting",
@@ -1729,9 +1734,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
-        "px": 50,
-        "p2": 0
+        "p1": 77,
+        "px": 16,
+        "p2": 7
       },
       "publicSrc": "quinielista"
     }
@@ -1751,7 +1756,7 @@
         0.186
       ],
       "a": [
-        0.347,
+        0.348,
         0.367,
         0.194,
         0.091
@@ -1778,7 +1783,7 @@
       "1"
     ],
     "expectedHits": 7.4,
-    "pAll": 0.009978,
+    "pAll": 0.009533,
     "surprises": []
   },
   "ticketValue": {
@@ -1789,21 +1794,21 @@
       "1",
       "1",
       "2",
+      "1",
       "2",
-      "X",
-      "X",
+      "2",
       "1",
       "1",
       "1",
-      "X",
+      "1",
       "1"
     ],
-    "expectedHits": 6.9,
-    "pAll": 0.002362,
+    "expectedHits": 7.1,
+    "pAll": 0.003616,
     "surprises": [
+      7,
       8,
-      9,
-      13
+      9
     ]
   },
   "distribution": {
@@ -1812,10 +1817,10 @@
     "twos": 4
   },
   "expectedHits": 7.4,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 81%) y DEPORTIVO-BARCELONA (2, 73%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 82%) y DEPORTIVO-BARCELONA (2, 73%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
   "confidence": 53,
   "columns": 16,
-  "generatedAt": "2026-11-24T23:53:07.919Z",
+  "generatedAt": "2026-11-25T08:25:10.580Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
