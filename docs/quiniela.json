@@ -127,13 +127,21 @@
         {
           "src": "FutbolFantasy",
           "title": "Actualizada posible alineación de Betis"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 78,
+        "p1": 79,
         "px": 15,
-        "p2": 7
+        "p2": 6
       },
       "publicSrc": "quinielista"
     },
@@ -263,8 +271,8 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 18,
-        "px": 26,
+        "p1": 19,
+        "px": 25,
         "p2": 56
       },
       "publicSrc": "quinielista"
@@ -277,27 +285,27 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 18,
+        "p1": 17,
         "px": 21,
-        "p2": 61
+        "p2": 62
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 28,
-        "px": 27,
+        "p1": 27,
+        "px": 28,
         "p2": 45
       },
       "marketProbs": {
-        "p1": 16,
+        "p1": 15,
         "px": 20,
-        "p2": 64
+        "p2": 65
       },
       "advice": "fijo",
-      "confidence": 61,
-      "xgHome": 1.15,
+      "confidence": 62,
+      "xgHome": 1.13,
       "xgAway": 1.51,
       "likelyScore": "1-1",
-      "over25": 50,
+      "over25": 49,
       "btts": 54,
       "formHome": [
         "E",
@@ -315,14 +323,14 @@
       ],
       "posHome": 19,
       "posAway": 3,
-      "reasoning": "Las casas de apuestas ven más favorito a Atlético (61%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.5 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (62%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.5 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
       "scorers": [
         {
           "player": "Fernando Niño",
           "team": "Elche",
           "goals": 6,
           "perGame": 0.5,
-          "chance": 37,
+          "chance": 36,
           "recent": 1,
           "window": 6
         },
@@ -386,18 +394,18 @@
         },
         {
           "team": "Atlético",
+          "player": "Alexander Sorloth",
+          "reason": "Lesión: Molestias en el gemelo — Duda para la jornada 14"
+        },
+        {
+          "team": "Atlético",
           "player": "Cristian Romero",
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
         },
         {
           "team": "Elche",
-          "player": "Rubén Sánchez",
-          "reason": "Lesión: Lesión en el aductor — Baja hasta mediados de diciembre"
-        },
-        {
-          "team": "Elche",
-          "player": "Marc Aguado",
-          "reason": "Lesión: Lesión de tobillo — Baja hasta finales de noviembre"
+          "player": "Thomas Lemar",
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja confirmada para la jornada 14"
         }
       ],
       "news": [
@@ -417,8 +425,8 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 4,
-        "px": 12,
-        "p2": 84
+        "px": 13,
+        "p2": 83
       },
       "publicSrc": "quinielista"
     },
@@ -430,8 +438,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 82,
-        "px": 12,
+        "p1": 83,
+        "px": 11,
         "p2": 6
       },
       "pick": "1",
@@ -441,12 +449,12 @@
         "p2": 8
       },
       "marketProbs": {
-        "p1": 83,
+        "p1": 84,
         "px": 11,
-        "p2": 6
+        "p2": 5
       },
       "advice": "fijo",
-      "confidence": 82,
+      "confidence": 83,
       "xgHome": 2.49,
       "xgAway": 0.7,
       "likelyScore": "2-0",
@@ -658,20 +666,20 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "El Valencia contacta con Dela (Plaza Deportiva)"
+          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 52,
-        "px": 33,
-        "p2": 15
+        "px": 34,
+        "p2": 14
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 1.912568306010929
+        "value": 1.9512195121951224
       },
       "valuePick": true
     },
@@ -689,22 +697,22 @@
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 20,
-        "px": 22,
+        "p1": 19,
+        "px": 23,
         "p2": 58
       },
       "marketProbs": {
-        "p1": 10,
-        "px": 14,
+        "p1": 9,
+        "px": 15,
         "p2": 76
       },
       "advice": "fijo",
       "confidence": 73,
-      "xgHome": 1.13,
+      "xgHome": 1.12,
       "xgAway": 2.06,
       "likelyScore": "1-1",
       "over25": 62,
-      "btts": 60,
+      "btts": 59,
       "formHome": [
         "P",
         "E",
@@ -728,7 +736,7 @@
           "team": "Deportivo",
           "goals": 5,
           "perGame": 0.5,
-          "chance": 30,
+          "chance": 29,
           "tag": "sequia",
           "recent": 0,
           "window": 6,
@@ -784,6 +792,11 @@
         },
         {
           "team": "Barcelona",
+          "player": "Alejandro Balde",
+          "reason": "Lesión: Molestias en el tobillo — Duda para la jornada 14"
+        },
+        {
+          "team": "Barcelona",
           "player": "Andreas Christensen",
           "reason": "Lesión: Molestias en el sóleo — Duda para la jornada 14"
         },
@@ -791,11 +804,6 @@
           "team": "Barcelona",
           "player": "Rodri Hernández",
           "reason": "Lesión: Lesión en el bíceps femoral — Duda para la jornada 14"
-        },
-        {
-          "team": "Barcelona",
-          "player": "Hamza Abdelkarim",
-          "reason": "Lesión: Sobrecarga muscular — Duda para la jornada 14"
         }
       ],
       "news": [
@@ -814,9 +822,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 3,
+        "p1": 2,
         "px": 7,
-        "p2": 90
+        "p2": 91
       },
       "publicSrc": "quinielista"
     },
@@ -957,11 +965,16 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 32,
+        "p1": 31,
         "px": 34,
-        "p2": 34
+        "p2": 35
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "quinielista",
+      "surprise": {
+        "sign": "1",
+        "prob": 0.35,
+        "value": 1.1363636363636362
+      }
     },
     {
       "n": 8,
@@ -971,15 +984,15 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 45,
+        "p1": 46,
         "px": 26,
-        "p2": 29
+        "p2": 28
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 50,
-        "px": 25,
-        "p2": 25
+        "p1": 54,
+        "px": 23,
+        "p2": 23
       },
       "marketProbs": {
         "p1": 44,
@@ -987,12 +1000,12 @@
         "p2": 29
       },
       "advice": "fijo",
-      "confidence": 45,
-      "xgHome": 1.84,
+      "confidence": 46,
+      "xgHome": 1.98,
       "xgAway": 1.25,
       "likelyScore": "1-1",
-      "over25": 60,
-      "btts": 61,
+      "over25": 63,
+      "btts": 62,
       "formHome": [
         "P",
         "G",
@@ -1009,15 +1022,14 @@
       ],
       "posHome": 5,
       "posAway": 6,
-      "reasoning": "Real Sociedad (5º) parte como favorito: se esperan 1.8 goles suyos por 1.2 del rival; viene de 3G-0E-2P en sus últimos 5. Baja: Ander Barrenetxea (Real Sociedad).",
+      "reasoning": "Real Sociedad (5º) parte como favorito: se esperan 2.0 goles suyos por 1.2 del rival; viene de 3G-0E-2P en sus últimos 5. Baja: Ander Barrenetxea (Real Sociedad).",
       "scorers": [
         {
           "player": "Luka Sucic",
           "team": "Real Sociedad",
           "goals": 4,
           "perGame": 0.33,
-          "chance": 0,
-          "out": "Lesión — Disponible para la jornada 14",
+          "chance": 29,
           "recent": 1,
           "window": 6
         },
@@ -1026,7 +1038,7 @@
           "team": "Real Sociedad",
           "goals": 4,
           "perGame": 0.36,
-          "chance": 31,
+          "chance": 33,
           "tag": "racha",
           "recent": 3,
           "window": 6,
@@ -1037,7 +1049,7 @@
           "team": "Real Sociedad",
           "goals": 3,
           "perGame": 0,
-          "chance": 36,
+          "chance": 39,
           "tag": "racha",
           "recent": 3,
           "window": 6,
@@ -1079,9 +1091,9 @@
           "reason": "Lesión: Contusión en la cadera — Duda para la jornada 14"
         },
         {
-          "team": "Real Sociedad",
-          "player": "Luka Sucic",
-          "reason": "Lesión: Trabajo al margen — Disponible para la jornada 14"
+          "team": "Sevilla",
+          "player": "Alfonso González",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta julio"
         }
       ],
       "news": [
@@ -1090,25 +1102,25 @@
           "title": "Real Sociedad B 0 - 3 Cádiz"
         },
         {
-          "src": "Marca",
-          "title": "Del Nido Benavente introduce un complemento para limitar el sueldo a los consejeros del Sevilla"
+          "src": "FutbolFantasy",
+          "title": "Previa y posibles alineaciones del Crystal Palace - Real Sociedad"
         },
         {
-          "src": "Marca",
-          "title": "Marcao, novedad en el regreso del Sevilla a los entrenamientos"
+          "src": "FutbolFantasy",
+          "title": "La Real Sociedad ultima su preparación en Selhurst Park con cuatro bajas"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 52,
-        "px": 33,
+        "p1": 53,
+        "px": 32,
         "p2": 15
       },
       "publicSrc": "quinielista",
       "surprise": {
         "sign": "2",
-        "prob": 0.29,
-        "value": 1.8880208333333333
+        "prob": 0.28,
+        "value": 1.838476690741957
       },
       "valuePick": true
     },
@@ -1131,9 +1143,9 @@
         "p2": 24
       },
       "marketProbs": {
-        "p1": 44,
+        "p1": 45,
         "px": 27,
-        "p2": 29
+        "p2": 28
       },
       "advice": "fijo",
       "confidence": 45,
@@ -1179,7 +1191,7 @@
         {
           "team": "Las Palmas",
           "player": "Enrique Clemente",
-          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja para la jornada 16"
+          "reason": "Lesión: Meniscopatía externa de la rodilla izquierda — Baja hasta finales de diciembre"
         }
       ],
       "news": [
@@ -1206,7 +1218,7 @@
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 2.857142857142857
+        "value": 2.931937172774869
       },
       "valuePick": true
     },
@@ -1289,16 +1301,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 39,
+        "p1": 38,
         "px": 36,
-        "p2": 25
+        "p2": 26
       },
-      "publicSrc": "quinielista",
-      "surprise": {
-        "sign": "2",
-        "prob": 0.28,
-        "value": 1.1276681433749496
-      }
+      "publicSrc": "quinielista"
     },
     {
       "n": 11,
@@ -1386,9 +1393,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 55,
+        "p1": 53,
         "px": 31,
-        "p2": 14
+        "p2": 16
       },
       "publicSrc": "quinielista"
     },
@@ -1400,9 +1407,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 59,
+        "p1": 60,
         "px": 23,
-        "p2": 18
+        "p2": 17
       },
       "pick": "1",
       "modelProbs": {
@@ -1416,7 +1423,7 @@
         "p2": 17
       },
       "advice": "fijo",
-      "confidence": 59,
+      "confidence": 60,
       "xgHome": 1.81,
       "xgAway": 0.98,
       "likelyScore": "1-1",
@@ -1438,7 +1445,7 @@
       ],
       "posHome": 4,
       "posAway": 22,
-      "reasoning": "Granada (4º) parte como favorito: se esperan 1.8 goles suyos por 1.0 del rival; viene de 4G-1E-0P en sus últimos 5. Baja: Toni Abad (Ceuta).",
+      "reasoning": "Granada (4º) parte como favorito: se esperan 1.8 goles suyos por 1.0 del rival; viene de 4G-1E-0P en sus últimos 5. Baja: Jordi Escobar (Ceuta).",
       "scorers": [
         {
           "player": "Jorge Pascual",
@@ -1455,6 +1462,11 @@
       "absences": [
         {
           "team": "Ceuta",
+          "player": "Jordi Escobar",
+          "reason": "Lesión: Lesión en el ligamento cruzado de la rodilla izquierda — Baja para la jornada 16"
+        },
+        {
+          "team": "Ceuta",
           "player": "Toni Abad",
           "reason": "Lesión: Molestias sin determinar — Duda para la jornada 16"
         },
@@ -1462,11 +1474,6 @@
           "team": "Ceuta",
           "player": "Adrián Lapeña",
           "reason": "Lesión: Lesión indeterminada — Duda para la jornada 16"
-        },
-        {
-          "team": "Ceuta",
-          "player": "Jordi Escobar",
-          "reason": "Lesión: Lesión de rodilla — Duda para la jornada 16"
         },
         {
           "team": "Ceuta",
@@ -1490,9 +1497,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 84,
+        "p1": 83,
         "px": 11,
-        "p2": 5
+        "p2": 6
       },
       "publicSrc": "quinielista"
     },
@@ -1612,9 +1619,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 38,
-        "px": 31,
-        "p2": 31
+        "p1": 36,
+        "px": 32,
+        "p2": 32
       },
       "publicSrc": "quinielista"
     },
@@ -1637,9 +1644,9 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 56,
+        "p1": 55,
         "px": 25,
-        "p2": 19
+        "p2": 20
       },
       "advice": "fijo",
       "confidence": 56,
@@ -1744,14 +1751,14 @@
     "dist": {
       "h": [
         0.227,
-        0.336,
-        0.25,
+        0.337,
+        0.249,
         0.187
       ],
       "a": [
         0.349,
         0.367,
-        0.193,
+        0.194,
         0.09
       ]
     },
@@ -1775,8 +1782,8 @@
       "1",
       "1"
     ],
-    "expectedHits": 7.4,
-    "pAll": 0.010275,
+    "expectedHits": 7.5,
+    "pAll": 0.010989,
     "surprises": []
   },
   "ticketValue": {
@@ -1797,7 +1804,7 @@
       "1"
     ],
     "expectedHits": 7,
-    "pAll": 0.002683,
+    "pAll": 0.00271,
     "surprises": [
       5,
       8,
@@ -1809,11 +1816,11 @@
     "xs": 0,
     "twos": 4
   },
-  "expectedHits": 7.4,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 82%) y DEPORTIVO-BARCELONA (2, 73%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
-  "confidence": 53,
+  "expectedHits": 7.5,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 73%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "confidence": 54,
   "columns": 16,
-  "generatedAt": "2026-11-25T19:13:43.192Z",
+  "generatedAt": "2026-11-26T03:32:06.602Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
