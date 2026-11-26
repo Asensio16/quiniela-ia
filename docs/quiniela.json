@@ -9,15 +9,15 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 60,
-        "px": 22,
-        "p2": 18
+        "p1": 58,
+        "px": 23,
+        "p2": 19
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 55,
-        "px": 26,
-        "p2": 19
+        "p1": 53,
+        "px": 27,
+        "p2": 20
       },
       "marketProbs": {
         "p1": 60,
@@ -25,12 +25,12 @@
         "p2": 18
       },
       "advice": "fijo",
-      "confidence": 60,
-      "xgHome": 1.68,
+      "confidence": 58,
+      "xgHome": 1.56,
       "xgAway": 0.88,
       "likelyScore": "1-1",
-      "over25": 47,
-      "btts": 48,
+      "over25": 44,
+      "btts": 47,
       "formHome": [
         "E",
         "G",
@@ -47,14 +47,15 @@
       ],
       "posHome": 4,
       "posAway": 15,
-      "reasoning": "Betis (4º) parte como favorito: se esperan 1.7 goles suyos por 0.9 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Giovani Lo Celso (Betis).",
+      "reasoning": "Betis (4º) parte como favorito: se esperan 1.6 goles suyos por 0.9 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Giovani Lo Celso (Betis).",
       "scorers": [
         {
           "player": "Abde Ezzalzouli",
           "team": "Betis",
           "goals": 3,
           "perGame": 0.3,
-          "chance": 21,
+          "chance": 0,
+          "out": "Lesión — Disponible para la jornada 14",
           "recent": 1,
           "window": 6
         },
@@ -63,7 +64,7 @@
           "team": "Betis",
           "goals": 3,
           "perGame": 0.33,
-          "chance": 24,
+          "chance": 23,
           "tag": "racha",
           "recent": 2,
           "window": 6,
@@ -114,36 +115,36 @@
         },
         {
           "team": "Betis",
-          "player": "José Antonio Morante",
-          "reason": "Lesión: Contusión en la cadera — Duda para la jornada 14"
+          "player": "Abde Ezzalzouli",
+          "reason": "Lesión: Contusión — Disponible para la jornada 14"
         },
         {
-          "team": "Rayo",
-          "player": "Luiz Felipe",
-          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta agosto"
+          "team": "Betis",
+          "player": "José Antonio Morante",
+          "reason": "Lesión: Contusión en la cadera — Disponible para la jornada 14"
         }
       ],
       "news": [
         {
-          "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Betis"
+          "src": "Marca",
+          "title": "El Betis presume de delantero"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
+          "title": "Beñat San José analiza al Betis, el estado de Álvaro García y Óscar Valentín, la falta de gol y la situación clasificatoria"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
+          "title": "Lo Celso y Dani Ceballos, prácticamente descartados ante el Rayo"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 79,
+        "p1": 77,
         "px": 15,
-        "p2": 6
+        "p2": 8
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 2,
@@ -153,28 +154,28 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 23,
+        "p1": 22,
         "px": 26,
-        "p2": 51
+        "p2": 52
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 34,
-        "px": 32,
-        "p2": 34
+        "p1": 31,
+        "px": 31,
+        "p2": 38
       },
       "marketProbs": {
-        "p1": 21,
+        "p1": 20,
         "px": 25,
-        "p2": 54
+        "p2": 55
       },
       "advice": "fijo",
-      "confidence": 51,
+      "confidence": 52,
       "xgHome": 1.06,
-      "xgAway": 1.07,
+      "xgAway": 1.19,
       "likelyScore": "1-1",
-      "over25": 36,
-      "btts": 44,
+      "over25": 39,
+      "btts": 47,
       "formHome": [
         "P",
         "P",
@@ -191,7 +192,7 @@
       ],
       "posHome": 20,
       "posAway": 7,
-      "reasoning": "Las casas de apuestas ven más favorito a Athletic (51%) que nuestras estadísticas. Partido muy igualado: se esperan 1.1-1.1 goles y hay pocas diferencias entre los dos equipos. Baja: Dani Vivian (Athletic).",
+      "reasoning": "Las casas de apuestas ven más favorito a Athletic (52%) que nuestras estadísticas. Athletic (7º) parte como favorito: se esperan 1.2 goles suyos por 1.1 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Dani Vivian (Athletic).",
       "scorers": [
         {
           "player": "Adrián Niño",
@@ -218,8 +219,7 @@
           "team": "Athletic",
           "goals": 4,
           "perGame": 0.31,
-          "chance": 0,
-          "out": "Lesión — Disponible para la jornada 14",
+          "chance": 27,
           "recent": 2,
           "window": 6
         },
@@ -228,7 +228,7 @@
           "team": "Athletic",
           "goals": 3,
           "perGame": 0.23,
-          "chance": 19,
+          "chance": 21,
           "recent": 2,
           "window": 6
         }
@@ -250,9 +250,9 @@
           "reason": "Lesión: Lesión en los isquiotibiales — Duda para la jornada 14"
         },
         {
-          "team": "Athletic",
-          "player": "Yeray Álvarez",
-          "reason": "Lesión: Trabajo al margen — Disponible para la jornada 14"
+          "team": "Málaga",
+          "player": "Julen Lobete",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta abril"
         }
       ],
       "news": [
@@ -265,17 +265,17 @@
           "title": "Corona gana fuerza para ser el director deportivo del Málaga"
         },
         {
-          "src": "Marca",
-          "title": "El Málaga ya busca director deportivo"
+          "src": "FutbolFantasy",
+          "title": "Loren Juarros se despide del Málaga, explica su destitución, defiende los fichajes, la cantera y el trabajo de Funes y Pellicer"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 19,
+        "p1": 18,
         "px": 25,
-        "p2": 56
+        "p2": 57
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 3,
@@ -291,8 +291,8 @@
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 27,
-        "px": 28,
+        "p1": 28,
+        "px": 27,
         "p2": 45
       },
       "marketProbs": {
@@ -303,7 +303,7 @@
       "advice": "fijo",
       "confidence": 62,
       "xgHome": 1.13,
-      "xgAway": 1.51,
+      "xgAway": 1.5,
       "likelyScore": "1-1",
       "over25": 49,
       "btts": 54,
@@ -394,41 +394,41 @@
         },
         {
           "team": "Atlético",
-          "player": "Alexander Sorloth",
-          "reason": "Lesión: Molestias en el gemelo — Duda para la jornada 14"
-        },
-        {
-          "team": "Atlético",
           "player": "Cristian Romero",
-          "reason": "Lesión: Lesión indeterminada — Duda para la jornada 14"
+          "reason": "Lesión: Lesión indeterminada — Baja confirmada para la jornada 14"
         },
         {
           "team": "Elche",
           "player": "Thomas Lemar",
-          "reason": "Lesión: Lesión en los isquiotibiales — Baja confirmada para la jornada 14"
+          "reason": "Lesión: Sobrecarga en el bíceps femoral — Baja hasta finales de noviembre"
+        },
+        {
+          "team": "Elche",
+          "player": "Rubén Sánchez",
+          "reason": "Lesión: Lesión en el aductor — Baja hasta mediados de diciembre"
         }
       ],
       "news": [
         {
           "src": "Marca",
+          "title": "Cuti pisa el césped… pero no estará ante el Elche"
+        },
+        {
+          "src": "Marca",
           "title": "El Elche deja un daño colateral en el Levante"
         },
         {
-          "src": "Marca",
-          "title": "Levante - Elche: resumen, resultado y goles"
-        },
-        {
-          "src": "Marca",
-          "title": "A qué hora es el Levante-Elche: horario, dónde ver en TV y canal del partido de LaLiga EA Sports"
+          "src": "FutbolFantasy",
+          "title": "Cuti Romero, descartado para el partido contra el Elche, según SER"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 4,
+        "p1": 10,
         "px": 13,
-        "p2": 83
+        "p2": 77
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 4,
@@ -531,37 +531,37 @@
           "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta abril"
         },
         {
-          "team": "Real Madrid",
-          "player": "Raúl Asencio",
-          "reason": "Lesión: Operado de la tibia — Baja hasta diciembre"
+          "team": "Alavés",
+          "player": "Carlos Benavidez",
+          "reason": "Lesión: Molestias en el aductor — Baja confirmada para la jornada 14"
         },
         {
           "team": "Real Madrid",
-          "player": "Endrick",
-          "reason": "Lesión: Lesión en el abductor — Baja hasta principios de diciembre"
+          "player": "Raúl Asencio",
+          "reason": "Lesión: Operado de la tibia — Baja hasta diciembre"
         }
       ],
       "news": [
         {
           "src": "Marca",
-          "title": "Real Madrid - Zalgiris dónde ver"
-        },
-        {
-          "src": "Marca",
           "title": "Javier Tebas, sobre quién presiona más a los árbitros: \"Real Madrid Televisión, es un dato objetivo\""
         },
         {
-          "src": "Marca",
-          "title": "La Real tuvo más ocasiones que Barça, Real Madrid o Atlético, pero no ganó como ellos"
+          "src": "FutbolFantasy",
+          "title": "Actualizada posible alineación de Real Madrid"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Quique analiza al Real Madrid y a Mourinho, el once y las bajas de Protesoni, Novoa, Garcés y Mikel"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 94,
-        "px": 4,
-        "p2": 2
+        "p1": 89,
+        "px": 6,
+        "p2": 5
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 5,
@@ -571,9 +571,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 43,
+        "p1": 44,
         "px": 29,
-        "p2": 28
+        "p2": 27
       },
       "pick": "1",
       "modelProbs": {
@@ -582,13 +582,13 @@
         "p2": 27
       },
       "marketProbs": {
-        "p1": 43,
+        "p1": 44,
         "px": 29,
-        "p2": 28
+        "p2": 27
       },
       "alt": "X",
       "advice": "doble",
-      "confidence": 43,
+      "confidence": 44,
       "xgHome": 1.37,
       "xgAway": 1.01,
       "likelyScore": "1-1",
@@ -641,13 +641,13 @@
         },
         {
           "team": "Osasuna",
-          "player": "Rockson Yeboah",
-          "reason": "Lesión: Esguince de rodilla — Baja confirmada para la jornada 14"
+          "player": "Abel Bretones",
+          "reason": "Lesión: Lesión en el sóleo — Baja confirmada para la jornada 14"
         },
         {
           "team": "Osasuna",
-          "player": "Abel Bretones",
-          "reason": "Lesión: Lesión en el sóleo — Duda para la jornada 14"
+          "player": "Rockson Yeboah",
+          "reason": "Lesión: Esguince de rodilla — Baja confirmada para la jornada 14"
         },
         {
           "team": "Osasuna",
@@ -666,22 +666,21 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
+          "title": "El Valencia, tras Cuenca (M. Moretto)"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 52,
-        "px": 34,
-        "p2": 14
+        "p1": 51,
+        "px": 32,
+        "p2": 17
       },
-      "publicSrc": "quinielista",
+      "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.28,
-        "value": 1.9512195121951224
-      },
-      "valuePick": true
+        "prob": 0.27,
+        "value": 1.588235294117647
+      }
     },
     {
       "n": 6,
@@ -692,8 +691,8 @@
       "league": "laliga",
       "probs": {
         "p1": 11,
-        "px": 16,
-        "p2": 73
+        "px": 15,
+        "p2": 74
       },
       "pick": "2",
       "modelProbs": {
@@ -702,12 +701,12 @@
         "p2": 58
       },
       "marketProbs": {
-        "p1": 9,
-        "px": 15,
-        "p2": 76
+        "p1": 10,
+        "px": 13,
+        "p2": 77
       },
       "advice": "fijo",
-      "confidence": 73,
+      "confidence": 74,
       "xgHome": 1.12,
       "xgAway": 2.06,
       "likelyScore": "1-1",
@@ -729,7 +728,7 @@
       ],
       "posHome": 12,
       "posAway": 1,
-      "reasoning": "Las casas de apuestas ven más favorito a Barcelona (73%) que nuestras estadísticas. Barcelona (1º) parte como favorito: se esperan 2.1 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Xavi Espart (Barcelona).",
+      "reasoning": "Las casas de apuestas ven más favorito a Barcelona (74%) que nuestras estadísticas. Barcelona (1º) parte como favorito: se esperan 2.1 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Xavi Espart (Barcelona).",
       "scorers": [
         {
           "player": "Pierre-Emerick Aubameyang",
@@ -793,7 +792,7 @@
         {
           "team": "Barcelona",
           "player": "Alejandro Balde",
-          "reason": "Lesión: Molestias en el tobillo — Duda para la jornada 14"
+          "reason": "Lesión: Esguince de tobillo — Duda para la jornada 14"
         },
         {
           "team": "Barcelona",
@@ -813,7 +812,7 @@
         },
         {
           "src": "Marca",
-          "title": "El Málaga ya busca director deportivo"
+          "title": "Máster Periodismo Deportivo MARCA"
         },
         {
           "src": "Marca",
@@ -822,11 +821,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 2,
-        "px": 7,
-        "p2": 91
+        "p1": 10,
+        "px": 9,
+        "p2": 81
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 7,
@@ -836,15 +835,15 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 35,
+        "p1": 34,
         "px": 28,
-        "p2": 37
+        "p2": 38
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 35,
+        "p1": 34,
         "px": 29,
-        "p2": 36
+        "p2": 37
       },
       "marketProbs": {
         "p1": 35,
@@ -853,12 +852,12 @@
       },
       "alt": "1",
       "advice": "doble",
-      "confidence": 37,
-      "xgHome": 1.23,
+      "confidence": 38,
+      "xgHome": 1.21,
       "xgAway": 1.25,
       "likelyScore": "1-1",
       "over25": 45,
-      "btts": 52,
+      "btts": 51,
       "formHome": [
         "P",
         "E",
@@ -875,14 +874,14 @@
       ],
       "posHome": 14,
       "posAway": 10,
-      "reasoning": "Partido muy igualado: se esperan 1.2-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Hugo González (Celta).",
+      "reasoning": "Partido muy igualado: se esperan 1.2-1.3 goles y hay pocas diferencias entre los dos equipos. Baja: Miguel Román (Celta).",
       "scorers": [
         {
           "player": "Pablo Durán",
           "team": "Celta",
           "goals": 3,
           "perGame": 0.3,
-          "chance": 29,
+          "chance": 28,
           "recent": 1,
           "window": 6
         },
@@ -930,6 +929,11 @@
       "absences": [
         {
           "team": "Celta",
+          "player": "Miguel Román",
+          "reason": "Lesión: Sometido a artroscopia en la rodilla — Baja confirmada para la jornada 14"
+        },
+        {
+          "team": "Celta",
           "player": "Hugo González",
           "reason": "Lesión: Elongación en el recto anterior — Baja confirmada para la jornada 14"
         },
@@ -942,39 +946,35 @@
           "team": "Celta",
           "player": "Borja Iglesias",
           "reason": "Lesión: Lesión en el sóleo — Duda para la jornada 14"
-        },
-        {
-          "team": "Celta",
-          "player": "Miguel Román",
-          "reason": "Lesión: Sometido a artroscopia en la rodilla — Duda para la jornada 14"
         }
       ],
       "news": [
+        {
+          "src": "Marca",
+          "title": "Celta - Bournemouth donde ver"
+        },
         {
           "src": "Marca",
           "title": "Hugo González se cae de la convocatoria del Celta por problemas físicos"
         },
         {
           "src": "Marca",
-          "title": "Satisfacción en el Celta por enfrentarse al Arosa en Copa"
-        },
-        {
-          "src": "Marca",
-          "title": "Celta Fortuna 1-1 Real Valladolid"
+          "title": "Celta - Bournemouth donde ver"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 31,
-        "px": 34,
-        "p2": 35
+        "p1": 30,
+        "px": 33,
+        "p2": 37
       },
-      "publicSrc": "quinielista",
+      "publicSrc": "lae",
       "surprise": {
         "sign": "1",
-        "prob": 0.35,
-        "value": 1.1363636363636362
-      }
+        "prob": 0.34,
+        "value": 1.1333333333333335
+      },
+      "valuePick": true
     },
     {
       "n": 8,
@@ -1099,28 +1099,28 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Real Sociedad B 0 - 3 Cádiz"
+          "title": "Crystal Palace - Real Sociedad donde ver"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Previa y posibles alineaciones del Crystal Palace - Real Sociedad"
+          "src": "Marca",
+          "title": "Crystal Palace - Real Sociedad donde ver"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "La Real Sociedad ultima su preparación en Selhurst Park con cuatro bajas"
+          "src": "Marca",
+          "title": "Del Nido Benavente introduce un complemento para limitar el sueldo a los consejeros del Sevilla"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 32,
-        "p2": 15
+        "p1": 52,
+        "px": 30,
+        "p2": 18
       },
-      "publicSrc": "quinielista",
+      "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.28,
-        "value": 1.838476690741957
+        "value": 1.5555555555555558
       },
       "valuePick": true
     },
@@ -1132,9 +1132,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 45,
+        "p1": 44,
         "px": 27,
-        "p2": 28
+        "p2": 29
       },
       "pick": "1",
       "modelProbs": {
@@ -1143,12 +1143,12 @@
         "p2": 24
       },
       "marketProbs": {
-        "p1": 45,
+        "p1": 43,
         "px": 27,
-        "p2": 28
+        "p2": 30
       },
       "advice": "fijo",
-      "confidence": 45,
+      "confidence": 44,
       "xgHome": 1.62,
       "xgAway": 1.07,
       "likelyScore": "1-1",
@@ -1197,28 +1197,28 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Las Palmas, sin miedo a la palabra ascenso"
+        },
+        {
+          "src": "Marca",
           "title": "Iván Jaime vuela con Las Palmas: \"Estoy disfrutando muchísimo\""
         },
         {
           "src": "Marca",
           "title": "El Anexo llevará el nombre de Zebensui Ramos en homenaje al canterano de las UD Las Palmas"
-        },
-        {
-          "src": "Marca",
-          "title": "Asturias, patria de Las Palmas"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 76,
-        "px": 14,
-        "p2": 10
+        "px": 15,
+        "p2": 9
       },
-      "publicSrc": "quinielista",
+      "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.28,
-        "value": 2.931937172774869
+        "prob": 0.29,
+        "value": 3.2222222222222223
       },
       "valuePick": true
     },
@@ -1241,9 +1241,9 @@
         "p2": 32
       },
       "marketProbs": {
-        "p1": 43,
+        "p1": 44,
         "px": 29,
-        "p2": 28
+        "p2": 27
       },
       "alt": "X",
       "advice": "doble",
@@ -1301,11 +1301,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 38,
-        "px": 36,
-        "p2": 26
+        "p1": 39,
+        "px": 34,
+        "p2": 27
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 11,
@@ -1393,11 +1393,11 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 53,
-        "px": 31,
-        "p2": 16
+        "p1": 50,
+        "px": 32,
+        "p2": 18
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 12,
@@ -1488,20 +1488,20 @@
         },
         {
           "src": "Marca",
-          "title": "El Sabadell frena en su fortín la racha triunfal del Granada, pero sigue sin ganar"
+          "title": "Jordi Escobar sufre una rotura del ligamento cruzado y agrava la crisis deportiva del Ceuta"
         },
         {
           "src": "Marca",
-          "title": "Jordi Escobar sufre una rotura del ligamento cruzado y agrava la crisis deportiva del Ceuta"
+          "title": "Hallan un migrante escondido en los bajos del bus del Almería en Ceuta"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 83,
-        "px": 11,
-        "p2": 6
+        "px": 10,
+        "p2": 7
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 13,
@@ -1611,19 +1611,15 @@
         {
           "src": "Marca",
           "title": "Un Castellón lanzado y sin complejos se examina ante la nobleza de Segunda"
-        },
-        {
-          "src": "Marca",
-          "title": "Golazo de Álvaro Martín para que el Castellón duerma líder"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 36,
-        "px": 32,
-        "p2": 32
+        "px": 31,
+        "p2": 33
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     },
     {
       "n": 14,
@@ -1633,8 +1629,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 56,
-        "px": 24,
+        "p1": 55,
+        "px": 25,
         "p2": 20
       },
       "pick": "1",
@@ -1649,7 +1645,7 @@
         "p2": 20
       },
       "advice": "fijo",
-      "confidence": 56,
+      "confidence": 55,
       "xgHome": 2,
       "xgAway": 1.19,
       "likelyScore": "1-1",
@@ -1735,10 +1731,10 @@
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 72,
-        "px": 18,
-        "p2": 10
+        "px": 17,
+        "p2": 11
       },
-      "publicSrc": "quinielista"
+      "publicSrc": "lae"
     }
   ],
   "pleno15": {
@@ -1750,15 +1746,15 @@
     "priced": true,
     "dist": {
       "h": [
-        0.227,
+        0.228,
         0.337,
         0.249,
-        0.187
+        0.186
       ],
       "a": [
         0.349,
         0.367,
-        0.194,
+        0.193,
         0.09
       ]
     },
@@ -1783,7 +1779,7 @@
       "1"
     ],
     "expectedHits": 7.5,
-    "pAll": 0.010989,
+    "pAll": 0.01108,
     "surprises": []
   },
   "ticketValue": {
@@ -1792,9 +1788,9 @@
       "2",
       "2",
       "1",
+      "1",
       "2",
-      "2",
-      "2",
+      "1",
       "2",
       "2",
       "1",
@@ -1803,10 +1799,10 @@
       "1",
       "1"
     ],
-    "expectedHits": 7,
-    "pAll": 0.00271,
+    "expectedHits": 7.1,
+    "pAll": 0.003977,
     "surprises": [
-      5,
+      7,
       8,
       9
     ]
@@ -1817,10 +1813,10 @@
     "twos": 4
   },
   "expectedHits": 7.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 73%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 74%). Lo más abierto: CELTA-VILLARREAL (38%) y MALLORCA-CASTELLÓN (41%).",
   "confidence": 54,
   "columns": 16,
-  "generatedAt": "2026-11-26T03:32:06.602Z",
+  "generatedAt": "2026-11-26T16:49:49.056Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
@@ -1830,7 +1826,7 @@
   },
   "aiUsed": null,
   "notes": [
-    "Las sorpresas 💎 usan lo que están jugando los quinielistas (el dato oficial de Loterías aún no ha salido).",
+    "Las sorpresas 💎 usan el porcentaje real de apuestas de cada signo (dato oficial de Loterías).",
     "Sin clave de IA: textos automáticos del modelo."
   ],
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
@@ -1839,7 +1835,7 @@
   "escrutada": 23,
   "market": {
     "odds": 14,
-    "publicSrc": "quinielista"
+    "publicSrc": "lae"
   },
   "record": {
     "entries": [
