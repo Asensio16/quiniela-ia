@@ -134,7 +134,7 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
+          "title": "Actualizada posible alineación de Betis"
         }
       ],
       "source": "modelo+cuotas",
@@ -236,7 +236,7 @@
         {
           "team": "Athletic",
           "player": "Dani Vivian",
-          "reason": "Lesión: Lesión en el sóleo — Baja hasta mediados de diciembre"
+          "reason": "Lesión: Lesión en el sóleo — Baja hasta principios de diciembre"
         },
         {
           "team": "Athletic",
@@ -246,7 +246,7 @@
         {
           "team": "Athletic",
           "player": "Maroan Sannadi",
-          "reason": "Lesión: Lesión en los isquiotibiales — Duda para la jornada 14"
+          "reason": "Lesión: Lesión en los isquiotibiales — Baja confirmada para la jornada 14"
         },
         {
           "team": "Málaga",
@@ -417,8 +417,8 @@
           "title": "Alineaciones probables y previa fantasy del Elche - Atlético"
         },
         {
-          "src": "Marca",
-          "title": "Fede Redondo desafía al Atlético: “Tenemos que adueñarnos del balón y ser nosotros”"
+          "src": "FutbolFantasy",
+          "title": "El Atlético viaja a Elche sin Cuti Romero, Sørloth ni Lookman"
         }
       ],
       "source": "modelo+cuotas",
@@ -437,9 +437,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 84,
+        "p1": 83,
         "px": 11,
-        "p2": 5
+        "p2": 6
       },
       "pick": "1",
       "modelProbs": {
@@ -453,7 +453,7 @@
         "p2": 5
       },
       "advice": "fijo",
-      "confidence": 84,
+      "confidence": 83,
       "xgHome": 2.49,
       "xgAway": 0.7,
       "likelyScore": "2-0",
@@ -475,7 +475,7 @@
       ],
       "posHome": 2,
       "posAway": 9,
-      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (84%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
+      "reasoning": "Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -547,11 +547,11 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Real Madrid"
+          "title": "Vivian entra en la recta final y apunta al Real Madrid"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Oficial: Brahim Díaz renueva con el Real Madrid hasta 2031"
+          "title": "Mendy vuelve a la lista del Real Madrid para recibir al Alavés y se cae Trent"
         }
       ],
       "source": "modelo+cuotas",
@@ -660,12 +660,12 @@
           "title": "Pitchwise Holdings no estará en la Junta General del Valencia"
         },
         {
-          "src": "Marca",
-          "title": "El CSD aprueba la venta accionarial del 42% del Valencia al fondo de inversión americano Pitchwise"
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
+          "title": "El Valencia, tras Cuenca (M. Moretto)"
         }
       ],
       "source": "modelo+cuotas",
@@ -696,9 +696,9 @@
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 17,
+        "p1": 18,
         "px": 21,
-        "p2": 62
+        "p2": 61
       },
       "marketProbs": {
         "p1": 9,
@@ -707,11 +707,11 @@
       },
       "advice": "fijo",
       "confidence": 75,
-      "xgHome": 1.12,
+      "xgHome": 1.15,
       "xgAway": 2.23,
       "likelyScore": "1-2",
-      "over25": 65,
-      "btts": 61,
+      "over25": 66,
+      "btts": 62,
       "formHome": [
         "P",
         "E",
@@ -735,7 +735,7 @@
           "team": "Deportivo",
           "goals": 5,
           "perGame": 0.5,
-          "chance": 29,
+          "chance": 30,
           "tag": "sequia",
           "recent": 0,
           "window": 6,
@@ -959,8 +959,8 @@
           "title": "Marco Garcés ve a varios futbolistas del Celta Fortuna en Primera"
         },
         {
-          "src": "Marca",
-          "title": "Celta Fortuna 1-1 Real Valladolid"
+          "src": "FutbolFantasy",
+          "title": "Posibles alineaciones y previa fantasy del Celta - Villarreal"
         }
       ],
       "source": "modelo+cuotas",
@@ -1104,7 +1104,7 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Marcão trabaja parcialmente y el Sevilla mantiene cuatro bajas ante la Real Sociedad"
+          "title": "Actualizada posible alineación de Real Sociedad"
         },
         {
           "src": "Marca",
@@ -1132,9 +1132,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 44,
+        "p1": 46,
         "px": 27,
-        "p2": 29
+        "p2": 27
       },
       "pick": "1",
       "modelProbs": {
@@ -1143,13 +1143,12 @@
         "p2": 24
       },
       "marketProbs": {
-        "p1": 44,
+        "p1": 46,
         "px": 27,
-        "p2": 29
+        "p2": 27
       },
-      "alt": "2",
-      "advice": "doble",
-      "confidence": 44,
+      "advice": "fijo",
+      "confidence": 46,
       "xgHome": 1.62,
       "xgAway": 1.07,
       "likelyScore": "1-1",
@@ -1218,8 +1217,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.29,
-        "value": 3.6249999999999996
+        "prob": 0.27,
+        "value": 3.375
       },
       "valuePick": true
     },
@@ -1246,7 +1245,8 @@
         "px": 29,
         "p2": 26
       },
-      "advice": "fijo",
+      "alt": "X",
+      "advice": "doble",
       "confidence": 44,
       "xgHome": 1.3,
       "xgAway": 1.17,
@@ -1268,7 +1268,7 @@
         "E"
       ],
       "posHome": 20,
-      "posAway": 13,
+      "posAway": 14,
       "reasoning": "Albacete (20º) parte como favorito: se esperan 1.3 goles suyos por 1.2 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Javi Moreno (Albacete).",
       "scorers": [],
       "absences": [
@@ -1293,12 +1293,7 @@
           "reason": "Lesión: Lesión en los isquiotibiales — Baja para la jornada 16"
         }
       ],
-      "news": [
-        {
-          "src": "Marca",
-          "title": "El Burgos dejó frío al Albacete"
-        }
-      ],
+      "news": [],
       "source": "modelo+cuotas",
       "publicPct": {
         "p1": 38,
@@ -1327,8 +1322,8 @@
       },
       "marketProbs": {
         "p1": 51,
-        "px": 28,
-        "p2": 21
+        "px": 27,
+        "p2": 22
       },
       "advice": "fijo",
       "confidence": 49,
@@ -1385,10 +1380,6 @@
         {
           "src": "Marca",
           "title": "El Burgos se cita con un histórico de la Copa que vuelve a sonreír"
-        },
-        {
-          "src": "Marca",
-          "title": "El Burgos dejó frío al Albacete"
         }
       ],
       "source": "modelo+cuotas",
@@ -1511,8 +1502,8 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 41,
-        "px": 28,
+        "p1": 40,
+        "px": 29,
         "p2": 31
       },
       "pick": "1",
@@ -1528,9 +1519,9 @@
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 41,
+      "confidence": 40,
       "xgHome": 1.17,
-      "xgAway": 1.03,
+      "xgAway": 1.04,
       "likelyScore": "1-1",
       "over25": 38,
       "btts": 46,
@@ -1641,8 +1632,8 @@
       },
       "marketProbs": {
         "p1": 56,
-        "px": 24,
-        "p2": 20
+        "px": 25,
+        "p2": 19
       },
       "advice": "fijo",
       "confidence": 56,
@@ -1746,13 +1737,13 @@
     "priced": true,
     "dist": {
       "h": [
-        0.228,
-        0.337,
-        0.249,
-        0.186
+        0.226,
+        0.336,
+        0.25,
+        0.188
       ],
       "a": [
-        0.349,
+        0.35,
         0.367,
         0.193,
         0.09
@@ -1779,7 +1770,7 @@
       "1"
     ],
     "expectedHits": 7.5,
-    "pAll": 0.011728,
+    "pAll": 0.01182,
     "surprises": []
   },
   "ticketValue": {
@@ -1800,7 +1791,7 @@
       "1"
     ],
     "expectedHits": 7.2,
-    "pAll": 0.004487,
+    "pAll": 0.004027,
     "surprises": [
       5,
       7,
@@ -1813,16 +1804,16 @@
     "twos": 4
   },
   "expectedHits": 7.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 84%) y DEPORTIVO-BARCELONA (2, 75%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 75%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (40%).",
   "confidence": 54,
   "columns": 16,
-  "generatedAt": "2026-11-27T12:09:14.698Z",
+  "generatedAt": "2026-11-27T21:11:38.113Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
-      "laliga2": 15
+      "laliga2": 16
     },
-    "results": 292
+    "results": 293
   },
   "aiUsed": null,
   "notes": [
