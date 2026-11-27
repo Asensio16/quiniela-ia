@@ -9,8 +9,8 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 58,
-        "px": 23,
+        "p1": 59,
+        "px": 22,
         "p2": 19
       },
       "pick": "1",
@@ -25,7 +25,7 @@
         "p2": 18
       },
       "advice": "fijo",
-      "confidence": 58,
+      "confidence": 59,
       "xgHome": 1.56,
       "xgAway": 0.88,
       "likelyScore": "1-1",
@@ -128,10 +128,6 @@
         {
           "src": "Marca",
           "title": "El Betis presume de delantero"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "Beñat San José analiza al Betis, el estado de Álvaro García y Óscar Valentín, la falta de gol y la situación clasificatoria"
         },
         {
           "src": "FutbolFantasy",
@@ -266,7 +262,7 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Loren Juarros se despide del Málaga, explica su destitución, defiende los fichajes, la cantera y el trabajo de Funes y Pellicer"
+          "title": "Funes seguirá una jornada más al frente del Málaga"
         }
       ],
       "source": "modelo+cuotas",
@@ -292,8 +288,8 @@
       "pick": "2",
       "modelProbs": {
         "p1": 28,
-        "px": 27,
-        "p2": 45
+        "px": 28,
+        "p2": 44
       },
       "marketProbs": {
         "p1": 15,
@@ -302,10 +298,10 @@
       },
       "advice": "fijo",
       "confidence": 62,
-      "xgHome": 1.13,
+      "xgHome": 1.16,
       "xgAway": 1.5,
       "likelyScore": "1-1",
-      "over25": 49,
+      "over25": 50,
       "btts": 54,
       "formHome": [
         "E",
@@ -323,14 +319,14 @@
       ],
       "posHome": 19,
       "posAway": 3,
-      "reasoning": "Las casas de apuestas ven más favorito a Atlético (62%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.5 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Ademola Lookman (Atlético).",
+      "reasoning": "Las casas de apuestas ven más favorito a Atlético (62%) que nuestras estadísticas. Atlético (3º) parte como favorito: se esperan 1.5 goles suyos por 1.2 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Alexander Sorloth (Atlético).",
       "scorers": [
         {
           "player": "Fernando Niño",
           "team": "Elche",
           "goals": 6,
           "perGame": 0.5,
-          "chance": 36,
+          "chance": 37,
           "recent": 1,
           "window": 6
         },
@@ -389,6 +385,11 @@
       "absences": [
         {
           "team": "Atlético",
+          "player": "Alexander Sorloth",
+          "reason": "Lesión: Lesión de gemelo — Baja confirmada para la jornada 14"
+        },
+        {
+          "team": "Atlético",
           "player": "Ademola Lookman",
           "reason": "Lesión: Esguince de rodilla — Baja hasta principios de diciembre"
         },
@@ -401,11 +402,6 @@
           "team": "Elche",
           "player": "Thomas Lemar",
           "reason": "Lesión: Sobrecarga en el bíceps femoral — Baja hasta finales de noviembre"
-        },
-        {
-          "team": "Elche",
-          "player": "Rubén Sánchez",
-          "reason": "Lesión: Lesión en el aductor — Baja hasta mediados de diciembre"
         }
       ],
       "news": [
@@ -414,12 +410,12 @@
           "title": "Cuti pisa el césped… pero no estará ante el Elche"
         },
         {
-          "src": "Marca",
-          "title": "El Elche deja un daño colateral en el Levante"
+          "src": "FutbolFantasy",
+          "title": "Barrios y Giuliano, sitio reservado en el once de Elche"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Cuti Romero, descartado para el partido contra el Elche, según SER"
+          "src": "Marca",
+          "title": "Fede Redondo desafía al Atlético: “Tenemos que adueñarnos del balón y ser nosotros”"
         }
       ],
       "source": "modelo+cuotas",
@@ -449,8 +445,8 @@
         "p2": 8
       },
       "marketProbs": {
-        "p1": 84,
-        "px": 11,
+        "p1": 85,
+        "px": 10,
         "p2": 5
       },
       "advice": "fijo",
@@ -549,10 +545,6 @@
         {
           "src": "FutbolFantasy",
           "title": "Actualizada posible alineación de Real Madrid"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "Quique analiza al Real Madrid y a Mourinho, el once y las bajas de Protesoni, Novoa, Garcés y Mikel"
         }
       ],
       "source": "modelo+cuotas",
@@ -586,8 +578,7 @@
         "px": 29,
         "p2": 27
       },
-      "alt": "X",
-      "advice": "doble",
+      "advice": "fijo",
       "confidence": 44,
       "xgHome": 1.37,
       "xgAway": 1.01,
@@ -701,8 +692,8 @@
         "p2": 58
       },
       "marketProbs": {
-        "p1": 10,
-        "px": 13,
+        "p1": 9,
+        "px": 14,
         "p2": 77
       },
       "advice": "fijo",
@@ -835,9 +826,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 34,
+        "p1": 35,
         "px": 28,
-        "p2": 38
+        "p2": 37
       },
       "pick": "2",
       "modelProbs": {
@@ -852,7 +843,7 @@
       },
       "alt": "1",
       "advice": "doble",
-      "confidence": 38,
+      "confidence": 37,
       "xgHome": 1.21,
       "xgAway": 1.25,
       "likelyScore": "1-1",
@@ -951,15 +942,15 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Celta - Bournemouth donde ver"
-        },
-        {
-          "src": "Marca",
           "title": "Hugo González se cae de la convocatoria del Celta por problemas físicos"
         },
         {
           "src": "Marca",
-          "title": "Celta - Bournemouth donde ver"
+          "title": "Marco Garcés ve a varios futbolistas del Celta Fortuna en Primera"
+        },
+        {
+          "src": "Marca",
+          "title": "Celta Fortuna 1-1 Real Valladolid"
         }
       ],
       "source": "modelo+cuotas",
@@ -971,8 +962,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "1",
-        "prob": 0.34,
-        "value": 1.1333333333333335
+        "prob": 0.35,
+        "value": 1.1666666666666667
       },
       "valuePick": true
     },
@@ -995,8 +986,8 @@
         "p2": 23
       },
       "marketProbs": {
-        "p1": 44,
-        "px": 27,
+        "p1": 45,
+        "px": 26,
         "p2": 29
       },
       "advice": "fijo",
@@ -1099,15 +1090,15 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Crystal Palace - Real Sociedad donde ver"
+          "title": "Crystal Palace Real Sociedad"
         },
         {
           "src": "Marca",
-          "title": "Crystal Palace - Real Sociedad donde ver"
+          "title": "Crystal Palace Real Sociedad"
         },
         {
-          "src": "Marca",
-          "title": "Del Nido Benavente introduce un complemento para limitar el sueldo a los consejeros del Sevilla"
+          "src": "FutbolFantasy",
+          "title": "Actualizada posible alineación de Real Sociedad"
         }
       ],
       "source": "modelo+cuotas",
@@ -1132,9 +1123,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 44,
+        "p1": 42,
         "px": 27,
-        "p2": 29
+        "p2": 31
       },
       "pick": "1",
       "modelProbs": {
@@ -1143,12 +1134,13 @@
         "p2": 24
       },
       "marketProbs": {
-        "p1": 43,
+        "p1": 41,
         "px": 27,
-        "p2": 30
+        "p2": 32
       },
-      "advice": "fijo",
-      "confidence": 44,
+      "alt": "2",
+      "advice": "doble",
+      "confidence": 42,
       "xgHome": 1.62,
       "xgAway": 1.07,
       "likelyScore": "1-1",
@@ -1217,8 +1209,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.29,
-        "value": 3.2222222222222223
+        "prob": 0.31,
+        "value": 3.4444444444444446
       },
       "valuePick": true
     },
@@ -1230,9 +1222,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 43,
+        "p1": 42,
         "px": 29,
-        "p2": 28
+        "p2": 29
       },
       "pick": "1",
       "modelProbs": {
@@ -1241,13 +1233,13 @@
         "p2": 32
       },
       "marketProbs": {
-        "p1": 44,
+        "p1": 43,
         "px": 29,
-        "p2": 27
+        "p2": 28
       },
       "alt": "X",
       "advice": "doble",
-      "confidence": 43,
+      "confidence": 42,
       "xgHome": 1.3,
       "xgAway": 1.17,
       "likelyScore": "1-1",
@@ -1316,8 +1308,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 49,
-        "px": 28,
-        "p2": 23
+        "px": 29,
+        "p2": 22
       },
       "pick": "1",
       "modelProbs": {
@@ -1327,8 +1319,8 @@
       },
       "marketProbs": {
         "p1": 51,
-        "px": 27,
-        "p2": 22
+        "px": 28,
+        "p2": 21
       },
       "advice": "fijo",
       "confidence": 49,
@@ -1407,9 +1399,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 60,
-        "px": 23,
-        "p2": 17
+        "p1": 57,
+        "px": 25,
+        "p2": 18
       },
       "pick": "1",
       "modelProbs": {
@@ -1418,12 +1410,12 @@
         "p2": 19
       },
       "marketProbs": {
-        "p1": 60,
-        "px": 23,
-        "p2": 17
+        "p1": 57,
+        "px": 25,
+        "p2": 18
       },
       "advice": "fijo",
-      "confidence": 60,
+      "confidence": 57,
       "xgHome": 1.81,
       "xgAway": 0.98,
       "likelyScore": "1-1",
@@ -1629,9 +1621,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 55,
-        "px": 25,
-        "p2": 20
+        "p1": 57,
+        "px": 24,
+        "p2": 19
       },
       "pick": "1",
       "modelProbs": {
@@ -1640,12 +1632,12 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 55,
-        "px": 25,
-        "p2": 20
+        "p1": 58,
+        "px": 24,
+        "p2": 18
       },
       "advice": "fijo",
-      "confidence": 55,
+      "confidence": 57,
       "xgHome": 2,
       "xgAway": 1.19,
       "likelyScore": "1-1",
@@ -1746,16 +1738,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.228,
-        0.337,
-        0.249,
-        0.186
+        0.226,
+        0.336,
+        0.25,
+        0.188
       ],
       "a": [
-        0.349,
-        0.367,
-        0.193,
-        0.09
+        0.351,
+        0.368,
+        0.192,
+        0.089
       ]
     },
     "reasoning": "Lo más probable según las cuotas: ESPANYOL marca 1 (34%) y GETAFE marca 1 (37%)."
@@ -1779,7 +1771,7 @@
       "1"
     ],
     "expectedHits": 7.5,
-    "pAll": 0.01108,
+    "pAll": 0.010074,
     "surprises": []
   },
   "ticketValue": {
@@ -1800,7 +1792,7 @@
       "1"
     ],
     "expectedHits": 7.1,
-    "pAll": 0.003977,
+    "pAll": 0.004281,
     "surprises": [
       7,
       8,
@@ -1813,10 +1805,10 @@
     "twos": 4
   },
   "expectedHits": 7.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 74%). Lo más abierto: CELTA-VILLARREAL (38%) y MALLORCA-CASTELLÓN (41%).",
-  "confidence": 54,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 74%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "confidence": 53,
   "columns": 16,
-  "generatedAt": "2026-11-26T16:49:49.056Z",
+  "generatedAt": "2026-11-27T01:42:01.031Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
@@ -1832,7 +1824,7 @@
   "source": "SELAE y porcentajes (eduardolosilla.es) · cuotas de casas de apuestas · futbolfantasy.com · modelo estadístico propio",
   "num": 25,
   "closing": 1795867200000,
-  "escrutada": 23,
+  "escrutada": 24,
   "market": {
     "odds": 14,
     "publicSrc": "lae"
@@ -2012,6 +2004,64 @@
         "hitsValue": 10,
         "score15": "1-1",
         "plenoHit": true
+      },
+      {
+        "j": 24,
+        "savedAt": "2026-11-24T13:36:59.023Z",
+        "safe": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1",
+          "1",
+          "2",
+          "1",
+          "2",
+          "1"
+        ],
+        "value": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "X",
+          "1"
+        ],
+        "pleno": "M-0",
+        "results": [
+          "X",
+          "2",
+          "X",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1",
+          "X",
+          "2",
+          "X",
+          "2",
+          "1"
+        ],
+        "played": 14,
+        "hitsSafe": 10,
+        "hitsValue": 8,
+        "score15": "2-0",
+        "plenoHit": false
       }
     ],
     "sim": {
