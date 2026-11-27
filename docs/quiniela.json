@@ -10,14 +10,14 @@
       "league": "laliga",
       "probs": {
         "p1": 59,
-        "px": 22,
-        "p2": 19
+        "px": 23,
+        "p2": 18
       },
       "pick": "1",
       "modelProbs": {
-        "p1": 53,
-        "px": 27,
-        "p2": 20
+        "p1": 56,
+        "px": 26,
+        "p2": 18
       },
       "marketProbs": {
         "p1": 60,
@@ -26,11 +26,11 @@
       },
       "advice": "fijo",
       "confidence": 59,
-      "xgHome": 1.56,
+      "xgHome": 1.69,
       "xgAway": 0.88,
       "likelyScore": "1-1",
-      "over25": 44,
-      "btts": 47,
+      "over25": 47,
+      "btts": 49,
       "formHome": [
         "E",
         "G",
@@ -47,15 +47,14 @@
       ],
       "posHome": 4,
       "posAway": 15,
-      "reasoning": "Betis (4º) parte como favorito: se esperan 1.6 goles suyos por 0.9 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Giovani Lo Celso (Betis).",
+      "reasoning": "Betis (4º) parte como favorito: se esperan 1.7 goles suyos por 0.9 del rival; viene de 2G-2E-1P en sus últimos 5. Baja: Giovani Lo Celso (Betis).",
       "scorers": [
         {
           "player": "Abde Ezzalzouli",
           "team": "Betis",
           "goals": 3,
           "perGame": 0.3,
-          "chance": 0,
-          "out": "Lesión — Disponible para la jornada 14",
+          "chance": 21,
           "recent": 1,
           "window": 6
         },
@@ -64,7 +63,7 @@
           "team": "Betis",
           "goals": 3,
           "perGame": 0.33,
-          "chance": 23,
+          "chance": 24,
           "tag": "racha",
           "recent": 2,
           "window": 6,
@@ -106,22 +105,22 @@
         {
           "team": "Betis",
           "player": "Giovani Lo Celso",
-          "reason": "Lesión: Contusión en la rodilla — Duda para la jornada 14"
+          "reason": "Lesión: Contusión en la rodilla — Baja confirmada para la jornada 14"
         },
         {
           "team": "Betis",
           "player": "Dani Ceballos",
-          "reason": "Lesión: Molestias musculares — Duda para la jornada 14"
+          "reason": "Lesión: Molestias en la espalda — Baja confirmada para la jornada 14"
         },
         {
-          "team": "Betis",
-          "player": "Abde Ezzalzouli",
-          "reason": "Lesión: Contusión — Disponible para la jornada 14"
+          "team": "Rayo",
+          "player": "Luiz Felipe",
+          "reason": "Lesión: Rotura de lig. cruzado anterior — Baja hasta agosto"
         },
         {
-          "team": "Betis",
-          "player": "José Antonio Morante",
-          "reason": "Lesión: Contusión en la cadera — Disponible para la jornada 14"
+          "team": "Rayo",
+          "player": "Augusto Batalla",
+          "reason": "Lesión: Fractura de tibia — Baja hasta enero"
         }
       ],
       "news": [
@@ -131,14 +130,18 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Lo Celso y Dani Ceballos, prácticamente descartados ante el Rayo"
+          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Betis - Rayo"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 77,
-        "px": 15,
-        "p2": 8
+        "p1": 79,
+        "px": 14,
+        "p2": 7
       },
       "publicSrc": "lae"
     },
@@ -254,22 +257,22 @@
       "news": [
         {
           "src": "Marca",
+          "title": "El precio del ascenso: Racing, Dépor y Málaga y un ‘rojo’ de 14 millones en 2025-2026"
+        },
+        {
+          "src": "Marca",
           "title": "El Málaga comunica el adiós de Loren Juarros"
         },
         {
           "src": "Marca",
           "title": "Corona gana fuerza para ser el director deportivo del Málaga"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "Funes seguirá una jornada más al frente del Málaga"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 18,
+        "p1": 16,
         "px": 25,
-        "p2": 57
+        "p2": 59
       },
       "publicSrc": "lae"
     },
@@ -411,7 +414,7 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Barrios y Giuliano, sitio reservado en el once de Elche"
+          "title": "Alineaciones probables y previa fantasy del Elche - Atlético"
         },
         {
           "src": "Marca",
@@ -420,9 +423,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 10,
-        "px": 13,
-        "p2": 77
+        "p1": 8,
+        "px": 12,
+        "p2": 80
       },
       "publicSrc": "lae"
     },
@@ -434,9 +437,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 83,
+        "p1": 84,
         "px": 11,
-        "p2": 6
+        "p2": 5
       },
       "pick": "1",
       "modelProbs": {
@@ -450,7 +453,7 @@
         "p2": 5
       },
       "advice": "fijo",
-      "confidence": 83,
+      "confidence": 84,
       "xgHome": 2.49,
       "xgAway": 0.7,
       "likelyScore": "2-0",
@@ -472,7 +475,7 @@
       ],
       "posHome": 2,
       "posAway": 9,
-      "reasoning": "Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (84%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -539,19 +542,23 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Javier Tebas, sobre quién presiona más a los árbitros: \"Real Madrid Televisión, es un dato objetivo\""
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Real Madrid - Alavés"
         },
         {
           "src": "FutbolFantasy",
           "title": "Actualizada posible alineación de Real Madrid"
+        },
+        {
+          "src": "FutbolFantasy",
+          "title": "Oficial: Brahim Díaz renueva con el Real Madrid hasta 2031"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 89,
-        "px": 6,
-        "p2": 5
+        "p1": 91,
+        "px": 5,
+        "p2": 4
       },
       "publicSrc": "lae"
     },
@@ -578,7 +585,8 @@
         "px": 29,
         "p2": 27
       },
-      "advice": "fijo",
+      "alt": "X",
+      "advice": "doble",
       "confidence": 44,
       "xgHome": 1.37,
       "xgAway": 1.01,
@@ -641,9 +649,9 @@
           "reason": "Lesión: Esguince de rodilla — Baja confirmada para la jornada 14"
         },
         {
-          "team": "Osasuna",
-          "player": "Aimar Oroz",
-          "reason": "Lesión: Trabajo al margen — Disponible para la jornada 14"
+          "team": "Valencia",
+          "player": "Jesús Vázquez",
+          "reason": "Lesión: Lesión en el aductor — Baja confirmada para la jornada 14"
         }
       ],
       "news": [
@@ -657,21 +665,22 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "El Valencia, tras Cuenca (M. Moretto)"
+          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
         }
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 51,
+        "p1": 53,
         "px": 32,
-        "p2": 17
+        "p2": 15
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
         "prob": 0.27,
-        "value": 1.588235294117647
-      }
+        "value": 1.8000000000000003
+      },
+      "valuePick": true
     },
     {
       "n": 6,
@@ -681,15 +690,15 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 11,
+        "p1": 10,
         "px": 15,
-        "p2": 74
+        "p2": 75
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 19,
-        "px": 23,
-        "p2": 58
+        "p1": 17,
+        "px": 21,
+        "p2": 62
       },
       "marketProbs": {
         "p1": 9,
@@ -697,12 +706,12 @@
         "p2": 77
       },
       "advice": "fijo",
-      "confidence": 74,
+      "confidence": 75,
       "xgHome": 1.12,
-      "xgAway": 2.06,
-      "likelyScore": "1-1",
-      "over25": 62,
-      "btts": 59,
+      "xgAway": 2.23,
+      "likelyScore": "1-2",
+      "over25": 65,
+      "btts": 61,
       "formHome": [
         "P",
         "E",
@@ -719,7 +728,7 @@
       ],
       "posHome": 12,
       "posAway": 1,
-      "reasoning": "Las casas de apuestas ven más favorito a Barcelona (74%) que nuestras estadísticas. Barcelona (1º) parte como favorito: se esperan 2.1 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Xavi Espart (Barcelona).",
+      "reasoning": "Las casas de apuestas ven más favorito a Barcelona (75%) que nuestras estadísticas. Barcelona (1º) parte como favorito: se esperan 2.2 goles suyos por 1.1 del rival; viene de 4G-0E-1P en sus últimos 5. Baja: Xavi Espart (Barcelona).",
       "scorers": [
         {
           "player": "Pierre-Emerick Aubameyang",
@@ -746,7 +755,7 @@
           "team": "Barcelona",
           "goals": 15,
           "perGame": 1.25,
-          "chance": 50,
+          "chance": 53,
           "tag": "racha",
           "recent": 3,
           "window": 6,
@@ -757,17 +766,18 @@
           "team": "Barcelona",
           "goals": 10,
           "perGame": 0.77,
-          "chance": 0,
-          "out": "Lesión — Disponible para la jornada 14",
+          "chance": 40,
+          "tag": "racha",
           "recent": 3,
-          "window": 6
+          "window": 6,
+          "note": "en racha: 3 goles en sus últimos 5 partidos"
         },
         {
           "player": "Fermín López",
           "team": "Barcelona",
           "goals": 8,
           "perGame": 0,
-          "chance": 38,
+          "chance": 40,
           "tag": "racha",
           "recent": 4,
           "window": 6,
@@ -792,8 +802,8 @@
         },
         {
           "team": "Barcelona",
-          "player": "Rodri Hernández",
-          "reason": "Lesión: Lesión en el bíceps femoral — Duda para la jornada 14"
+          "player": "Hamza Abdelkarim",
+          "reason": "Lesión: Sobrecarga muscular — Duda para la jornada 14"
         }
       ],
       "news": [
@@ -812,9 +822,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 10,
-        "px": 9,
-        "p2": 81
+        "p1": 8,
+        "px": 8,
+        "p2": 84
       },
       "publicSrc": "lae"
     },
@@ -955,15 +965,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 30,
-        "px": 33,
+        "p1": 29,
+        "px": 34,
         "p2": 37
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "1",
         "prob": 0.35,
-        "value": 1.1666666666666667
+        "value": 1.206896551724138
       },
       "valuePick": true
     },
@@ -1089,16 +1099,16 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Crystal Palace Real Sociedad"
-        },
-        {
-          "src": "Marca",
-          "title": "Crystal Palace Real Sociedad"
+          "src": "FutbolFantasy",
+          "title": "Posibles alineaciones y previa fantasy del Real Sociedad - Sevilla"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Real Sociedad"
+          "title": "Marcão trabaja parcialmente y el Sevilla mantiene cuatro bajas ante la Real Sociedad"
+        },
+        {
+          "src": "Marca",
+          "title": "Del Nido Benavente introduce un complemento para limitar el sueldo a los consejeros del Sevilla"
         }
       ],
       "source": "modelo+cuotas",
@@ -1112,8 +1122,7 @@
         "sign": "2",
         "prob": 0.28,
         "value": 1.5555555555555558
-      },
-      "valuePick": true
+      }
     },
     {
       "n": 9,
@@ -1123,9 +1132,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 42,
+        "p1": 44,
         "px": 27,
-        "p2": 31
+        "p2": 29
       },
       "pick": "1",
       "modelProbs": {
@@ -1134,13 +1143,13 @@
         "p2": 24
       },
       "marketProbs": {
-        "p1": 41,
+        "p1": 44,
         "px": 27,
-        "p2": 32
+        "p2": 29
       },
       "alt": "2",
       "advice": "doble",
-      "confidence": 42,
+      "confidence": 44,
       "xgHome": 1.62,
       "xgAway": 1.07,
       "likelyScore": "1-1",
@@ -1202,15 +1211,15 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 76,
-        "px": 15,
-        "p2": 9
+        "p1": 78,
+        "px": 14,
+        "p2": 8
       },
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.31,
-        "value": 3.4444444444444446
+        "prob": 0.29,
+        "value": 3.6249999999999996
       },
       "valuePick": true
     },
@@ -1222,9 +1231,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 42,
+        "p1": 44,
         "px": 29,
-        "p2": 29
+        "p2": 27
       },
       "pick": "1",
       "modelProbs": {
@@ -1233,13 +1242,12 @@
         "p2": 32
       },
       "marketProbs": {
-        "p1": 43,
+        "p1": 45,
         "px": 29,
-        "p2": 28
+        "p2": 26
       },
-      "alt": "X",
-      "advice": "doble",
-      "confidence": 42,
+      "advice": "fijo",
+      "confidence": 44,
       "xgHome": 1.3,
       "xgAway": 1.17,
       "likelyScore": "1-1",
@@ -1293,8 +1301,8 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 39,
-        "px": 34,
+        "p1": 38,
+        "px": 35,
         "p2": 27
       },
       "publicSrc": "lae"
@@ -1385,9 +1393,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 50,
+        "p1": 51,
         "px": 32,
-        "p2": 18
+        "p2": 17
       },
       "publicSrc": "lae"
     },
@@ -1399,9 +1407,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 57,
-        "px": 25,
-        "p2": 18
+        "p1": 60,
+        "px": 23,
+        "p2": 17
       },
       "pick": "1",
       "modelProbs": {
@@ -1410,12 +1418,12 @@
         "p2": 19
       },
       "marketProbs": {
-        "p1": 57,
-        "px": 25,
-        "p2": 18
+        "p1": 61,
+        "px": 22,
+        "p2": 17
       },
       "advice": "fijo",
-      "confidence": 57,
+      "confidence": 60,
       "xgHome": 1.81,
       "xgAway": 0.98,
       "likelyScore": "1-1",
@@ -1489,9 +1497,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 83,
-        "px": 10,
-        "p2": 7
+        "p1": 85,
+        "px": 9,
+        "p2": 6
       },
       "publicSrc": "lae"
     },
@@ -1607,8 +1615,8 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 36,
-        "px": 31,
+        "p1": 35,
+        "px": 32,
         "p2": 33
       },
       "publicSrc": "lae"
@@ -1621,9 +1629,9 @@
       "priced": true,
       "league": "laliga2",
       "probs": {
-        "p1": 57,
+        "p1": 56,
         "px": 24,
-        "p2": 19
+        "p2": 20
       },
       "pick": "1",
       "modelProbs": {
@@ -1632,12 +1640,12 @@
         "p2": 21
       },
       "marketProbs": {
-        "p1": 58,
+        "p1": 56,
         "px": 24,
-        "p2": 18
+        "p2": 20
       },
       "advice": "fijo",
-      "confidence": 57,
+      "confidence": 56,
       "xgHome": 2,
       "xgAway": 1.19,
       "likelyScore": "1-1",
@@ -1722,9 +1730,9 @@
       ],
       "source": "modelo+cuotas",
       "publicPct": {
-        "p1": 72,
-        "px": 17,
-        "p2": 11
+        "p1": 74,
+        "px": 16,
+        "p2": 10
       },
       "publicSrc": "lae"
     }
@@ -1738,16 +1746,16 @@
     "priced": true,
     "dist": {
       "h": [
-        0.226,
-        0.336,
-        0.25,
-        0.188
+        0.228,
+        0.337,
+        0.249,
+        0.186
       ],
       "a": [
-        0.351,
-        0.368,
-        0.192,
-        0.089
+        0.349,
+        0.367,
+        0.193,
+        0.09
       ]
     },
     "reasoning": "Lo más probable según las cuotas: ESPANYOL marca 1 (34%) y GETAFE marca 1 (37%)."
@@ -1771,7 +1779,7 @@
       "1"
     ],
     "expectedHits": 7.5,
-    "pAll": 0.010074,
+    "pAll": 0.011728,
     "surprises": []
   },
   "ticketValue": {
@@ -1780,10 +1788,10 @@
       "2",
       "2",
       "1",
-      "1",
+      "2",
       "2",
       "1",
-      "2",
+      "1",
       "2",
       "1",
       "1",
@@ -1791,11 +1799,11 @@
       "1",
       "1"
     ],
-    "expectedHits": 7.1,
-    "pAll": 0.004281,
+    "expectedHits": 7.2,
+    "pAll": 0.004487,
     "surprises": [
+      5,
       7,
-      8,
       9
     ]
   },
@@ -1805,10 +1813,10 @@
     "twos": 4
   },
   "expectedHits": 7.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 74%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
-  "confidence": 53,
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 84%) y DEPORTIVO-BARCELONA (2, 75%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (41%).",
+  "confidence": 54,
   "columns": 16,
-  "generatedAt": "2026-11-27T01:42:01.031Z",
+  "generatedAt": "2026-11-27T12:09:14.698Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
