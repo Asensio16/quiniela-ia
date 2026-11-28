@@ -134,7 +134,7 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Betis"
+          "title": "El Rayo ultima la visita al Betis con Óscar Valentín y sin Luiz Felipe ni Batalla"
         }
       ],
       "source": "modelo+cuotas",
@@ -410,15 +410,15 @@
       "news": [
         {
           "src": "Marca",
+          "title": "Elche-Atlético: Otro pulso a LaLiga"
+        },
+        {
+          "src": "Marca",
           "title": "Cuti pisa el césped… pero no estará ante el Elche"
         },
         {
-          "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Elche - Atlético"
-        },
-        {
-          "src": "FutbolFantasy",
-          "title": "El Atlético viaja a Elche sin Cuti Romero, Sørloth ni Lookman"
+          "src": "Marca",
+          "title": "Elche-Atlético: Otro pulso a LaLiga"
         }
       ],
       "source": "modelo+cuotas",
@@ -437,9 +437,9 @@
       "priced": true,
       "league": "laliga",
       "probs": {
-        "p1": 83,
+        "p1": 84,
         "px": 11,
-        "p2": 6
+        "p2": 5
       },
       "pick": "1",
       "modelProbs": {
@@ -453,7 +453,7 @@
         "p2": 5
       },
       "advice": "fijo",
-      "confidence": 83,
+      "confidence": 84,
       "xgHome": 2.49,
       "xgAway": 0.7,
       "likelyScore": "2-0",
@@ -475,7 +475,7 @@
       ],
       "posHome": 2,
       "posAway": 9,
-      "reasoning": "Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
+      "reasoning": "Las casas de apuestas ven más favorito a Real Madrid (84%) que nuestras estadísticas. Real Madrid (2º) parte como favorito: se esperan 2.5 goles suyos por 0.7 del rival; viene de 5G-0E-0P en sus últimos 5. Baja: Hugo Novoa (Alavés).",
       "scorers": [
         {
           "player": "Kylian Mbappé",
@@ -547,11 +547,11 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Vivian entra en la recta final y apunta al Real Madrid"
+          "title": "Cronista asignado para el Real Madrid - Alavés"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Mendy vuelve a la lista del Real Madrid para recibir al Alavés y se cae Trent"
+          "title": "Blanco analiza a Bellingham, su evolución, el centro del campo y el calendario antes de visitar al Real Madrid"
         }
       ],
       "source": "modelo+cuotas",
@@ -656,12 +656,12 @@
       ],
       "news": [
         {
-          "src": "Marca",
-          "title": "Pitchwise Holdings no estará en la Junta General del Valencia"
+          "src": "FutbolFantasy",
+          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
         },
         {
           "src": "FutbolFantasy",
-          "title": "Alineaciones probables y previa fantasy del Valencia - Osasuna"
+          "title": "Cronista asignado para el Valencia - Osasuna"
         },
         {
           "src": "FutbolFantasy",
@@ -809,11 +809,11 @@
       "news": [
         {
           "src": "Marca",
-          "title": "Corona gana fuerza para ser el director deportivo del Málaga"
+          "title": "Máster Periodismo Deportivo MARCA"
         },
         {
           "src": "Marca",
-          "title": "Máster Periodismo Deportivo MARCA"
+          "title": "Corona gana fuerza para ser el director deportivo del Málaga"
         },
         {
           "src": "Marca",
@@ -842,9 +842,9 @@
       },
       "pick": "2",
       "modelProbs": {
-        "p1": 34,
+        "p1": 35,
         "px": 29,
-        "p2": 37
+        "p2": 36
       },
       "marketProbs": {
         "p1": 35,
@@ -854,11 +854,11 @@
       "alt": "1",
       "advice": "doble",
       "confidence": 37,
-      "xgHome": 1.21,
+      "xgHome": 1.23,
       "xgAway": 1.25,
       "likelyScore": "1-1",
       "over25": 45,
-      "btts": 51,
+      "btts": 52,
       "formHome": [
         "P",
         "E",
@@ -882,7 +882,7 @@
           "team": "Celta",
           "goals": 3,
           "perGame": 0.3,
-          "chance": 28,
+          "chance": 29,
           "recent": 1,
           "window": 6
         },
@@ -940,23 +940,23 @@
         },
         {
           "team": "Celta",
-          "player": "Carl Starfelt",
-          "reason": "Lesión: Lesión en el semimembranoso — Duda para la jornada 14"
-        },
-        {
-          "team": "Celta",
           "player": "Borja Iglesias",
           "reason": "Lesión: Lesión en el sóleo — Duda para la jornada 14"
+        },
+        {
+          "team": "Villarreal",
+          "player": "Alassane Diatta",
+          "reason": "Lesión: Rotura en los isquiotibiales — Baja hasta abril"
         }
       ],
       "news": [
         {
           "src": "Marca",
-          "title": "Hugo González se cae de la convocatoria del Celta por problemas físicos"
+          "title": "Marco Garcés ve a varios futbolistas del Celta Fortuna en Primera"
         },
         {
           "src": "Marca",
-          "title": "Marco Garcés ve a varios futbolistas del Celta Fortuna en Primera"
+          "title": "Hugo González se cae de la convocatoria del Celta por problemas físicos"
         },
         {
           "src": "FutbolFantasy",
@@ -1104,11 +1104,11 @@
         },
         {
           "src": "FutbolFantasy",
-          "title": "Actualizada posible alineación de Real Sociedad"
+          "title": "Cronista asignado para el Real Sociedad - Sevilla"
         },
         {
-          "src": "Marca",
-          "title": "Del Nido Benavente introduce un complemento para limitar el sueldo a los consejeros del Sevilla"
+          "src": "FutbolFantasy",
+          "title": "Villarreal - Real Sociedad"
         }
       ],
       "source": "modelo+cuotas",
@@ -1133,8 +1133,8 @@
       "league": "laliga2",
       "probs": {
         "p1": 46,
-        "px": 27,
-        "p2": 27
+        "px": 26,
+        "p2": 28
       },
       "pick": "1",
       "modelProbs": {
@@ -1144,8 +1144,8 @@
       },
       "marketProbs": {
         "p1": 46,
-        "px": 27,
-        "p2": 27
+        "px": 26,
+        "p2": 28
       },
       "advice": "fijo",
       "confidence": 46,
@@ -1217,8 +1217,8 @@
       "publicSrc": "lae",
       "surprise": {
         "sign": "2",
-        "prob": 0.27,
-        "value": 3.375
+        "prob": 0.28,
+        "value": 3.5000000000000004
       },
       "valuePick": true
     },
@@ -1322,8 +1322,8 @@
       },
       "marketProbs": {
         "p1": 51,
-        "px": 27,
-        "p2": 22
+        "px": 28,
+        "p2": 21
       },
       "advice": "fijo",
       "confidence": 49,
@@ -1373,10 +1373,6 @@
         }
       ],
       "news": [
-        {
-          "src": "Marca",
-          "title": "El Eibar pierde fluidez en las áreas"
-        },
         {
           "src": "Marca",
           "title": "El Burgos se cita con un histórico de la Copa que vuelve a sonreír"
@@ -1632,8 +1628,8 @@
       },
       "marketProbs": {
         "p1": 56,
-        "px": 25,
-        "p2": 19
+        "px": 24,
+        "p2": 20
       },
       "advice": "fijo",
       "confidence": 56,
@@ -1743,7 +1739,7 @@
         0.188
       ],
       "a": [
-        0.35,
+        0.349,
         0.367,
         0.193,
         0.09
@@ -1770,7 +1766,7 @@
       "1"
     ],
     "expectedHits": 7.5,
-    "pAll": 0.01182,
+    "pAll": 0.011962,
     "surprises": []
   },
   "ticketValue": {
@@ -1791,7 +1787,7 @@
       "1"
     ],
     "expectedHits": 7.2,
-    "pAll": 0.004027,
+    "pAll": 0.004227,
     "surprises": [
       5,
       7,
@@ -1804,10 +1800,10 @@
     "twos": 4
   },
   "expectedHits": 7.5,
-  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 83%) y DEPORTIVO-BARCELONA (2, 75%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (40%).",
+  "analysis": "Hay pronóstico real para 14 de los 14 partidos (14 con estadísticas propias, 14 con cuotas) y se reparten los signos en 10 unos, 0 equis y 4 doses. Lo más claro: R.MADRID-ALAVÉS (1, 84%) y DEPORTIVO-BARCELONA (2, 75%). Lo más abierto: CELTA-VILLARREAL (37%) y MALLORCA-CASTELLÓN (40%).",
   "confidence": 54,
   "columns": 16,
-  "generatedAt": "2026-11-27T21:11:38.113Z",
+  "generatedAt": "2026-11-28T03:17:34.874Z",
   "dataAsOf": {
     "lastRound": {
       "laliga": 13,
